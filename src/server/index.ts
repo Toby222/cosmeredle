@@ -6,7 +6,8 @@ import INDEX_JS_MAP from "../../public/js/index.js.map" with { type: "text" };
 import STYLE from "../../public/style.css" with { type: "text" };
 import CHARACTERS from "lib/characters.json";
 
-import { Overlap } from "lib/util";
+import { daysSinceEpoch, Overlap } from "lib/util";
+import { seededRandom } from "./random";
 
 type Character = (typeof CHARACTERS)[number];
 
@@ -31,11 +32,22 @@ if (
 	loggerConfig.level = "info";
 }
 
+for (let i = 0; i < daysSinceEpoch(); i++) {
+	seededRandom();
+}
+let todaysCharacterIndex = Math.floor(seededRandom() * CHARACTERS.length);
+let today = daysSinceEpoch();
+
+setInterval(() => {
+	if (today !== daysSinceEpoch()) {
+		todaysCharacterIndex = Math.floor(seededRandom() * CHARACTERS.length);
+		today = daysSinceEpoch();
+	}
+}, 1_000);
+
 const log = createSimpleLogger(loggerConfig);
 
-const correctCharacter = CHARACTERS[0];
-
-function compareArray(
+function compareArrayPositional(
 	arrayA: string[],
 	arrayB: string[],
 ): keyof typeof Overlap {
@@ -43,6 +55,24 @@ function compareArray(
 	let matching = 0;
 	for (let i = 0; i < biggerLength; i++) {
 		if (arrayA[i] === arrayB[i]) matching++;
+	}
+	return matching === 0
+		? Overlap.None
+		: matching === biggerLength
+			? Overlap.Full
+			: Overlap.Partial;
+}
+function compareArrayFuzzy(
+	arrayA: string[],
+	arrayB: string[],
+): keyof typeof Overlap {
+	const biggerLength = Math.max(arrayA.length, arrayB.length);
+	const [biggerArray, smallerArray] =
+		arrayA.length === biggerLength ? [arrayA, arrayB] : [arrayB, arrayA];
+
+	let matching = 0;
+	for (const value of biggerArray) {
+		if (smallerArray.includes(value)) matching++;
 	}
 	return matching === 0
 		? Overlap.None
@@ -70,8 +100,8 @@ function compareCharacters(
 		characterA.firstAppearance === characterB.firstAppearance
 			? Overlap.Full
 			: Overlap.None,
-		compareArray(characterA.species, characterB.species),
-		compareArray(characterA.abilities, characterB.abilities),
+		compareArrayPositional(characterA.species, characterB.species),
+		compareArrayFuzzy(characterA.abilities, characterB.abilities),
 	];
 }
 
@@ -115,12 +145,18 @@ Bun.serve({
 				const char = CHARACTERS[Number.parseInt(characterId, 10)];
 
 				return new Response(
-					JSON.stringify(compareCharacters(char, correctCharacter)),
+					JSON.stringify(
+						compareCharacters(char, CHARACTERS[todaysCharacterIndex]),
+					),
 					{
 						headers: { "Content-Type": "application/json" },
 					},
 				);
 			},
 		},
+		"/current": () =>
+			new Response(JSON.stringify(CHARACTERS[todaysCharacterIndex]), {
+				headers: { "Content-Type": "application/json" },
+			}),
 	},
 });

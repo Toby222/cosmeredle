@@ -11,7 +11,13 @@
   color: white;
 }
 
+a,
+a:visited {
+  color: blue;
+}
+
 body {
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -26,23 +32,35 @@ body {
   justify-content: center;
   width: 100vmin;
   align-self: center;
-  padding: 0 1vmin;
+  padding: 1vmin 0;
 
-  select {
+  .customSelect {
     width: 90%;
   }
   button {
+    border-radius: 0;
     width: 10%;
   }
-  select,
+  .customSelect,
   button {
     height: calc(10px + var(--font-size));
-    font-size: var(--font-size);
   }
+}
+
+button {
+  font-size: var(--font-size);
+  background-color: #292d34;
+  border-color: #e1c362;
+  color: white;
+  cursor: pointer;
+}
+input {
+  font-size: var(--font-size);
 }
 
 .guessRow,
 #guessHeader {
+  user-select: none;
   display: flex;
   justify-content: center;
 }
@@ -62,10 +80,73 @@ body {
   text-align: center;
   font-size: var(--font-size);
   margin: 1vmin;
-  user-select: none;
   border: solid 2px #e1c362;
 }
 
-.disabled {
+footer {
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 1vmin;
+  position: fixed;
+  bottom: 0px;
+  background-color: #444;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customSelect {
+  position: relative;
+  margin: 0;
   user-select: none;
+  border: solid 2px #e1c362;
+  input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    user-select: none;
+    background-color: #292d34;
+    color: white;
+  }
+  ul {
+    width: 100vmin;
+    max-height: 80vh;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: absolute;
+    background-color: #292d34;
+    visibility: hidden;
+    overflow: scroll;
+    margin-left: -2px;
+    border: solid 2px #e1c362;
+    li {
+      transition:
+        color 0.1s ease,
+        background 0.1s ease;
+      color: white;
+      &:hover:not(.disabled) {
+        background: #323844;
+      }
+      &.disabled {
+        cursor: initial;
+        color: #444;
+      }
+      &.hidden {
+        height: 0;
+        visibility: collapse;
+        display: none;
+      }
+    }
+  }
+  &.opened {
+    ul {
+      visibility: visible;
+    }
+  }
 }

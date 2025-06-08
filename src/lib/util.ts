@@ -34,3 +34,8 @@ export const Overlap = {
 	None: "None",
 } as const;
 export type OverlapType = keyof typeof Overlap;
+
+const MS_PER_DAY = 24 * 60 * 60 * 1000;
+export function daysSinceEpoch() {
+	return Math.floor(Date.now() / MS_PER_DAY);
+}

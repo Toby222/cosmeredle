@@ -1,9 +1,12 @@
 import { $, observe, onEach, proxy } from "aberdeen";
 import { dateDiff, Overlap, type OverlapType } from "lib/util";
-import { OVERLAP_STYLES, type StoredGuess } from "client/util";
+import type { StoredGuess } from "client/util";
 
 import CHARACTERS from "lib/characters.json";
 import { GuessRow } from "./components/GuessRow";
+import { Footer } from "./components/Footer";
+import { GuessBubble } from "./components/GuessBubble";
+import { CustomSelectNumber } from "./components/CustomSelect";
 const previousGuesses: StoredGuess[] = proxy([]);
 const availableCharacters = proxy(0);
 const answerPending = proxy(true);
@@ -66,28 +69,20 @@ async function guess(characterId: number) {
 	answerPending.value = false;
 }
 
-$("div", { id: "timer", $color: "white" }, function renderTimer() {
-	$(`span:${dateDiff(start, now.value, true)}`);
-});
+// $("div", { id: "timer", $color: "white" }, () => {
+// 	$(`span:${dateDiff(start, now.value, true)}`);
+// });
 
-$("div", { id: "makeGuess" }, function renderMakeGuess() {
+$("div", { id: "makeGuess" }, () => {
 	if (availableCharacters.value > 0) {
-		$(
-			"select",
-			() => {
-				const guessedCharacters = previousGuesses.map((guess) => guess[5]);
-				let availableCharacters = 0;
-				for (const character of CHARACTERS) {
-					if (!guessedCharacters.includes(character.id)) {
-						$(`option:${character.name}`, { value: character.id });
-						availableCharacters++;
-					}
-				}
-			},
-			{
-				bind: selectedCharacter,
-				".disabled": answerPending,
-			},
+		const guessedCharacters = previousGuesses.map((guess) => guess[5]);
+		CustomSelectNumber(
+			CHARACTERS.map((character) => ({
+				label: character.name,
+				value: character.id,
+				disabled: guessedCharacters.includes(character.id),
+			})),
+			selectedCharacter,
 		);
 
 		$("button:Guess", {
@@ -101,7 +96,7 @@ $("div", { id: "makeGuess" }, function renderMakeGuess() {
 	}
 });
 
-$("div", { id: "guesses" }, function renderGuesses() {
+$("div", { id: "guesses" }, () => {
 	$("div", { id: "guessHeader" }, () => {
 		$("span.guessTitle:Name");
 		$("span.guessTitle:Home World");
@@ -109,5 +104,19 @@ $("div", { id: "guesses" }, function renderGuesses() {
 		$("span.guessTitle:Species");
 		$("span.guessTitle:Abilities/Investiture");
 	});
-	onEach(previousGuesses, GuessRow, (_guess, idx) => -idx);
+	onEach(
+		previousGuesses,
+		(guess) => GuessRow(guess),
+		(_guess, idx) => -idx,
+	);
+	if (previousGuesses.length === 0) {
+		$("div.guessRow", () => {
+			GuessBubble("?", "Placeholder");
+			GuessBubble("?", "Placeholder");
+			GuessBubble("?", "Placeholder");
+			GuessBubble("?", "Placeholder");
+			GuessBubble("?", "Placeholder");
+		});
+	}
 });
+Footer();
