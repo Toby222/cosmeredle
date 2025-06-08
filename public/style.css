@@ -6,7 +6,7 @@
 
 :root {
   --font-size: 2.5vmin;
-  font-size: 2.5vmin;
+  font-size: var(--font-size);
   background-color: black;
   color: white;
 }
@@ -29,13 +29,15 @@ body {
   padding: 0 1vmin;
 
   select {
-    font-size: 2.5vmin;
     width: 90%;
-    height: calc(10px + 2.5vmin);
   }
   button {
-    font-size: 2.5vmin;
     width: 10%;
+  }
+  select,
+  button {
+    height: calc(10px + var(--font-size));
+    font-size: var(--font-size);
   }
 }
 
@@ -52,7 +54,7 @@ body {
 
 .guessBubble {
   width: 18vmin;
-  height: 18vmin;
+  min-height: 18vmin;
   color: black;
   display: flex;
   justify-content: center;

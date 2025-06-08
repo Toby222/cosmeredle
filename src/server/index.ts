@@ -114,8 +114,6 @@ Bun.serve({
 				if (!/[0-9]+/.test(characterId)) return Response.error();
 				const char = CHARACTERS[Number.parseInt(characterId, 10)];
 
-				await new Promise((resolve) => setTimeout(resolve, 1000));
-
 				return new Response(
 					JSON.stringify(compareCharacters(char, correctCharacter)),
 					{

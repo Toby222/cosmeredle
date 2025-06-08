@@ -120,9 +120,10 @@
 
               postBuild = ''
                 mkdir -p $out/bin/
-                # cp -R ./node_modules $out/bin/node_modules
-                # cp -R ./public $out/bin/public
                 cp ./cosmeredle $out/bin/cosmeredle
+              '';
+              postInstall = ''
+                rm -rv $out/lib/
               '';
             };
         }
