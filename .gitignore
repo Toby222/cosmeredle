@@ -1,0 +1,7 @@
+.env
+*.log
+.direnv
+result
+node_modules/
+public/js/
+cosmeredle

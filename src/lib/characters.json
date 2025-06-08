@@ -1,0 +1,1517 @@
+[
+	{
+		"name": "Adolin Kholin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer", "Unoathed"],
+		"id": 0
+	},
+	{
+		"name": "Adonalsium-Will-Remember-Our-Plight-Eventually",
+		"homeWorld": "Canticle",
+		"firstAppearance": "The Sunlit Man",
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Uninvested"],
+		"id": 1
+	},
+	{
+		"name": "Akane",
+		"homeWorld": "Komashi",
+		"firstAppearance": "Yumi and the Nightmare Painter",
+		"species": ["Human", "Nagadan"],
+		"abilities": ["Nightmare Painter"],
+		"id": 2
+	},
+	{
+		"name": "Alendi",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Khlenni"],
+		"abilities": ["Seeker", "Misting"],
+		"id": 3
+	},
+	{
+		"name": "Allik Neverfar",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Bands of Mourning",
+		"species": ["Human", "Malwish"],
+		"abilities": ["Uninvested"],
+		"id": 4
+	},
+	{
+		"name": "Allrianne Cett",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Well of Ascension",
+		"species": ["Human", "Noble"],
+		"abilities": ["Rioter", "Misting"],
+		"id": 5
+	},
+	{
+		"name": "Amaram",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"id": 6
+	},
+	{
+		"name": "Ann",
+		"homeWorld": "Lumar",
+		"firstAppearance": "Tress of the Emerald Sea",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Uninvested"],
+		"id": 7
+	},
+	{
+		"name": "Arclomedarian",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Edgedancer",
+		"species": ["Sleepless", "Aimian"],
+		"abilities": ["Hordelings"],
+		"id": 8
+	},
+	{
+		"name": "Arsteel",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Returned", "Lifeless", "Cognitive Shadow"],
+		"id": 9
+	},
+	{
+		"name": "Ashravan",
+		"homeWorld": "Sel",
+		"firstAppearance": "The Emperor's Soul",
+		"species": ["Human", "Grand"],
+		"abilities": ["Uninvested"],
+		"id": 10
+	},
+	{
+		"name": "Ashweather Cett",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Well of Ascension",
+		"species": ["Human", "Noble"],
+		"abilities": ["Uninvested"],
+		"id": 11
+	},
+	{
+		"name": "Ati",
+		"homeWorld": "Yolen",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Shard Vessel"],
+		"id": 12
+	},
+	{
+		"name": "Auxiliary",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Spren", "Highspren"],
+		"abilities": ["Nahel Bond", "Skybreaker", "Splinter", "Worldhopper"],
+		"id": 13
+	},
+	{
+		"name": "Axies",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Siah", "Aimian"],
+		"abilities": ["Curse of Kind"],
+		"id": 14
+	},
+	{
+		"name": "Ba-Ado-Mishram",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Unmade"],
+		"abilities": ["Splinter"],
+		"id": 15
+	},
+	{
+		"name": "Battar",
+		"homeWorld": "Ashyn",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Ashyn"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"id": 16
+	},
+	{
+		"name": "Beldre",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Hero of Ages",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Coinshot", "Misting"],
+		"id": 17
+	},
+	{
+		"name": "Bluefingers",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Pahn Kahl"],
+		"abilities": ["Uninvested"],
+		"id": 18
+	},
+	{
+		"name": "Blushweaver",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Hallandren"],
+		"abilities": ["Returned", "Cognitive Shadow"],
+		"id": 19
+	},
+	{
+		"name": "Breeze",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Noble"],
+		"abilities": ["Soother", "Misting"],
+		"id": 20
+	},
+	{
+		"name": "Chanarach",
+		"homeWorld": "Ashyn",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Ashyn"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"id": 21
+	},
+	{
+		"name": "Charlie",
+		"homeWorld": "Lumar",
+		"firstAppearance": "Tress of the Emerald Sea",
+		"species": ["Human", "Diggen's Point"],
+		"abilities": ["Uninvested"],
+		"id": 22
+	},
+	{
+		"name": "Chesterton Divide",
+		"homeWorld": "Threnody",
+		"firstAppearance": "Shadows for Silence in the Forests of Hell",
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Uninvested"],
+		"id": 23
+	},
+	{
+		"name": "Chiri-Chiri",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Larkin", "Unspecified"],
+		"abilities": ["Consumes Investiture"],
+		"id": 24
+	},
+	{
+		"name": "Cinder King",
+		"homeWorld": "Canticle",
+		"firstAppearance": "The Sunlit Man",
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Charred"],
+		"id": 25
+	},
+	{
+		"name": "Clubs",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Smoker", "Misting"],
+		"id": 26
+	},
+	{
+		"name": "Colot",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Windrunner Squire", "Unoathed"],
+		"id": 27
+	},
+	{
+		"name": "Cord",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Human", "Unkalaki"],
+		"abilities": ["Sighted", "Shardbearer"],
+		"id": 28
+	},
+	{
+		"name": "Crow",
+		"homeWorld": "Lumar",
+		"firstAppearance": "Tress of the Emerald Sea",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Spore Eater"],
+		"id": 29
+	},
+	{
+		"name": "Dabbid",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Uninvested"],
+		"id": 30
+	},
+	{
+		"name": "Dalinar Kholin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": [
+			"Knight Radiant",
+			"Bondsmith",
+			"Old Magic",
+			"Shardbearer",
+			"Shard Vessel",
+			"Sliver"
+		],
+		"id": 31
+	},
+	{
+		"name": "Demid",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Singer", "Listener"],
+		"abilities": ["Forms of Power"],
+		"id": 32
+	},
+	{
+		"name": "Denth",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Unspecified"],
+		"abilities": [
+			"Returned",
+			"Awakener",
+			"Worldhopper",
+			"Cognitive Shadow",
+			"Royal Locks"
+		],
+		"id": 33
+	},
+	{
+		"name": "Design",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Cryptic"],
+		"abilities": ["Nahel Bond", "Lightweaver", "Splinter", "Worldhopper"],
+		"id": 34
+	},
+	{
+		"name": "Dilaf",
+		"homeWorld": "Sel",
+		"firstAppearance": "Elantris",
+		"species": ["Human", "Fjordell"],
+		"abilities": ["Dakhor"],
+		"id": 35
+	},
+	{
+		"name": "Dockson",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Uninvested"],
+		"id": 36
+	},
+	{
+		"name": "Dusk",
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Sixth of the Dusk",
+		"species": ["Human", "Eelakin"],
+		"abilities": ["Aviar Bond"],
+		"id": 37
+	},
+	{
+		"name": "Edgli",
+		"homeWorld": "Yolen",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Shard Vessel"],
+		"id": 38
+	},
+	{
+		"name": "Edwarn Ladrian",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Human", "Elendel"],
+		"abilities": ["Hemalurgy"],
+		"id": 39
+	},
+	{
+		"name": "El",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Singer", "Fused"],
+		"abilities": ["Shardbearer"],
+		"id": 40
+	},
+	{
+		"name": "Elegy",
+		"homeWorld": "Canticle",
+		"firstAppearance": "The Sunlit Man",
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Charred"],
+		"id": 41
+	},
+	{
+		"name": "Elend Venture",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Noble"],
+		"abilities": ["Mistborn"],
+		"id": 42
+	},
+	{
+		"name": "Elhokar Kholin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Lightweaver", "Shardbearer"],
+		"id": 43
+	},
+	{
+		"name": "Eshonai",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Singer", "Listener"],
+		"abilities": ["Forms of Power", "Willshaper", "Shardbearer"],
+		"id": 44
+	},
+	{
+		"name": "Essu",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Singer", "Fused"],
+		"abilities": ["Fused", "Fannahn-im"],
+		"id": 45
+	},
+	{
+		"name": "Felt",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Noble"],
+		"abilities": ["Worldhopper"],
+		"id": 46
+	},
+	{
+		"name": "Fort",
+		"homeWorld": "Lumar",
+		"firstAppearance": "Tress of the Emerald Sea",
+		"species": ["Human", "Islands of Lobu"],
+		"abilities": ["Uninvested"],
+		"id": 47
+	},
+	{
+		"name": "Frava",
+		"homeWorld": "Sel",
+		"firstAppearance": "The Emperor's Soul",
+		"species": ["Human", "Grand"],
+		"abilities": ["Uninvested"],
+		"id": 48
+	},
+	{
+		"name": "Galladon",
+		"homeWorld": "Sel",
+		"firstAppearance": "Elantris",
+		"species": ["Human", "Dula"],
+		"abilities": ["Elantrian", "Worldhopper"],
+		"id": 49
+	},
+	{
+		"name": "Gaotona",
+		"homeWorld": "Sel",
+		"firstAppearance": "The Emperor's Soul",
+		"species": ["Human", "Grand"],
+		"abilities": ["Uninvested"],
+		"id": 50
+	},
+	{
+		"name": "Gavilar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"id": 51
+	},
+	{
+		"name": "Gavinor",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"id": 52
+	},
+	{
+		"name": "Gaz",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Knight Radiant", "Lightweaver"],
+		"id": 53
+	},
+	{
+		"name": "Glys",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Mistspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
+		"id": 54
+	},
+	{
+		"name": "Hammond",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Pewterarm", "Misting"],
+		"id": 55
+	},
+	{
+		"name": "Hariel",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Singer", "Fused"],
+		"abilities": ["Fused"],
+		"id": 56
+	},
+	{
+		"name": "Hnanan",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Singer", "Fused"],
+		"abilities": ["Fused", "Shanay-im"],
+		"id": 57
+	},
+	{
+		"name": "Hoid",
+		"homeWorld": "Yolen",
+		"firstAppearance": "Elantris",
+		"species": ["Human", "Unspecified"],
+		"abilities": [
+			"Lightweaver",
+			"Mistborn",
+			"Awakener",
+			"Elantrian",
+			"Worldhopper",
+			"Dawnshard",
+			"Knight Radiant"
+		],
+		"id": 58
+	},
+	{
+		"name": "Hrathen",
+		"homeWorld": "Sel",
+		"firstAppearance": "Elantris",
+		"species": ["Human", "Fjordell"],
+		"abilities": ["Dakhor"],
+		"id": 59
+	},
+	{
+		"name": "Huio",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Human", "Herdazian"],
+		"abilities": ["Knight Radiant", "Windrunner"],
+		"id": 60
+	},
+	{
+		"name": "Ishar",
+		"homeWorld": "Ashyn",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Ashyn"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"id": 61
+	},
+	{
+		"name": "Ivory",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Spren", "Inkspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Elsecaller"],
+		"id": 62
+	},
+	{
+		"name": "Iyatil",
+		"homeWorld": "Silverlight",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Southern Scadrian"],
+		"abilities": ["Elsecaller", "Worldhopper"],
+		"id": 63
+	},
+	{
+		"name": "Izzy",
+		"homeWorld": "Komashi",
+		"firstAppearance": "Yumi and the Nightmare Painter",
+		"species": ["Human", "Nagadan"],
+		"abilities": ["Nightmare Painter"],
+		"id": 64
+	},
+	{
+		"name": "Jasnah Kholin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Knight Radiant", "Elsecaller"],
+		"id": 65
+	},
+	{
+		"name": "Jewels",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Hallandren"],
+		"abilities": ["Uninvested"],
+		"id": 66
+	},
+	{
+		"name": "Jezrien",
+		"homeWorld": "Ashyn",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Ashyn"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"id": 67
+	},
+	{
+		"name": "Kaladin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Knight Radiant", "Windrunner", "Cognitive Shadow", "Herald"],
+		"id": 68
+	},
+	{
+		"name": "Kalak",
+		"homeWorld": "Ashyn",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Ashyn"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"id": 69
+	},
+	{
+		"name": "Kelsier",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Skaa"],
+		"abilities": [
+			"Mistborn",
+			"Hemalurgy",
+			"Cognitive Shadow",
+			"Sliver",
+			"Shard Vessel"
+		],
+		"id": 70
+	},
+	{
+		"name": "Khriss",
+		"homeWorld": "Taldain",
+		"firstAppearance": "The Bands of Mourning",
+		"species": ["Human", "Darksider"],
+		"abilities": ["Worldhopper", "Starmarks"],
+		"id": 71
+	},
+	{
+		"name": "Kiin",
+		"homeWorld": "Sel",
+		"firstAppearance": "Elantris",
+		"species": ["Human", "Teo"],
+		"abilities": ["Uninvested"],
+		"id": 72
+	},
+	{
+		"name": "Kokerlii",
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Sixth of the Dusk",
+		"species": ["Aviar", "Streamer"],
+		"abilities": ["Mental shielding"],
+		"id": 73
+	},
+	{
+		"name": "Koravellium Avast",
+		"homeWorld": "Yolen",
+		"firstAppearance": "Oathbringer",
+		"species": ["Dragon", "Unspecified"],
+		"abilities": ["Shard Vessel"],
+		"id": 74
+	},
+	{
+		"name": "Kwaan",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Terris"],
+		"abilities": ["Feruchemist"],
+		"id": 75
+	},
+	{
+		"name": "Kyril",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Singer", "Fused"],
+		"abilities": ["Fused"],
+		"id": 76
+	},
+	{
+		"name": "Laggart",
+		"homeWorld": "Lumar",
+		"firstAppearance": "Tress of the Emerald Sea",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Uninvested"],
+		"id": 77
+	},
+	{
+		"name": "Leras",
+		"homeWorld": "Yolen",
+		"firstAppearance": "The Well of Ascension",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Shard Vessel"],
+		"id": 78
+	},
+	{
+		"name": "Leshwi",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Singer", "Fused"],
+		"abilities": ["Fused", "Shanay-im"],
+		"id": 79
+	},
+	{
+		"name": "Lezian",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Singer", "Fused"],
+		"abilities": ["Fused", "Nex-im"],
+		"id": 80
+	},
+	{
+		"name": "Lift",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Reshi"],
+		"abilities": ["Knight Radiant", "Edgedancer", "Old Magic"],
+		"id": 81
+	},
+	{
+		"name": "Lightsong",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Hallandren"],
+		"abilities": ["Returned", "Cognitive Shadow"],
+		"id": 82
+	},
+	{
+		"name": "Liyun",
+		"homeWorld": "Komashi",
+		"firstAppearance": "Yumi and the Nightmare Painter",
+		"species": ["Human", "Torish"],
+		"abilities": ["Nightmare"],
+		"id": 83
+	},
+	{
+		"name": "Llarimar",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Hallandren"],
+		"abilities": ["Uninvested"],
+		"id": 84
+	},
+	{
+		"name": "Lopen",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Herdazian"],
+		"abilities": ["Knight Radiant", "Windrunner"],
+		"id": 85
+	},
+	{
+		"name": "Marasi Colms",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Human", "Elendel"],
+		"abilities": ["Pulser", "Misting"],
+		"id": 86
+	},
+	{
+		"name": "Marsh",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Seeker", "Misting", "Hemalurgy"],
+		"id": 87
+	},
+	{
+		"name": "Masaka",
+		"homeWorld": "Unspecified",
+		"firstAppearance": "Yumi and the Nightmare Painter",
+		"species": ["Sleepless", "Nagadan"],
+		"abilities": ["Worldhopper", "Nightmare Painter", "Hordelings"],
+		"id": 88
+	},
+	{
+		"name": "Mayalaran",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Spren", "Cultivation spren"],
+		"abilities": [
+			"Nahel Bond",
+			"Splinter",
+			"Edgedancer",
+			"Deadeye",
+			"Unoathed"
+		],
+		"id": 89
+	},
+	{
+		"name": "MeLaan",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Hero of Ages",
+		"species": ["Kandra", "Seventh Generation"],
+		"abilities": ["Worldhopper", "Shapeshifting"],
+		"id": 90
+	},
+	{
+		"name": "Miles Dagouter",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Human", "Terris"],
+		"abilities": ["Augur", "Bloodmaker", "Twinborn", "Hemalurgy", "Savant"],
+		"id": 91
+	},
+	{
+		"name": "Mirris",
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Sixth of the Dusk",
+		"species": ["Aviar", "Streamer"],
+		"abilities": ["Mental shielding"],
+		"id": 92
+	},
+	{
+		"name": "Moash",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"id": 93
+	},
+	{
+		"name": "Mraize",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Thaylen"],
+		"abilities": ["Lightweaver"],
+		"id": 94
+	},
+	{
+		"name": "Nale",
+		"homeWorld": "Ashyn",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Ashyn"],
+		"abilities": [
+			"Cognitive Shadow",
+			"Herald",
+			"Shardbearer",
+			"Knight Radiant",
+			"Skybreaker"
+		],
+		"id": 95
+	},
+	{
+		"name": "Navani Kholin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Knight Radiant", "Bondsmith"],
+		"id": 96
+	},
+	{
+		"name": "Nazh",
+		"homeWorld": "Threnody",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Worldhopper"],
+		"id": 97
+	},
+	{
+		"name": "Night",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Wind and Truth",
+		"species": ["Spren", "Ancient"],
+		"abilities": ["Nahel Bond", "Bondsmith"],
+		"id": 98
+	},
+	{
+		"name": "Nightblood",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Sword", "nimi"],
+		"abilities": ["Worldhopper", "Consumes Investiture", "Comedic timing"],
+		"id": 99
+	},
+	{
+		"name": "Nightwatcher",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Bondsmith"],
+		"abilities": ["Nahel Bond", "Splinter", "Bondsmith", "Old Magic"],
+		"id": 100
+	},
+	{
+		"name": "Nikaro",
+		"homeWorld": "Komashi",
+		"firstAppearance": "Yumi and the Nightmare Painter",
+		"species": ["Human", "Nagadan"],
+		"abilities": ["Nightmare Painter", "Cognitive Shadow"],
+		"id": 101
+	},
+	{
+		"name": "Nikliasorm",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Dawnshard",
+		"species": ["Sleepless", "Aimian"],
+		"abilities": ["Hordelings"],
+		"id": 102
+	},
+	{
+		"name": "Noura",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Edgedancer",
+		"species": ["Human", "Azish"],
+		"abilities": ["Uninvested"],
+		"id": 103
+	},
+	{
+		"name": "Paalm",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Kandra", "Third Generation"],
+		"abilities": ["Hemalurgy", "Shapeshifting"],
+		"id": 104
+	},
+	{
+		"name": "Pailiah",
+		"homeWorld": "Ashyn",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Ashyn"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"id": 105
+	},
+	{
+		"name": "Pattern",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Spren", "Cryptic"],
+		"abilities": ["Nahel Bond", "Splinter", "Lightweaver"],
+		"id": 106
+	},
+	{
+		"name": "Phendorana",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Honorspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
+		"id": 107
+	},
+	{
+		"name": "Quellion",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Hero of Ages",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Hemalurgy"],
+		"id": 108
+	},
+	{
+		"name": "Raboniel",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Singer", "Fused"],
+		"abilities": ["Fused", "Fannahn-im"],
+		"id": 109
+	},
+	{
+		"name": "Ranette",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Lurcher", "Misting"],
+		"id": 110
+	},
+	{
+		"name": "Raoden",
+		"homeWorld": "Sel",
+		"firstAppearance": "Elantris",
+		"species": ["Human", "Aonic"],
+		"abilities": ["Elantrian"],
+		"id": 111
+	},
+	{
+		"name": "Rashek",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Terris"],
+		"abilities": [
+			"Feruchemist",
+			"Sliver",
+			"Mistborn",
+			"Twinborn",
+			"Hemalurgy",
+			"Savant"
+		],
+		"id": 112
+	},
+	{
+		"name": "Rayse",
+		"homeWorld": "Yolen",
+		"firstAppearance": "Oathbringer",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Shard Vessel"],
+		"id": 113
+	},
+	{
+		"name": "Renarin Kholin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Knight Radiant", "Truthwatcher", "Voidbinder"],
+		"id": 114
+	},
+	{
+		"name": "Riina",
+		"homeWorld": "Sel",
+		"firstAppearance": "Secret History",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Elantrian", "Awakener", "Worldhopper"],
+		"id": 115
+	},
+	{
+		"name": "Rlain",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Singer", "Listener"],
+		"abilities": ["Truthwatcher", "Voidbinder"],
+		"id": 116
+	},
+	{
+		"name": "Rock",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Unkalaki"],
+		"abilities": ["Windrunner Squire", "Sighted"],
+		"id": 117
+	},
+	{
+		"name": "Rua",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Honorspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
+		"id": 118
+	},
+	{
+		"name": "Rysn",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Thaylen"],
+		"abilities": ["Dawnshard"],
+		"id": 119
+	},
+	{
+		"name": "Sak",
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Sixth of the Dusk",
+		"species": ["Aviar", "Unspecified"],
+		"abilities": ["Precognition"],
+		"id": 120
+	},
+	{
+		"name": "Salay",
+		"homeWorld": "Lumar",
+		"firstAppearance": "Tress of the Emerald Sea",
+		"species": ["Human", "Islands of Lobu"],
+		"abilities": ["Uninvested"],
+		"id": 121
+	},
+	{
+		"name": "Sarene",
+		"homeWorld": "Sel",
+		"firstAppearance": "Elantris",
+		"species": ["Human", "Teo"],
+		"abilities": ["Uninvested"],
+		"id": 122
+	},
+	{
+		"name": "Sazed",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Terris"],
+		"abilities": ["Feruchemist", "Shard Vessel"],
+		"id": 123
+	},
+	{
+		"name": "Sebruki",
+		"homeWorld": "Threnody",
+		"firstAppearance": "Shadows for Silence in the Forests of Hell",
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Uninvested"],
+		"id": 124
+	},
+	{
+		"name": "Shai",
+		"homeWorld": "Sel",
+		"firstAppearance": "The Emperor's Soul",
+		"species": ["Human", "MaiPon"],
+		"abilities": ["Forger", "Worldhopper"],
+		"id": 125
+	},
+	{
+		"name": "Shalash",
+		"homeWorld": "Ashyn",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Ashyn"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"id": 126
+	},
+	{
+		"name": "Shallan Davar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Veden"],
+		"abilities": ["Knight Radiant", "Lightweaver", "Shardbearer"],
+		"id": 127
+	},
+	{
+		"name": "Shashara",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Unspecified"],
+		"abilities": [
+			"Returned",
+			"Awakener",
+			"Worldhopper",
+			"Cognitive Shadow",
+			"Shardbearer",
+			"Royal Locks"
+		],
+		"id": 128
+	},
+	{
+		"name": "Shuden",
+		"homeWorld": "Sel",
+		"firstAppearance": "Elantris",
+		"species": ["Human", "JinDo"],
+		"abilities": ["ChayShan"],
+		"id": 129
+	},
+	{
+		"name": "Sibling",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Bondsmith"],
+		"abilities": ["Nahel Bond", "Splinter", "Bondsmith"],
+		"id": 130
+	},
+	{
+		"name": "Sigzil",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Azish"],
+		"abilities": [
+			"Knight Radiant",
+			"Windrunner",
+			"Skybreaker",
+			"Dawnshard",
+			"Worldhopper"
+		],
+		"id": 131
+	},
+	{
+		"name": "Silence",
+		"homeWorld": "Threnody",
+		"firstAppearance": "Shadows for Silence in the Forests of Hell",
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Uninvested"],
+		"id": 132
+	},
+	{
+		"name": "Siri",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Idrian"],
+		"abilities": ["Royal Locks"],
+		"id": 133
+	},
+	{
+		"name": "Sja-anat",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Unmade"],
+		"abilities": ["Splinter"],
+		"id": 134
+	},
+	{
+		"name": "Skar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Knight Radiant", "Windrunner"],
+		"id": 135
+	},
+	{
+		"name": "Spook",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Tineye", "Misting", "Mistborn", "Hemalurgy", "Savant"],
+		"id": 136
+	},
+	{
+		"name": "Steris Harms",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Human", "Elendel"],
+		"abilities": ["Uninvested"],
+		"id": 137
+	},
+	{
+		"name": "Stone",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Wind and Truth",
+		"species": ["Spren", "Ancient"],
+		"abilities": ["Nahel Bond", "Bondsmith"],
+		"id": 138
+	},
+	{
+		"name": "Stormfather",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Spren", "Bondsmith"],
+		"abilities": [
+			"Nahel Bond",
+			"Splinter",
+			"Bondsmith",
+			"Sliver",
+			"Cognitive Shadow"
+		],
+		"id": 139
+	},
+	{
+		"name": "Straff Venture",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Noble"],
+		"abilities": ["Tineye", "Misting"],
+		"id": 140
+	},
+	{
+		"name": "Susebron",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Hallandren"],
+		"abilities": ["Returned", "Awakener", "Cognitive Shadow"],
+		"id": 141
+	},
+	{
+		"name": "Sylphrena",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Spren", "Honorspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
+		"id": 142
+	},
+	{
+		"name": "Szeth",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Shin"],
+		"abilities": ["Knight Radiant", "Skybreaker", "Shardbearer"],
+		"id": 143
+	},
+	{
+		"name": "Talenel",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Ashyn"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"id": 144
+	},
+	{
+		"name": "Tanavast",
+		"homeWorld": "Yolen",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Shard Vessel"],
+		"id": 145
+	},
+	{
+		"name": "Taravangian",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Kharbranthian"],
+		"abilities": ["Old Magic", "Shard Vessel"],
+		"id": 146
+	},
+	{
+		"name": "Teft",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Knight Radiant", "Windrunner"],
+		"id": 147
+	},
+	{
+		"name": "Telsin Ladrian",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Bands of Mourning",
+		"species": ["Human", "Terris"],
+		"abilities": ["Windwhisperer", "Ferring", "Hemalurgy", "Avatar"],
+		"id": 148
+	},
+	{
+		"name": "TenSoon",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Kandra", "Third Generation"],
+		"abilities": [
+			"Blessing of Presence",
+			"Blessing of Potency",
+			"Shapeshifting"
+		],
+		"id": 149
+	},
+	{
+		"name": "Testament",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Spren", "Cryptic"],
+		"abilities": ["Nahel Bond", "Splinter", "Lightweaver", "Deadeye"],
+		"id": 150
+	},
+	{
+		"name": "Tien",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Lightweaver"],
+		"id": 151
+	},
+	{
+		"name": "Timbre",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Spren", "Reacher"],
+		"abilities": ["Nahel Bond", "Splinter", "Willshaper"],
+		"id": 152
+	},
+	{
+		"name": "Tindwyl",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Well of Ascension",
+		"species": ["Human", "Terris"],
+		"abilities": ["Feruchemist"],
+		"id": 153
+	},
+	{
+		"name": "Tojin",
+		"homeWorld": "Komashi",
+		"firstAppearance": "Yumi and the Nightmare Painter",
+		"species": ["Human", "Nagadan"],
+		"abilities": ["Nightmare Painter"],
+		"id": 154
+	},
+	{
+		"name": "Tonk Fah",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Pahn Kahl"],
+		"abilities": ["Uninvested"],
+		"id": 155
+	},
+	{
+		"name": "Torol Sadeas",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"id": 156
+	},
+	{
+		"name": "Tress",
+		"homeWorld": "Lumar",
+		"firstAppearance": "Tress of the Emerald Sea",
+		"species": ["Human", "Diggen's Point"],
+		"abilities": ["Sprouter"],
+		"id": 157
+	},
+	{
+		"name": "Tumi",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Spren", "Mistspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
+		"id": 158
+	},
+	{
+		"name": "Ulaam",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Lost Metal",
+		"species": ["Kandra", "Unspecified"],
+		"abilities": ["Shapeshifting"],
+		"id": 159
+	},
+	{
+		"name": "Uli Da",
+		"homeWorld": "Yolen",
+		"firstAppearance": "Oathbringer",
+		"species": ["Del", "Unspecified"],
+		"abilities": ["Shard Vessel"],
+		"id": 160
+	},
+	{
+		"name": "Vasher",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Unspecified"],
+		"abilities": [
+			"Returned",
+			"Awakener",
+			"Worldhopper",
+			"Cognitive Shadow",
+			"Shardbearer"
+		],
+		"id": 161
+	},
+	{
+		"name": "Vathi",
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Sixth of the Dusk",
+		"species": ["Human", "Eelakin"],
+		"abilities": ["Aviar Bond"],
+		"id": 162
+	},
+	{
+		"name": "Vedel",
+		"homeWorld": "Ashyn",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Ashyn"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"id": 163
+	},
+	{
+		"name": "Venli",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Singer", "Listener"],
+		"abilities": ["Forms of Power", "Willshaper"],
+		"id": 164
+	},
+	{
+		"name": "Vienta",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Spren", "Honorspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
+		"id": 165
+	},
+	{
+		"name": "Vin",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Mistborn", "Hemalurgy", "Sliver", "Shard Vessel"],
+		"id": 166
+	},
+	{
+		"name": "Vivenna",
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Human", "Idrian"],
+		"abilities": ["Royal Locks", "Awakener", "Shardbearer", "Worldhopper"],
+		"id": 167
+	},
+	{
+		"name": "Waxillium Ladrian",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Human", "Terris"],
+		"abilities": ["Mistborn", "Twinborn", "Hemalurgy", "Coinshot", "Skimmer"],
+		"id": 168
+	},
+	{
+		"name": "Wayne",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Human", "Terris"],
+		"abilities": ["Bloodmaker", "Slider", "Twinborn", "Hemalurgy", "Mistborn"],
+		"id": 169
+	},
+	{
+		"name": "Weedfingers",
+		"homeWorld": "Sel",
+		"firstAppearance": "The Emperor's Soul",
+		"species": ["Human", "Dzhamarian"],
+		"abilities": ["Bloodsealer"],
+		"id": 170
+	},
+	{
+		"name": "William Ann",
+		"homeWorld": "Threnody",
+		"firstAppearance": "Shadows for Silence in the Forests of Hell",
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Uninvested"],
+		"id": 171
+	},
+	{
+		"name": "Wind",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Wind and Truth",
+		"species": ["Spren", "Ancient"],
+		"abilities": ["Nahel Bond", "Bondsmith"],
+		"id": 172
+	},
+	{
+		"name": "Wyndle",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Spren", "Cultivation spren"],
+		"abilities": ["Nahel Bond", "Splinter", "Edgedancer"],
+		"id": 173
+	},
+	{
+		"name": "Xisis",
+		"homeWorld": "Yolen",
+		"firstAppearance": "Tress of the Emerald Sea",
+		"species": ["Dragon", "Unspecified"],
+		"abilities": ["Worldhopper", "Awakener"],
+		"id": 174
+	},
+	{
+		"name": "Yanagawn",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Azish"],
+		"abilities": ["Unoathed"],
+		"id": 175
+	},
+	{
+		"name": "Yelamaiszin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Dawnshard",
+		"species": ["Sleepless", "Aimian"],
+		"abilities": ["Hordelings"],
+		"id": 176
+	},
+	{
+		"name": "Yumi",
+		"homeWorld": "Komashi",
+		"firstAppearance": "Yumi and the Nightmare Painter",
+		"species": ["Human", "Torish"],
+		"abilities": ["Yoki-Hijo", "Cognitive Shadow"],
+		"id": 177
+	},
+	{
+		"name": "Zane Venture",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Well of Ascension",
+		"species": ["Human", "Noble"],
+		"abilities": ["Mistborn", "Hemalurgy"],
+		"id": 178
+	},
+	{
+		"name": "Zeal",
+		"homeWorld": "Canticle",
+		"firstAppearance": "The Sunlit Man",
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Uninvested"],
+		"id": 179
+	}
+]

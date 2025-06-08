@@ -1,0 +1,30 @@
+{
+	"name": "cosmeredle",
+	"version": "0.0.0",
+	"author": "Toby",
+	"repository": {
+		"type": "git",
+		"url": "git://git.tobot.dev/toby/cosmeredle.git"
+	},
+	"main": "server.ts",
+	"dependencies": {
+		"@types/bun": "^1.2.15",
+		"aberdeen": "^1.0.7",
+		"simple-node-logger": "^21.8.12",
+		"typescript": "^5.8.3"
+	},
+	"bugs": {
+		"url": "https://git.tobot.dev/toby/cosmeredle/issues"
+	},
+	"description": "",
+	"homepage": "https://git.tobot.dev/toby/cosmeredle#readme",
+	"license": "CC0-1.0",
+	"scripts": {
+		"fix": "biome lint --write && biome format --write",
+		"lint": "biome lint && biome format",
+		"build:client": "rm -rf public/js && bun build ./src/client/*.ts --outdir public/js --target browser --sourcemap=external",
+		"build": "bun run build:client && bun build ./src/server/index.ts --compile --outfile cosmeredle --production",
+		"start": "bun run ./src/server/index.ts --production",
+		"dev": "bun run --watch ./src/server/index.ts"
+	}
+}
