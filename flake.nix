@@ -1,18 +1,12 @@
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-
-    pre-commit-hooks = {
-      url = "github:cachix/git-hooks.nix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
   outputs =
     {
       self,
       nixpkgs,
-      pre-commit-hooks,
     }:
     let
       supportedSystems = [
@@ -25,11 +19,11 @@
         f:
         nixpkgs.lib.genAttrs supportedSystems (
           system:
-          f (rec {
+          f {
             pkgs = import nixpkgs {
               inherit system;
             };
-          })
+          }
         );
     in
     {
@@ -41,9 +35,9 @@
         {
           default = pkgs.mkShell {
             nativeBuildInputs = with pkgs; [
+              nixd
               biome
               bun
-              ffmpeg
               nixfmt-rfc-style
               nodejs
             ];
@@ -64,6 +58,12 @@
         {
           options.services.cosmeredle = {
             enable = pkgs.lib.mkEnableOption "cosmeredle service";
+            seed = pkgs.lib.mkOption {
+              default = "RANDOM_SEED";
+              example = "RAnDom_s_t_rING_%91%";
+              description = "An arbitrary value to make sure the daily character is unpredictable";
+              type = pkgs.lib.types.str;
+            };
             package = pkgs.lib.mkPackageOption pkgs "cosmeredle" {
               default = [ "cosmeredle" ];
               example = "pkgs.cosmeredle";
@@ -78,6 +78,9 @@
               wants = [ "network-online.target" ];
               description = "Cosmeredle";
               path = [ ];
+              environment = {
+                RANDOM_SEED = cfg.seed;
+              };
 
               serviceConfig = {
                 Type = "simple";
