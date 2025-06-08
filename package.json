@@ -25,6 +25,7 @@
 		"build:client": "rm -rf public/js && bun build ./src/client/*.ts --outdir public/js --target browser --sourcemap=external",
 		"build": "bun run build:client && bun build ./src/server/index.ts --compile --outfile cosmeredle --production",
 		"start": "bun run ./src/server/index.ts --production",
-		"dev": "bun run --watch ./src/server/index.ts"
+		"dev:server": "bun run --watch ./src/server/index.ts",
+		"dev:client": "bun run build:client --watch"
 	}
 }

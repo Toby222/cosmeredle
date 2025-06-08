@@ -72,51 +72,52 @@ async function guess(characterId: number) {
 // $("div", { id: "timer", $color: "white" }, () => {
 // 	$(`span:${dateDiff(start, now.value, true)}`);
 // });
+$("main", () => {
+	$("div", { id: "makeGuess" }, () => {
+		if (availableCharacters.value > 0) {
+			const guessedCharacters = previousGuesses.map((guess) => guess[5]);
+			CustomSelectNumber(
+				CHARACTERS.map((character) => ({
+					label: character.name,
+					value: character.id,
+					disabled: guessedCharacters.includes(character.id),
+				})),
+				selectedCharacter,
+			);
 
-$("div", { id: "makeGuess" }, () => {
-	if (availableCharacters.value > 0) {
-		const guessedCharacters = previousGuesses.map((guess) => guess[5]);
-		CustomSelectNumber(
-			CHARACTERS.map((character) => ({
-				label: character.name,
-				value: character.id,
-				disabled: guessedCharacters.includes(character.id),
-			})),
-			selectedCharacter,
-		);
-
-		$("button:Guess", {
-			click() {
-				guess(Number.parseInt(selectedCharacter.value.toString()));
-			},
-			".disabled": answerPending,
-		});
-	} else {
-		$("span:You guessed all characters... how?");
-	}
-});
-
-$("div", { id: "guesses" }, () => {
-	$("div", { id: "guessHeader" }, () => {
-		$("span.guessTitle:Name");
-		$("span.guessTitle:Home World");
-		$("span.guessTitle:First Appearance");
-		$("span.guessTitle:Species");
-		$("span.guessTitle:Abilities/Investiture");
+			$("button:Guess", {
+				click() {
+					guess(Number.parseInt(selectedCharacter.value.toString()));
+				},
+				".disabled": answerPending,
+			});
+		} else {
+			$("span:You guessed all characters... how?");
+		}
 	});
-	onEach(
-		previousGuesses,
-		(guess) => GuessRow(guess),
-		(_guess, idx) => -idx,
-	);
-	if (previousGuesses.length === 0) {
-		$("div.guessRow", () => {
-			GuessBubble("?", "Placeholder");
-			GuessBubble("?", "Placeholder");
-			GuessBubble("?", "Placeholder");
-			GuessBubble("?", "Placeholder");
-			GuessBubble("?", "Placeholder");
+
+	$("div", { id: "guesses" }, () => {
+		$("div", { id: "guessHeader" }, () => {
+			$("span.guessTitle:Name");
+			$("span.guessTitle:Home World");
+			$("span.guessTitle:First Appearance");
+			$("span.guessTitle:Species");
+			$("span.guessTitle:Abilities/Investiture");
 		});
-	}
+		onEach(
+			previousGuesses,
+			(guess) => GuessRow(guess),
+			(_guess, idx) => -idx,
+		);
+		if (previousGuesses.length === 0) {
+			$("div.guessRow", () => {
+				GuessBubble("?", "Placeholder");
+				GuessBubble("?", "Placeholder");
+				GuessBubble("?", "Placeholder");
+				GuessBubble("?", "Placeholder");
+				GuessBubble("?", "Placeholder");
+			});
+		}
+	});
 });
 Footer();
