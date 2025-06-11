@@ -6,7 +6,7 @@ import INDEX_JS_MAP from "../../public/js/index.js.map" with { type: "text" };
 import STYLE from "../../public/style.css" with { type: "text" };
 import CHARACTERS from "lib/characters.json";
 
-import { daysSinceEpoch, Overlap } from "lib/util";
+import { daysSinceEpoch, Overlap, MS_PER_DAY } from "lib/util";
 import { seededRandom } from "./random";
 
 type Character = (typeof CHARACTERS)[number];
@@ -32,18 +32,33 @@ if (
 	loggerConfig.level = "info";
 }
 
-for (let i = 0; i < daysSinceEpoch(); i++) {
-	seededRandom();
-}
-let todaysCharacterIndex = Math.floor(seededRandom() * CHARACTERS.length);
-let today = daysSinceEpoch();
+let yesterdaysCharacterIndex = 0;
+let todaysCharacterIndex = 0;
+let today = 0;
 
-setInterval(() => {
-	if (today !== daysSinceEpoch()) {
-		todaysCharacterIndex = Math.floor(seededRandom() * CHARACTERS.length);
-		today = daysSinceEpoch();
+function nextDay() {
+	yesterdaysCharacterIndex = todaysCharacterIndex;
+	todaysCharacterIndex = Math.floor(seededRandom() * CHARACTERS.length);
+	if (todaysCharacterIndex === yesterdaysCharacterIndex) {
+		todaysCharacterIndex = (todaysCharacterIndex + 1) % CHARACTERS.length;
 	}
-}, 1_000);
+	today++;
+}
+
+function updateToday() {
+	while (today < daysSinceEpoch()) {
+		nextDay();
+		console.debug(
+			"Updating today to",
+			today,
+			"; today's character is",
+			CHARACTERS[todaysCharacterIndex].name,
+		);
+	}
+}
+
+updateToday();
+setInterval(updateToday, 1_000);
 
 const log = createSimpleLogger(loggerConfig);
 
@@ -158,5 +173,12 @@ Bun.serve({
 			new Response(JSON.stringify(CHARACTERS[todaysCharacterIndex]), {
 				headers: { "Content-Type": "application/json" },
 			}),
+		"/today": () =>
+			new Response(
+				JSON.stringify({
+					today: today,
+					tomorrow: (today + 1) * MS_PER_DAY,
+				}),
+			),
 	},
 });

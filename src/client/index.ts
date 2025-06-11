@@ -11,11 +11,23 @@ const previousGuesses: StoredGuess[] = proxy([]);
 const availableCharacters = proxy(0);
 const answerPending = proxy(true);
 const selectedCharacter = proxy(0);
-const start = Date.now();
 const now = proxy(Date.now());
 setInterval(() => {
 	now.value = Date.now();
 }, 100);
+
+const dates = (await (await fetch("/today")).json()) as {
+	today: number;
+	tomorrow: number;
+};
+const nextGame = dates.tomorrow;
+if (
+	localStorage.getItem("currentGame") === undefined ||
+	localStorage.getItem("currentGame") !== dates.today.toString()
+) {
+	localStorage.clear();
+	localStorage.setItem("currentGame", dates.today.toString());
+}
 
 // Scope to not pollute file scope
 {
@@ -69,9 +81,6 @@ async function guess(characterId: number) {
 	answerPending.value = false;
 }
 
-// $("div", { id: "timer", $color: "white" }, () => {
-// 	$(`span:${dateDiff(start, now.value, true)}`);
-// });
 $("main", () => {
 	$("div", { id: "makeGuess" }, () => {
 		if (availableCharacters.value > 0) {
@@ -94,6 +103,9 @@ $("main", () => {
 		} else {
 			$("span:You guessed all characters... how?");
 		}
+	});
+	$("div", { id: "next-game" }, () => {
+		$(`span:Next game: ${dateDiff(now.value, nextGame, true)}`);
 	});
 
 	$("div", { id: "guesses" }, () => {
