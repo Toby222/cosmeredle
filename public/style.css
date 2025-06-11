@@ -12,7 +12,7 @@
   color: white;
 }
 
-#next-game {
+#nextGame {
   user-select: none;
 }
 
@@ -64,12 +64,12 @@ footer {
     width: 90%;
     border-right: none;
   }
-  button {
+  > button {
     border-radius: 0;
     width: 10%;
   }
   .customSelect,
-  button {
+  > button {
     height: calc(10px + var(--font-size));
   }
 }
@@ -115,14 +115,30 @@ input {
   margin: 0;
   user-select: none;
   border: solid 2px #e1c362;
-  input {
+  &:not(.enabled) input {
+    cursor: default;
+    user-select: none;
+  }
+  .input {
     width: 100%;
     height: 100%;
-    border: none;
-    outline: none;
-    user-select: none;
-    background-color: #292d34;
-    color: white;
+    input {
+      width: 90%;
+      height: 100%;
+      border: none;
+      outline: none;
+      user-select: none;
+      background-color: #292d34;
+      color: white;
+    }
+    button {
+      width: 10%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      border: none;
+      border-left: solid 2px #e1c362;
+    }
   }
   ul {
     width: 100vmin;
@@ -144,7 +160,7 @@ input {
         color 0.1s ease,
         background 0.1s ease;
       color: white;
-      &:hover:not(.disabled) {
+      &:is(:hover,.selected):not(.disabled) {
         background: #323844;
       }
       &.disabled {

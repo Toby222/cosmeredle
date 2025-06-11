@@ -10,6 +10,7 @@ import { CustomSelectNumber } from "./components/CustomSelect";
 const previousGuesses: StoredGuess[] = proxy([]);
 const availableCharacters = proxy(0);
 const answerPending = proxy(true);
+const gameInProgress = proxy(true);
 const selectedCharacter = proxy(0);
 const now = proxy(Date.now());
 setInterval(() => {
@@ -20,6 +21,7 @@ const dates = (await (await fetch("/today")).json()) as {
 	today: number;
 	tomorrow: number;
 };
+
 const nextGame = dates.tomorrow;
 if (
 	localStorage.getItem("currentGame") === undefined ||
@@ -33,9 +35,16 @@ if (
 {
 	const previousGuessesStorage = localStorage.getItem("previousGuesses");
 	if (previousGuessesStorage !== null) {
-		const previousGuessesParsed = JSON.parse(previousGuessesStorage);
+		const previousGuessesParsed = JSON.parse(
+			previousGuessesStorage,
+		) as StoredGuess[];
 		for (const previousGuess of previousGuessesParsed) {
 			previousGuesses.push(previousGuess);
+			if (
+				previousGuess.slice(0, 5).every((overlap) => overlap === Overlap.Full)
+			) {
+				gameInProgress.value = false;
+			}
 			availableCharacters.value--;
 		}
 	}
@@ -74,6 +83,9 @@ async function guess(characterId: number) {
 			...(answer as OverlapType[]),
 			characterId,
 		] as StoredGuess);
+		if (answer.every((overlap) => overlap === Overlap.Full)) {
+			gameInProgress.value = false;
+		}
 	} else {
 		console.error("invalid answer", answer);
 	}
@@ -92,6 +104,7 @@ $("main", () => {
 					disabled: guessedCharacters.includes(character.id),
 				})),
 				selectedCharacter,
+				gameInProgress,
 			);
 
 			$("button:Guess", {
@@ -104,7 +117,7 @@ $("main", () => {
 			$("span:You guessed all characters... how?");
 		}
 	});
-	$("div", { id: "next-game" }, () => {
+	$("div", { id: "nextGame" }, () => {
 		$(`span:Next game: ${dateDiff(now.value, nextGame, true)}`);
 	});
 

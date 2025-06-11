@@ -1,4 +1,4 @@
-import { $, observe, onEach, proxy, type ValueRef } from "aberdeen";
+import { $, onEach, proxy, type ValueRef } from "aberdeen";
 
 // TODO: Select with arrow keys
 
@@ -7,35 +7,45 @@ export type Entry<T> = {
 	value: T;
 	disabled: boolean;
 };
+
 export function CustomSelectNumber(
 	entries: Entry<number>[],
 	valueProxy: ValueRef<number>,
-) {
-	if (entries.length === 0) return;
+	enabled: ValueRef<boolean>,
+): HTMLDivElement | undefined {
 	const search = proxy("");
 	const visible = proxy(false);
 
-	$(
+	return $(
 		"div.customSelect",
 		{
-			".opened": observe(() => visible.value),
-			click() {
-				visible.value = !visible.value;
-			},
+			".opened": visible,
+			".enabled": enabled,
 		},
 		() => {
-			$("input", {
-				type: "text",
-				placeholder: "Search",
-				bind: search,
-				input() {
-					if (search.value.length > 0 && !visible.value) {
-						visible.value = true;
-					}
-				},
+			$("div.input", () => {
+				$("input", {
+					type: "text",
+					placeholder: "Search",
+					bind: search,
+					input() {
+						if (enabled.value && search.value.length > 0 && !visible.value) {
+							visible.value = true;
+						}
+					},
+					click() {
+						visible.value = enabled.value && !visible.value;
+					},
+					disabled: enabled.value ? undefined : true,
+				});
+				$("button:x", {
+					click() {
+						search.value = "";
+					},
+				});
 			});
 			$("ul", () => {
-				onEach(entries, (entry) => {
+				onEach(entries, (entry, index) => {
 					$(`li:${entry.label}`, {
 						click(event: MouseEvent) {
 							if (event.target === this) {
@@ -55,5 +65,5 @@ export function CustomSelectNumber(
 				});
 			});
 		},
-	);
+	) as HTMLDivElement | undefined;
 }
