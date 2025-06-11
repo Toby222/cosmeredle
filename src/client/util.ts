@@ -1,5 +1,5 @@
 import { insertCss } from "aberdeen";
-import { Overlap, type OverlapType } from "lib/util";
+import { emojiFromOverlap, Overlap, type OverlapType } from "lib/util";
 
 export type StoredGuess = [
 	OverlapType,
@@ -16,3 +16,7 @@ export const OVERLAP_STYLES = {
 	[Overlap.Full]: insertCss({ background: "green" }),
 	Placeholder: insertCss({ background: "#444" }),
 } as const;
+
+export function emojiFromGuess(guess: StoredGuess): string {
+	return (guess.slice(0, 5) as OverlapType[]).map(emojiFromOverlap).join("");
+}

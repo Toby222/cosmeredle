@@ -10,7 +10,7 @@ export type Entry<T> = {
 
 export function CustomSelectNumber(
 	entries: Entry<number>[],
-	valueProxy: ValueRef<number>,
+	valueProxy: ValueRef<number | undefined>,
 	enabled: ValueRef<boolean>,
 ): HTMLDivElement | undefined {
 	const search = proxy("");
@@ -38,7 +38,7 @@ export function CustomSelectNumber(
 					},
 					disabled: enabled.value ? undefined : true,
 				});
-				$("button:x", {
+				$("button:Clear", {
 					click() {
 						search.value = "";
 					},

@@ -1,6 +1,6 @@
 import { $, observe, onEach, proxy } from "aberdeen";
 import { dateDiff, Overlap, type OverlapType } from "lib/util";
-import type { StoredGuess } from "client/util";
+import { emojiFromGuess, type StoredGuess } from "client/util";
 
 import CHARACTERS from "lib/characters.json";
 import { GuessRow } from "./components/GuessRow";
@@ -11,7 +11,8 @@ const previousGuesses: StoredGuess[] = proxy([]);
 const availableCharacters = proxy(0);
 const answerPending = proxy(true);
 const gameInProgress = proxy(true);
-const selectedCharacter = proxy(0);
+const shareLink = proxy(false);
+const selectedCharacter = proxy<number | undefined>(undefined);
 const now = proxy(Date.now());
 setInterval(() => {
 	now.value = Date.now();
@@ -21,6 +22,14 @@ const dates = (await (await fetch("/today")).json()) as {
 	today: number;
 	tomorrow: number;
 };
+
+if (localStorage.getItem("shareLink") === "true") {
+	shareLink.value = true;
+}
+
+observe(() => {
+	localStorage.setItem("shareLink", shareLink.value.toString());
+})
 
 const nextGame = dates.tomorrow;
 if (
@@ -54,13 +63,7 @@ if (
 	).length;
 }
 observe(() => {
-	const unguessedCharacters = CHARACTERS.filter(
-		(character) =>
-			!previousGuesses.map((guess) => guess[5]).includes(character.id),
-	);
-	if (unguessedCharacters.length > 0)
-		selectedCharacter.value = unguessedCharacters[0].id;
-	else selectedCharacter.value = -1;
+	if (availableCharacters.value === 0) selectedCharacter.value = undefined;
 });
 answerPending.value = false;
 
@@ -93,6 +96,8 @@ async function guess(characterId: number) {
 	answerPending.value = false;
 }
 
+const hideGameOver = proxy(false);
+
 $("main", () => {
 	$("div", { id: "makeGuess" }, () => {
 		if (availableCharacters.value > 0) {
@@ -109,7 +114,10 @@ $("main", () => {
 
 			$("button:Guess", {
 				click() {
-					guess(Number.parseInt(selectedCharacter.value.toString()));
+					if (selectedCharacter.value !== undefined) {
+						guess(selectedCharacter.value);
+						selectedCharacter.value = undefined;
+					}
 				},
 				".disabled": answerPending,
 			});
@@ -144,5 +152,48 @@ $("main", () => {
 			});
 		}
 	});
+
+	if (!hideGameOver.value) {
+		$(
+			"div",
+			{
+				id: "gameOver",
+				".hidden": gameInProgress,
+				click(event: MouseEvent) {
+					if (event.target === this) {
+						hideGameOver.value = true;
+					}
+				},
+			},
+			() => {
+				$("div.popup", () => {
+					$("span:Game over! ");
+					$("hr");
+					$(`span:You took ${previousGuesses.length} guesses`);
+
+					const shareable = previousGuesses.map(emojiFromGuess).join("\n");
+					$(`pre:${shareable}`);
+					$("div", () => {
+						$("label:Include link", () => {
+							$("input", {
+								type: "checkbox",
+								bind: shareLink
+							});
+						});
+						$("span: ")
+						$("button:Copy", {
+							click() {
+								navigator.clipboard.writeText(
+									`I got today's Cosmeredle in ${previousGuesses.length}!\n${shareable}${
+										shareLink.value ? `\n${location.href}` : ""
+									}`,
+								);
+							},
+						});
+					});
+				});
+			},
+		);
+	}
 });
 Footer();
