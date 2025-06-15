@@ -24,6 +24,9 @@ export function CustomSelectNumber(
 		search.value = entry.label;
 		opened.value = false;
 	}
+	observe(() => {
+		if (!opened.value) selectedIndex.value = undefined;
+	});
 	const filteredEntries = observe(() =>
 		entries.filter((entry) =>
 			entry.label.toLowerCase().includes(search.value.toLowerCase()),
