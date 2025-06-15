@@ -29,7 +29,7 @@ if (localStorage.getItem("shareLink") === "true") {
 
 observe(() => {
 	localStorage.setItem("shareLink", shareLink.value.toString());
-})
+});
 
 const nextGame = dates.tomorrow;
 if (
@@ -177,10 +177,10 @@ $("main", () => {
 						$("label:Include link", () => {
 							$("input", {
 								type: "checkbox",
-								bind: shareLink
+								bind: shareLink,
 							});
 						});
-						$("span: ")
+						$("span: ");
 						$("button:Copy", {
 							click() {
 								navigator.clipboard.writeText(

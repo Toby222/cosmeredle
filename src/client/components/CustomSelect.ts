@@ -1,4 +1,4 @@
-import { $, onEach, proxy, type ValueRef } from "aberdeen";
+import { $, proxy, type ValueRef } from "aberdeen";
 
 // TODO: Select with arrow keys
 
@@ -45,24 +45,26 @@ export function CustomSelectNumber(
 				});
 			});
 			$("ul", () => {
-				onEach(entries, (entry, index) => {
-					$(`li:${entry.label}`, {
-						click(event: MouseEvent) {
-							if (event.target === this) {
-								event.stopPropagation();
-								if (!(this as HTMLLIElement).classList.contains("disabled")) {
-									valueProxy.value = entry.value;
-									search.value = entry.label;
-									visible.value = false;
+				for (const entry of entries) {
+					const hidden = !entry.label
+						.toLowerCase()
+						.includes(search.value.toLowerCase());
+					if (!hidden) {
+						$(`li:${entry.label}`, {
+							click(event: MouseEvent) {
+								if (event.target === this) {
+									event.stopPropagation();
+									if (!(this as HTMLLIElement).classList.contains("disabled")) {
+										valueProxy.value = entry.value;
+										search.value = entry.label;
+										visible.value = false;
+									}
 								}
-							}
-						},
-						".disabled": entry.disabled,
-						".hidden": !entry.label
-							.toLowerCase()
-							.includes(search.value.toLowerCase()),
-					});
-				});
+							},
+							".disabled": entry.disabled,
+						});
+					}
+				}
 			});
 		},
 	) as HTMLDivElement | undefined;

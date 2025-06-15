@@ -7,6 +7,9 @@
 :root {
   --font-size: 2.5vmin;
   --footer-height: 2rem;
+  --accent-color: hsl(46, 70%, 63%);
+  --light-background: hsl(218, 12%, 18%);
+  --extra-padding: 0;
   font-family: sans-serif;
   font-size: var(--font-size);
   background-color: black;
@@ -15,6 +18,7 @@
 @media (max-width: 984px) {
   :root {
     --footer-height: 3rem;
+    --extra-padding: 3vmin;
   }
 }
 
@@ -41,7 +45,7 @@ body {
 
 hr {
   width: 100%;
-  color: #e1c362;
+  color: var(--accent-color);
 }
 
 main {
@@ -88,8 +92,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid 0.2vmin #e1c362;
-    background-color: #323844;
+    border: solid 0.2vmin var(--accent-color);
+    background-color: hsl(220, 15%, 23%);
     padding: 2vmin;
     border-radius: 1vmin;
 
@@ -121,15 +125,15 @@ footer {
   }
   .customSelect,
   > button {
-    height: calc(2vmin + var(--font-size));
+    height: calc(2vmin + var(--font-size) + var(--extra-padding));
   }
 }
 
 button {
   font-size: var(--font-size);
-  min-height: 2vmin;
-  background-color: #292d34;
-  border-color: #e1c362;
+  height: 2vmin;
+  background-color: var(--light-background);
+  border-color: var(--accent-color);
   border-width: 0.4vmin;
   color: white;
   cursor: pointer;
@@ -161,7 +165,7 @@ input {
   text-align: center;
   font-size: var(--font-size);
   margin: 1vmin;
-  border: solid 0.2vmin #e1c362;
+  border: solid 0.2vmin var(--accent-color);
 }
 
 .customSelect {
@@ -179,9 +183,9 @@ input {
       width: 90%;
       height: 100%;
       outline: none;
-      background-color: #292d34;
+      background-color: var(--light-background);
       color: white;
-      border: solid 0.2vmin #e1c362;
+      border: solid 0.2vmin var(--accent-color);
     }
     button {
       width: 10%;
@@ -200,17 +204,21 @@ input {
     outline: none;
     overflow: hidden;
     position: absolute;
-    background-color: #292d34;
+    background-color: var(--light-background);
     visibility: hidden;
     overflow: scroll;
-    border: solid 0.2vmin #e1c362;
+    border: solid 0.2vmin var(--accent-color);
     li {
       transition:
         color 0.1s ease,
         background 0.1s ease;
       color: white;
+      padding: var(--extra-padding);
+      &:nth-of-type(even) {
+        background-color: hsl(218, 12%, 12%);
+      }
       &:is(:hover,.selected):not(.disabled) {
-        background: #323844;
+        background-color: hsl(220, 15%, 30%);
       }
       &.disabled {
         cursor: initial;
