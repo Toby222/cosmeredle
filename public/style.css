@@ -217,7 +217,7 @@ input {
       &:nth-of-type(even) {
         background-color: hsl(218, 12%, 12%);
       }
-      &:is(:hover,.selected):not(.disabled) {
+      &.selected:not(.disabled) {
         background-color: hsl(220, 15%, 30%);
       }
       &.disabled {

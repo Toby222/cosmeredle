@@ -100,30 +100,28 @@ const hideGameOver = proxy(false);
 
 $("main", () => {
 	$("div", { id: "makeGuess" }, () => {
-		if (availableCharacters.value > 0) {
-			const guessedCharacters = previousGuesses.map((guess) => guess[5]);
-			CustomSelectNumber(
-				CHARACTERS.map((character) => ({
-					label: character.name,
-					value: character.id,
-					disabled: guessedCharacters.includes(character.id),
-				})),
-				selectedCharacter,
-				gameInProgress,
-			);
-
-			$("button:Guess", {
-				click() {
-					if (selectedCharacter.value !== undefined) {
-						guess(selectedCharacter.value);
-						selectedCharacter.value = undefined;
-					}
-				},
-				".disabled": answerPending,
-			});
-		} else {
-			$("span:You guessed all characters... how?");
+		const guessedCharacters = previousGuesses.map((guess) => guess[5]);
+		function makeGuess() {
+			if (selectedCharacter.value !== undefined) {
+				guess(selectedCharacter.value);
+				selectedCharacter.value = undefined;
+			}
 		}
+		CustomSelectNumber(
+			CHARACTERS.map((character) => ({
+				label: character.name,
+				value: character.id,
+				disabled: guessedCharacters.includes(character.id),
+			})),
+			selectedCharacter,
+			gameInProgress,
+			makeGuess,
+		);
+
+		$("button:Guess", {
+			click: makeGuess,
+			".disabled": answerPending,
+		});
 	});
 	$("div", { id: "nextGame" }, () => {
 		$(`span:Next game: ${dateDiff(now.value, nextGame, true)}`);
