@@ -1,4 +1,4 @@
-import { $, clone, copy, observe, proxy, type ValueRef } from "aberdeen";
+import { $, observe, proxy, type ValueRef } from "aberdeen";
 
 // TODO: Select with arrow keys
 
@@ -20,6 +20,7 @@ export function CustomSelectNumber(
 	const selectedIndex = proxy<number | undefined>(undefined);
 
 	function selectEntry(entry: Entry<number>) {
+		console.debug("selecting", entry);
 		valueProxy.value = entry.value;
 		search.value = entry.label;
 		opened.value = false;
@@ -35,6 +36,14 @@ export function CustomSelectNumber(
 	const enabledEntries = observe(() =>
 		filteredEntries.value.filter((entry) => !entry.disabled),
 	);
+
+	observe(() => {
+		const index = filteredEntries.value.findIndex(
+			(entry) => entry.label === search.value,
+		);
+		if (index >= 0) selectedIndex.value = index;
+		else valueProxy.value = undefined;
+	});
 
 	function increaseSelectedIndex() {
 		if (selectedIndex.value === undefined) selectedIndex.value = 0;
@@ -120,6 +129,7 @@ export function CustomSelectNumber(
 				$("button:Clear", {
 					click() {
 						search.value = "";
+						selectedIndex.value = undefined;
 					},
 				});
 			});
