@@ -131,7 +131,6 @@ footer {
 
 button {
   font-size: var(--font-size);
-  height: 2vmin;
   background-color: var(--light-background);
   border-color: var(--accent-color);
   border-width: 0.4vmin;
