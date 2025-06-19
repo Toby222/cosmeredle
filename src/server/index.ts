@@ -58,32 +58,32 @@ function updateToday() {
 }
 
 updateToday();
-setInterval(updateToday, 1_000);
+// setInterval(updateToday, 1_000);
+
+while (CHARACTERS[todaysCharacterIndex].species[1] !== "Unspecified") {
+	nextDay();
+	console.debug("character is", CHARACTERS[todaysCharacterIndex].name);
+}
 
 const log = createSimpleLogger(loggerConfig);
 
-function compareArrayPositional(
-	arrayA: string[],
-	arrayB: string[],
+function compareSpecies(
+	speciesA: string[],
+	speciesB: string[],
 ): keyof typeof Overlap {
-	const biggerLength = Math.max(arrayA.length, arrayB.length);
-	let matching = 0;
-	for (let i = 0; i < biggerLength; i++) {
-		if (arrayA[i] === arrayB[i]) matching++;
-	}
-	return matching === 0
-		? Overlap.None
-		: matching === biggerLength
-			? Overlap.Full
-			: Overlap.Partial;
+	if (speciesA[0] !== speciesB[0]) return Overlap.None;
+	if (speciesA[1] !== speciesB[1]) return Overlap.Partial;
+	return Overlap.Full;
 }
-function compareArrayFuzzy(
-	arrayA: string[],
-	arrayB: string[],
+function compareAbilities(
+	abilitiesA: string[],
+	abilitiesB: string[],
 ): keyof typeof Overlap {
-	const biggerLength = Math.max(arrayA.length, arrayB.length);
+	const biggerLength = Math.max(abilitiesA.length, abilitiesB.length);
 	const [biggerArray, smallerArray] =
-		arrayA.length === biggerLength ? [arrayA, arrayB] : [arrayB, arrayA];
+		abilitiesA.length === biggerLength
+			? [abilitiesA, abilitiesB]
+			: [abilitiesB, abilitiesA];
 
 	let matching = 0;
 	for (const value of biggerArray) {
@@ -115,8 +115,8 @@ function compareCharacters(
 		characterA.firstAppearance === characterB.firstAppearance
 			? Overlap.Full
 			: Overlap.None,
-		compareArrayPositional(characterA.species, characterB.species),
-		compareArrayFuzzy(characterA.abilities, characterB.abilities),
+		compareSpecies(characterA.species, characterB.species),
+		compareAbilities(characterA.abilities, characterB.abilities),
 	];
 }
 
