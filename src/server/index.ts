@@ -58,7 +58,7 @@ function updateToday() {
 }
 
 updateToday();
-// setInterval(updateToday, 1_000);
+setInterval(updateToday, 1_000);
 
 while (CHARACTERS[todaysCharacterIndex].species[1] !== "Unspecified") {
 	nextDay();
