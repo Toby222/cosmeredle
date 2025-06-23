@@ -60,11 +60,6 @@ function updateToday() {
 updateToday();
 setInterval(updateToday, 1_000);
 
-while (CHARACTERS[todaysCharacterIndex].species[1] !== "Unspecified") {
-	nextDay();
-	console.debug("character is", CHARACTERS[todaysCharacterIndex].name);
-}
-
 const log = createSimpleLogger(loggerConfig);
 
 function compareSpecies(
