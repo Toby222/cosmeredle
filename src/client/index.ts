@@ -1,8 +1,12 @@
 import { $, observe, onEach, proxy } from "aberdeen";
-import { dateDiff, Overlap, type OverlapType } from "lib/util";
+import {
+	charactersForDay,
+	dateDiff,
+	Overlap,
+	type OverlapType,
+} from "lib/util";
 import { emojiFromGuess, type StoredGuess } from "client/util";
 
-import CHARACTERS from "lib/characters.json";
 import { GuessRow } from "./components/GuessRow";
 import { Footer } from "./components/Footer";
 import { GuessBubble } from "./components/GuessBubble";
@@ -40,6 +44,7 @@ if (
 	localStorage.setItem("currentGame", dates.today.toString());
 }
 
+const characters = charactersForDay(dates.today);
 // Scope to not pollute file scope
 {
 	const previousGuessesStorage = localStorage.getItem("previousGuesses");
@@ -58,7 +63,7 @@ if (
 		}
 	}
 	const previousIds = previousGuesses.map((guess) => guess[5]);
-	availableCharacters.value = CHARACTERS.filter(
+	availableCharacters.value = characters.filter(
 		(character) => !previousIds.includes(character.id),
 	).length;
 }
@@ -108,7 +113,7 @@ $("main", () => {
 			}
 		}
 		CustomSelectNumber(
-			CHARACTERS.map((character) => ({
+			characters.map((character) => ({
 				label: character.name,
 				value: character.id,
 				disabled: guessedCharacters.includes(character.id),

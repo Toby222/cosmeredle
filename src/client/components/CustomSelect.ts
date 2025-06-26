@@ -134,8 +134,7 @@ export function CustomSelectNumber(
 				});
 			});
 			let disableAutoScroll = false;
-			let autoScrollTimeout: ReturnType<typeof setTimeout> | undefined =
-				undefined;
+			let autoScrollTimeout: ReturnType<typeof setTimeout> | undefined;
 			$("ul", () => {
 				for (let idx = 0; idx < filteredEntries.value.length; idx++) {
 					const entry = filteredEntries.value[idx];

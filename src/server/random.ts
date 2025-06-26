@@ -1,9 +1,5 @@
 import { env } from "bun";
 
-const envSeed =
-	env.RANDOM_SEED !== undefined ? Number.parseInt(env.RANDOM_SEED) : undefined;
-const seed = envSeed === undefined || Number.isNaN(envSeed) ? 0 : envSeed;
-
 function MurmurHash3(seed: string) {
 	let hash = 1779033703 ^ seed.length;
 	for (let i = 0; i < seed.length; i++) {

@@ -4,12 +4,14 @@ import INDEX from "../../public/index.html" with { type: "text" };
 import INDEX_JS from "../../public/js/index.js" with { type: "text" };
 import INDEX_JS_MAP from "../../public/js/index.js.map" with { type: "text" };
 import STYLE from "../../public/style.css" with { type: "text" };
-import CHARACTERS from "lib/characters.json";
 
-import { daysSinceEpoch, Overlap, MS_PER_DAY } from "lib/util";
+import {
+	daysSinceEpoch,
+	Overlap,
+	MS_PER_DAY,
+	charactersForDay,
+} from "lib/util";
 import { seededRandom } from "./random";
-
-type Character = (typeof CHARACTERS)[number];
 
 const logLevel = Bun.env.LOG_LEVEL;
 const logToFile = Bun.env.LOG_TO_FILE === "true";
@@ -32,28 +34,34 @@ if (
 	loggerConfig.level = "info";
 }
 
-let yesterdaysCharacterIndex = 0;
 let todaysCharacterIndex = 0;
 let today = 0;
 
 function nextDay() {
-	yesterdaysCharacterIndex = todaysCharacterIndex;
-	todaysCharacterIndex = Math.floor(seededRandom() * CHARACTERS.length);
-	if (todaysCharacterIndex === yesterdaysCharacterIndex) {
-		todaysCharacterIndex = (todaysCharacterIndex + 1) % CHARACTERS.length;
-	}
+	const yesterday = today;
+	const charactersYesterday = charactersForDay(yesterday);
+	const yesterdaysCharacterId = charactersYesterday[todaysCharacterIndex]?.id;
+
 	today++;
+
+	const characters = charactersForDay(today);
+	todaysCharacterIndex = Math.floor(seededRandom() * characters.length);
+
+	if (characters[todaysCharacterIndex].id === yesterdaysCharacterId) {
+		todaysCharacterIndex = (todaysCharacterIndex + 1) % characters.length;
+	}
+
+	console.debug(
+		"Updating today to",
+		today,
+		"; today's character is",
+		characters[todaysCharacterIndex].name,
+	);
 }
 
 function updateToday() {
 	while (today < daysSinceEpoch()) {
 		nextDay();
-		console.debug(
-			"Updating today to",
-			today,
-			"; today's character is",
-			CHARACTERS[todaysCharacterIndex].name,
-		);
 	}
 }
 

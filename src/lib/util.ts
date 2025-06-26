@@ -1,3 +1,5 @@
+import CHARACTERS from "lib/characters.json";
+
 export function formatTime(milliseconds: number, useLetters: boolean) {
 	const numSeconds = Math.floor(milliseconds / 1000);
 	const numMinutes = Math.floor(numSeconds / 60);
@@ -49,4 +51,12 @@ export function emojiFromOverlap(overlap: OverlapType) {
 		case Overlap.Full:
 			return "🟩";
 	}
+}
+
+export type Character = (typeof CHARACTERS)[number];
+export function charactersForDay(day: number): Character[] {
+	return CHARACTERS.filter(
+		(character) =>
+			character.validFrom <= day || character.validFrom === undefined,
+	);
 }
