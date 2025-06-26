@@ -1,7 +1,5 @@
 import { $, observe, proxy, type ValueRef } from "aberdeen";
 
-// TODO: Select with arrow keys
-
 export type Entry<T> = {
 	label: string;
 	value: T;

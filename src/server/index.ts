@@ -1,16 +1,17 @@
-import { type STANDARD_LEVELS, createSimpleLogger } from "simple-node-logger";
+import {
+	charactersForDay,
+	daysSinceEpoch,
+	MS_PER_DAY,
+	Overlap,
+} from "lib/util";
+import { createSimpleLogger, type STANDARD_LEVELS } from "simple-node-logger";
+
 import FAVICON from "../../public/favicon.svg" with { type: "text" };
 import INDEX from "../../public/index.html" with { type: "text" };
 import INDEX_JS from "../../public/js/index.js" with { type: "text" };
 import INDEX_JS_MAP from "../../public/js/index.js.map" with { type: "text" };
 import STYLE from "../../public/style.css" with { type: "text" };
 
-import {
-	daysSinceEpoch,
-	Overlap,
-	MS_PER_DAY,
-	charactersForDay,
-} from "lib/util";
 import { seededRandom } from "./random";
 
 const logLevel = Bun.env.LOG_LEVEL;

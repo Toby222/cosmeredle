@@ -1,16 +1,17 @@
 import { $, observe, onEach, proxy } from "aberdeen";
+import { emojiFromGuess, type StoredGuess } from "client/util";
 import {
 	charactersForDay,
 	dateDiff,
 	Overlap,
 	type OverlapType,
 } from "lib/util";
-import { emojiFromGuess, type StoredGuess } from "client/util";
 
-import { GuessRow } from "./components/GuessRow";
+import { CustomSelectNumber } from "./components/CustomSelect";
 import { Footer } from "./components/Footer";
 import { GuessBubble } from "./components/GuessBubble";
-import { CustomSelectNumber } from "./components/CustomSelect";
+import { GuessRow } from "./components/GuessRow";
+
 const previousGuesses: StoredGuess[] = proxy([]);
 const availableCharacters = proxy(0);
 const answerPending = proxy(true);

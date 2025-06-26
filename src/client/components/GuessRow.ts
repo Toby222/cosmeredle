@@ -1,7 +1,7 @@
+import { $ } from "aberdeen";
+import type { StoredGuess } from "client/util";
 import CHARACTERS from "lib/characters.json";
 import { GuessBubble } from "./GuessBubble";
-import type { StoredGuess } from "client/util";
-import { $ } from "aberdeen";
 
 export function GuessRow(guess: StoredGuess): Element | undefined {
 	const guessId = guess[5];
