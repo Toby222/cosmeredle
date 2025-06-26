@@ -133,6 +133,7 @@ Bun.serve({
 		return Response.redirect("/", 301);
 	},
 	routes: {
+		"/favicon.ico": () => new Response(null, { status: 404 }),
 		"/": () =>
 			new Response(INDEX, {
 				headers: { "Content-Type": "text/html" },
@@ -160,11 +161,12 @@ Bun.serve({
 			async POST(request) {
 				const { characterId } = request.params;
 				if (!/[0-9]+/.test(characterId)) return Response.error();
-				const char = CHARACTERS[Number.parseInt(characterId, 10)];
+				const characters = charactersForDay(today);
+				const char = characters[Number.parseInt(characterId, 10)];
 
 				return new Response(
 					JSON.stringify(
-						compareCharacters(char, CHARACTERS[todaysCharacterIndex]),
+						compareCharacters(char, characters[todaysCharacterIndex]),
 					),
 					{
 						headers: { "Content-Type": "application/json" },
@@ -172,10 +174,6 @@ Bun.serve({
 				);
 			},
 		},
-		"/current": () =>
-			new Response(JSON.stringify(CHARACTERS[todaysCharacterIndex]), {
-				headers: { "Content-Type": "application/json" },
-			}),
 		"/today": () =>
 			new Response(
 				JSON.stringify({

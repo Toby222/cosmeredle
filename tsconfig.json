@@ -12,6 +12,6 @@
 		"resolveJsonModule": true,
 		"baseUrl": "./src"
 	},
-	"include": ["next-env.d.ts", "**/*.ts"],
+	"include": ["**/*.ts"],
 	"exclude": ["node_modules", "public", "**/*.js"]
 }
