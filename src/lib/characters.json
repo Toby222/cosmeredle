@@ -1576,7 +1576,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Singer", "Listener"],
-		"abilities": ["Forms of Power", "Willshaper"],
+		"abilities": ["Forms of Power", "Willshaper", "Knight Radiant"],
 		"id": 164,
 		"validFrom": 0
 	},
