@@ -148,7 +148,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
 		"id": 16,
 		"validFrom": 0
 	},
@@ -193,7 +193,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
 		"id": 21,
 		"validFrom": 0
 	},
@@ -285,6 +285,7 @@
 		"species": ["Human", "Alethi"],
 		"abilities": [
 			"Knight Radiant",
+			"Surgebinder",
 			"Bondsmith",
 			"Old Magic",
 			"Shardbearer",
@@ -494,7 +495,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Knight Radiant", "Lightweaver"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Lightweaver"],
 		"id": 53,
 		"validFrom": 0
 	},
@@ -546,7 +547,8 @@
 			"Elantrian",
 			"Worldhopper",
 			"Dawnshard",
-			"Knight Radiant"
+			"Knight Radiant",
+			"Surgebinder"
 		],
 		"id": 58,
 		"validFrom": 0
@@ -565,7 +567,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Herdazian"],
-		"abilities": ["Knight Radiant", "Windrunner"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
 		"id": 60,
 		"validFrom": 0
 	},
@@ -574,7 +576,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
 		"id": 61,
 		"validFrom": 0
 	},
@@ -610,7 +612,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Knight Radiant", "Elsecaller"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Elsecaller"],
 		"id": 65,
 		"validFrom": 0
 	},
@@ -628,7 +630,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
 		"id": 67,
 		"validFrom": 0
 	},
@@ -637,7 +639,13 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Knight Radiant", "Windrunner", "Cognitive Shadow", "Herald"],
+		"abilities": [
+			"Knight Radiant",
+			"Surgebinder",
+			"Windrunner",
+			"Cognitive Shadow",
+			"Herald", "Surgebinder"
+		],
 		"id": 68,
 		"validFrom": 0
 	},
@@ -646,7 +654,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
 		"id": 69,
 		"validFrom": 0
 	},
@@ -760,7 +768,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Reshi"],
-		"abilities": ["Knight Radiant", "Edgedancer", "Old Magic"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Edgedancer", "Old Magic"],
 		"id": 81,
 		"validFrom": 0
 	},
@@ -796,7 +804,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Herdazian"],
-		"abilities": ["Knight Radiant", "Windrunner"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
 		"id": 85,
 		"validFrom": 0
 	},
@@ -894,9 +902,10 @@
 		"species": ["Human", "Ashyn"],
 		"abilities": [
 			"Cognitive Shadow",
-			"Herald",
+			"Herald", "Surgebinder",
 			"Shardbearer",
 			"Knight Radiant",
+			"Surgebinder",
 			"Skybreaker"
 		],
 		"id": 95,
@@ -907,7 +916,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Knight Radiant", "Bondsmith"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Bondsmith"],
 		"id": 96,
 		"validFrom": 0
 	},
@@ -988,7 +997,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
 		"id": 105,
 		"validFrom": 0
 	},
@@ -1076,7 +1085,12 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Knight Radiant", "Truthwatcher", "Voidbinder"],
+		"abilities": [
+			"Knight Radiant",
+			"Surgebinder",
+			"Truthwatcher",
+			"Voidbinder"
+		],
 		"id": 114,
 		"validFrom": 0
 	},
@@ -1184,7 +1198,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
 		"id": 126,
 		"validFrom": 0
 	},
@@ -1193,7 +1207,12 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
-		"abilities": ["Knight Radiant", "Lightweaver", "Shardbearer"],
+		"abilities": [
+			"Knight Radiant",
+			"Surgebinder",
+			"Lightweaver",
+			"Shardbearer"
+		],
 		"id": 127,
 		"validFrom": 0
 	},
@@ -1238,6 +1257,7 @@
 		"species": ["Human", "Azish"],
 		"abilities": [
 			"Knight Radiant",
+			"Surgebinder",
 			"Windrunner",
 			"Skybreaker",
 			"Dawnshard",
@@ -1278,7 +1298,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Knight Radiant", "Windrunner"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
 		"id": 135,
 		"validFrom": 0
 	},
@@ -1356,7 +1376,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Shin"],
-		"abilities": ["Knight Radiant", "Skybreaker", "Shardbearer"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Skybreaker", "Shardbearer"],
 		"id": 143,
 		"validFrom": 0
 	},
@@ -1365,7 +1385,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
 		"id": 144,
 		"validFrom": 0
 	},
@@ -1392,7 +1412,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Knight Radiant", "Windrunner"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
 		"id": 147,
 		"validFrom": 0
 	},
@@ -1546,7 +1566,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald"],
+		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
 		"id": 163,
 		"validFrom": 0
 	},
@@ -1702,5 +1722,307 @@
 		"abilities": ["Uninvested"],
 		"id": 180,
 		"validFrom": 20266
+	},
+	{
+		"name": "Notum",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Honorspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
+		"validFrom": 20266,
+		"id": 181
+	},
+	{
+		"name": "Caelinora",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Dawnshard",
+		"species": ["Spren", "Honorspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
+		"validFrom": 20266,
+		"id": 182
+	},
+	{
+		"name": "Sekeir",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Spren", "Honorspren"],
+		"abilities": ["Splinter"],
+		"validFrom": 20266,
+		"id": 183
+	},
+	{
+		"name": "Sureblood",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Horse", "Ryshadium"],
+		"abilities": ["Nahel Bond"],
+		"validFrom": 20266,
+		"id": 184
+	},
+	{
+		"name": "Gallant",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Horse", "Ryshadium"],
+		"abilities": ["Nahel Bond"],
+		"validFrom": 20266,
+		"id": 185
+	},
+	{
+		"name": "Aladar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"validFrom": 20266,
+		"id": 186
+	},
+	{
+		"name": "May Aladar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Unoathed"],
+		"validFrom": 20266,
+		"id": 187
+	},
+	{
+		"name": "Bethab",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20266,
+		"id": 188
+	},
+	{
+		"name": "Hatham",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"validFrom": 20266,
+		"id": 189
+	},
+	{
+		"name": "Relis Ruthar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"validFrom": 20266,
+		"id": 190
+	},
+	{
+		"name": "Roion",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20266,
+		"id": 191
+	},
+	{
+		"name": "Ruthar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"validFrom": 20266,
+		"id": 192
+	},
+	{
+		"name": "Turinad Sebarial",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20266,
+		"id": 193
+	},
+	{
+		"name": "Valam",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Veden"],
+		"abilities": ["Shardbearer"],
+		"validFrom": 20266,
+		"id": 194
+	},
+	{
+		"name": "Hanavanar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Veden"],
+		"abilities": ["Shardbearer"],
+		"validFrom": 20266,
+		"id": 195
+	},
+	{
+		"name": "Helaran Davar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Veden"],
+		"abilities": ["Shardbearer"],
+		"validFrom": 20266,
+		"id": 196
+	},
+	{
+		"name": "Jushu Davar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Veden"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20266,
+		"id": 197
+	},
+	{
+		"name": "Lin Davar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Veden"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20266,
+		"id": 198
+	},
+	{
+		"name": "Malata",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Human", "Veden"],
+		"abilities": [
+			"Knight Radiant",
+			"Surgebinder",
+			"Dustbringer",
+			"Shardbearer"
+		],
+		"validFrom": 20266,
+		"id": 199
+	},
+	{
+		"name": "Spark",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Ashspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Dustbringer"],
+		"validFrom": 20266,
+		"id": 200
+	},
+	{
+		"name": "Malise Gevelmar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Veden"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20266,
+		"id": 201
+	},
+	{
+		"name": "Redin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Veden"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20266,
+		"id": 202
+	},
+	{
+		"name": "Wikim Davar",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Veden"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20266,
+		"id": 203
+	},
+	{
+		"name": "Blended",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Spren", "Inkspren"],
+		"abilities": ["Splinter"],
+		"validFrom": 20266,
+		"id": 204
+	},
+	{
+		"name": "Dreaming-though-Awake",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Spren", "Mistspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
+		"validFrom": 20266,
+		"id": 205
+	},
+	{
+		"name": "Tumi",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Spren", "Mistspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher", "Enlightened"],
+		"validFrom": 20266,
+		"id": 206
+	},
+	{
+		"name": "Ym",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Iriali"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Truthwatcher"],
+		"validFrom": 20266,
+		"id": 207
+	},
+	{
+		"name": "Uma",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Spren", "Mistspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
+		"validFrom": 20266,
+		"id": 208
+	},
+	{
+		"name": "Ico",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Reacher"],
+		"abilities": ["Splinter"],
+		"validFrom": 20266,
+		"id": 209
+	},
+	{
+		"name": "Ua'pam",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Spren", "Peakspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Stoneward"],
+		"validFrom": 20266,
+		"id": 210
+	},
+	{
+		"name": "Zu",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Human", "Iriali"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Stoneward", "Shardbearer"],
+		"validFrom": 20266,
+		"id": 211
+	},
+	{
+		"name": "Dami",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Wind and Truth",
+		"species": ["Human", "Riran"],
+		"abilities": ["Knight Radiant", "Surgebinder", "Stoneward", "Shardbearer"],
+		"validFrom": 20266,
+		"id": 212
+	},
+	{
+		"name": "Nohadon",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Surgebinder"],
+		"validFrom": 20266,
+		"id": 213
 	}
 ]
