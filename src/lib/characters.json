@@ -644,7 +644,7 @@
 			"Surgebinder",
 			"Windrunner",
 			"Cognitive Shadow",
-			"Herald", "Surgebinder"
+			"Herald"
 		],
 		"id": 68,
 		"validFrom": 0
@@ -902,7 +902,8 @@
 		"species": ["Human", "Ashyn"],
 		"abilities": [
 			"Cognitive Shadow",
-			"Herald", "Surgebinder",
+			"Herald",
+			"Surgebinder",
 			"Shardbearer",
 			"Knight Radiant",
 			"Surgebinder",
