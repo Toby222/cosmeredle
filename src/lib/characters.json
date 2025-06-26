@@ -2025,5 +2025,14 @@
 		"abilities": ["Surgebinder"],
 		"validFrom": 20266,
 		"id": 213
+	},
+	{
+		"name": "Kabsal",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Herdazian"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20266,
+		"id": 214
 	}
 ]
