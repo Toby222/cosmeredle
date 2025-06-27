@@ -68,11 +68,7 @@ export function CustomSelectNumber(
 	function decreaseSelectedIndex() {
 		if (selectedIndex.value === undefined)
 			selectedIndex.value = filteredEntries.value.length - 1;
-		else
-			selectedIndex.value = Math.max(
-				selectedIndex.value - 1,
-				0,
-			);
+		else selectedIndex.value = Math.max(selectedIndex.value - 1, 0);
 
 		// Avoid landing on disabled fields
 		while (
@@ -141,8 +137,11 @@ export function CustomSelectNumber(
 			let disableAutoScroll = false;
 			let autoScrollTimeout: ReturnType<typeof setTimeout> | undefined;
 			$("ul", () => {
-				for (let idx = 0; idx < filteredEntries.value.length; idx++) {
-					const entry = filteredEntries.value[idx];
+				const entries = filteredEntries.value.sort((entryA, entryB) =>
+					entryA.label.localeCompare(entryB.label),
+				);
+				for (let idx = 0; idx < entries.length; idx++) {
+					const entry = entries[idx];
 					const listItem = $(`li:${entry.label}`, {
 						click(event: MouseEvent) {
 							if (event.target === this) {
