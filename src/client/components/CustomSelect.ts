@@ -48,6 +48,8 @@ export function CustomSelectNumber(
 		else if (selectedIndex.value < filteredEntries.value.length - 1)
 			selectedIndex.value++;
 
+		selectedIndex.value = Math.min(selectedIndex.value, filteredEntries.value.length - 1);
+
 		// Avoid landing on disabled fields
 		while (
 			filteredEntries.value[selectedIndex.value].disabled &&

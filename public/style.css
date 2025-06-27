@@ -18,7 +18,7 @@
   background-color: black;
   color: white;
 }
-@media (max-aspect-ratio: 1900/1440) {
+@media (max-aspect-ratio: 1810/1440) {
   :root {
     --footer-height: 3rem;
     --extra-padding: 3vmin;
@@ -37,7 +37,7 @@ input[type=checkbox] {
 
 a,
 a:visited {
-  color: blue;
+  color: var(--accent-color);
 }
 
 body {
@@ -77,8 +77,7 @@ footer {
   padding: 1vmin;
   position: fixed;
   bottom: 0px;
-  background-color: #444;
-  color: black;
+  background-color: var(--light-background);
   display: flex;
   justify-content: space-between;
 }
