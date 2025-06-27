@@ -45,10 +45,11 @@ export function CustomSelectNumber(
 
 	function increaseSelectedIndex() {
 		if (selectedIndex.value === undefined) selectedIndex.value = 0;
-		else if (selectedIndex.value < filteredEntries.value.length - 1)
-			selectedIndex.value++;
-
-		selectedIndex.value = Math.min(selectedIndex.value, filteredEntries.value.length - 1);
+		else
+			selectedIndex.value = Math.min(
+				selectedIndex.value + 1,
+				filteredEntries.value.length - 1,
+			);
 
 		// Avoid landing on disabled fields
 		while (
@@ -67,7 +68,11 @@ export function CustomSelectNumber(
 	function decreaseSelectedIndex() {
 		if (selectedIndex.value === undefined)
 			selectedIndex.value = filteredEntries.value.length - 1;
-		else if (selectedIndex.value > 0) selectedIndex.value--;
+		else
+			selectedIndex.value = Math.max(
+				selectedIndex.value - 1,
+				0,
+			);
 
 		// Avoid landing on disabled fields
 		while (
