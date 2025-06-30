@@ -1662,7 +1662,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Xisis",
+		"name": "Xisisrefliel",
 		"homeWorld": "Yolen",
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Dragon", "Unspecified"],
@@ -2034,5 +2034,23 @@
 		"abilities": ["Uninvested"],
 		"validFrom": 20266,
 		"id": 214
+	},
+	{
+		"name": "Medelantorius",
+		"homeWorld": "Yolen",
+		"firstAppearance": "Wind and Truth",
+		"species": ["Dragon", "Unspecified"],
+		"abilities": ["Shard Vessel"],
+		"validFrom": 20270,
+		"id": 215
+	},
+	{
+		"name": "Frost",
+		"homeWorld": "Yolen",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Dragon", "Unspecified"],
+		"abilities": ["Unknown"],
+		"validFrom": 20270,
+		"id": 216
 	}
 ]
