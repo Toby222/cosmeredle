@@ -6,6 +6,7 @@ import {
 } from "lib/util";
 import { createSimpleLogger, type STANDARD_LEVELS } from "simple-node-logger";
 
+import BACKGROUND from "../../public/bg.gif" with { type: "file" };
 import FAVICON from "../../public/favicon.svg" with { type: "text" };
 import INDEX from "../../public/index.html" with { type: "text" };
 import INDEX_JS from "../../public/js/index.js" with { type: "text" };
@@ -135,6 +136,7 @@ Bun.serve({
 	},
 	routes: {
 		"/favicon.ico": () => new Response(null, { status: 404 }),
+		"/bg.gif": () => new Response(Bun.file(BACKGROUND)),
 		"/": () =>
 			new Response(INDEX, {
 				headers: { "Content-Type": "text/html" },
