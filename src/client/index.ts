@@ -1,7 +1,7 @@
 import { $, observe, onEach, proxy } from "aberdeen";
 import { emojiFromGuess, type StoredGuess } from "client/util";
 import {
-	charactersForDay,
+	charactersForToday,
 	dateDiff,
 	Overlap,
 	type OverlapType,
@@ -45,7 +45,7 @@ if (
 	localStorage.setItem("currentGame", dates.today.toString());
 }
 
-const characters = charactersForDay(dates.today);
+const characters = charactersForToday();
 // Scope to not pollute file scope
 {
 	const previousGuessesStorage = localStorage.getItem("previousGuesses");
@@ -63,9 +63,9 @@ const characters = charactersForDay(dates.today);
 			availableCharacters.value--;
 		}
 	}
-	const previousIds = previousGuesses.map((guess) => guess[5]);
+	const previousIdxs = previousGuesses.map((guess) => guess[5]);
 	availableCharacters.value = characters.filter(
-		(character) => !previousIds.includes(character.id),
+		(_character, idx) => !previousIdxs.includes(idx),
 	).length;
 }
 observe(() => {
@@ -114,10 +114,10 @@ $("main", () => {
 			}
 		}
 		CustomSelectNumber(
-			characters.map((character) => ({
+			characters.map((character, idx) => ({
 				label: character.name,
-				value: character.id,
-				disabled: guessedCharacters.includes(character.id),
+				value: idx,
+				disabled: guessedCharacters.includes(idx),
 			})),
 			selectedCharacter,
 			gameInProgress,

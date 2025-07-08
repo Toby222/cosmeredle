@@ -5,7 +5,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer", "Unoathed"],
-		"id": 0,
 		"validFrom": 0
 	},
 	{
@@ -14,7 +13,6 @@
 		"firstAppearance": "The Sunlit Man",
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
-		"id": 1,
 		"validFrom": 0
 	},
 	{
@@ -23,7 +21,6 @@
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Nightmare Painter"],
-		"id": 2,
 		"validFrom": 0
 	},
 	{
@@ -32,7 +29,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Khlenni"],
 		"abilities": ["Misting", "Seeker"],
-		"id": 3,
 		"validFrom": 0
 	},
 	{
@@ -41,7 +37,6 @@
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Malwish"],
 		"abilities": ["Uninvested"],
-		"id": 4,
 		"validFrom": 0
 	},
 	{
@@ -50,7 +45,6 @@
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Noble"],
 		"abilities": ["Misting", "Rioter"],
-		"id": 5,
 		"validFrom": 0
 	},
 	{
@@ -59,7 +53,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"id": 6,
 		"validFrom": 0
 	},
 	{
@@ -68,7 +61,6 @@
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Uninvested"],
-		"id": 7,
 		"validFrom": 0
 	},
 	{
@@ -77,7 +69,6 @@
 		"firstAppearance": "Edgedancer",
 		"species": ["Sleepless", "Aimian"],
 		"abilities": ["Hordelings"],
-		"id": 8,
 		"validFrom": 0
 	},
 	{
@@ -86,7 +77,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Cognitive Shadow", "Lifeless", "Returned"],
-		"id": 9,
 		"validFrom": 0
 	},
 	{
@@ -95,7 +85,6 @@
 		"firstAppearance": "The Emperor's Soul",
 		"species": ["Human", "Grand"],
 		"abilities": ["Uninvested"],
-		"id": 10,
 		"validFrom": 0
 	},
 	{
@@ -104,7 +93,6 @@
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Noble"],
 		"abilities": ["Uninvested"],
-		"id": 11,
 		"validFrom": 0
 	},
 	{
@@ -113,7 +101,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"id": 12,
 		"validFrom": 0
 	},
 	{
@@ -122,7 +109,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Highspren"],
 		"abilities": ["Nahel Bond", "Skybreaker", "Splinter", "Worldhopper"],
-		"id": 13,
 		"validFrom": 0
 	},
 	{
@@ -131,7 +117,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Siah", "Aimian"],
 		"abilities": ["Curse of Kind"],
-		"id": 14,
 		"validFrom": 0
 	},
 	{
@@ -140,7 +125,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Unmade"],
 		"abilities": ["Splinter"],
-		"id": 15,
 		"validFrom": 0
 	},
 	{
@@ -149,7 +133,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
-		"id": 16,
 		"validFrom": 0
 	},
 	{
@@ -158,7 +141,6 @@
 		"firstAppearance": "The Hero of Ages",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Coinshot", "Misting"],
-		"id": 17,
 		"validFrom": 0
 	},
 	{
@@ -167,7 +149,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Pahn Kahl"],
 		"abilities": ["Uninvested"],
-		"id": 18,
 		"validFrom": 0
 	},
 	{
@@ -176,7 +157,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Cognitive Shadow", "Returned"],
-		"id": 19,
 		"validFrom": 0
 	},
 	{
@@ -185,7 +165,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
 		"abilities": ["Misting", "Soother"],
-		"id": 20,
 		"validFrom": 0
 	},
 	{
@@ -194,7 +173,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
-		"id": 21,
 		"validFrom": 0
 	},
 	{
@@ -203,7 +181,6 @@
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Diggen's Point"],
 		"abilities": ["Uninvested"],
-		"id": 22,
 		"validFrom": 0
 	},
 	{
@@ -212,7 +189,6 @@
 		"firstAppearance": "Shadows for Silence in the Forests of Hell",
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
-		"id": 23,
 		"validFrom": 0
 	},
 	{
@@ -221,7 +197,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Larkin", "Unspecified"],
 		"abilities": ["Consumes Investiture"],
-		"id": 24,
 		"validFrom": 0
 	},
 	{
@@ -230,7 +205,6 @@
 		"firstAppearance": "The Sunlit Man",
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Charred"],
-		"id": 25,
 		"validFrom": 0
 	},
 	{
@@ -239,7 +213,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Smoker"],
-		"id": 26,
 		"validFrom": 0
 	},
 	{
@@ -248,7 +221,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Unoathed", "Windrunner Squire"],
-		"id": 27,
 		"validFrom": 0
 	},
 	{
@@ -257,7 +229,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Unkalaki"],
 		"abilities": ["Shardbearer", "Sighted"],
-		"id": 28,
 		"validFrom": 0
 	},
 	{
@@ -266,7 +237,6 @@
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Spore Eater"],
-		"id": 29,
 		"validFrom": 0
 	},
 	{
@@ -275,7 +245,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"id": 30,
 		"validFrom": 0
 	},
 	{
@@ -292,7 +261,6 @@
 			"Sliver",
 			"Surgebinder"
 		],
-		"id": 31,
 		"validFrom": 0
 	},
 	{
@@ -301,7 +269,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Singer", "Listener"],
 		"abilities": ["Forms of Power"],
-		"id": 32,
 		"validFrom": 0
 	},
 	{
@@ -316,7 +283,6 @@
 			"Royal Locks",
 			"Worldhopper"
 		],
-		"id": 33,
 		"validFrom": 0
 	},
 	{
@@ -325,7 +291,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Cryptic"],
 		"abilities": ["Lightweaver", "Nahel Bond", "Splinter", "Worldhopper"],
-		"id": 34,
 		"validFrom": 0
 	},
 	{
@@ -334,7 +299,6 @@
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Fjordell"],
 		"abilities": ["Dakhor"],
-		"id": 35,
 		"validFrom": 0
 	},
 	{
@@ -343,7 +307,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Uninvested"],
-		"id": 36,
 		"validFrom": 0
 	},
 	{
@@ -352,7 +315,6 @@
 		"firstAppearance": "Sixth of the Dusk",
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond"],
-		"id": 37,
 		"validFrom": 0
 	},
 	{
@@ -361,7 +323,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"id": 38,
 		"validFrom": 0
 	},
 	{
@@ -370,7 +331,6 @@
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Elendel"],
 		"abilities": ["Hemalurgy"],
-		"id": 39,
 		"validFrom": 0
 	},
 	{
@@ -379,7 +339,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Singer", "Fused"],
 		"abilities": ["Shardbearer"],
-		"id": 40,
 		"validFrom": 0
 	},
 	{
@@ -388,7 +347,6 @@
 		"firstAppearance": "The Sunlit Man",
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Charred"],
-		"id": 41,
 		"validFrom": 0
 	},
 	{
@@ -397,7 +355,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
 		"abilities": ["Mistborn"],
-		"id": 42,
 		"validFrom": 0
 	},
 	{
@@ -406,7 +363,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Lightweaver", "Shardbearer"],
-		"id": 43,
 		"validFrom": 0
 	},
 	{
@@ -415,7 +371,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Singer", "Listener"],
 		"abilities": ["Forms of Power", "Shardbearer", "Willshaper"],
-		"id": 44,
 		"validFrom": 0
 	},
 	{
@@ -424,7 +379,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fannahn-im", "Fused"],
-		"id": 45,
 		"validFrom": 0
 	},
 	{
@@ -433,8 +387,8 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
 		"abilities": ["Worldhopper"],
-		"id": 46,
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20277
 	},
 	{
 		"name": "Fort",
@@ -442,7 +396,6 @@
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Islands of Lobu"],
 		"abilities": ["Uninvested"],
-		"id": 47,
 		"validFrom": 0
 	},
 	{
@@ -451,7 +404,6 @@
 		"firstAppearance": "The Emperor's Soul",
 		"species": ["Human", "Grand"],
 		"abilities": ["Uninvested"],
-		"id": 48,
 		"validFrom": 0
 	},
 	{
@@ -460,7 +412,6 @@
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Dula"],
 		"abilities": ["Elantrian", "Worldhopper"],
-		"id": 49,
 		"validFrom": 0
 	},
 	{
@@ -469,7 +420,6 @@
 		"firstAppearance": "The Emperor's Soul",
 		"species": ["Human", "Grand"],
 		"abilities": ["Uninvested"],
-		"id": 50,
 		"validFrom": 0
 	},
 	{
@@ -478,7 +428,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"id": 51,
 		"validFrom": 0
 	},
 	{
@@ -487,7 +436,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"id": 52,
 		"validFrom": 0
 	},
 	{
@@ -496,7 +444,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Knight Radiant", "Lightweaver", "Surgebinder"],
-		"id": 53,
 		"validFrom": 0
 	},
 	{
@@ -505,7 +452,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
-		"id": 54,
 		"validFrom": 0
 	},
 	{
@@ -514,7 +460,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Pewterarm"],
-		"id": 55,
 		"validFrom": 0
 	},
 	{
@@ -523,7 +468,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused"],
-		"id": 56,
 		"validFrom": 0
 	},
 	{
@@ -532,7 +476,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused", "Shanay-im"],
-		"id": 57,
 		"validFrom": 0
 	},
 	{
@@ -550,7 +493,6 @@
 			"Surgebinder",
 			"Worldhopper"
 		],
-		"id": 58,
 		"validFrom": 0
 	},
 	{
@@ -559,7 +501,6 @@
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Fjordell"],
 		"abilities": ["Dakhor"],
-		"id": 59,
 		"validFrom": 0
 	},
 	{
@@ -568,7 +509,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Herdazian"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
-		"id": 60,
 		"validFrom": 0
 	},
 	{
@@ -577,7 +517,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
-		"id": 61,
 		"validFrom": 0
 	},
 	{
@@ -586,7 +525,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Inkspren"],
 		"abilities": ["Elsecaller", "Nahel Bond", "Splinter"],
-		"id": 62,
 		"validFrom": 0
 	},
 	{
@@ -595,7 +533,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Southern Scadrian"],
 		"abilities": ["Elsecaller", "Worldhopper"],
-		"id": 63,
 		"validFrom": 0
 	},
 	{
@@ -604,7 +541,6 @@
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Nightmare Painter"],
-		"id": 64,
 		"validFrom": 0
 	},
 	{
@@ -613,7 +549,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Elsecaller", "Knight Radiant", "Surgebinder"],
-		"id": 65,
 		"validFrom": 0
 	},
 	{
@@ -622,7 +557,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Uninvested"],
-		"id": 66,
 		"validFrom": 0
 	},
 	{
@@ -631,7 +565,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
-		"id": 67,
 		"validFrom": 0
 	},
 	{
@@ -646,7 +579,6 @@
 			"Surgebinder",
 			"Windrunner"
 		],
-		"id": 68,
 		"validFrom": 0
 	},
 	{
@@ -655,7 +587,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
-		"id": 69,
 		"validFrom": 0
 	},
 	{
@@ -670,7 +601,6 @@
 			"Shard Vessel",
 			"Sliver"
 		],
-		"id": 70,
 		"validFrom": 0
 	},
 	{
@@ -679,7 +609,6 @@
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Darksider"],
 		"abilities": ["Starmarks", "Worldhopper"],
-		"id": 71,
 		"validFrom": 0
 	},
 	{
@@ -688,7 +617,6 @@
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Teo"],
 		"abilities": ["Uninvested"],
-		"id": 72,
 		"validFrom": 0
 	},
 	{
@@ -697,7 +625,6 @@
 		"firstAppearance": "Sixth of the Dusk",
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
-		"id": 73,
 		"validFrom": 0
 	},
 	{
@@ -706,7 +633,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"id": 74,
 		"validFrom": 0
 	},
 	{
@@ -715,7 +641,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Terris"],
 		"abilities": ["Feruchemist"],
-		"id": 75,
 		"validFrom": 0
 	},
 	{
@@ -724,7 +649,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused"],
-		"id": 76,
 		"validFrom": 0
 	},
 	{
@@ -733,7 +657,6 @@
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Uninvested"],
-		"id": 77,
 		"validFrom": 0
 	},
 	{
@@ -742,7 +665,6 @@
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"id": 78,
 		"validFrom": 0
 	},
 	{
@@ -751,7 +673,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused", "Shanay-im"],
-		"id": 79,
 		"validFrom": 0
 	},
 	{
@@ -760,7 +681,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused", "Nex-im"],
-		"id": 80,
 		"validFrom": 0
 	},
 	{
@@ -769,7 +689,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Reshi"],
 		"abilities": ["Edgedancer", "Knight Radiant", "Old Magic", "Surgebinder"],
-		"id": 81,
 		"validFrom": 0
 	},
 	{
@@ -778,7 +697,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Cognitive Shadow", "Returned"],
-		"id": 82,
 		"validFrom": 0
 	},
 	{
@@ -787,7 +705,6 @@
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Torish"],
 		"abilities": ["Nightmare"],
-		"id": 83,
 		"validFrom": 0
 	},
 	{
@@ -796,7 +713,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Uninvested"],
-		"id": 84,
 		"validFrom": 0
 	},
 	{
@@ -805,7 +721,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Herdazian"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
-		"id": 85,
 		"validFrom": 0
 	},
 	{
@@ -814,7 +729,6 @@
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Elendel"],
 		"abilities": ["Misting", "Pulser"],
-		"id": 86,
 		"validFrom": 0
 	},
 	{
@@ -823,7 +737,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Hemalurgy", "Misting", "Seeker"],
-		"id": 87,
 		"validFrom": 0
 	},
 	{
@@ -832,7 +745,6 @@
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Sleepless", "Nagadan"],
 		"abilities": ["Hordelings", "Nightmare Painter", "Worldhopper"],
-		"id": 88,
 		"validFrom": 0
 	},
 	{
@@ -847,7 +759,6 @@
 			"Splinter",
 			"Unoathed"
 		],
-		"id": 89,
 		"validFrom": 0
 	},
 	{
@@ -856,7 +767,6 @@
 		"firstAppearance": "The Hero of Ages",
 		"species": ["Kandra", "Seventh Generation"],
 		"abilities": ["Shapeshifting", "Worldhopper"],
-		"id": 90,
 		"validFrom": 0
 	},
 	{
@@ -873,7 +783,6 @@
 			"Savant",
 			"Twinborn"
 		],
-		"id": 91,
 		"validFrom": 0
 	},
 	{
@@ -882,7 +791,6 @@
 		"firstAppearance": "Sixth of the Dusk",
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
-		"id": 92,
 		"validFrom": 0
 	},
 	{
@@ -891,7 +799,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"id": 93,
 		"validFrom": 0
 	},
 	{
@@ -900,7 +807,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Thaylen"],
 		"abilities": ["Lightweaver"],
-		"id": 94,
 		"validFrom": 0
 	},
 	{
@@ -917,7 +823,6 @@
 			"Surgebinder",
 			"Surgebinder"
 		],
-		"id": 95,
 		"validFrom": 0
 	},
 	{
@@ -926,7 +831,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Bondsmith", "Knight Radiant", "Surgebinder"],
-		"id": 96,
 		"validFrom": 0
 	},
 	{
@@ -935,7 +839,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Worldhopper"],
-		"id": 97,
 		"validFrom": 0
 	},
 	{
@@ -944,7 +847,6 @@
 		"firstAppearance": "Wind and Truth",
 		"species": ["Spren", "Ancient"],
 		"abilities": ["Bondsmith", "Nahel Bond"],
-		"id": 98,
 		"validFrom": 0
 	},
 	{
@@ -953,7 +855,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Sword", "nimi"],
 		"abilities": ["Comedic timing", "Consumes Investiture", "Worldhopper"],
-		"id": 99,
 		"validFrom": 0
 	},
 	{
@@ -962,7 +863,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Bondsmith"],
 		"abilities": ["Bondsmith", "Nahel Bond", "Old Magic", "Splinter"],
-		"id": 100,
 		"validFrom": 0
 	},
 	{
@@ -971,7 +871,6 @@
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Cognitive Shadow", "Nightmare Painter"],
-		"id": 101,
 		"validFrom": 0
 	},
 	{
@@ -980,7 +879,6 @@
 		"firstAppearance": "Dawnshard",
 		"species": ["Sleepless", "Aimian"],
 		"abilities": ["Hordelings"],
-		"id": 102,
 		"validFrom": 0
 	},
 	{
@@ -989,7 +887,6 @@
 		"firstAppearance": "Edgedancer",
 		"species": ["Human", "Azish"],
 		"abilities": ["Uninvested"],
-		"id": 103,
 		"validFrom": 0
 	},
 	{
@@ -998,7 +895,6 @@
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Kandra", "Third Generation"],
 		"abilities": ["Hemalurgy", "Shapeshifting"],
-		"id": 104,
 		"validFrom": 0
 	},
 	{
@@ -1007,7 +903,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
-		"id": 105,
 		"validFrom": 0
 	},
 	{
@@ -1016,7 +911,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Spren", "Cryptic"],
 		"abilities": ["Lightweaver", "Nahel Bond", "Splinter"],
-		"id": 106,
 		"validFrom": 0
 	},
 	{
@@ -1025,7 +919,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
-		"id": 107,
 		"validFrom": 0
 	},
 	{
@@ -1034,7 +927,6 @@
 		"firstAppearance": "The Hero of Ages",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Hemalurgy"],
-		"id": 108,
 		"validFrom": 0
 	},
 	{
@@ -1043,7 +935,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fannahn-im", "Fused"],
-		"id": 109,
 		"validFrom": 0
 	},
 	{
@@ -1052,7 +943,6 @@
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Lurcher", "Misting"],
-		"id": 110,
 		"validFrom": 0
 	},
 	{
@@ -1061,7 +951,6 @@
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Aonic"],
 		"abilities": ["Elantrian"],
-		"id": 111,
 		"validFrom": 0
 	},
 	{
@@ -1077,7 +966,6 @@
 			"Sliver",
 			"Twinborn"
 		],
-		"id": 112,
 		"validFrom": 0
 	},
 	{
@@ -1086,7 +974,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"id": 113,
 		"validFrom": 0
 	},
 	{
@@ -1100,7 +987,6 @@
 			"Truthwatcher",
 			"Voidbinder"
 		],
-		"id": 114,
 		"validFrom": 0
 	},
 	{
@@ -1109,7 +995,6 @@
 		"firstAppearance": "Secret History",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Awakener", "Elantrian", "Worldhopper"],
-		"id": 115,
 		"validFrom": 0
 	},
 	{
@@ -1118,7 +1003,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Singer", "Listener"],
 		"abilities": ["Truthwatcher", "Voidbinder"],
-		"id": 116,
 		"validFrom": 0
 	},
 	{
@@ -1127,7 +1011,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Unkalaki"],
 		"abilities": ["Sighted", "Windrunner Squire"],
-		"id": 117,
 		"validFrom": 0
 	},
 	{
@@ -1136,7 +1019,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
-		"id": 118,
 		"validFrom": 0
 	},
 	{
@@ -1145,7 +1027,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Thaylen"],
 		"abilities": ["Dawnshard"],
-		"id": 119,
 		"validFrom": 0
 	},
 	{
@@ -1154,7 +1035,6 @@
 		"firstAppearance": "Sixth of the Dusk",
 		"species": ["Aviar", "Unspecified"],
 		"abilities": ["Precognition"],
-		"id": 120,
 		"validFrom": 0
 	},
 	{
@@ -1163,7 +1043,6 @@
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Islands of Lobu"],
 		"abilities": ["Uninvested"],
-		"id": 121,
 		"validFrom": 0
 	},
 	{
@@ -1172,7 +1051,6 @@
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Teo"],
 		"abilities": ["Uninvested"],
-		"id": 122,
 		"validFrom": 0
 	},
 	{
@@ -1181,7 +1059,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Terris"],
 		"abilities": ["Feruchemist", "Shard Vessel"],
-		"id": 123,
 		"validFrom": 0
 	},
 	{
@@ -1190,7 +1067,6 @@
 		"firstAppearance": "Shadows for Silence in the Forests of Hell",
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
-		"id": 124,
 		"validFrom": 0
 	},
 	{
@@ -1199,7 +1075,6 @@
 		"firstAppearance": "The Emperor's Soul",
 		"species": ["Human", "MaiPon"],
 		"abilities": ["Forger", "Worldhopper"],
-		"id": 125,
 		"validFrom": 0
 	},
 	{
@@ -1208,7 +1083,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
-		"id": 126,
 		"validFrom": 0
 	},
 	{
@@ -1222,7 +1096,6 @@
 			"Shardbearer",
 			"Surgebinder"
 		],
-		"id": 127,
 		"validFrom": 0
 	},
 	{
@@ -1238,7 +1111,6 @@
 			"Shardbearer",
 			"Worldhopper"
 		],
-		"id": 128,
 		"validFrom": 0
 	},
 	{
@@ -1247,7 +1119,6 @@
 		"firstAppearance": "Elantris",
 		"species": ["Human", "JinDo"],
 		"abilities": ["ChayShan"],
-		"id": 129,
 		"validFrom": 0
 	},
 	{
@@ -1256,7 +1127,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Bondsmith"],
 		"abilities": ["Bondsmith", "Nahel Bond", "Splinter"],
-		"id": 130,
 		"validFrom": 0
 	},
 	{
@@ -1272,7 +1142,6 @@
 			"Windrunner",
 			"Worldhopper"
 		],
-		"id": 131,
 		"validFrom": 0
 	},
 	{
@@ -1281,7 +1150,6 @@
 		"firstAppearance": "Shadows for Silence in the Forests of Hell",
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
-		"id": 132,
 		"validFrom": 0
 	},
 	{
@@ -1290,7 +1158,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Idrian"],
 		"abilities": ["Royal Locks"],
-		"id": 133,
 		"validFrom": 0
 	},
 	{
@@ -1299,7 +1166,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Unmade"],
 		"abilities": ["Splinter"],
-		"id": 134,
 		"validFrom": 0
 	},
 	{
@@ -1308,7 +1174,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
-		"id": 135,
 		"validFrom": 0
 	},
 	{
@@ -1317,7 +1182,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Hemalurgy", "Mistborn", "Misting", "Savant", "Tineye"],
-		"id": 136,
 		"validFrom": 0
 	},
 	{
@@ -1326,7 +1190,6 @@
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Elendel"],
 		"abilities": ["Uninvested"],
-		"id": 137,
 		"validFrom": 0
 	},
 	{
@@ -1335,7 +1198,6 @@
 		"firstAppearance": "Wind and Truth",
 		"species": ["Spren", "Ancient"],
 		"abilities": ["Bondsmith", "Nahel Bond"],
-		"id": 138,
 		"validFrom": 0
 	},
 	{
@@ -1350,7 +1212,6 @@
 			"Sliver",
 			"Splinter"
 		],
-		"id": 139,
 		"validFrom": 0
 	},
 	{
@@ -1359,7 +1220,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
 		"abilities": ["Misting", "Tineye"],
-		"id": 140,
 		"validFrom": 0
 	},
 	{
@@ -1368,7 +1228,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Awakener", "Cognitive Shadow", "Returned"],
-		"id": 141,
 		"validFrom": 0
 	},
 	{
@@ -1377,7 +1236,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
-		"id": 142,
 		"validFrom": 0
 	},
 	{
@@ -1386,7 +1244,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Shin"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Skybreaker", "Surgebinder"],
-		"id": 143,
 		"validFrom": 0
 	},
 	{
@@ -1395,7 +1252,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
-		"id": 144,
 		"validFrom": 0
 	},
 	{
@@ -1404,7 +1260,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"id": 145,
 		"validFrom": 0
 	},
 	{
@@ -1413,7 +1268,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Kharbranthian"],
 		"abilities": ["Old Magic", "Shard Vessel"],
-		"id": 146,
 		"validFrom": 0
 	},
 	{
@@ -1422,7 +1276,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
-		"id": 147,
 		"validFrom": 0
 	},
 	{
@@ -1431,7 +1284,6 @@
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Terris"],
 		"abilities": ["Avatar", "Ferring", "Hemalurgy", "Windwhisperer"],
-		"id": 148,
 		"validFrom": 0
 	},
 	{
@@ -1444,7 +1296,6 @@
 			"Blessing of Presence",
 			"Shapeshifting"
 		],
-		"id": 149,
 		"validFrom": 0
 	},
 	{
@@ -1453,7 +1304,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Cryptic"],
 		"abilities": ["Deadeye", "Lightweaver", "Nahel Bond", "Splinter"],
-		"id": 150,
 		"validFrom": 0
 	},
 	{
@@ -1462,7 +1312,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Lightweaver"],
-		"id": 151,
 		"validFrom": 0
 	},
 	{
@@ -1471,7 +1320,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Reacher"],
 		"abilities": ["Nahel Bond", "Splinter", "Willshaper"],
-		"id": 152,
 		"validFrom": 0
 	},
 	{
@@ -1480,7 +1328,6 @@
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Terris"],
 		"abilities": ["Feruchemist"],
-		"id": 153,
 		"validFrom": 0
 	},
 	{
@@ -1489,7 +1336,6 @@
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Nightmare Painter"],
-		"id": 154,
 		"validFrom": 0
 	},
 	{
@@ -1498,7 +1344,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Pahn Kahl"],
 		"abilities": ["Uninvested"],
-		"id": 155,
 		"validFrom": 0
 	},
 	{
@@ -1507,7 +1352,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"id": 156,
 		"validFrom": 0
 	},
 	{
@@ -1516,7 +1360,6 @@
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Diggen's Point"],
 		"abilities": ["Sprouter"],
-		"id": 157,
 		"validFrom": 0
 	},
 	{
@@ -1525,7 +1368,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
-		"id": 158,
 		"validFrom": 0
 	},
 	{
@@ -1534,7 +1376,6 @@
 		"firstAppearance": "The Lost Metal",
 		"species": ["Kandra", "Unspecified"],
 		"abilities": ["Shapeshifting"],
-		"id": 159,
 		"validFrom": 0
 	},
 	{
@@ -1543,7 +1384,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Del", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"id": 160,
 		"validFrom": 0
 	},
 	{
@@ -1558,7 +1398,6 @@
 			"Shardbearer",
 			"Worldhopper"
 		],
-		"id": 161,
 		"validFrom": 0
 	},
 	{
@@ -1567,7 +1406,6 @@
 		"firstAppearance": "Sixth of the Dusk",
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond"],
-		"id": 162,
 		"validFrom": 0
 	},
 	{
@@ -1576,7 +1414,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
-		"id": 163,
 		"validFrom": 0
 	},
 	{
@@ -1585,7 +1422,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Singer", "Listener"],
 		"abilities": ["Forms of Power", "Knight Radiant", "Willshaper"],
-		"id": 164,
 		"validFrom": 0
 	},
 	{
@@ -1594,7 +1430,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
-		"id": 165,
 		"validFrom": 0
 	},
 	{
@@ -1603,7 +1438,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Hemalurgy", "Mistborn", "Shard Vessel", "Sliver"],
-		"id": 166,
 		"validFrom": 0
 	},
 	{
@@ -1612,7 +1446,6 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Idrian"],
 		"abilities": ["Awakener", "Royal Locks", "Shardbearer", "Worldhopper"],
-		"id": 167,
 		"validFrom": 0
 	},
 	{
@@ -1628,7 +1461,6 @@
 			"Skimmer",
 			"Twinborn"
 		],
-		"id": 168,
 		"validFrom": 0
 	},
 	{
@@ -1644,7 +1476,6 @@
 			"Slider",
 			"Twinborn"
 		],
-		"id": 169,
 		"validFrom": 0
 	},
 	{
@@ -1653,7 +1484,6 @@
 		"firstAppearance": "The Emperor's Soul",
 		"species": ["Human", "Dzhamarian"],
 		"abilities": ["Bloodsealer"],
-		"id": 170,
 		"validFrom": 0
 	},
 	{
@@ -1662,7 +1492,6 @@
 		"firstAppearance": "Shadows for Silence in the Forests of Hell",
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
-		"id": 171,
 		"validFrom": 0
 	},
 	{
@@ -1671,7 +1500,6 @@
 		"firstAppearance": "Wind and Truth",
 		"species": ["Spren", "Ancient"],
 		"abilities": ["Bondsmith", "Nahel Bond"],
-		"id": 172,
 		"validFrom": 0
 	},
 	{
@@ -1680,7 +1508,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Cultivation spren"],
 		"abilities": ["Edgedancer", "Nahel Bond", "Splinter"],
-		"id": 173,
 		"validFrom": 0
 	},
 	{
@@ -1689,7 +1516,6 @@
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Awakener", "Worldhopper"],
-		"id": 174,
 		"validFrom": 0
 	},
 	{
@@ -1698,7 +1524,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Azish"],
 		"abilities": ["Unoathed"],
-		"id": 175,
 		"validFrom": 0
 	},
 	{
@@ -1707,7 +1532,6 @@
 		"firstAppearance": "Dawnshard",
 		"species": ["Sleepless", "Aimian"],
 		"abilities": ["Hordelings"],
-		"id": 176,
 		"validFrom": 0
 	},
 	{
@@ -1716,7 +1540,6 @@
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Torish"],
 		"abilities": ["Cognitive Shadow", "Yoki-Hijo"],
-		"id": 177,
 		"validFrom": 0
 	},
 	{
@@ -1725,7 +1548,6 @@
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Noble"],
 		"abilities": ["Hemalurgy", "Mistborn"],
-		"id": 178,
 		"validFrom": 0
 	},
 	{
@@ -1734,7 +1556,6 @@
 		"firstAppearance": "The Sunlit Man",
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
-		"id": 179,
 		"validFrom": 0
 	},
 	{
@@ -1743,7 +1564,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Singer", "Listener"],
 		"abilities": ["Uninvested"],
-		"id": 180,
 		"validFrom": 20266
 	},
 	{
@@ -1752,7 +1572,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
-		"id": 181,
 		"validFrom": 20266
 	},
 	{
@@ -1761,7 +1580,6 @@
 		"firstAppearance": "Dawnshard",
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
-		"id": 182,
 		"validFrom": 20266
 	},
 	{
@@ -1770,7 +1588,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Splinter"],
-		"id": 183,
 		"validFrom": 20266
 	},
 	{
@@ -1779,7 +1596,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Horse", "Ryshadium"],
 		"abilities": ["Nahel Bond"],
-		"id": 184,
 		"validFrom": 20266
 	},
 	{
@@ -1788,7 +1604,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Horse", "Ryshadium"],
 		"abilities": ["Nahel Bond"],
-		"id": 185,
 		"validFrom": 20266
 	},
 	{
@@ -1797,7 +1612,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"id": 186,
 		"validFrom": 20266
 	},
 	{
@@ -1806,7 +1620,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Unoathed"],
-		"id": 187,
 		"validFrom": 20266
 	},
 	{
@@ -1815,7 +1628,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"id": 188,
 		"validFrom": 20266
 	},
 	{
@@ -1824,7 +1636,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"id": 189,
 		"validFrom": 20266
 	},
 	{
@@ -1833,7 +1644,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"id": 190,
 		"validFrom": 20266
 	},
 	{
@@ -1842,7 +1652,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"id": 191,
 		"validFrom": 20266
 	},
 	{
@@ -1851,7 +1660,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"id": 192,
 		"validFrom": 20266
 	},
 	{
@@ -1860,7 +1668,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"id": 193,
 		"validFrom": 20266
 	},
 	{
@@ -1869,7 +1676,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
 		"abilities": ["Shardbearer"],
-		"id": 194,
 		"validFrom": 20266
 	},
 	{
@@ -1878,7 +1684,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
 		"abilities": ["Shardbearer"],
-		"id": 195,
 		"validFrom": 20266
 	},
 	{
@@ -1887,7 +1692,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
 		"abilities": ["Shardbearer"],
-		"id": 196,
 		"validFrom": 20266
 	},
 	{
@@ -1896,7 +1700,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
-		"id": 197,
 		"validFrom": 20266
 	},
 	{
@@ -1905,7 +1708,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
-		"id": 198,
 		"validFrom": 20266
 	},
 	{
@@ -1919,7 +1721,6 @@
 			"Shardbearer",
 			"Surgebinder"
 		],
-		"id": 199,
 		"validFrom": 20266
 	},
 	{
@@ -1928,7 +1729,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Ashspren"],
 		"abilities": ["Dustbringer", "Nahel Bond", "Splinter"],
-		"id": 200,
 		"validFrom": 20266
 	},
 	{
@@ -1937,7 +1737,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
-		"id": 201,
 		"validFrom": 20266
 	},
 	{
@@ -1946,7 +1745,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
-		"id": 202,
 		"validFrom": 20266
 	},
 	{
@@ -1955,7 +1753,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
-		"id": 203,
 		"validFrom": 20266
 	},
 	{
@@ -1964,7 +1761,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Inkspren"],
 		"abilities": ["Splinter"],
-		"id": 204,
 		"validFrom": 20266
 	},
 	{
@@ -1973,7 +1769,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
-		"id": 205,
 		"validFrom": 20266
 	},
 	{
@@ -1982,7 +1777,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Enlightened", "Nahel Bond", "Splinter", "Truthwatcher"],
-		"id": 206,
 		"validFrom": 20266
 	},
 	{
@@ -1991,7 +1785,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Iriali"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Truthwatcher"],
-		"id": 207,
 		"validFrom": 20266
 	},
 	{
@@ -2000,7 +1793,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
-		"id": 208,
 		"validFrom": 20266
 	},
 	{
@@ -2009,7 +1801,6 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Reacher"],
 		"abilities": ["Splinter"],
-		"id": 209,
 		"validFrom": 20266
 	},
 	{
@@ -2018,7 +1809,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Peakspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Stoneward"],
-		"id": 210,
 		"validFrom": 20266
 	},
 	{
@@ -2027,7 +1817,6 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Human", "Iriali"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Stoneward", "Surgebinder"],
-		"id": 211,
 		"validFrom": 20266
 	},
 	{
@@ -2036,7 +1825,6 @@
 		"firstAppearance": "Wind and Truth",
 		"species": ["Human", "Riran"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Stoneward", "Surgebinder"],
-		"id": 212,
 		"validFrom": 20266
 	},
 	{
@@ -2045,7 +1833,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Surgebinder"],
-		"id": 213,
 		"validFrom": 20266
 	},
 	{
@@ -2054,7 +1841,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Herdazian"],
 		"abilities": ["Uninvested"],
-		"id": 214,
 		"validFrom": 20266
 	},
 	{
@@ -2063,7 +1849,6 @@
 		"firstAppearance": "Wind and Truth",
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"id": 215,
 		"validFrom": 20270
 	},
 	{
@@ -2072,7 +1857,6 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Unknown"],
-		"id": 216,
 		"validFrom": 20270
 	},
 	{
@@ -2081,7 +1865,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"id": 217,
 		"validFrom": 20278
 	},
 	{
@@ -2090,7 +1873,6 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"id": 218,
 		"validFrom": 20278
 	},
 	{
@@ -2099,7 +1881,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Seer", "Worldhopper"],
-		"id": 219,
 		"validFrom": 20278
 	},
 	{
@@ -2108,7 +1889,6 @@
 		"firstAppearance": "The Hero of Ages",
 		"species": ["Human", "Noble"],
 		"abilities": ["Misting", "Seer"],
-		"id": 220,
 		"validFrom": 20278
 	},
 	{
@@ -2117,7 +1897,6 @@
 		"firstAppearance": "The Lost Metal",
 		"species": ["Human", "Elendel"],
 		"abilities": ["Misting", "Rioter"],
-		"id": 221,
 		"validFrom": 20278
 	},
 	{
@@ -2126,7 +1905,6 @@
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Terris"],
 		"abilities": ["Brute", "Coinshot", "Ferring", "Misting", "Twinborn"],
-		"id": 222,
 		"validFrom": 20278
 	},
 	{
@@ -2135,7 +1913,6 @@
 		"firstAppearance": "The Eleventh Metal",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Mistborn"],
-		"id": 223,
 		"validFrom": 20278
 	},
 	{
@@ -2144,7 +1921,6 @@
 		"firstAppearance": "Allomancer Jak and the Pits of Eltania",
 		"species": ["Human", "Elendel"],
 		"abilities": ["Misting", "Tineye"],
-		"id": 224,
 		"validFrom": 20278
 	},
 	{
@@ -2153,7 +1929,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Tineye"],
-		"id": 225,
 		"validFrom": 20278
 	},
 	{
@@ -2162,7 +1937,6 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Smoker"],
-		"id": 226,
 		"validFrom": 20278
 	},
 	{
@@ -2171,7 +1945,14 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
 		"abilities": ["Mistborn"],
-		"id": 227,
+		"validFrom": 20278
+	},
+	{
+		"name": "Felt",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Noble"],
+		"abilities": ["Awakener", "Worldhopper"],
 		"validFrom": 20278
 	}
 ]

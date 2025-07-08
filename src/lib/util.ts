@@ -53,10 +53,36 @@ export function emojiFromOverlap(overlap: OverlapType) {
 	}
 }
 
-export type Character = (typeof CHARACTERS)[number];
+export type Character = {
+	name: string;
+	homeWorld: string;
+	firstAppearance: string;
+	species: string[];
+	abilities: string[];
+	validFrom: number;
+	validUntil?: number;
+};
 export function charactersForDay(day: number): Character[] {
 	return CHARACTERS.filter(
 		(character) =>
-			character.validFrom <= day || character.validFrom === undefined,
+			character.validFrom <= day &&
+			(character.validUntil === undefined || character.validUntil >= day),
 	);
 }
+
+// Memoized because I CAN
+export const charactersForToday: () => Character[] = (() => {
+	let characterMemoDay: number | undefined;
+	let todaysCharacters: Character[] | undefined;
+
+	return () => {
+		if (
+			daysSinceEpoch() !== characterMemoDay ||
+			todaysCharacters === undefined
+		) {
+			characterMemoDay = daysSinceEpoch();
+			todaysCharacters = charactersForDay(characterMemoDay);
+		}
+		return todaysCharacters;
+	};
+})();

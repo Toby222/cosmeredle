@@ -12,7 +12,6 @@ for (const character of CHARACTERS) {
 		firstAppearance: character.firstAppearance,
 		species: character.species,
 		abilities: character.abilities.sort(),
-		id: character.id,
 		validFrom: character.validFrom,
 		validUntil: character.validUntil,
 	});

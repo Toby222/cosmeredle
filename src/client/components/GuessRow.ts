@@ -1,17 +1,19 @@
 import { $ } from "aberdeen";
 import type { StoredGuess } from "client/util";
-import CHARACTERS from "lib/characters.json";
+import { charactersForToday } from "lib/util";
 import { GuessBubble } from "./GuessBubble";
+
+const characters = charactersForToday();
 
 export function GuessRow(guess: StoredGuess): Element | undefined {
 	const guessId = guess[5];
-	const speciesArray = CHARACTERS[guessId].species;
+	const speciesArray = characters[guessId].species;
 	const species = `${speciesArray[0]} (${speciesArray.slice(1).join(" ")})`;
 	return $("div.guessRow", () => {
-		GuessBubble(CHARACTERS[guessId].name, guess[0]);
-		GuessBubble(CHARACTERS[guessId].homeWorld, guess[1]);
-		GuessBubble(CHARACTERS[guessId].firstAppearance, guess[2]);
+		GuessBubble(characters[guessId].name, guess[0]);
+		GuessBubble(characters[guessId].homeWorld, guess[1]);
+		GuessBubble(characters[guessId].firstAppearance, guess[2]);
 		GuessBubble(species, guess[3]);
-		GuessBubble(CHARACTERS[guessId].abilities.join(", "), guess[4]);
+		GuessBubble(characters[guessId].abilities.join(", "), guess[4]);
 	});
 }

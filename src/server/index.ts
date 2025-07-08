@@ -1,4 +1,5 @@
 import {
+	type Character,
 	charactersForDay,
 	daysSinceEpoch,
 	MS_PER_DAY,
@@ -42,14 +43,15 @@ let today = 0;
 function nextDay() {
 	const yesterday = today;
 	const charactersYesterday = charactersForDay(yesterday);
-	const yesterdaysCharacterId = charactersYesterday[todaysCharacterIndex]?.id;
+	const yesterdaysCharacterName =
+		charactersYesterday[todaysCharacterIndex]?.name;
 
 	today++;
 
 	const characters = charactersForDay(today);
 	todaysCharacterIndex = Math.floor(seededRandom() * characters.length);
 
-	if (characters[todaysCharacterIndex].id === yesterdaysCharacterId) {
+	if (characters[todaysCharacterIndex].name === yesterdaysCharacterName) {
 		todaysCharacterIndex = (todaysCharacterIndex + 1) % characters.length;
 	}
 
@@ -105,15 +107,6 @@ function compareCharacters(
 	characterA: Character,
 	characterB: Character,
 ): (keyof typeof Overlap)[] {
-	if (characterA.id === characterB.id)
-		return [
-			Overlap.Full,
-			Overlap.Full,
-			Overlap.Full,
-			Overlap.Full,
-			Overlap.Full,
-		];
-
 	return [
 		characterA.name === characterB.name ? Overlap.Full : Overlap.None,
 		characterA.homeWorld === characterB.homeWorld ? Overlap.Full : Overlap.None,
@@ -160,12 +153,12 @@ Bun.serve({
 			new Response(INDEX_JS_MAP, {
 				headers: { "Content-Type": "application/json" },
 			}),
-		"/guess/:characterId": {
+		"/guess/:characterIdx": {
 			async POST(request) {
-				const { characterId } = request.params;
-				if (!/[0-9]+/.test(characterId)) return Response.error();
+				const { characterIdx } = request.params;
+				if (!/\d+/.test(characterIdx)) return Response.error();
 				const characters = charactersForDay(today);
-				const char = characters[Number.parseInt(characterId, 10)];
+				const char = characters[Number.parseInt(characterIdx, 10)];
 
 				return new Response(
 					JSON.stringify(
@@ -183,6 +176,13 @@ Bun.serve({
 					today: today,
 					tomorrow: (today + 1) * MS_PER_DAY,
 				}),
+				{
+					headers: { "Content-Type": "application/json" },
+				},
 			),
+		"/characters": () =>
+			new Response(JSON.stringify(charactersForDay(today)), {
+				headers: { "Content-Type": "application/json" },
+			}),
 	},
 });

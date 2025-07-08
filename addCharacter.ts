@@ -33,14 +33,12 @@ while (true) {
 			.map((x) => x.trim())
 			.sort(),
 		validFrom: daysSinceEpoch() + 1,
-		id: CHARACTERS.length + newCharacters.length,
 	};
 
 	const existingCharacter = CHARACTERS.find(
 		(char) =>
-			(char.name.toLowerCase() === newCharacter.name.toLowerCase() &&
-				char.validUntil === undefined) ||
-			char.validUntil > daysSinceEpoch(),
+			char.name.toLowerCase() === newCharacter.name.toLowerCase() &&
+			(char.validUntil === undefined || char.validUntil > daysSinceEpoch()),
 	);
 	console.debug(existingCharacter, "existingCharacter");
 
