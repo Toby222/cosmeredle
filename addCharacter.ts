@@ -3,6 +3,14 @@ import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
 import { type Character, daysSinceEpoch } from "lib/util";
 
+function makeWarning(text: string) {
+	return (
+		"\u001b[33m" + // set color to yellow
+		text +
+		"\u001b[39m" // reset color
+	);
+}
+
 async function readLine(prompt?: string): Promise<string> {
 	if (prompt) process.stdout.write(prompt);
 	for await (const line of console) {
@@ -28,12 +36,30 @@ while (true) {
 		id: CHARACTERS.length + newCharacters.length,
 	};
 
-	if (
-		[...CHARACTERS, ...newCharacters].some(
-			(char) => char.name.toLowerCase() === newCharacter.name.toLowerCase(),
-		)
-	) {
-		console.error("Character already exists");
+	const existingCharacter = CHARACTERS.find(
+		(char) =>
+			(char.name.toLowerCase() === newCharacter.name.toLowerCase() &&
+				char.validUntil === undefined) ||
+			char.validUntil > daysSinceEpoch(),
+	);
+	console.debug(existingCharacter, "existingCharacter");
+
+	if (existingCharacter !== undefined) {
+		console.debug("Character exists");
+		if (
+			(
+				await readLine(
+					makeWarning(
+						"Character already exists. Update existing one starting tomorrow? [y/N] ",
+					),
+				)
+			)
+				.toLowerCase()
+				.startsWith("y")
+		) {
+			existingCharacter.validUntil = daysSinceEpoch();
+			newCharacters.push(newCharacter);
+		}
 	} else {
 		newCharacters.push(newCharacter);
 	}
