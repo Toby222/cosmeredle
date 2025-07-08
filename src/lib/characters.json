@@ -432,7 +432,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
-		"abilities": ["Awakener", "Worldhopper"],
+		"abilities": ["Worldhopper"],
 		"id": 46,
 		"validFrom": 0
 	},
@@ -1622,11 +1622,11 @@
 		"species": ["Human", "Terris"],
 		"abilities": [
 			"Coinshot",
+			"Ferring",
 			"Hemalurgy",
 			"Mistborn",
 			"Skimmer",
-			"Twinborn",
-			"Ferring"
+			"Twinborn"
 		],
 		"id": 168,
 		"validFrom": 0
@@ -1638,11 +1638,11 @@
 		"species": ["Human", "Terris"],
 		"abilities": [
 			"Bloodmaker",
+			"Ferring",
 			"Hemalurgy",
 			"Mistborn",
 			"Slider",
-			"Twinborn",
-			"Ferring"
+			"Twinborn"
 		],
 		"id": 169,
 		"validFrom": 0
@@ -1752,8 +1752,8 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
-		"validFrom": 20266,
-		"id": 181
+		"id": 181,
+		"validFrom": 20266
 	},
 	{
 		"name": "Caelinora",
@@ -1761,8 +1761,8 @@
 		"firstAppearance": "Dawnshard",
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
-		"validFrom": 20266,
-		"id": 182
+		"id": 182,
+		"validFrom": 20266
 	},
 	{
 		"name": "Sekeir",
@@ -1770,8 +1770,8 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Splinter"],
-		"validFrom": 20266,
-		"id": 183
+		"id": 183,
+		"validFrom": 20266
 	},
 	{
 		"name": "Sureblood",
@@ -1779,8 +1779,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Horse", "Ryshadium"],
 		"abilities": ["Nahel Bond"],
-		"validFrom": 20266,
-		"id": 184
+		"id": 184,
+		"validFrom": 20266
 	},
 	{
 		"name": "Gallant",
@@ -1788,8 +1788,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Horse", "Ryshadium"],
 		"abilities": ["Nahel Bond"],
-		"validFrom": 20266,
-		"id": 185
+		"id": 185,
+		"validFrom": 20266
 	},
 	{
 		"name": "Aladar",
@@ -1797,8 +1797,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 20266,
-		"id": 186
+		"id": 186,
+		"validFrom": 20266
 	},
 	{
 		"name": "May Aladar",
@@ -1806,8 +1806,8 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Unoathed"],
-		"validFrom": 20266,
-		"id": 187
+		"id": 187,
+		"validFrom": 20266
 	},
 	{
 		"name": "Bethab",
@@ -1815,8 +1815,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20266,
-		"id": 188
+		"id": 188,
+		"validFrom": 20266
 	},
 	{
 		"name": "Hatham",
@@ -1824,8 +1824,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 20266,
-		"id": 189
+		"id": 189,
+		"validFrom": 20266
 	},
 	{
 		"name": "Relis Ruthar",
@@ -1833,8 +1833,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 20266,
-		"id": 190
+		"id": 190,
+		"validFrom": 20266
 	},
 	{
 		"name": "Roion",
@@ -1842,8 +1842,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20266,
-		"id": 191
+		"id": 191,
+		"validFrom": 20266
 	},
 	{
 		"name": "Ruthar",
@@ -1851,8 +1851,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 20266,
-		"id": 192
+		"id": 192,
+		"validFrom": 20266
 	},
 	{
 		"name": "Turinad Sebarial",
@@ -1860,8 +1860,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20266,
-		"id": 193
+		"id": 193,
+		"validFrom": 20266
 	},
 	{
 		"name": "Valam",
@@ -1869,8 +1869,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 20266,
-		"id": 194
+		"id": 194,
+		"validFrom": 20266
 	},
 	{
 		"name": "Hanavanar",
@@ -1878,8 +1878,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 20266,
-		"id": 195
+		"id": 195,
+		"validFrom": 20266
 	},
 	{
 		"name": "Helaran Davar",
@@ -1887,8 +1887,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 20266,
-		"id": 196
+		"id": 196,
+		"validFrom": 20266
 	},
 	{
 		"name": "Jushu Davar",
@@ -1896,8 +1896,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20266,
-		"id": 197
+		"id": 197,
+		"validFrom": 20266
 	},
 	{
 		"name": "Lin Davar",
@@ -1905,8 +1905,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20266,
-		"id": 198
+		"id": 198,
+		"validFrom": 20266
 	},
 	{
 		"name": "Malata",
@@ -1919,8 +1919,8 @@
 			"Shardbearer",
 			"Surgebinder"
 		],
-		"validFrom": 20266,
-		"id": 199
+		"id": 199,
+		"validFrom": 20266
 	},
 	{
 		"name": "Spark",
@@ -1928,8 +1928,8 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Ashspren"],
 		"abilities": ["Dustbringer", "Nahel Bond", "Splinter"],
-		"validFrom": 20266,
-		"id": 200
+		"id": 200,
+		"validFrom": 20266
 	},
 	{
 		"name": "Malise Gevelmar",
@@ -1937,8 +1937,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20266,
-		"id": 201
+		"id": 201,
+		"validFrom": 20266
 	},
 	{
 		"name": "Redin",
@@ -1946,8 +1946,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20266,
-		"id": 202
+		"id": 202,
+		"validFrom": 20266
 	},
 	{
 		"name": "Wikim Davar",
@@ -1955,8 +1955,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20266,
-		"id": 203
+		"id": 203,
+		"validFrom": 20266
 	},
 	{
 		"name": "Blended",
@@ -1964,8 +1964,8 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Inkspren"],
 		"abilities": ["Splinter"],
-		"validFrom": 20266,
-		"id": 204
+		"id": 204,
+		"validFrom": 20266
 	},
 	{
 		"name": "Dreaming-though-Awake",
@@ -1973,8 +1973,8 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
-		"validFrom": 20266,
-		"id": 205
+		"id": 205,
+		"validFrom": 20266
 	},
 	{
 		"name": "Tumi",
@@ -1982,8 +1982,8 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Enlightened", "Nahel Bond", "Splinter", "Truthwatcher"],
-		"validFrom": 20266,
-		"id": 206
+		"id": 206,
+		"validFrom": 20266
 	},
 	{
 		"name": "Ym",
@@ -1991,8 +1991,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Iriali"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Truthwatcher"],
-		"validFrom": 20266,
-		"id": 207
+		"id": 207,
+		"validFrom": 20266
 	},
 	{
 		"name": "Uma",
@@ -2000,8 +2000,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
-		"validFrom": 20266,
-		"id": 208
+		"id": 208,
+		"validFrom": 20266
 	},
 	{
 		"name": "Ico",
@@ -2009,8 +2009,8 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Reacher"],
 		"abilities": ["Splinter"],
-		"validFrom": 20266,
-		"id": 209
+		"id": 209,
+		"validFrom": 20266
 	},
 	{
 		"name": "Ua'pam",
@@ -2018,8 +2018,8 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Peakspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Stoneward"],
-		"validFrom": 20266,
-		"id": 210
+		"id": 210,
+		"validFrom": 20266
 	},
 	{
 		"name": "Zu",
@@ -2027,8 +2027,8 @@
 		"firstAppearance": "Rhythm of War",
 		"species": ["Human", "Iriali"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Stoneward", "Surgebinder"],
-		"validFrom": 20266,
-		"id": 211
+		"id": 211,
+		"validFrom": 20266
 	},
 	{
 		"name": "Dami",
@@ -2036,8 +2036,8 @@
 		"firstAppearance": "Wind and Truth",
 		"species": ["Human", "Riran"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Stoneward", "Surgebinder"],
-		"validFrom": 20266,
-		"id": 212
+		"id": 212,
+		"validFrom": 20266
 	},
 	{
 		"name": "Nohadon",
@@ -2045,8 +2045,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Surgebinder"],
-		"validFrom": 20266,
-		"id": 213
+		"id": 213,
+		"validFrom": 20266
 	},
 	{
 		"name": "Kabsal",
@@ -2054,8 +2054,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Herdazian"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20266,
-		"id": 214
+		"id": 214,
+		"validFrom": 20266
 	},
 	{
 		"name": "Medelantorius",
@@ -2063,8 +2063,8 @@
 		"firstAppearance": "Wind and Truth",
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"validFrom": 20270,
-		"id": 215
+		"id": 215,
+		"validFrom": 20270
 	},
 	{
 		"name": "Frost",
@@ -2072,8 +2072,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Unknown"],
-		"validFrom": 20270,
-		"id": 216
+		"id": 216,
+		"validFrom": 20270
 	},
 	{
 		"name": "Lirin",
@@ -2081,8 +2081,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20278,
-		"id": 217
+		"id": 217,
+		"validFrom": 20278
 	},
 	{
 		"name": "Hesina",
@@ -2090,8 +2090,8 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20278,
-		"id": 218
+		"id": 218,
+		"validFrom": 20278
 	},
 	{
 		"name": "Demoux",
@@ -2099,8 +2099,8 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Seer", "Worldhopper"],
-		"validFrom": 20278,
-		"id": 219
+		"id": 219,
+		"validFrom": 20278
 	},
 	{
 		"name": "Aradan Yomen",
@@ -2108,8 +2108,8 @@
 		"firstAppearance": "The Hero of Ages",
 		"species": ["Human", "Noble"],
 		"abilities": ["Misting", "Seer"],
-		"validFrom": 20278,
-		"id": 220
+		"id": 220,
+		"validFrom": 20278
 	},
 	{
 		"name": "Armal Harms",
@@ -2117,8 +2117,8 @@
 		"firstAppearance": "The Lost Metal",
 		"species": ["Human", "Elendel"],
 		"abilities": ["Misting", "Rioter"],
-		"validFrom": 20278,
-		"id": 221
+		"id": 221,
+		"validFrom": 20278
 	},
 	{
 		"name": "Forch",
@@ -2126,8 +2126,8 @@
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Terris"],
 		"abilities": ["Brute", "Coinshot", "Ferring", "Misting", "Twinborn"],
-		"validFrom": 20278,
-		"id": 222
+		"id": 222,
+		"validFrom": 20278
 	},
 	{
 		"name": "Gemmel",
@@ -2135,8 +2135,8 @@
 		"firstAppearance": "The Eleventh Metal",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Mistborn"],
-		"validFrom": 20278,
-		"id": 223
+		"id": 223,
+		"validFrom": 20278
 	},
 	{
 		"name": "Jak",
@@ -2144,8 +2144,8 @@
 		"firstAppearance": "Allomancer Jak and the Pits of Eltania",
 		"species": ["Human", "Elendel"],
 		"abilities": ["Misting", "Tineye"],
-		"validFrom": 20278,
-		"id": 224
+		"id": 224,
+		"validFrom": 20278
 	},
 	{
 		"name": "Mare",
@@ -2153,8 +2153,8 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Tineye"],
-		"validFrom": 20278,
-		"id": 225
+		"id": 225,
+		"validFrom": 20278
 	},
 	{
 		"name": "Redd",
@@ -2162,8 +2162,8 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Smoker"],
-		"validFrom": 20278,
-		"id": 226
+		"id": 226,
+		"validFrom": 20278
 	},
 	{
 		"name": "Shan Elariel",
@@ -2171,7 +2171,7 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
 		"abilities": ["Mistborn"],
-		"validFrom": 20278,
-		"id": 227
+		"id": 227,
+		"validFrom": 20278
 	}
 ]
