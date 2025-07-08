@@ -432,7 +432,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
-		"abilities": ["Worldhopper"],
+		"abilities": ["Worldhopper", "Awakener"],
 		"id": 46,
 		"validFrom": 0
 	},
