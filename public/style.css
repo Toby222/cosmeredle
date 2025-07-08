@@ -15,8 +15,7 @@
   --light-background: hsl(218, 12%, 18%);
   --extra-padding: 0;
   font-family: sans-serif;
-  background-color: black;
-  background: url("bg.gif");
+  background: url("bg.gif"), black;
   color: white;
 }
 @media (max-aspect-ratio: 1810/1440) {
