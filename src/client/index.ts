@@ -17,6 +17,9 @@ const availableCharacters = proxy(0);
 const answerPending = proxy(true);
 const gameInProgress = proxy(true);
 const shareLink = proxy(false);
+const spoilerWarningDismissed = proxy(
+	localStorage.getItem("spoilerWarningDismissed") === "true",
+);
 const selectedCharacter = proxy<number | undefined>(undefined);
 const now = proxy(Date.now());
 setInterval(() => {
@@ -34,6 +37,12 @@ if (localStorage.getItem("shareLink") === "true") {
 
 observe(() => {
 	localStorage.setItem("shareLink", shareLink.value.toString());
+});
+observe(() => {
+	localStorage.setItem(
+		"spoilerWarningDismissed",
+		spoilerWarningDismissed.value.toString(),
+	);
 });
 
 const nextGame = dates.tomorrow;
@@ -157,9 +166,38 @@ $("main", () => {
 		}
 	});
 
+	if (!spoilerWarningDismissed.value) {
+		$(
+			"div.popupWrapper",
+			{
+				id: "spoilerWarning",
+				click() {
+					spoilerWarningDismissed.value = true;
+				},
+			},
+			() => {
+				$("div.popup", () => {
+					$("span:Spoiler warning!");
+					$("hr");
+					$("span", () => {
+						$(":This game contains spoilers for ");
+						$("em:all", {
+							$color: "red",
+							$fontStyle: "cursive",
+						});
+						$(": of the Cosmere!");
+					});
+					$(
+						"span:Do not continue unless you're caught-up with all books or don't mind potentially getting spoiled.",
+					);
+					$("span:click/tap to close this notice, it will not be shown again");
+				});
+			},
+		);
+	}
 	if (!hideGameOver.value) {
 		$(
-			"div",
+			"div.popupWrapper",
 			{
 				id: "gameOver",
 				".hidden": gameInProgress,

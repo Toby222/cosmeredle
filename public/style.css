@@ -82,7 +82,7 @@ footer {
   justify-content: space-between;
 }
 
-div#gameOver {
+div.popupWrapper {
   position: absolute;
   width: 100vw;
   height: calc(100vh - var(--footer-height));
