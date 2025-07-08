@@ -2052,5 +2052,32 @@
 		"abilities": ["Unknown"],
 		"validFrom": 20270,
 		"id": 216
+	},
+	{
+		"name": "Lirin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20278,
+		"id": 217
+	},
+	{
+		"name": "Hesina",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20278,
+		"id": 218
+	},
+	{
+		"name": "Demoux",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Seer", "Misting", "Worldhopper"],
+		"validFrom": 20278,
+		"id": 219
 	}
 ]
