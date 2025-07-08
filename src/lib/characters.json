@@ -1620,7 +1620,14 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Terris"],
-		"abilities": ["Coinshot", "Hemalurgy", "Mistborn", "Skimmer", "Twinborn", "Ferring"],
+		"abilities": [
+			"Coinshot",
+			"Hemalurgy",
+			"Mistborn",
+			"Skimmer",
+			"Twinborn",
+			"Ferring"
+		],
 		"id": 168,
 		"validFrom": 0
 	},
@@ -1629,7 +1636,14 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Terris"],
-		"abilities": ["Bloodmaker", "Hemalurgy", "Mistborn", "Slider", "Twinborn", "Ferring"],
+		"abilities": [
+			"Bloodmaker",
+			"Hemalurgy",
+			"Mistborn",
+			"Slider",
+			"Twinborn",
+			"Ferring"
+		],
 		"id": 169,
 		"validFrom": 0
 	},
