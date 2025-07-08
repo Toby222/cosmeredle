@@ -12,7 +12,7 @@ async function readLine(prompt?: string): Promise<string> {
 
 const newCharacters: Character[] = [];
 while (true) {
-	newCharacters.push({
+	const newCharacter: Character = {
 		name: await readLine("Name: "),
 		homeWorld: await readLine("Home world: "),
 		firstAppearance: await readLine("First appearance: "),
@@ -22,7 +22,17 @@ while (true) {
 		abilities: (await readLine("Abilities: ")).split(",").map((x) => x.trim()),
 		validFrom: daysSinceEpoch() + 1,
 		id: CHARACTERS.length + newCharacters.length,
-	});
+	};
+
+	if (
+		[...CHARACTERS, ...newCharacters].some(
+			(char) => char.name.toLowerCase() === newCharacter.name.toLowerCase(),
+		)
+	) {
+		console.error("Character already exists");
+	} else {
+		newCharacters.push(newCharacter);
+	}
 
 	if (
 		!(await readLine("Another character? [y/N] ")).toLowerCase().startsWith("y")
