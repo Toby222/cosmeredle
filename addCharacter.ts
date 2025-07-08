@@ -1,3 +1,4 @@
+#! /usr/bin/env bun
 import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
 import { type Character, daysSinceEpoch } from "lib/util";
@@ -19,7 +20,10 @@ while (true) {
 		species: (await readLine("Species (comma-separated race): "))
 			.split(",")
 			.map((x) => x.trim()),
-		abilities: (await readLine("Abilities: ")).split(",").map((x) => x.trim()),
+		abilities: (await readLine("Abilities: "))
+			.split(",")
+			.map((x) => x.trim())
+			.sort(),
 		validFrom: daysSinceEpoch() + 1,
 		id: CHARACTERS.length + newCharacters.length,
 	};

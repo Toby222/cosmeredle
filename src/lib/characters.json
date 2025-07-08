@@ -31,7 +31,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Khlenni"],
-		"abilities": ["Seeker", "Misting"],
+		"abilities": ["Misting", "Seeker"],
 		"id": 3,
 		"validFrom": 0
 	},
@@ -49,7 +49,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Noble"],
-		"abilities": ["Rioter", "Misting"],
+		"abilities": ["Misting", "Rioter"],
 		"id": 5,
 		"validFrom": 0
 	},
@@ -85,7 +85,7 @@
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
-		"abilities": ["Returned", "Lifeless", "Cognitive Shadow"],
+		"abilities": ["Cognitive Shadow", "Lifeless", "Returned"],
 		"id": 9,
 		"validFrom": 0
 	},
@@ -148,7 +148,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
+		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"id": 16,
 		"validFrom": 0
 	},
@@ -175,7 +175,7 @@
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
-		"abilities": ["Returned", "Cognitive Shadow"],
+		"abilities": ["Cognitive Shadow", "Returned"],
 		"id": 19,
 		"validFrom": 0
 	},
@@ -184,7 +184,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
-		"abilities": ["Soother", "Misting"],
+		"abilities": ["Misting", "Soother"],
 		"id": 20,
 		"validFrom": 0
 	},
@@ -193,7 +193,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
+		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"id": 21,
 		"validFrom": 0
 	},
@@ -238,7 +238,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
-		"abilities": ["Smoker", "Misting"],
+		"abilities": ["Misting", "Smoker"],
 		"id": 26,
 		"validFrom": 0
 	},
@@ -247,7 +247,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Windrunner Squire", "Unoathed"],
+		"abilities": ["Unoathed", "Windrunner Squire"],
 		"id": 27,
 		"validFrom": 0
 	},
@@ -256,7 +256,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Unkalaki"],
-		"abilities": ["Sighted", "Shardbearer"],
+		"abilities": ["Shardbearer", "Sighted"],
 		"id": 28,
 		"validFrom": 0
 	},
@@ -284,13 +284,13 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": [
-			"Knight Radiant",
-			"Surgebinder",
 			"Bondsmith",
+			"Knight Radiant",
 			"Old Magic",
-			"Shardbearer",
 			"Shard Vessel",
-			"Sliver"
+			"Shardbearer",
+			"Sliver",
+			"Surgebinder"
 		],
 		"id": 31,
 		"validFrom": 0
@@ -310,11 +310,11 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
 		"abilities": [
-			"Returned",
 			"Awakener",
-			"Worldhopper",
 			"Cognitive Shadow",
-			"Royal Locks"
+			"Returned",
+			"Royal Locks",
+			"Worldhopper"
 		],
 		"id": 33,
 		"validFrom": 0
@@ -324,7 +324,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Cryptic"],
-		"abilities": ["Nahel Bond", "Lightweaver", "Splinter", "Worldhopper"],
+		"abilities": ["Lightweaver", "Nahel Bond", "Splinter", "Worldhopper"],
 		"id": 34,
 		"validFrom": 0
 	},
@@ -414,7 +414,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Singer", "Listener"],
-		"abilities": ["Forms of Power", "Willshaper", "Shardbearer"],
+		"abilities": ["Forms of Power", "Shardbearer", "Willshaper"],
 		"id": 44,
 		"validFrom": 0
 	},
@@ -423,7 +423,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Singer", "Fused"],
-		"abilities": ["Fused", "Fannahn-im"],
+		"abilities": ["Fannahn-im", "Fused"],
 		"id": 45,
 		"validFrom": 0
 	},
@@ -432,7 +432,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
-		"abilities": ["Worldhopper", "Awakener"],
+		"abilities": ["Awakener", "Worldhopper"],
 		"id": 46,
 		"validFrom": 0
 	},
@@ -495,7 +495,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Knight Radiant", "Surgebinder", "Lightweaver"],
+		"abilities": ["Knight Radiant", "Lightweaver", "Surgebinder"],
 		"id": 53,
 		"validFrom": 0
 	},
@@ -513,7 +513,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
-		"abilities": ["Pewterarm", "Misting"],
+		"abilities": ["Misting", "Pewterarm"],
 		"id": 55,
 		"validFrom": 0
 	},
@@ -541,14 +541,14 @@
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Unspecified"],
 		"abilities": [
+			"Awakener",
+			"Dawnshard",
+			"Elantrian",
+			"Knight Radiant",
 			"Lightweaver",
 			"Mistborn",
-			"Awakener",
-			"Elantrian",
-			"Worldhopper",
-			"Dawnshard",
-			"Knight Radiant",
-			"Surgebinder"
+			"Surgebinder",
+			"Worldhopper"
 		],
 		"id": 58,
 		"validFrom": 0
@@ -576,7 +576,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
+		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"id": 61,
 		"validFrom": 0
 	},
@@ -585,7 +585,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Inkspren"],
-		"abilities": ["Nahel Bond", "Splinter", "Elsecaller"],
+		"abilities": ["Elsecaller", "Nahel Bond", "Splinter"],
 		"id": 62,
 		"validFrom": 0
 	},
@@ -612,7 +612,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Knight Radiant", "Surgebinder", "Elsecaller"],
+		"abilities": ["Elsecaller", "Knight Radiant", "Surgebinder"],
 		"id": 65,
 		"validFrom": 0
 	},
@@ -630,7 +630,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
+		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"id": 67,
 		"validFrom": 0
 	},
@@ -640,11 +640,11 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": [
+			"Cognitive Shadow",
+			"Herald",
 			"Knight Radiant",
 			"Surgebinder",
-			"Windrunner",
-			"Cognitive Shadow",
-			"Herald"
+			"Windrunner"
 		],
 		"id": 68,
 		"validFrom": 0
@@ -654,7 +654,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
+		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"id": 69,
 		"validFrom": 0
 	},
@@ -664,11 +664,11 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
 		"abilities": [
-			"Mistborn",
-			"Hemalurgy",
 			"Cognitive Shadow",
-			"Sliver",
-			"Shard Vessel"
+			"Hemalurgy",
+			"Mistborn",
+			"Shard Vessel",
+			"Sliver"
 		],
 		"id": 70,
 		"validFrom": 0
@@ -678,7 +678,7 @@
 		"homeWorld": "Taldain",
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Darksider"],
-		"abilities": ["Worldhopper", "Starmarks"],
+		"abilities": ["Starmarks", "Worldhopper"],
 		"id": 71,
 		"validFrom": 0
 	},
@@ -768,7 +768,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Reshi"],
-		"abilities": ["Knight Radiant", "Surgebinder", "Edgedancer", "Old Magic"],
+		"abilities": ["Edgedancer", "Knight Radiant", "Old Magic", "Surgebinder"],
 		"id": 81,
 		"validFrom": 0
 	},
@@ -777,7 +777,7 @@
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
-		"abilities": ["Returned", "Cognitive Shadow"],
+		"abilities": ["Cognitive Shadow", "Returned"],
 		"id": 82,
 		"validFrom": 0
 	},
@@ -813,7 +813,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Elendel"],
-		"abilities": ["Pulser", "Misting"],
+		"abilities": ["Misting", "Pulser"],
 		"id": 86,
 		"validFrom": 0
 	},
@@ -822,7 +822,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
-		"abilities": ["Seeker", "Misting", "Hemalurgy"],
+		"abilities": ["Hemalurgy", "Misting", "Seeker"],
 		"id": 87,
 		"validFrom": 0
 	},
@@ -831,7 +831,7 @@
 		"homeWorld": "Unspecified",
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Sleepless", "Nagadan"],
-		"abilities": ["Worldhopper", "Nightmare Painter", "Hordelings"],
+		"abilities": ["Hordelings", "Nightmare Painter", "Worldhopper"],
 		"id": 88,
 		"validFrom": 0
 	},
@@ -841,10 +841,10 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Spren", "Cultivation spren"],
 		"abilities": [
+			"Deadeye",
+			"Edgedancer",
 			"Nahel Bond",
 			"Splinter",
-			"Edgedancer",
-			"Deadeye",
 			"Unoathed"
 		],
 		"id": 89,
@@ -855,7 +855,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Hero of Ages",
 		"species": ["Kandra", "Seventh Generation"],
-		"abilities": ["Worldhopper", "Shapeshifting"],
+		"abilities": ["Shapeshifting", "Worldhopper"],
 		"id": 90,
 		"validFrom": 0
 	},
@@ -864,7 +864,15 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Terris"],
-		"abilities": ["Augur", "Bloodmaker", "Twinborn", "Hemalurgy", "Savant"],
+		"abilities": [
+			"Augur",
+			"Bloodmaker",
+			"Ferring",
+			"Hemalurgy",
+			"Misting",
+			"Savant",
+			"Twinborn"
+		],
 		"id": 91,
 		"validFrom": 0
 	},
@@ -903,11 +911,11 @@
 		"abilities": [
 			"Cognitive Shadow",
 			"Herald",
-			"Surgebinder",
-			"Shardbearer",
 			"Knight Radiant",
+			"Shardbearer",
+			"Skybreaker",
 			"Surgebinder",
-			"Skybreaker"
+			"Surgebinder"
 		],
 		"id": 95,
 		"validFrom": 0
@@ -917,7 +925,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
-		"abilities": ["Knight Radiant", "Surgebinder", "Bondsmith"],
+		"abilities": ["Bondsmith", "Knight Radiant", "Surgebinder"],
 		"id": 96,
 		"validFrom": 0
 	},
@@ -935,7 +943,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Wind and Truth",
 		"species": ["Spren", "Ancient"],
-		"abilities": ["Nahel Bond", "Bondsmith"],
+		"abilities": ["Bondsmith", "Nahel Bond"],
 		"id": 98,
 		"validFrom": 0
 	},
@@ -944,7 +952,7 @@
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Sword", "nimi"],
-		"abilities": ["Worldhopper", "Consumes Investiture", "Comedic timing"],
+		"abilities": ["Comedic timing", "Consumes Investiture", "Worldhopper"],
 		"id": 99,
 		"validFrom": 0
 	},
@@ -953,7 +961,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Bondsmith"],
-		"abilities": ["Nahel Bond", "Splinter", "Bondsmith", "Old Magic"],
+		"abilities": ["Bondsmith", "Nahel Bond", "Old Magic", "Splinter"],
 		"id": 100,
 		"validFrom": 0
 	},
@@ -962,7 +970,7 @@
 		"homeWorld": "Komashi",
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Nagadan"],
-		"abilities": ["Nightmare Painter", "Cognitive Shadow"],
+		"abilities": ["Cognitive Shadow", "Nightmare Painter"],
 		"id": 101,
 		"validFrom": 0
 	},
@@ -998,7 +1006,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
+		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"id": 105,
 		"validFrom": 0
 	},
@@ -1007,7 +1015,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Spren", "Cryptic"],
-		"abilities": ["Nahel Bond", "Splinter", "Lightweaver"],
+		"abilities": ["Lightweaver", "Nahel Bond", "Splinter"],
 		"id": 106,
 		"validFrom": 0
 	},
@@ -1034,7 +1042,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Singer", "Fused"],
-		"abilities": ["Fused", "Fannahn-im"],
+		"abilities": ["Fannahn-im", "Fused"],
 		"id": 109,
 		"validFrom": 0
 	},
@@ -1063,11 +1071,11 @@
 		"species": ["Human", "Terris"],
 		"abilities": [
 			"Feruchemist",
-			"Sliver",
-			"Mistborn",
-			"Twinborn",
 			"Hemalurgy",
-			"Savant"
+			"Mistborn",
+			"Savant",
+			"Sliver",
+			"Twinborn"
 		],
 		"id": 112,
 		"validFrom": 0
@@ -1100,7 +1108,7 @@
 		"homeWorld": "Sel",
 		"firstAppearance": "Secret History",
 		"species": ["Human", "Unspecified"],
-		"abilities": ["Elantrian", "Awakener", "Worldhopper"],
+		"abilities": ["Awakener", "Elantrian", "Worldhopper"],
 		"id": 115,
 		"validFrom": 0
 	},
@@ -1118,7 +1126,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Unkalaki"],
-		"abilities": ["Windrunner Squire", "Sighted"],
+		"abilities": ["Sighted", "Windrunner Squire"],
 		"id": 117,
 		"validFrom": 0
 	},
@@ -1199,7 +1207,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
+		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"id": 126,
 		"validFrom": 0
 	},
@@ -1210,9 +1218,9 @@
 		"species": ["Human", "Veden"],
 		"abilities": [
 			"Knight Radiant",
-			"Surgebinder",
 			"Lightweaver",
-			"Shardbearer"
+			"Shardbearer",
+			"Surgebinder"
 		],
 		"id": 127,
 		"validFrom": 0
@@ -1223,12 +1231,12 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
 		"abilities": [
-			"Returned",
 			"Awakener",
-			"Worldhopper",
 			"Cognitive Shadow",
+			"Returned",
+			"Royal Locks",
 			"Shardbearer",
-			"Royal Locks"
+			"Worldhopper"
 		],
 		"id": 128,
 		"validFrom": 0
@@ -1247,7 +1255,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Bondsmith"],
-		"abilities": ["Nahel Bond", "Splinter", "Bondsmith"],
+		"abilities": ["Bondsmith", "Nahel Bond", "Splinter"],
 		"id": 130,
 		"validFrom": 0
 	},
@@ -1257,11 +1265,11 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Azish"],
 		"abilities": [
+			"Dawnshard",
 			"Knight Radiant",
+			"Skybreaker",
 			"Surgebinder",
 			"Windrunner",
-			"Skybreaker",
-			"Dawnshard",
 			"Worldhopper"
 		],
 		"id": 131,
@@ -1308,7 +1316,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
-		"abilities": ["Tineye", "Misting", "Mistborn", "Hemalurgy", "Savant"],
+		"abilities": ["Hemalurgy", "Mistborn", "Misting", "Savant", "Tineye"],
 		"id": 136,
 		"validFrom": 0
 	},
@@ -1326,7 +1334,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Wind and Truth",
 		"species": ["Spren", "Ancient"],
-		"abilities": ["Nahel Bond", "Bondsmith"],
+		"abilities": ["Bondsmith", "Nahel Bond"],
 		"id": 138,
 		"validFrom": 0
 	},
@@ -1336,11 +1344,11 @@
 		"firstAppearance": "The Way of Kings",
 		"species": ["Spren", "Bondsmith"],
 		"abilities": [
-			"Nahel Bond",
-			"Splinter",
 			"Bondsmith",
+			"Cognitive Shadow",
+			"Nahel Bond",
 			"Sliver",
-			"Cognitive Shadow"
+			"Splinter"
 		],
 		"id": 139,
 		"validFrom": 0
@@ -1350,7 +1358,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
-		"abilities": ["Tineye", "Misting"],
+		"abilities": ["Misting", "Tineye"],
 		"id": 140,
 		"validFrom": 0
 	},
@@ -1359,7 +1367,7 @@
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
-		"abilities": ["Returned", "Awakener", "Cognitive Shadow"],
+		"abilities": ["Awakener", "Cognitive Shadow", "Returned"],
 		"id": 141,
 		"validFrom": 0
 	},
@@ -1377,7 +1385,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Shin"],
-		"abilities": ["Knight Radiant", "Surgebinder", "Skybreaker", "Shardbearer"],
+		"abilities": ["Knight Radiant", "Shardbearer", "Skybreaker", "Surgebinder"],
 		"id": 143,
 		"validFrom": 0
 	},
@@ -1386,7 +1394,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
+		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"id": 144,
 		"validFrom": 0
 	},
@@ -1422,7 +1430,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Terris"],
-		"abilities": ["Windwhisperer", "Ferring", "Hemalurgy", "Avatar"],
+		"abilities": ["Avatar", "Ferring", "Hemalurgy", "Windwhisperer"],
 		"id": 148,
 		"validFrom": 0
 	},
@@ -1432,8 +1440,8 @@
 		"firstAppearance": "The Final Empire",
 		"species": ["Kandra", "Third Generation"],
 		"abilities": [
-			"Blessing of Presence",
 			"Blessing of Potency",
+			"Blessing of Presence",
 			"Shapeshifting"
 		],
 		"id": 149,
@@ -1444,7 +1452,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Cryptic"],
-		"abilities": ["Nahel Bond", "Splinter", "Lightweaver", "Deadeye"],
+		"abilities": ["Deadeye", "Lightweaver", "Nahel Bond", "Splinter"],
 		"id": 150,
 		"validFrom": 0
 	},
@@ -1544,11 +1552,11 @@
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
 		"abilities": [
-			"Returned",
 			"Awakener",
-			"Worldhopper",
 			"Cognitive Shadow",
-			"Shardbearer"
+			"Returned",
+			"Shardbearer",
+			"Worldhopper"
 		],
 		"id": 161,
 		"validFrom": 0
@@ -1567,7 +1575,7 @@
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
-		"abilities": ["Cognitive Shadow", "Shardbearer", "Herald", "Surgebinder"],
+		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"id": 163,
 		"validFrom": 0
 	},
@@ -1576,7 +1584,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Singer", "Listener"],
-		"abilities": ["Forms of Power", "Willshaper", "Knight Radiant"],
+		"abilities": ["Forms of Power", "Knight Radiant", "Willshaper"],
 		"id": 164,
 		"validFrom": 0
 	},
@@ -1594,7 +1602,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
-		"abilities": ["Mistborn", "Hemalurgy", "Sliver", "Shard Vessel"],
+		"abilities": ["Hemalurgy", "Mistborn", "Shard Vessel", "Sliver"],
 		"id": 166,
 		"validFrom": 0
 	},
@@ -1603,7 +1611,7 @@
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Idrian"],
-		"abilities": ["Royal Locks", "Awakener", "Shardbearer", "Worldhopper"],
+		"abilities": ["Awakener", "Royal Locks", "Shardbearer", "Worldhopper"],
 		"id": 167,
 		"validFrom": 0
 	},
@@ -1612,7 +1620,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Terris"],
-		"abilities": ["Mistborn", "Twinborn", "Hemalurgy", "Coinshot", "Skimmer"],
+		"abilities": ["Coinshot", "Hemalurgy", "Mistborn", "Skimmer", "Twinborn", "Ferring"],
 		"id": 168,
 		"validFrom": 0
 	},
@@ -1621,7 +1629,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Terris"],
-		"abilities": ["Bloodmaker", "Slider", "Twinborn", "Hemalurgy", "Mistborn"],
+		"abilities": ["Bloodmaker", "Hemalurgy", "Mistborn", "Slider", "Twinborn", "Ferring"],
 		"id": 169,
 		"validFrom": 0
 	},
@@ -1648,7 +1656,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Wind and Truth",
 		"species": ["Spren", "Ancient"],
-		"abilities": ["Nahel Bond", "Bondsmith"],
+		"abilities": ["Bondsmith", "Nahel Bond"],
 		"id": 172,
 		"validFrom": 0
 	},
@@ -1657,7 +1665,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Cultivation spren"],
-		"abilities": ["Nahel Bond", "Splinter", "Edgedancer"],
+		"abilities": ["Edgedancer", "Nahel Bond", "Splinter"],
 		"id": 173,
 		"validFrom": 0
 	},
@@ -1666,7 +1674,7 @@
 		"homeWorld": "Yolen",
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Dragon", "Unspecified"],
-		"abilities": ["Worldhopper", "Awakener"],
+		"abilities": ["Awakener", "Worldhopper"],
 		"id": 174,
 		"validFrom": 0
 	},
@@ -1693,7 +1701,7 @@
 		"homeWorld": "Komashi",
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Torish"],
-		"abilities": ["Yoki-Hijo", "Cognitive Shadow"],
+		"abilities": ["Cognitive Shadow", "Yoki-Hijo"],
 		"id": 177,
 		"validFrom": 0
 	},
@@ -1702,7 +1710,7 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Noble"],
-		"abilities": ["Mistborn", "Hemalurgy"],
+		"abilities": ["Hemalurgy", "Mistborn"],
 		"id": 178,
 		"validFrom": 0
 	},
@@ -1892,10 +1900,10 @@
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Veden"],
 		"abilities": [
-			"Knight Radiant",
-			"Surgebinder",
 			"Dustbringer",
-			"Shardbearer"
+			"Knight Radiant",
+			"Shardbearer",
+			"Surgebinder"
 		],
 		"validFrom": 20266,
 		"id": 199
@@ -1905,7 +1913,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Ashspren"],
-		"abilities": ["Nahel Bond", "Splinter", "Dustbringer"],
+		"abilities": ["Dustbringer", "Nahel Bond", "Splinter"],
 		"validFrom": 20266,
 		"id": 200
 	},
@@ -1959,7 +1967,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Mistspren"],
-		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher", "Enlightened"],
+		"abilities": ["Enlightened", "Nahel Bond", "Splinter", "Truthwatcher"],
 		"validFrom": 20266,
 		"id": 206
 	},
@@ -2004,7 +2012,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Human", "Iriali"],
-		"abilities": ["Knight Radiant", "Surgebinder", "Stoneward", "Shardbearer"],
+		"abilities": ["Knight Radiant", "Shardbearer", "Stoneward", "Surgebinder"],
 		"validFrom": 20266,
 		"id": 211
 	},
@@ -2013,7 +2021,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": "Wind and Truth",
 		"species": ["Human", "Riran"],
-		"abilities": ["Knight Radiant", "Surgebinder", "Stoneward", "Shardbearer"],
+		"abilities": ["Knight Radiant", "Shardbearer", "Stoneward", "Surgebinder"],
 		"validFrom": 20266,
 		"id": 212
 	},
@@ -2076,8 +2084,80 @@
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
-		"abilities": ["Seer", "Misting", "Worldhopper"],
+		"abilities": ["Misting", "Seer", "Worldhopper"],
 		"validFrom": 20278,
 		"id": 219
+	},
+	{
+		"name": "Aradan Yomen",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Hero of Ages",
+		"species": ["Human", "Noble"],
+		"abilities": ["Misting", "Seer"],
+		"validFrom": 20278,
+		"id": 220
+	},
+	{
+		"name": "Armal Harms",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Lost Metal",
+		"species": ["Human", "Elendel"],
+		"abilities": ["Misting", "Rioter"],
+		"validFrom": 20278,
+		"id": 221
+	},
+	{
+		"name": "Forch",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Bands of Mourning",
+		"species": ["Human", "Terris"],
+		"abilities": ["Brute", "Coinshot", "Ferring", "Misting", "Twinborn"],
+		"validFrom": 20278,
+		"id": 222
+	},
+	{
+		"name": "Gemmel",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Eleventh Metal",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Mistborn"],
+		"validFrom": 20278,
+		"id": 223
+	},
+	{
+		"name": "Jak",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "Allomancer Jak and the Pits of Eltania",
+		"species": ["Human", "Elendel"],
+		"abilities": ["Misting", "Tineye"],
+		"validFrom": 20278,
+		"id": 224
+	},
+	{
+		"name": "Mare",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Misting", "Tineye"],
+		"validFrom": 20278,
+		"id": 225
+	},
+	{
+		"name": "Redd",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Skaa"],
+		"abilities": ["Misting", "Smoker"],
+		"validFrom": 20278,
+		"id": 226
+	},
+	{
+		"name": "Shan Elariel",
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Human", "Noble"],
+		"abilities": ["Mistborn"],
+		"validFrom": 20278,
+		"id": 227
 	}
 ]
