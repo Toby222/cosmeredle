@@ -640,7 +640,8 @@
 		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
 		"name": ["Kwaan"],
@@ -850,7 +851,8 @@
 		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Worldhopper"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
 		"name": ["Night"],
@@ -1873,7 +1875,8 @@
 		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"validFrom": 20270
+		"validFrom": 20270,
+		"validUntil": 20294
 	},
 	{
 		"name": ["Frost"],
@@ -2461,6 +2464,78 @@
 		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Unkalaki"],
 		"abilities": ["Sighted", "Windrunner Squire"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Illistandrista (Starling)"],
+		"homeWorld": "Yolen",
+		"firstAppearance": ["Isles of the Emberdark"],
+		"species": ["Dragon"],
+		"abilities": ["Immortal", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Medelantorius"],
+		"homeWorld": "Yolen",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
+		"species": ["Dragon"],
+		"abilities": ["Immortal", "Shapeshifter", "Shard Vessel"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Koravellium", "Avast"],
+		"homeWorld": "Yolen",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
+		"species": ["Dragon"],
+		"abilities": ["Immortal", "Shapeshifter", "Shard Vessel"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Nazrilof (Nazh)"],
+		"homeWorld": "Threnody",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
+		"species": ["Shade"],
+		"abilities": ["Cognitive Shadow", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Aditil"],
+		"homeWorld": "Dhatri",
+		"firstAppearance": ["Isles of the Emberdark"],
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Aetherbound", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Sanvith", "Prasanva", "Maahik", "va", "Sila", "(TwinSoul)"],
+		"homeWorld": "Dhatri",
+		"firstAppearance": ["The Lost Metal", "Mistborn Era 2"],
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Aetherbound", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Eddlin"],
+		"homeWorld": "Silverlight",
+		"firstAppearance": ["Isles of the Emberdark"],
+		"species": ["Human", "Vaxilian"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["ZeetZi"],
+		"homeWorld": "The Grand Apparatus",
+		"firstAppearance": ["Isles of the Emberdark"],
+		"species": ["Lawnark"],
+		"abilities": ["Unnamed electricity power"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Chrysalis"],
+		"homeWorld": "Unknown",
+		"firstAppearance": ["Isles of the Emberdark"],
+		"species": ["Sleepless"],
+		"abilities": ["Hordelings", "Worldhopper"],
 		"validFrom": 20295
 	}
 ]

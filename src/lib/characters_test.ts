@@ -55,8 +55,7 @@ test("No duplicates", () => {
 });
 
 const expectedSoloHomeworlds = [
-	"Silverlight", // Iyatil
-	"Unknown", // Masaka
+	"The Grand Apparatus", // ZeetZi
 ];
 test("Proper homeworld occurence count", () => {
 	const homeWorlds = characters.map((character) => character.homeWorld);
@@ -109,11 +108,15 @@ const expectedUniqueSpecies = [
 	"Human Dzhamarian", // Weedfingers
 	"Spren Ashspren", // Spark
 	"Sleepless Nagadan", // Masaka
+	"Sleepless", // Chrysalis
 	"Sword nimi", // Nightblood
 	"Kandra Seventh Generation", // MeLaan
 	"Kandra Unspecified", // Ulaam
 	"Human MaiPon", // Wan ShaiLu
 	"Sho Del", // Uli Da
+	"Shade", // Nazh
+	"Human Vaxilian", // Eddlin
+	"Lawnark", // Zeetzi
 ];
 test("Proper species occurence count", () => {
 	const allSpecies = characters.map((character) => character.species.join(" "));
@@ -153,6 +156,7 @@ const expectedUniqueAbilities: string[] = [
 	"Starcarved", // Khriss
 	"Precognition", // Sak
 	"Duralumin Gnat", // Dumad
+	"Unnamed electricity power", // ZeetZi
 ];
 test("Proper ability occurence count", () => {
 	const abilities = characters.flatMap((character) => character.abilities);
