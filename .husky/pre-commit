@@ -1,2 +1,2 @@
 bun test
-bun run lint
+bun run lint --error-on-warnings
