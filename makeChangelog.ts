@@ -1,10 +1,12 @@
 #! /usr/bin/env bun
 import {
+	type Character,
+	charactersForDay,
 	charactersMatch,
 	daysSinceEpoch,
-	charactersForDay,
-	type Character,
 	formatSpecies,
+	formatTime,
+	MS_PER_DAY,
 } from "lib/util";
 
 const from = daysSinceEpoch();
@@ -35,8 +37,10 @@ const removedString = removed.map(
 const addedString = added.map(
 	(character) => `+ ${characterToDiffLine(character)}`,
 );
-const changeLog = [...removedString, ...addedString]
-	.sort((a, b) => a.slice(2).localeCompare(b.slice(2)))
-	.join("\n");
+const changeLog =
+	`- ${daysSinceEpoch()} ; ${new Date(daysSinceEpoch() * MS_PER_DAY).toISOString()}\n+ ${daysSinceEpoch() + 1} ; ${new Date(MS_PER_DAY * (daysSinceEpoch() + 1)).toISOString()}\n` +
+	[...removedString, ...addedString]
+		.sort((a, b) => a.slice(2).localeCompare(b.slice(2)))
+		.join("\n");
 
 await Bun.file("changelog.diff").write(changeLog);

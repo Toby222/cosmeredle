@@ -2,10 +2,11 @@
 import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
 import {
-	compareCharacters,
-	Overlap,
-	daysSinceEpoch,
 	type Character,
+	compareCharacters,
+	daysSinceEpoch,
+	getSeries,
+	Overlap,
 } from "lib/util";
 
 const characterCSV = await Bun.file("./cosmeredle.csv").text();
@@ -22,7 +23,7 @@ const characters = characterCSV
 		return {
 			name: name.split(" "),
 			homeWorld,
-			firstAppearance,
+			firstAppearance: getSeries(firstAppearance),
 			species: [speciesGroup.species, speciesGroup.subspecies],
 			abilities: abilitiesRaw
 				.join(",")
