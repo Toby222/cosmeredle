@@ -4,6 +4,7 @@ import {
 	daysSinceEpoch,
 	charactersForDay,
 	type Character,
+	formatSpecies,
 } from "lib/util";
 
 const from = daysSinceEpoch();
@@ -25,17 +26,14 @@ const added = toCharacters.filter(
 );
 
 function characterToDiffLine(character: Character) {
-	let characterSpecies = character.species[0];
-	if (character.species.length > 1)
-		characterSpecies += ` (${character.species[1]})`;
-	return `${character.name.join(" ")} ; ${character.homeWorld} ; ${character.firstAppearance} ; ${characterSpecies} ; ${character.abilities.join(", ")}`;
+	return `${character.name.join(" ")} ; ${character.homeWorld} ; ${character.firstAppearance} ; ${formatSpecies(character.species)} ; ${character.abilities.join(", ")}`;
 }
 
 const removedString = removed.map(
-	(character) => "- " + characterToDiffLine(character),
+	(character) => `- ${characterToDiffLine(character)}`,
 );
 const addedString = added.map(
-	(character) => "+ " + characterToDiffLine(character),
+	(character) => `+ ${characterToDiffLine(character)}`,
 );
 const changeLog = [...removedString, ...addedString]
 	.sort((a, b) => a.slice(2).localeCompare(b.slice(2)))

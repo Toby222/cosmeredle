@@ -37,9 +37,61 @@ export const Overlap = {
 } as const;
 export type OverlapType = keyof typeof Overlap;
 
+export function formatSpecies(species: string[]) {
+	if (species.length === 1) {
+		return species[0];
+	}
+	if (species.length > 2) {
+		throw new Error(`Species has too many parts: ${species.join(", ")}`);
+	}
+	return `${species[0]} (${species[1]})`;
+}
+
+export function getSeries(book: string): [string] | [string, string] {
+	switch (book) {
+		case "The Sunlit Man":
+		case "Yumi and the Nightmare Painter":
+		case "Tress of the Emerald Sea":
+		case "Warbreaker":
+		case "Shadows for Silence in the Forests of Hell":
+		case "White Sand":
+		case "Sixth of the Dusk":
+		case "Isles of the Emberdark":
+			return [book];
+
+		case "The Emperor's Soul":
+		case "Elantris":
+			return [book, "Elantris"];
+
+		case "Edgedancer":
+		case "The Way of Kings":
+		case "Words of Radiance":
+		case "Oathbringer":
+		case "Dawnshard":
+		case "Rhythm of War":
+		case "Wind and Truth":
+			return [book, "Stormlight Archive"];
+
+		case "The Final Empire":
+		case "The Well of Ascension":
+		case "The Hero of Ages":
+		case "Secret History":
+		case "The Eleventh Metal":
+			return [book, "Mistborn Era 1"];
+
+		case "The Alloy of Law":
+		case "Shadows of Self":
+		case "The Bands of Mourning":
+		case "The Lost Metal":
+		case "Allomancer Jak and the Pits of Eltania":
+			return [book, "Mistborn Era 2"];
+	}
+	throw new Error(`Unknown book ${book}`);
+}
+
 export const MS_PER_DAY = 24 * 60 * 60 * 1000;
 export function daysSinceEpoch() {
-	return Math.floor(Date.now() / MS_PER_DAY) + 21;
+	return Math.floor(Date.now() / MS_PER_DAY);
 }
 
 export function emojiFromOverlap(overlap: OverlapType) {
@@ -56,7 +108,7 @@ export function emojiFromOverlap(overlap: OverlapType) {
 export type Character = {
 	name: string[];
 	homeWorld: string;
-	firstAppearance: string;
+	firstAppearance: string[];
 	species: string[];
 	abilities: string[];
 	validFrom: number;
@@ -126,6 +178,22 @@ function fuzzyCompareArray(
 			: Overlap.Partial;
 }
 
+function compareFirstAppearance(
+	firstAppearanceA: string[],
+	firstAppearanceB: string[],
+): OverlapType {
+	if (firstAppearanceA.length !== firstAppearanceB.length) {
+		return Overlap.None;
+	}
+	if (firstAppearanceA[0] === firstAppearanceB[0]) {
+		return Overlap.Full;
+	}
+	if (firstAppearanceA[1] === firstAppearanceB[1]) {
+		return Overlap.Partial;
+	}
+	return Overlap.None;
+}
+
 export function compareCharacters(
 	characterA: Character,
 	characterB: Character,
@@ -133,9 +201,10 @@ export function compareCharacters(
 	return [
 		compareName(characterA.name, characterB.name),
 		characterA.homeWorld === characterB.homeWorld ? Overlap.Full : Overlap.None,
-		characterA.firstAppearance === characterB.firstAppearance
-			? Overlap.Full
-			: Overlap.None,
+		compareFirstAppearance(
+			characterA.firstAppearance,
+			characterB.firstAppearance,
+		),
 		compareSpecies(characterA.species, characterB.species),
 		compareAbilities(characterA.abilities, characterB.abilities),
 	];

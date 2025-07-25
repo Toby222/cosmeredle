@@ -2,7 +2,7 @@
 	{
 		"name": ["Adolin", "Kholin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer", "Unoathed"],
 		"validFrom": 0
@@ -10,7 +10,7 @@
 	{
 		"name": ["Adonalsium-Will-Remember-Our-Plight-Eventually"],
 		"homeWorld": "Canticle",
-		"firstAppearance": "The Sunlit Man",
+		"firstAppearance": ["The Sunlit Man"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -18,7 +18,7 @@
 	{
 		"name": ["Akane"],
 		"homeWorld": "Komashi",
-		"firstAppearance": "Yumi and the Nightmare Painter",
+		"firstAppearance": ["Yumi and the Nightmare Painter"],
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Nightmare Painter"],
 		"validFrom": 0
@@ -26,7 +26,7 @@
 	{
 		"name": ["Alendi"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Khlenni"],
 		"abilities": ["Misting", "Seeker"],
 		"validFrom": 0
@@ -34,7 +34,7 @@
 	{
 		"name": ["Allik", "Neverfar"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Bands of Mourning",
+		"firstAppearance": ["The Bands of Mourning", "Mistborn Era 2"],
 		"species": ["Human", "Malwish"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -42,7 +42,7 @@
 	{
 		"name": ["Allrianne", "Cett"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Well of Ascension",
+		"firstAppearance": ["The Well of Ascension", "Mistborn Era 1"],
 		"species": ["Human", "Noble"],
 		"abilities": ["Misting", "Rioter"],
 		"validFrom": 0
@@ -50,7 +50,7 @@
 	{
 		"name": ["Amaram"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 0
@@ -58,7 +58,7 @@
 	{
 		"name": ["Ann"],
 		"homeWorld": "Lumar",
-		"firstAppearance": "Tress of the Emerald Sea",
+		"firstAppearance": ["Tress of the Emerald Sea"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -66,7 +66,7 @@
 	{
 		"name": ["Arclomedarian"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Edgedancer",
+		"firstAppearance": ["Edgedancer", "Stormlight Archive"],
 		"species": ["Sleepless", "Aimian"],
 		"abilities": ["Hordelings"],
 		"validFrom": 0
@@ -74,7 +74,7 @@
 	{
 		"name": ["Arsteel"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Cognitive Shadow", "Lifeless", "Returned"],
 		"validFrom": 0
@@ -82,7 +82,7 @@
 	{
 		"name": ["Ashravan"],
 		"homeWorld": "Sel",
-		"firstAppearance": "The Emperor's Soul",
+		"firstAppearance": ["The Emperor's Soul", "Elantris"],
 		"species": ["Human", "Grand"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -90,7 +90,7 @@
 	{
 		"name": ["Ashweather", "Cett"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Well of Ascension",
+		"firstAppearance": ["The Well of Ascension", "Mistborn Era 1"],
 		"species": ["Human", "Noble"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -98,7 +98,7 @@
 	{
 		"name": ["Ati"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 0
@@ -106,7 +106,7 @@
 	{
 		"name": ["Auxiliary"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Highspren"],
 		"abilities": ["Nahel Bond", "Skybreaker", "Splinter", "Worldhopper"],
 		"validFrom": 0
@@ -114,7 +114,7 @@
 	{
 		"name": ["Axies"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Siah", "Aimian"],
 		"abilities": ["Curse of Kind"],
 		"validFrom": 0
@@ -122,7 +122,7 @@
 	{
 		"name": ["Ba-Ado-Mishram"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Unmade"],
 		"abilities": ["Splinter"],
 		"validFrom": 0
@@ -130,7 +130,7 @@
 	{
 		"name": ["Battar"],
 		"homeWorld": "Ashyn",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"validFrom": 0
@@ -138,7 +138,7 @@
 	{
 		"name": ["Beldre"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Hero of Ages",
+		"firstAppearance": ["The Hero of Ages", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Coinshot", "Misting"],
 		"validFrom": 0
@@ -146,7 +146,7 @@
 	{
 		"name": ["Bluefingers"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Pahn Kahl"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -154,7 +154,7 @@
 	{
 		"name": ["Blushweaver"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Cognitive Shadow", "Returned"],
 		"validFrom": 0
@@ -162,7 +162,7 @@
 	{
 		"name": ["Breeze"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Noble"],
 		"abilities": ["Misting", "Soother"],
 		"validFrom": 0
@@ -170,7 +170,7 @@
 	{
 		"name": ["Chanarach"],
 		"homeWorld": "Ashyn",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"validFrom": 0
@@ -178,7 +178,7 @@
 	{
 		"name": ["Charlie"],
 		"homeWorld": "Lumar",
-		"firstAppearance": "Tress of the Emerald Sea",
+		"firstAppearance": ["Tress of the Emerald Sea"],
 		"species": ["Human", "Diggen's Point"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -186,7 +186,7 @@
 	{
 		"name": ["Chesterton", "Divide"],
 		"homeWorld": "Threnody",
-		"firstAppearance": "Shadows for Silence in the Forests of Hell",
+		"firstAppearance": ["Shadows for Silence in the Forests of Hell"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -194,7 +194,7 @@
 	{
 		"name": ["Chiri-Chiri"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Larkin"],
 		"abilities": ["Consumes Investiture"],
 		"validFrom": 0
@@ -202,7 +202,7 @@
 	{
 		"name": ["Cinder", "King"],
 		"homeWorld": "Canticle",
-		"firstAppearance": "The Sunlit Man",
+		"firstAppearance": ["The Sunlit Man"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Charred"],
 		"validFrom": 0
@@ -210,7 +210,7 @@
 	{
 		"name": ["Clubs"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Smoker"],
 		"validFrom": 0
@@ -218,7 +218,7 @@
 	{
 		"name": ["Colot"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Unoathed", "Windrunner Squire"],
 		"validFrom": 0
@@ -226,7 +226,7 @@
 	{
 		"name": ["Cord"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Human", "Unkalaki"],
 		"abilities": ["Shardbearer", "Sighted"],
 		"validFrom": 0
@@ -234,7 +234,7 @@
 	{
 		"name": ["Crow"],
 		"homeWorld": "Lumar",
-		"firstAppearance": "Tress of the Emerald Sea",
+		"firstAppearance": ["Tress of the Emerald Sea"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Spore Eater"],
 		"validFrom": 0
@@ -242,7 +242,7 @@
 	{
 		"name": ["Dabbid"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -250,7 +250,7 @@
 	{
 		"name": ["Dalinar", "Kholin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": [
 			"Bondsmith",
@@ -266,7 +266,7 @@
 	{
 		"name": ["Demid"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Singer", "Listener"],
 		"abilities": ["Forms of Power"],
 		"validFrom": 0
@@ -274,7 +274,7 @@
 	{
 		"name": ["Denth"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Unspecified"],
 		"abilities": [
 			"Awakener",
@@ -288,7 +288,7 @@
 	{
 		"name": ["Design"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Cryptic"],
 		"abilities": ["Lightweaver", "Nahel Bond", "Splinter", "Worldhopper"],
 		"validFrom": 0
@@ -296,7 +296,7 @@
 	{
 		"name": ["Dilaf"],
 		"homeWorld": "Sel",
-		"firstAppearance": "Elantris",
+		"firstAppearance": ["Elantris", "Elantris"],
 		"species": ["Human", "Fjordell"],
 		"abilities": ["Dakhor"],
 		"validFrom": 0
@@ -304,7 +304,7 @@
 	{
 		"name": ["Dockson"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -312,7 +312,7 @@
 	{
 		"name": ["Dusk"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Sixth of the Dusk",
+		"firstAppearance": ["Sixth of the Dusk"],
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond"],
 		"validFrom": 0,
@@ -321,7 +321,7 @@
 	{
 		"name": ["Edgli"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 0
@@ -329,7 +329,7 @@
 	{
 		"name": ["Edwarn", "Ladrian"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Human", "Elendel"],
 		"abilities": ["Hemalurgy"],
 		"validFrom": 0,
@@ -338,7 +338,7 @@
 	{
 		"name": ["El"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 0
@@ -346,7 +346,7 @@
 	{
 		"name": ["Elegy"],
 		"homeWorld": "Canticle",
-		"firstAppearance": "The Sunlit Man",
+		"firstAppearance": ["The Sunlit Man"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Charred"],
 		"validFrom": 0
@@ -354,7 +354,7 @@
 	{
 		"name": ["Elend", "Venture"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Noble"],
 		"abilities": ["Mistborn"],
 		"validFrom": 0
@@ -362,7 +362,7 @@
 	{
 		"name": ["Elhokar", "Kholin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Lightweaver", "Shardbearer"],
 		"validFrom": 0
@@ -370,7 +370,7 @@
 	{
 		"name": ["Eshonai"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Singer", "Listener"],
 		"abilities": ["Forms of Power", "Shardbearer", "Willshaper"],
 		"validFrom": 0
@@ -378,7 +378,7 @@
 	{
 		"name": ["Essu"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fannahn-im", "Fused"],
 		"validFrom": 0
@@ -386,7 +386,7 @@
 	{
 		"name": ["Felt"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Noble"],
 		"abilities": ["Worldhopper"],
 		"validFrom": 0,
@@ -395,7 +395,7 @@
 	{
 		"name": ["Fort"],
 		"homeWorld": "Lumar",
-		"firstAppearance": "Tress of the Emerald Sea",
+		"firstAppearance": ["Tress of the Emerald Sea"],
 		"species": ["Human", "Islands of Lobu"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -403,7 +403,7 @@
 	{
 		"name": ["Frava"],
 		"homeWorld": "Sel",
-		"firstAppearance": "The Emperor's Soul",
+		"firstAppearance": ["The Emperor's Soul", "Elantris"],
 		"species": ["Human", "Grand"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -411,7 +411,7 @@
 	{
 		"name": ["Galladon"],
 		"homeWorld": "Sel",
-		"firstAppearance": "Elantris",
+		"firstAppearance": ["Elantris", "Elantris"],
 		"species": ["Human", "Dula"],
 		"abilities": ["Elantrian", "Worldhopper"],
 		"validFrom": 0
@@ -419,7 +419,7 @@
 	{
 		"name": ["Gaotona"],
 		"homeWorld": "Sel",
-		"firstAppearance": "The Emperor's Soul",
+		"firstAppearance": ["The Emperor's Soul", "Elantris"],
 		"species": ["Human", "Grand"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -427,7 +427,7 @@
 	{
 		"name": ["Gavilar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 0,
@@ -436,7 +436,7 @@
 	{
 		"name": ["Gavinor"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 0,
@@ -445,7 +445,7 @@
 	{
 		"name": ["Gaz"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Knight Radiant", "Lightweaver", "Surgebinder"],
 		"validFrom": 0
@@ -453,7 +453,7 @@
 	{
 		"name": ["Glys"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
 		"validFrom": 0,
@@ -462,7 +462,7 @@
 	{
 		"name": ["Hammond"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Pewterarm"],
 		"validFrom": 0
@@ -470,7 +470,7 @@
 	{
 		"name": ["Hariel"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused"],
 		"validFrom": 0
@@ -478,7 +478,7 @@
 	{
 		"name": ["Hnanan"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused", "Shanay-im"],
 		"validFrom": 0
@@ -486,7 +486,7 @@
 	{
 		"name": ["Hoid"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Elantris",
+		"firstAppearance": ["Elantris", "Elantris"],
 		"species": ["Human", "Unspecified"],
 		"abilities": [
 			"Awakener",
@@ -503,7 +503,7 @@
 	{
 		"name": ["Hrathen"],
 		"homeWorld": "Sel",
-		"firstAppearance": "Elantris",
+		"firstAppearance": ["Elantris", "Elantris"],
 		"species": ["Human", "Fjordell"],
 		"abilities": ["Dakhor"],
 		"validFrom": 0
@@ -511,7 +511,7 @@
 	{
 		"name": ["Huio"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Human", "Herdazian"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
 		"validFrom": 0
@@ -519,7 +519,7 @@
 	{
 		"name": ["Ishar"],
 		"homeWorld": "Ashyn",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"validFrom": 0
@@ -527,7 +527,7 @@
 	{
 		"name": ["Ivory"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Spren", "Inkspren"],
 		"abilities": ["Elsecaller", "Nahel Bond", "Splinter"],
 		"validFrom": 0
@@ -535,7 +535,7 @@
 	{
 		"name": ["Iyatil"],
 		"homeWorld": "Silverlight",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Southern Scadrian"],
 		"abilities": ["Elsecaller", "Worldhopper"],
 		"validFrom": 0
@@ -543,7 +543,7 @@
 	{
 		"name": ["Izzy"],
 		"homeWorld": "Komashi",
-		"firstAppearance": "Yumi and the Nightmare Painter",
+		"firstAppearance": ["Yumi and the Nightmare Painter"],
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Nightmare Painter"],
 		"validFrom": 0
@@ -551,7 +551,7 @@
 	{
 		"name": ["Jasnah", "Kholin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Elsecaller", "Knight Radiant", "Surgebinder"],
 		"validFrom": 0
@@ -559,7 +559,7 @@
 	{
 		"name": ["Jewels"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -567,7 +567,7 @@
 	{
 		"name": ["Jezrien"],
 		"homeWorld": "Ashyn",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"validFrom": 0
@@ -575,7 +575,7 @@
 	{
 		"name": ["Kaladin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": [
 			"Cognitive Shadow",
@@ -589,7 +589,7 @@
 	{
 		"name": ["Kalak"],
 		"homeWorld": "Ashyn",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"validFrom": 0
@@ -597,7 +597,7 @@
 	{
 		"name": ["Kelsier"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": [
 			"Cognitive Shadow",
@@ -611,7 +611,7 @@
 	{
 		"name": ["Khriss"],
 		"homeWorld": "Taldain",
-		"firstAppearance": "The Bands of Mourning",
+		"firstAppearance": ["The Bands of Mourning", "Mistborn Era 2"],
 		"species": ["Human", "Darksider"],
 		"abilities": ["Starmarks", "Worldhopper"],
 		"validFrom": 0,
@@ -620,7 +620,7 @@
 	{
 		"name": ["Kiin"],
 		"homeWorld": "Sel",
-		"firstAppearance": "Elantris",
+		"firstAppearance": ["Elantris", "Elantris"],
 		"species": ["Human", "Teo"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -628,7 +628,7 @@
 	{
 		"name": ["Kokerlii"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Sixth of the Dusk",
+		"firstAppearance": ["Sixth of the Dusk"],
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
 		"validFrom": 0,
@@ -637,7 +637,7 @@
 	{
 		"name": ["Koravellium", "Avast"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 0
@@ -645,7 +645,7 @@
 	{
 		"name": ["Kwaan"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Terris"],
 		"abilities": ["Feruchemist"],
 		"validFrom": 0
@@ -653,7 +653,7 @@
 	{
 		"name": ["Kyril"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused"],
 		"validFrom": 0
@@ -661,7 +661,7 @@
 	{
 		"name": ["Laggart"],
 		"homeWorld": "Lumar",
-		"firstAppearance": "Tress of the Emerald Sea",
+		"firstAppearance": ["Tress of the Emerald Sea"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -669,7 +669,7 @@
 	{
 		"name": ["Leras"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "The Well of Ascension",
+		"firstAppearance": ["The Well of Ascension", "Mistborn Era 1"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 0
@@ -677,7 +677,7 @@
 	{
 		"name": ["Leshwi"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused", "Shanay-im"],
 		"validFrom": 0
@@ -685,7 +685,7 @@
 	{
 		"name": ["Lezian"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused", "Nex-im"],
 		"validFrom": 0,
@@ -694,7 +694,7 @@
 	{
 		"name": ["Lift"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Reshi"],
 		"abilities": ["Edgedancer", "Knight Radiant", "Old Magic", "Surgebinder"],
 		"validFrom": 0
@@ -702,7 +702,7 @@
 	{
 		"name": ["Lightsong"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Cognitive Shadow", "Returned"],
 		"validFrom": 0
@@ -710,7 +710,7 @@
 	{
 		"name": ["Liyun"],
 		"homeWorld": "Komashi",
-		"firstAppearance": "Yumi and the Nightmare Painter",
+		"firstAppearance": ["Yumi and the Nightmare Painter"],
 		"species": ["Human", "Torish"],
 		"abilities": ["Nightmare"],
 		"validFrom": 0
@@ -718,7 +718,7 @@
 	{
 		"name": ["Llarimar"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -726,7 +726,7 @@
 	{
 		"name": ["Lopen"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Herdazian"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
 		"validFrom": 0
@@ -734,7 +734,7 @@
 	{
 		"name": ["Marasi", "Colms"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Human", "Elendel"],
 		"abilities": ["Misting", "Pulser"],
 		"validFrom": 0
@@ -742,7 +742,7 @@
 	{
 		"name": ["Marsh"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Hemalurgy", "Misting", "Seeker"],
 		"validFrom": 0
@@ -750,7 +750,7 @@
 	{
 		"name": ["Masaka"],
 		"homeWorld": "Unspecified",
-		"firstAppearance": "Yumi and the Nightmare Painter",
+		"firstAppearance": ["Yumi and the Nightmare Painter"],
 		"species": ["Sleepless", "Nagadan"],
 		"abilities": ["Hordelings", "Nightmare Painter", "Worldhopper"],
 		"validFrom": 0,
@@ -759,7 +759,7 @@
 	{
 		"name": ["Mayalaran"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Spren", "Cultivation spren"],
 		"abilities": [
 			"Deadeye",
@@ -773,7 +773,7 @@
 	{
 		"name": ["MeLaan"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Hero of Ages",
+		"firstAppearance": ["The Hero of Ages", "Mistborn Era 1"],
 		"species": ["Kandra", "Seventh Generation"],
 		"abilities": ["Shapeshifting", "Worldhopper"],
 		"validFrom": 0,
@@ -782,7 +782,7 @@
 	{
 		"name": ["Miles", "Dagouter"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Human", "Terris"],
 		"abilities": [
 			"Augur",
@@ -799,7 +799,7 @@
 	{
 		"name": ["Mirris"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Sixth of the Dusk",
+		"firstAppearance": ["Sixth of the Dusk"],
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
 		"validFrom": 0,
@@ -808,7 +808,7 @@
 	{
 		"name": ["Moash"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 0
@@ -816,7 +816,7 @@
 	{
 		"name": ["Mraize"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Thaylen"],
 		"abilities": ["Lightweaver"],
 		"validFrom": 0
@@ -824,7 +824,7 @@
 	{
 		"name": ["Nale"],
 		"homeWorld": "Ashyn",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Ashyn"],
 		"abilities": [
 			"Cognitive Shadow",
@@ -839,7 +839,7 @@
 	{
 		"name": ["Navani", "Kholin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Bondsmith", "Knight Radiant", "Surgebinder"],
 		"validFrom": 0
@@ -847,7 +847,7 @@
 	{
 		"name": ["Nazh"],
 		"homeWorld": "Threnody",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Worldhopper"],
 		"validFrom": 0
@@ -855,7 +855,7 @@
 	{
 		"name": ["Night"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Wind and Truth",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Spren", "Ancient"],
 		"abilities": ["Bondsmith", "Nahel Bond"],
 		"validFrom": 0
@@ -863,7 +863,7 @@
 	{
 		"name": ["Nightblood"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Sword", "nimi"],
 		"abilities": ["Comedic timing", "Consumes Investiture", "Worldhopper"],
 		"validFrom": 0,
@@ -872,7 +872,7 @@
 	{
 		"name": ["Nightwatcher"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Bondsmith"],
 		"abilities": ["Bondsmith", "Nahel Bond", "Old Magic", "Splinter"],
 		"validFrom": 0
@@ -880,7 +880,7 @@
 	{
 		"name": ["Nikaro"],
 		"homeWorld": "Komashi",
-		"firstAppearance": "Yumi and the Nightmare Painter",
+		"firstAppearance": ["Yumi and the Nightmare Painter"],
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Cognitive Shadow", "Nightmare Painter"],
 		"validFrom": 0
@@ -888,7 +888,7 @@
 	{
 		"name": ["Nikliasorm"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Dawnshard",
+		"firstAppearance": ["Dawnshard", "Stormlight Archive"],
 		"species": ["Sleepless", "Aimian"],
 		"abilities": ["Hordelings"],
 		"validFrom": 0
@@ -896,7 +896,7 @@
 	{
 		"name": ["Noura"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Edgedancer",
+		"firstAppearance": ["Edgedancer", "Stormlight Archive"],
 		"species": ["Human", "Azish"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -904,7 +904,7 @@
 	{
 		"name": ["Paalm"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Kandra", "Third Generation"],
 		"abilities": ["Hemalurgy", "Shapeshifting"],
 		"validFrom": 0,
@@ -913,7 +913,7 @@
 	{
 		"name": ["Pailiah"],
 		"homeWorld": "Ashyn",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"validFrom": 0
@@ -921,7 +921,7 @@
 	{
 		"name": ["Pattern"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Spren", "Cryptic"],
 		"abilities": ["Lightweaver", "Nahel Bond", "Splinter"],
 		"validFrom": 0
@@ -929,7 +929,7 @@
 	{
 		"name": ["Phendorana"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
 		"validFrom": 0
@@ -937,7 +937,7 @@
 	{
 		"name": ["Quellion"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Hero of Ages",
+		"firstAppearance": ["The Hero of Ages", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Hemalurgy"],
 		"validFrom": 0
@@ -945,7 +945,7 @@
 	{
 		"name": ["Raboniel"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fannahn-im", "Fused"],
 		"validFrom": 0
@@ -953,7 +953,7 @@
 	{
 		"name": ["Ranette"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Lurcher", "Misting"],
 		"validFrom": 0
@@ -961,7 +961,7 @@
 	{
 		"name": ["Raoden"],
 		"homeWorld": "Sel",
-		"firstAppearance": "Elantris",
+		"firstAppearance": ["Elantris", "Elantris"],
 		"species": ["Human", "Aonic"],
 		"abilities": ["Elantrian"],
 		"validFrom": 0
@@ -969,7 +969,7 @@
 	{
 		"name": ["Rashek"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Terris"],
 		"abilities": [
 			"Feruchemist",
@@ -984,7 +984,7 @@
 	{
 		"name": ["Rayse"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 0
@@ -992,7 +992,7 @@
 	{
 		"name": ["Renarin", "Kholin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": [
 			"Knight Radiant",
@@ -1006,7 +1006,7 @@
 	{
 		"name": ["Riina"],
 		"homeWorld": "Sel",
-		"firstAppearance": "Secret History",
+		"firstAppearance": ["Secret History", "Mistborn Era 1"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Awakener", "Elantrian", "Worldhopper"],
 		"validFrom": 0
@@ -1014,7 +1014,7 @@
 	{
 		"name": ["Rlain"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Singer", "Listener"],
 		"abilities": ["Truthwatcher", "Voidbinder"],
 		"validFrom": 0
@@ -1022,15 +1022,16 @@
 	{
 		"name": ["Rock"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Unkalaki"],
 		"abilities": ["Sighted", "Windrunner Squire"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
 		"name": ["Rua"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
 		"validFrom": 0
@@ -1038,7 +1039,7 @@
 	{
 		"name": ["Rysn"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Thaylen"],
 		"abilities": ["Dawnshard"],
 		"validFrom": 0
@@ -1046,7 +1047,7 @@
 	{
 		"name": ["Sak"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Sixth of the Dusk",
+		"firstAppearance": ["Sixth of the Dusk"],
 		"species": ["Aviar", "Unspecified"],
 		"abilities": ["Precognition"],
 		"validFrom": 0,
@@ -1055,7 +1056,7 @@
 	{
 		"name": ["Salay"],
 		"homeWorld": "Lumar",
-		"firstAppearance": "Tress of the Emerald Sea",
+		"firstAppearance": ["Tress of the Emerald Sea"],
 		"species": ["Human", "Islands of Lobu"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1063,7 +1064,7 @@
 	{
 		"name": ["Sarene"],
 		"homeWorld": "Sel",
-		"firstAppearance": "Elantris",
+		"firstAppearance": ["Elantris", "Elantris"],
 		"species": ["Human", "Teo"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1071,7 +1072,7 @@
 	{
 		"name": ["Sazed"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Terris"],
 		"abilities": ["Feruchemist", "Shard Vessel"],
 		"validFrom": 0
@@ -1079,7 +1080,7 @@
 	{
 		"name": ["Sebruki"],
 		"homeWorld": "Threnody",
-		"firstAppearance": "Shadows for Silence in the Forests of Hell",
+		"firstAppearance": ["Shadows for Silence in the Forests of Hell"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1087,7 +1088,7 @@
 	{
 		"name": ["Shai"],
 		"homeWorld": "Sel",
-		"firstAppearance": "The Emperor's Soul",
+		"firstAppearance": ["The Emperor's Soul", "Elantris"],
 		"species": ["Human", "MaiPon"],
 		"abilities": ["Forger", "Worldhopper"],
 		"validFrom": 0,
@@ -1096,7 +1097,7 @@
 	{
 		"name": ["Shalash"],
 		"homeWorld": "Ashyn",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"validFrom": 0
@@ -1104,7 +1105,7 @@
 	{
 		"name": ["Shallan", "Davar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Veden"],
 		"abilities": [
 			"Knight Radiant",
@@ -1117,7 +1118,7 @@
 	{
 		"name": ["Shashara"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Unspecified"],
 		"abilities": [
 			"Awakener",
@@ -1132,7 +1133,7 @@
 	{
 		"name": ["Shuden"],
 		"homeWorld": "Sel",
-		"firstAppearance": "Elantris",
+		"firstAppearance": ["Elantris", "Elantris"],
 		"species": ["Human", "JinDo"],
 		"abilities": ["ChayShan"],
 		"validFrom": 0
@@ -1140,7 +1141,7 @@
 	{
 		"name": ["Sibling"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Bondsmith"],
 		"abilities": ["Bondsmith", "Nahel Bond", "Splinter"],
 		"validFrom": 0
@@ -1148,7 +1149,7 @@
 	{
 		"name": ["Sigzil"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Azish"],
 		"abilities": [
 			"Dawnshard",
@@ -1163,7 +1164,7 @@
 	{
 		"name": ["Silence"],
 		"homeWorld": "Threnody",
-		"firstAppearance": "Shadows for Silence in the Forests of Hell",
+		"firstAppearance": ["Shadows for Silence in the Forests of Hell"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1171,7 +1172,7 @@
 	{
 		"name": ["Siri"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Idrian"],
 		"abilities": ["Royal Locks"],
 		"validFrom": 0
@@ -1179,7 +1180,7 @@
 	{
 		"name": ["Sja-anat"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Unmade"],
 		"abilities": ["Splinter"],
 		"validFrom": 0
@@ -1187,7 +1188,7 @@
 	{
 		"name": ["Skar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
 		"validFrom": 0
@@ -1195,7 +1196,7 @@
 	{
 		"name": ["Spook"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Hemalurgy", "Mistborn", "Misting", "Savant", "Tineye"],
 		"validFrom": 0
@@ -1203,7 +1204,7 @@
 	{
 		"name": ["Steris", "Harms"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Human", "Elendel"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1211,7 +1212,7 @@
 	{
 		"name": ["Stone"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Wind and Truth",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Spren", "Ancient"],
 		"abilities": ["Bondsmith", "Nahel Bond"],
 		"validFrom": 0
@@ -1219,7 +1220,7 @@
 	{
 		"name": ["Stormfather"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Spren", "Bondsmith"],
 		"abilities": [
 			"Bondsmith",
@@ -1233,7 +1234,7 @@
 	{
 		"name": ["Straff", "Venture"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Noble"],
 		"abilities": ["Misting", "Tineye"],
 		"validFrom": 0
@@ -1241,7 +1242,7 @@
 	{
 		"name": ["Susebron"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Awakener", "Cognitive Shadow", "Returned"],
 		"validFrom": 0
@@ -1249,7 +1250,7 @@
 	{
 		"name": ["Sylphrena"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
 		"validFrom": 0
@@ -1257,7 +1258,7 @@
 	{
 		"name": ["Szeth"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Shin"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Skybreaker", "Surgebinder"],
 		"validFrom": 0,
@@ -1266,7 +1267,7 @@
 	{
 		"name": ["Talenel"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"validFrom": 0
@@ -1274,7 +1275,7 @@
 	{
 		"name": ["Tanavast"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 0
@@ -1282,7 +1283,7 @@
 	{
 		"name": ["Taravangian"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Kharbranthian"],
 		"abilities": ["Old Magic", "Shard Vessel"],
 		"validFrom": 0
@@ -1290,7 +1291,7 @@
 	{
 		"name": ["Teft"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
 		"validFrom": 0
@@ -1298,7 +1299,7 @@
 	{
 		"name": ["Telsin", "Ladrian"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Bands of Mourning",
+		"firstAppearance": ["The Bands of Mourning", "Mistborn Era 2"],
 		"species": ["Human", "Terris"],
 		"abilities": ["Avatar", "Ferring", "Hemalurgy", "Windwhisperer"],
 		"validFrom": 0
@@ -1306,7 +1307,7 @@
 	{
 		"name": ["TenSoon"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Kandra", "Third Generation"],
 		"abilities": [
 			"Blessing of Potency",
@@ -1319,7 +1320,7 @@
 	{
 		"name": ["Testament"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Spren", "Cryptic"],
 		"abilities": ["Deadeye", "Lightweaver", "Nahel Bond", "Splinter"],
 		"validFrom": 0
@@ -1327,7 +1328,7 @@
 	{
 		"name": ["Tien"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Lightweaver"],
 		"validFrom": 0
@@ -1335,7 +1336,7 @@
 	{
 		"name": ["Timbre"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Spren", "Reacher"],
 		"abilities": ["Nahel Bond", "Splinter", "Willshaper"],
 		"validFrom": 0
@@ -1343,7 +1344,7 @@
 	{
 		"name": ["Tindwyl"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Well of Ascension",
+		"firstAppearance": ["The Well of Ascension", "Mistborn Era 1"],
 		"species": ["Human", "Terris"],
 		"abilities": ["Feruchemist"],
 		"validFrom": 0
@@ -1351,7 +1352,7 @@
 	{
 		"name": ["Tojin"],
 		"homeWorld": "Komashi",
-		"firstAppearance": "Yumi and the Nightmare Painter",
+		"firstAppearance": ["Yumi and the Nightmare Painter"],
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Nightmare Painter"],
 		"validFrom": 0
@@ -1359,7 +1360,7 @@
 	{
 		"name": ["Tonk", "Fah"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Pahn Kahl"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1367,7 +1368,7 @@
 	{
 		"name": ["Torol", "Sadeas"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 0
@@ -1375,7 +1376,7 @@
 	{
 		"name": ["Tress"],
 		"homeWorld": "Lumar",
-		"firstAppearance": "Tress of the Emerald Sea",
+		"firstAppearance": ["Tress of the Emerald Sea"],
 		"species": ["Human", "Diggen's Point"],
 		"abilities": ["Sprouter"],
 		"validFrom": 0
@@ -1383,7 +1384,7 @@
 	{
 		"name": ["Tumi"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
 		"validFrom": 0
@@ -1391,7 +1392,7 @@
 	{
 		"name": ["Ulaam"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Lost Metal",
+		"firstAppearance": ["The Lost Metal", "Mistborn Era 2"],
 		"species": ["Kandra", "Unspecified"],
 		"abilities": ["Shapeshifting"],
 		"validFrom": 0,
@@ -1400,7 +1401,7 @@
 	{
 		"name": ["Uli", "Da"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Sho Del", "Unspecified"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 0,
@@ -1409,7 +1410,7 @@
 	{
 		"name": ["Vasher"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Unspecified"],
 		"abilities": [
 			"Awakener",
@@ -1423,7 +1424,7 @@
 	{
 		"name": ["Vathi"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Sixth of the Dusk",
+		"firstAppearance": ["Sixth of the Dusk"],
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond"],
 		"validFrom": 0,
@@ -1432,7 +1433,7 @@
 	{
 		"name": ["Vedel"],
 		"homeWorld": "Ashyn",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Ashyn"],
 		"abilities": ["Cognitive Shadow", "Herald", "Shardbearer", "Surgebinder"],
 		"validFrom": 0
@@ -1440,7 +1441,7 @@
 	{
 		"name": ["Venli"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Singer", "Listener"],
 		"abilities": ["Forms of Power", "Knight Radiant", "Willshaper"],
 		"validFrom": 0,
@@ -1449,7 +1450,7 @@
 	{
 		"name": ["Vienta"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
 		"validFrom": 0
@@ -1457,7 +1458,7 @@
 	{
 		"name": ["Vin"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Hemalurgy", "Mistborn", "Shard Vessel", "Sliver"],
 		"validFrom": 0
@@ -1465,7 +1466,7 @@
 	{
 		"name": ["Vivenna"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Human", "Idrian"],
 		"abilities": ["Awakener", "Royal Locks", "Shardbearer", "Worldhopper"],
 		"validFrom": 0
@@ -1473,7 +1474,7 @@
 	{
 		"name": ["Waxillium", "Ladrian"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Human", "Terris"],
 		"abilities": [
 			"Coinshot",
@@ -1488,7 +1489,7 @@
 	{
 		"name": ["Wayne"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Human", "Terris"],
 		"abilities": [
 			"Bloodmaker",
@@ -1503,7 +1504,7 @@
 	{
 		"name": ["Weedfingers"],
 		"homeWorld": "Sel",
-		"firstAppearance": "The Emperor's Soul",
+		"firstAppearance": ["The Emperor's Soul", "Elantris"],
 		"species": ["Human", "Dzhamarian"],
 		"abilities": ["Bloodsealer"],
 		"validFrom": 0
@@ -1511,7 +1512,7 @@
 	{
 		"name": ["William", "Ann"],
 		"homeWorld": "Threnody",
-		"firstAppearance": "Shadows for Silence in the Forests of Hell",
+		"firstAppearance": ["Shadows for Silence in the Forests of Hell"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1519,7 +1520,7 @@
 	{
 		"name": ["Wind"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Wind and Truth",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Spren", "Ancient"],
 		"abilities": ["Bondsmith", "Nahel Bond"],
 		"validFrom": 0
@@ -1527,7 +1528,7 @@
 	{
 		"name": ["Wyndle"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Spren", "Cultivation spren"],
 		"abilities": ["Edgedancer", "Nahel Bond", "Splinter"],
 		"validFrom": 0
@@ -1535,7 +1536,7 @@
 	{
 		"name": ["Xisisrefliel"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Tress of the Emerald Sea",
+		"firstAppearance": ["Tress of the Emerald Sea"],
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Awakener", "Worldhopper"],
 		"validFrom": 0,
@@ -1544,7 +1545,7 @@
 	{
 		"name": ["Yanagawn"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Azish"],
 		"abilities": ["Unoathed"],
 		"validFrom": 0
@@ -1552,7 +1553,7 @@
 	{
 		"name": ["Yelamaiszin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Dawnshard",
+		"firstAppearance": ["Dawnshard", "Stormlight Archive"],
 		"species": ["Sleepless", "Aimian"],
 		"abilities": ["Hordelings"],
 		"validFrom": 0
@@ -1560,7 +1561,7 @@
 	{
 		"name": ["Yumi"],
 		"homeWorld": "Komashi",
-		"firstAppearance": "Yumi and the Nightmare Painter",
+		"firstAppearance": ["Yumi and the Nightmare Painter"],
 		"species": ["Human", "Torish"],
 		"abilities": ["Cognitive Shadow", "Yoki-Hijo"],
 		"validFrom": 0
@@ -1568,7 +1569,7 @@
 	{
 		"name": ["Zane", "Venture"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Well of Ascension",
+		"firstAppearance": ["The Well of Ascension", "Mistborn Era 1"],
 		"species": ["Human", "Noble"],
 		"abilities": ["Hemalurgy", "Mistborn"],
 		"validFrom": 0
@@ -1576,7 +1577,7 @@
 	{
 		"name": ["Zeal"],
 		"homeWorld": "Canticle",
-		"firstAppearance": "The Sunlit Man",
+		"firstAppearance": ["The Sunlit Man"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1584,7 +1585,7 @@
 	{
 		"name": ["Jaxlim"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Singer", "Listener"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20266
@@ -1592,7 +1593,7 @@
 	{
 		"name": ["Notum"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
 		"validFrom": 20266
@@ -1600,7 +1601,7 @@
 	{
 		"name": ["Caelinora"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Dawnshard",
+		"firstAppearance": ["Dawnshard", "Stormlight Archive"],
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
 		"validFrom": 20266
@@ -1608,7 +1609,7 @@
 	{
 		"name": ["Sekeir"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Splinter"],
 		"validFrom": 20266
@@ -1616,7 +1617,7 @@
 	{
 		"name": ["Sureblood"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Horse", "Ryshadium"],
 		"abilities": ["Nahel Bond"],
 		"validFrom": 20266
@@ -1624,7 +1625,7 @@
 	{
 		"name": ["Gallant"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Horse", "Ryshadium"],
 		"abilities": ["Nahel Bond"],
 		"validFrom": 20266
@@ -1632,7 +1633,7 @@
 	{
 		"name": ["Aladar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 20266
@@ -1640,7 +1641,7 @@
 	{
 		"name": ["May", "Aladar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Unoathed"],
 		"validFrom": 20266
@@ -1648,7 +1649,7 @@
 	{
 		"name": ["Bethab"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20266
@@ -1656,7 +1657,7 @@
 	{
 		"name": ["Hatham"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 20266
@@ -1664,7 +1665,7 @@
 	{
 		"name": ["Relis", "Ruthar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 20266
@@ -1672,7 +1673,7 @@
 	{
 		"name": ["Roion"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20266
@@ -1680,7 +1681,7 @@
 	{
 		"name": ["Ruthar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 20266
@@ -1688,7 +1689,7 @@
 	{
 		"name": ["Turinad", "Sebarial"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20266
@@ -1696,7 +1697,7 @@
 	{
 		"name": ["Valam"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Veden"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 20266
@@ -1704,7 +1705,7 @@
 	{
 		"name": ["Hanavanar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Veden"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 20266
@@ -1712,7 +1713,7 @@
 	{
 		"name": ["Helaran", "Davar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Veden"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 20266
@@ -1720,7 +1721,7 @@
 	{
 		"name": ["Jushu", "Davar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20266
@@ -1728,7 +1729,7 @@
 	{
 		"name": ["Lin", "Davar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20266
@@ -1736,7 +1737,7 @@
 	{
 		"name": ["Malata"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Human", "Veden"],
 		"abilities": [
 			"Dustbringer",
@@ -1749,7 +1750,7 @@
 	{
 		"name": ["Spark"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Ashspren"],
 		"abilities": ["Dustbringer", "Nahel Bond", "Splinter"],
 		"validFrom": 20266
@@ -1757,7 +1758,7 @@
 	{
 		"name": ["Malise", "Gevelmar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20266
@@ -1765,7 +1766,7 @@
 	{
 		"name": ["Redin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20266
@@ -1773,7 +1774,7 @@
 	{
 		"name": ["Wikim", "Davar"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Veden"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20266
@@ -1781,7 +1782,7 @@
 	{
 		"name": ["Blended"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Inkspren"],
 		"abilities": ["Splinter"],
 		"validFrom": 20266
@@ -1789,7 +1790,7 @@
 	{
 		"name": ["Dreaming-though-Awake"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
 		"validFrom": 20266
@@ -1797,7 +1798,7 @@
 	{
 		"name": ["Tumi"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Enlightened", "Nahel Bond", "Splinter", "Truthwatcher"],
 		"validFrom": 20266
@@ -1805,7 +1806,7 @@
 	{
 		"name": ["Ym"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Iriali"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Truthwatcher"],
 		"validFrom": 20266
@@ -1813,7 +1814,7 @@
 	{
 		"name": ["Uma"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
 		"validFrom": 20266
@@ -1821,7 +1822,7 @@
 	{
 		"name": ["Ico"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Reacher"],
 		"abilities": ["Splinter"],
 		"validFrom": 20266
@@ -1829,7 +1830,7 @@
 	{
 		"name": ["Ua'pam"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Peakspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Stoneward"],
 		"validFrom": 20266
@@ -1837,7 +1838,7 @@
 	{
 		"name": ["Zu"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Human", "Iriali"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Stoneward", "Surgebinder"],
 		"validFrom": 20266
@@ -1845,7 +1846,7 @@
 	{
 		"name": ["Dami"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Wind and Truth",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Human", "Riran"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Stoneward", "Surgebinder"],
 		"validFrom": 20266
@@ -1853,7 +1854,7 @@
 	{
 		"name": ["Nohadon"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Surgebinder"],
 		"validFrom": 20266
@@ -1861,7 +1862,7 @@
 	{
 		"name": ["Kabsal"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Herdazian"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20266
@@ -1869,7 +1870,7 @@
 	{
 		"name": ["Medelantorius"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Wind and Truth",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 20270
@@ -1877,7 +1878,7 @@
 	{
 		"name": ["Frost"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Unknown"],
 		"validFrom": 20270,
@@ -1886,7 +1887,7 @@
 	{
 		"name": ["Lirin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20278
@@ -1894,7 +1895,7 @@
 	{
 		"name": ["Hesina"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20278
@@ -1902,7 +1903,7 @@
 	{
 		"name": ["Demoux"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Seer", "Worldhopper"],
 		"validFrom": 20278
@@ -1910,7 +1911,7 @@
 	{
 		"name": ["Aradan", "Yomen"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Hero of Ages",
+		"firstAppearance": ["The Hero of Ages", "Mistborn Era 1"],
 		"species": ["Human", "Noble"],
 		"abilities": ["Misting", "Seer"],
 		"validFrom": 20278
@@ -1918,7 +1919,7 @@
 	{
 		"name": ["Armal", "Harms"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Lost Metal",
+		"firstAppearance": ["The Lost Metal", "Mistborn Era 2"],
 		"species": ["Human", "Elendel"],
 		"abilities": ["Misting", "Rioter"],
 		"validFrom": 20278
@@ -1926,7 +1927,7 @@
 	{
 		"name": ["Forch"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Bands of Mourning",
+		"firstAppearance": ["The Bands of Mourning", "Mistborn Era 2"],
 		"species": ["Human", "Terris"],
 		"abilities": ["Brute", "Coinshot", "Ferring", "Misting", "Twinborn"],
 		"validFrom": 20278
@@ -1934,7 +1935,7 @@
 	{
 		"name": ["Gemmel"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Eleventh Metal",
+		"firstAppearance": ["The Eleventh Metal", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Mistborn"],
 		"validFrom": 20278
@@ -1942,7 +1943,10 @@
 	{
 		"name": ["Jak"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "Allomancer Jak and the Pits of Eltania",
+		"firstAppearance": [
+			"Allomancer Jak and the Pits of Eltania",
+			"Mistborn Era 2"
+		],
 		"species": ["Human", "Elendel"],
 		"abilities": ["Misting", "Tineye"],
 		"validFrom": 20278
@@ -1950,7 +1954,7 @@
 	{
 		"name": ["Mare"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Tineye"],
 		"validFrom": 20278
@@ -1958,7 +1962,7 @@
 	{
 		"name": ["Redd"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Smoker"],
 		"validFrom": 20278
@@ -1966,7 +1970,7 @@
 	{
 		"name": ["Shan", "Elariel"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Noble"],
 		"abilities": ["Mistborn"],
 		"validFrom": 20278
@@ -1974,7 +1978,7 @@
 	{
 		"name": ["Felt"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Noble"],
 		"abilities": ["Awakener", "Worldhopper"],
 		"validFrom": 20278
@@ -1982,7 +1986,7 @@
 	{
 		"name": ["Renarin", "Kholin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": [
 			"Knight Radiant",
@@ -1996,7 +2000,7 @@
 	{
 		"name": ["Venli"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Singer", "Listener"],
 		"abilities": [
 			"Forms of Power",
@@ -2009,7 +2013,7 @@
 	{
 		"name": ["Kenton"],
 		"homeWorld": "Taldain",
-		"firstAppearance": "White Sand",
+		"firstAppearance": ["White Sand"],
 		"species": ["Human", "Daysider"],
 		"abilities": ["Mastrell", "Sand master"],
 		"validFrom": 20295
@@ -2017,7 +2021,7 @@
 	{
 		"name": ["Praxton"],
 		"homeWorld": "Taldain",
-		"firstAppearance": "White Sand",
+		"firstAppearance": ["White Sand"],
 		"species": ["Human", "Daysider"],
 		"abilities": ["Mastrell", "Sand master"],
 		"validFrom": 20295
@@ -2025,7 +2029,7 @@
 	{
 		"name": ["Baon"],
 		"homeWorld": "Taldain",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Darksider"],
 		"abilities": ["Sand master", "Worldhopper"],
 		"validFrom": 20295
@@ -2033,23 +2037,23 @@
 	{
 		"name": ["Drile"],
 		"homeWorld": "Taldain",
-		"firstAppearance": "White Sand",
-		"species": ["Human", "Daysider", "Undermastrell"],
-		"abilities": ["Sand master"],
+		"firstAppearance": ["White Sand"],
+		"species": ["Human", "Daysider"],
+		"abilities": ["Sand master", "Undermastrell"],
 		"validFrom": 20295
 	},
 	{
 		"name": ["Elorin"],
 		"homeWorld": "Taldain",
-		"firstAppearance": "White Sand",
-		"species": ["Human", "Daysider", "Undermastrell"],
-		"abilities": ["Sand master"],
+		"firstAppearance": ["White Sand"],
+		"species": ["Human", "Daysider"],
+		"abilities": ["Sand master", "Undermastrell"],
 		"validFrom": 20295
 	},
 	{
 		"name": ["Masaka", "(Chinikdakordich)"],
 		"homeWorld": "Unknown",
-		"firstAppearance": "Yumi and the Nightmare Painter",
+		"firstAppearance": ["Yumi and the Nightmare Painter"],
 		"species": ["Sleepless", "Nagadan"],
 		"abilities": ["Hordelings", "Nightmare Painter", "Worldhopper"],
 		"validFrom": 20295
@@ -2057,7 +2061,7 @@
 	{
 		"name": ["Khrissalla"],
 		"homeWorld": "Taldain",
-		"firstAppearance": "The Bands of Mourning",
+		"firstAppearance": ["The Bands of Mourning", "Mistborn Era 2"],
 		"species": ["Human", "Darksider"],
 		"abilities": ["Starcarved", "Worldhopper"],
 		"validFrom": 20295
@@ -2065,7 +2069,7 @@
 	{
 		"name": ["Lezian", "the Pursuer"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused", "Nex-im"],
 		"validFrom": 20295
@@ -2073,7 +2077,7 @@
 	{
 		"name": ["Gyundok"],
 		"homeWorld": "Komashi",
-		"firstAppearance": "Yumi and the Nightmare Painter",
+		"firstAppearance": ["Yumi and the Nightmare Painter"],
 		"species": ["Human", "Torish"],
 		"abilities": ["Nightmare"],
 		"validFrom": 20295
@@ -2081,7 +2085,7 @@
 	{
 		"name": ["Miles", "\"Hundredlives\"", "Dagouter"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Human", "Terris"],
 		"abilities": [
 			"Augur",
@@ -2097,7 +2101,7 @@
 	{
 		"name": ["Nightblood"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": "Warbreaker",
+		"firstAppearance": ["Warbreaker"],
 		"species": ["Sword", "nimi"],
 		"abilities": ["Consumes Investiture", "Surgebinder", "Worldhopper"],
 		"validFrom": 20295
@@ -2105,7 +2109,7 @@
 	{
 		"name": ["Sak"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Isles of the Emberdark",
+		"firstAppearance": ["Isles of the Emberdark"],
 		"species": ["Aviar", "Unspecified"],
 		"abilities": ["Precognition", "Worldhopper"],
 		"validFrom": 20295
@@ -2113,7 +2117,7 @@
 	{
 		"name": ["Vathi"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Isles of the Emberdark",
+		"firstAppearance": ["Isles of the Emberdark"],
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond"],
 		"validFrom": 20295
@@ -2121,7 +2125,7 @@
 	{
 		"name": ["Sixth", "of", "the", "Dusk"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Isles of the Emberdark",
+		"firstAppearance": ["Isles of the Emberdark"],
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond", "Navigator", "Worldhopper"],
 		"validFrom": 20295
@@ -2129,7 +2133,7 @@
 	{
 		"name": ["Kokerlii"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Isles of the Emberdark",
+		"firstAppearance": ["Isles of the Emberdark"],
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
 		"validFrom": 20295
@@ -2137,7 +2141,7 @@
 	{
 		"name": ["Mirris"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Isles of the Emberdark",
+		"firstAppearance": ["Isles of the Emberdark"],
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
 		"validFrom": 20295
@@ -2145,7 +2149,7 @@
 	{
 		"name": ["Rokke"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Isles of the Emberdark",
+		"firstAppearance": ["Isles of the Emberdark"],
 		"species": ["Aviar", "Unspecified"],
 		"abilities": ["Mental shielding", "Worldhopper"],
 		"validFrom": 20295
@@ -2153,7 +2157,7 @@
 	{
 		"name": ["Patji"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Isles of the Emberdark",
+		"firstAppearance": ["Isles of the Emberdark"],
 		"species": ["Unknown"],
 		"abilities": ["Avatar"],
 		"validFrom": 20295
@@ -2161,7 +2165,7 @@
 	{
 		"name": ["Sand", "Lord"],
 		"homeWorld": "Taldain",
-		"firstAppearance": "White Sand",
+		"firstAppearance": ["White Sand"],
 		"species": ["Unknown"],
 		"abilities": ["Avatar"],
 		"validFrom": 20295
@@ -2169,7 +2173,7 @@
 	{
 		"name": ["Getruda"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Lost Metal",
+		"firstAppearance": ["The Lost Metal", "Mistborn Era 2"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Bloodmaker", "Hemalurgy", "Slider"],
 		"validFrom": 20295
@@ -2177,7 +2181,7 @@
 	{
 		"name": ["Dumad"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Lost Metal",
+		"firstAppearance": ["The Lost Metal", "Mistborn Era 2"],
 		"species": ["Human", "Unspecified"],
 		"abilities": [
 			"Coinshot",
@@ -2192,7 +2196,7 @@
 	{
 		"name": ["Glys"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Enlightened", "Nahel Bond", "Splinter", "Truthwatcher"],
 		"validFrom": 20295
@@ -2200,7 +2204,7 @@
 	{
 		"name": ["Frost"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Immortal", "Shapeshifter"],
 		"validFrom": 20295
@@ -2208,7 +2212,7 @@
 	{
 		"name": ["Xisisrefliel"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Tress of the Emerald Sea",
+		"firstAppearance": ["Tress of the Emerald Sea"],
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Awakener", "Immortal", "Shapeshifter", "Worldhopper"],
 		"validFrom": 20295
@@ -2216,7 +2220,7 @@
 	{
 		"name": ["MeLaan"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Hero of Ages",
+		"firstAppearance": ["The Hero of Ages", "Mistborn Era 1"],
 		"species": ["Kandra", "Seventh Generation"],
 		"abilities": ["Shapeshifter", "Worldhopper"],
 		"validFrom": 20295
@@ -2224,7 +2228,7 @@
 	{
 		"name": ["Paalm"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Kandra", "Third Generation"],
 		"abilities": ["Hemalurgy", "Shapeshifter"],
 		"validFrom": 20295
@@ -2232,7 +2236,7 @@
 	{
 		"name": ["TenSoon"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Kandra", "Third Generation"],
 		"abilities": [
 			"Blessing of Potency",
@@ -2244,7 +2248,7 @@
 	{
 		"name": ["Ulaam"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Lost Metal",
+		"firstAppearance": ["The Lost Metal", "Mistborn Era 2"],
 		"species": ["Kandra", "Unspecified"],
 		"abilities": ["Shapeshifter", "Worldhopper"],
 		"validFrom": 20295
@@ -2252,7 +2256,7 @@
 	{
 		"name": ["OreSeur"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Final Empire",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Kandra", "Third Generation"],
 		"abilities": ["Blessing of Potency", "Shapeshifter"],
 		"validFrom": 20295
@@ -2260,7 +2264,7 @@
 	{
 		"name": ["Gavinor", "Kholin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 20295
@@ -2268,7 +2272,7 @@
 	{
 		"name": ["Gavilar", "Kholin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
 		"validFrom": 20295
@@ -2276,7 +2280,7 @@
 	{
 		"name": ["Cakoban"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": "Isles of the Emberdark",
+		"firstAppearance": ["Isles of the Emberdark"],
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Navigator", "Worldhopper"],
 		"validFrom": 20295
@@ -2284,7 +2288,7 @@
 	{
 		"name": ["Edwarn", "Ladrian"],
 		"homeWorld": "Scadrial",
-		"firstAppearance": "The Alloy of Law",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
 		"species": ["Human", "Elendel"],
 		"abilities": ["Bloodmaker", "Coinshot", "Hemalurgy", "Leecher"],
 		"validFrom": 20295
@@ -2292,7 +2296,7 @@
 	{
 		"name": ["121"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Highspren"],
 		"abilities": [
 			"Knight Radiant",
@@ -2306,7 +2310,7 @@
 	{
 		"name": ["Ral-na"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Reshi"],
 		"abilities": ["Dustbringer", "Surgebinder"],
 		"validFrom": 20295
@@ -2314,7 +2318,7 @@
 	{
 		"name": ["Iadon"],
 		"homeWorld": "Sel",
-		"firstAppearance": "Elantris",
+		"firstAppearance": ["Elantris", "Elantris"],
 		"species": ["Human", "Aonic"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20295
@@ -2322,7 +2326,7 @@
 	{
 		"name": ["Wan", "ShaiLu"],
 		"homeWorld": "Sel",
-		"firstAppearance": "The Emperor's Soul",
+		"firstAppearance": ["The Emperor's Soul", "Elantris"],
 		"species": ["Human", "MaiPon"],
 		"abilities": ["Forger", "Worldhopper"],
 		"validFrom": 20295
@@ -2330,7 +2334,7 @@
 	{
 		"name": ["Neturo-son-Vallano"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Shin"],
 		"abilities": [
 			"Bondsmith",
@@ -2344,7 +2348,7 @@
 	{
 		"name": ["Elid-daughter-Zeenid"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Wind and Truth",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Human", "Shin"],
 		"abilities": [
 			"Cognitive Shadow",
@@ -2358,7 +2362,7 @@
 	{
 		"name": ["Sivi-daughter-Sivi"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Wind and Truth",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Human", "Shin"],
 		"abilities": [
 			"Cognitive Shadow",
@@ -2372,7 +2376,7 @@
 	{
 		"name": ["Moss-son-Farrier"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Wind and Truth",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Human", "Shin"],
 		"abilities": [
 			"Cognitive Shadow",
@@ -2386,7 +2390,7 @@
 	{
 		"name": ["Rit-daughter-Clutio"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Wind and Truth",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Human", "Shin"],
 		"abilities": [
 			"Cognitive Shadow",
@@ -2400,7 +2404,7 @@
 	{
 		"name": ["Pozen-son-Nash"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Wind and Truth",
+		"firstAppearance": ["Wind and Truth", "Stormlight Archive"],
 		"species": ["Human", "Shin"],
 		"abilities": [
 			"Cognitive Shadow",
@@ -2414,7 +2418,7 @@
 	{
 		"name": ["Szeth-son-Vallano"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "The Way of Kings",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Shin"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Skybreaker", "Surgebinder"],
 		"validFrom": 20295
@@ -2422,7 +2426,7 @@
 	{
 		"name": ["Adrotagia"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Words of Radiance",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Human", "Kharbranthian"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20295
@@ -2430,7 +2434,7 @@
 	{
 		"name": ["Uli", "Da"],
 		"homeWorld": "Yolen",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Sho Del"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 20295
@@ -2438,7 +2442,7 @@
 	{
 		"name": ["Unativi"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Rhythm of War",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Peakspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Stoneward"],
 		"validFrom": 20295
@@ -2446,9 +2450,17 @@
 	{
 		"name": ["Evi", "Kholin"],
 		"homeWorld": "Roshar",
-		"firstAppearance": "Oathbringer",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Human", "Riran"],
 		"abilities": ["Uninvested"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Numuhukumakiaki'aialunamor (Rock)"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
+		"species": ["Human", "Unkalaki"],
+		"abilities": ["Sighted", "Windrunner Squire"],
 		"validFrom": 20295
 	}
 ]

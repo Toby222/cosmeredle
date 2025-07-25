@@ -1,7 +1,7 @@
 #! /usr/bin/env bun
 import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
-import type { Character } from "lib/util";
+import { getSeries, type Character } from "lib/util";
 
 const newCharacters: Character[] = [];
 
@@ -12,7 +12,10 @@ for (const character of CHARACTERS) {
 				? (character.name as string).split(" ")
 				: character.name,
 		homeWorld: character.homeWorld,
-		firstAppearance: character.firstAppearance,
+		firstAppearance:
+			typeof character.firstAppearance === "string"
+				? getSeries(character.firstAppearance as string)
+				: character.firstAppearance,
 		species: character.species,
 		abilities: character.abilities
 			.filter((ability, idx, abilities) => abilities.indexOf(ability) === idx)

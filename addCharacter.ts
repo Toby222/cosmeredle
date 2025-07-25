@@ -1,7 +1,13 @@
 #! /usr/bin/env bun
 import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
-import { type Character, compareName, daysSinceEpoch, Overlap } from "lib/util";
+import {
+	type Character,
+	compareName,
+	daysSinceEpoch,
+	getSeries,
+	Overlap,
+} from "lib/util";
 
 function makeWarning(text: string) {
 	return (
@@ -24,7 +30,19 @@ while (true) {
 	const newCharacter: Character = {
 		name: (await readLine("Name: ")).split(" "),
 		homeWorld: await readLine("Home world: "),
-		firstAppearance: await readLine("First appearance: "),
+		firstAppearance: await (async () => {
+			const readBook = (await readLine("First appearance: "))
+				.split(",")
+				.map((x) => x.trim());
+			if (readBook.length === 1) {
+				return getSeries(readBook[0]);
+			}
+			if (readBook.length === 2) {
+				return readBook;
+			}
+			console.error("Invalid book length, unsafely adding all parts");
+			return readBook;
+		})(),
 		species: (await readLine("Species (comma-separated race): "))
 			.split(",")
 			.map((x) => x.trim()),

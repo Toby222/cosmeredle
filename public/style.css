@@ -231,4 +231,5 @@ div.popupWrapper {
   text-align: center;
   margin: 1vmin;
   border: solid 0.2vmin var(--accent-color);
+  overflow-wrap: anywhere;
 }
