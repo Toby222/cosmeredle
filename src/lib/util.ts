@@ -39,7 +39,7 @@ export type OverlapType = keyof typeof Overlap;
 
 export const MS_PER_DAY = 24 * 60 * 60 * 1000;
 export function daysSinceEpoch() {
-	return Math.floor(Date.now() / MS_PER_DAY);
+	return Math.floor(Date.now() / MS_PER_DAY) + 21;
 }
 
 export function emojiFromOverlap(overlap: OverlapType) {
@@ -54,7 +54,7 @@ export function emojiFromOverlap(overlap: OverlapType) {
 }
 
 export type Character = {
-	name: string;
+	name: string[];
 	homeWorld: string;
 	firstAppearance: string;
 	species: string[];
@@ -88,19 +88,27 @@ export const charactersForToday: () => Character[] = (() => {
 	};
 })();
 
-function compareSpecies(
-	speciesA: string[],
-	speciesB: string[],
-): keyof typeof Overlap {
+function compareSpecies(speciesA: string[], speciesB: string[]): OverlapType {
 	if (speciesA[0] !== speciesB[0]) return Overlap.None;
 	if (speciesA[1] !== speciesB[1]) return Overlap.Partial;
 	return Overlap.Full;
 }
 
+export function compareName(nameA: string[], nameB: string[]): OverlapType {
+	return fuzzyCompareArray(nameA, nameB);
+}
+
 function compareAbilities(
 	abilitiesA: string[],
 	abilitiesB: string[],
-): keyof typeof Overlap {
+): OverlapType {
+	return fuzzyCompareArray(abilitiesA, abilitiesB);
+}
+
+function fuzzyCompareArray(
+	abilitiesA: string[],
+	abilitiesB: string[],
+): OverlapType {
 	const biggerLength = Math.max(abilitiesA.length, abilitiesB.length);
 	const [biggerArray, smallerArray] =
 		abilitiesA.length === biggerLength
@@ -121,9 +129,9 @@ function compareAbilities(
 export function compareCharacters(
 	characterA: Character,
 	characterB: Character,
-): (keyof typeof Overlap)[] {
+): [OverlapType, OverlapType, OverlapType, OverlapType, OverlapType] {
 	return [
-		characterA.name === characterB.name ? Overlap.Full : Overlap.None,
+		compareName(characterA.name, characterB.name),
 		characterA.homeWorld === characterB.homeWorld ? Overlap.Full : Overlap.None,
 		characterA.firstAppearance === characterB.firstAppearance
 			? Overlap.Full
@@ -131,4 +139,18 @@ export function compareCharacters(
 		compareSpecies(characterA.species, characterB.species),
 		compareAbilities(characterA.abilities, characterB.abilities),
 	];
+}
+
+export function charactersMatch(
+	characterA: Character,
+	characterB: Character,
+): boolean {
+	const match = compareCharacters(characterA, characterB);
+	return (
+		match[0] === Overlap.Full &&
+		match[1] === Overlap.Full &&
+		match[2] === Overlap.Full &&
+		match[3] === Overlap.Full &&
+		match[4] === Overlap.Full
+	);
 }

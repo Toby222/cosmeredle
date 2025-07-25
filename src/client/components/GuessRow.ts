@@ -10,7 +10,7 @@ export function GuessRow(guess: StoredGuess): Element | undefined {
 	const speciesArray = characters[guessId].species;
 	const species = `${speciesArray[0]} (${speciesArray.slice(1).join(" ")})`;
 	return $("div.guessRow", () => {
-		GuessBubble(characters[guessId].name, guess[0]);
+		GuessBubble(characters[guessId].name.join(" "), guess[0]);
 		GuessBubble(characters[guessId].homeWorld, guess[1]);
 		GuessBubble(characters[guessId].firstAppearance, guess[2]);
 		GuessBubble(species, guess[3]);

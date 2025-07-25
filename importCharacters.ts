@@ -15,14 +15,15 @@ const characters = characterCSV
 	.map((line): Character => {
 		const [name, homeWorld, firstAppearance, speciesRaw, ...abilitiesRaw] =
 			line.split(",");
-		const species = speciesRaw.match(
+		const speciesGroup = speciesRaw.match(
 			/(?<species>[^(]+) \((?<subspecies>[^)]+)\)/,
-		)?.groups!;
+		)?.groups;
+		if (speciesGroup === undefined) throw new Error("Species match fail");
 		return {
-			name,
+			name: name.split(" "),
 			homeWorld,
 			firstAppearance,
-			species: [species["species"], species["subspecies"]],
+			species: [speciesGroup.species, speciesGroup.subspecies],
 			abilities: abilitiesRaw
 				.join(",")
 				.replace(/^"/, "")

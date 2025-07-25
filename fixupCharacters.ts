@@ -7,7 +7,10 @@ const newCharacters: Character[] = [];
 
 for (const character of CHARACTERS) {
 	newCharacters.push({
-		name: character.name,
+		name:
+			typeof character.name === "string"
+				? (character.name as string).split(" ")
+				: character.name,
 		homeWorld: character.homeWorld,
 		firstAppearance: character.firstAppearance,
 		species: character.species,

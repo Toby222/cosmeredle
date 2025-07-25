@@ -1,7 +1,7 @@
 #! /usr/bin/env bun
 import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
-import { type Character, daysSinceEpoch } from "lib/util";
+import { type Character, compareName, daysSinceEpoch, Overlap } from "lib/util";
 
 function makeWarning(text: string) {
 	return (
@@ -22,7 +22,7 @@ async function readLine(prompt?: string): Promise<string> {
 const newCharacters: Character[] = [];
 while (true) {
 	const newCharacter: Character = {
-		name: await readLine("Name: "),
+		name: (await readLine("Name: ")).split(" "),
 		homeWorld: await readLine("Home world: "),
 		firstAppearance: await readLine("First appearance: "),
 		species: (await readLine("Species (comma-separated race): "))
@@ -37,7 +37,7 @@ while (true) {
 
 	const existingCharacter = CHARACTERS.find(
 		(char) =>
-			char.name.toLowerCase() === newCharacter.name.toLowerCase() &&
+			compareName(char.name, newCharacter.name) === Overlap.Full &&
 			(char.validUntil === undefined || char.validUntil > daysSinceEpoch()),
 	);
 	console.debug(existingCharacter, "existingCharacter");

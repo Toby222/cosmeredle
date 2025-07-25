@@ -124,7 +124,7 @@ $("main", () => {
 		}
 		CustomSelectNumber(
 			characters.map((character, idx) => ({
-				label: character.name,
+				label: character.name.join(" "),
 				value: idx,
 				disabled: guessedCharacters.includes(idx),
 			})),

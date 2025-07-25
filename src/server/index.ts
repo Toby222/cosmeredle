@@ -1,10 +1,8 @@
 import {
-	type Character,
 	charactersForDay,
 	compareCharacters,
 	daysSinceEpoch,
 	MS_PER_DAY,
-	Overlap,
 } from "lib/util";
 import { createSimpleLogger, type STANDARD_LEVELS } from "simple-node-logger";
 

@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Adolin Kholin",
+		"name": ["Adolin", "Kholin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -8,7 +8,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Adonalsium-Will-Remember-Our-Plight-Eventually",
+		"name": ["Adonalsium-Will-Remember-Our-Plight-Eventually"],
 		"homeWorld": "Canticle",
 		"firstAppearance": "The Sunlit Man",
 		"species": ["Human", "Threnodite"],
@@ -16,7 +16,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Akane",
+		"name": ["Akane"],
 		"homeWorld": "Komashi",
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Nagadan"],
@@ -24,7 +24,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Alendi",
+		"name": ["Alendi"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Khlenni"],
@@ -32,7 +32,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Allik Neverfar",
+		"name": ["Allik", "Neverfar"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Malwish"],
@@ -40,7 +40,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Allrianne Cett",
+		"name": ["Allrianne", "Cett"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Noble"],
@@ -48,7 +48,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Amaram",
+		"name": ["Amaram"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -56,7 +56,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Ann",
+		"name": ["Ann"],
 		"homeWorld": "Lumar",
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Unspecified"],
@@ -64,7 +64,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Arclomedarian",
+		"name": ["Arclomedarian"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Edgedancer",
 		"species": ["Sleepless", "Aimian"],
@@ -72,7 +72,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Arsteel",
+		"name": ["Arsteel"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
@@ -80,7 +80,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Ashravan",
+		"name": ["Ashravan"],
 		"homeWorld": "Sel",
 		"firstAppearance": "The Emperor's Soul",
 		"species": ["Human", "Grand"],
@@ -88,7 +88,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Ashweather Cett",
+		"name": ["Ashweather", "Cett"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Noble"],
@@ -96,7 +96,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Ati",
+		"name": ["Ati"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Unspecified"],
@@ -104,7 +104,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Auxiliary",
+		"name": ["Auxiliary"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Highspren"],
@@ -112,7 +112,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Axies",
+		"name": ["Axies"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Siah", "Aimian"],
@@ -120,7 +120,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Ba-Ado-Mishram",
+		"name": ["Ba-Ado-Mishram"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Unmade"],
@@ -128,7 +128,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Battar",
+		"name": ["Battar"],
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
@@ -136,7 +136,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Beldre",
+		"name": ["Beldre"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Hero of Ages",
 		"species": ["Human", "Skaa"],
@@ -144,7 +144,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Bluefingers",
+		"name": ["Bluefingers"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Pahn Kahl"],
@@ -152,7 +152,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Blushweaver",
+		"name": ["Blushweaver"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
@@ -160,7 +160,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Breeze",
+		"name": ["Breeze"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
@@ -168,7 +168,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Chanarach",
+		"name": ["Chanarach"],
 		"homeWorld": "Ashyn",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Ashyn"],
@@ -176,7 +176,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Charlie",
+		"name": ["Charlie"],
 		"homeWorld": "Lumar",
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Diggen's Point"],
@@ -184,7 +184,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Chesterton Divide",
+		"name": ["Chesterton", "Divide"],
 		"homeWorld": "Threnody",
 		"firstAppearance": "Shadows for Silence in the Forests of Hell",
 		"species": ["Human", "Threnodite"],
@@ -192,15 +192,15 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Chiri-Chiri",
+		"name": ["Chiri-Chiri"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
-		"species": ["Larkin", "Unspecified"],
+		"species": ["Larkin"],
 		"abilities": ["Consumes Investiture"],
 		"validFrom": 0
 	},
 	{
-		"name": "Cinder King",
+		"name": ["Cinder", "King"],
 		"homeWorld": "Canticle",
 		"firstAppearance": "The Sunlit Man",
 		"species": ["Human", "Threnodite"],
@@ -208,7 +208,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Clubs",
+		"name": ["Clubs"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
@@ -216,7 +216,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Colot",
+		"name": ["Colot"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Alethi"],
@@ -224,7 +224,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Cord",
+		"name": ["Cord"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Unkalaki"],
@@ -232,7 +232,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Crow",
+		"name": ["Crow"],
 		"homeWorld": "Lumar",
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Unspecified"],
@@ -240,7 +240,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Dabbid",
+		"name": ["Dabbid"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -248,7 +248,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Dalinar Kholin",
+		"name": ["Dalinar", "Kholin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -264,7 +264,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Demid",
+		"name": ["Demid"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Singer", "Listener"],
@@ -272,7 +272,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Denth",
+		"name": ["Denth"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
@@ -286,7 +286,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Design",
+		"name": ["Design"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Cryptic"],
@@ -294,7 +294,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Dilaf",
+		"name": ["Dilaf"],
 		"homeWorld": "Sel",
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Fjordell"],
@@ -302,7 +302,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Dockson",
+		"name": ["Dockson"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
@@ -310,15 +310,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Dusk",
+		"name": ["Dusk"],
 		"homeWorld": "First of the Sun",
 		"firstAppearance": "Sixth of the Dusk",
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Edgli",
+		"name": ["Edgli"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
@@ -326,15 +327,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Edwarn Ladrian",
+		"name": ["Edwarn", "Ladrian"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Elendel"],
 		"abilities": ["Hemalurgy"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "El",
+		"name": ["El"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Singer", "Fused"],
@@ -342,7 +344,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Elegy",
+		"name": ["Elegy"],
 		"homeWorld": "Canticle",
 		"firstAppearance": "The Sunlit Man",
 		"species": ["Human", "Threnodite"],
@@ -350,7 +352,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Elend Venture",
+		"name": ["Elend", "Venture"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
@@ -358,7 +360,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Elhokar Kholin",
+		"name": ["Elhokar", "Kholin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -366,7 +368,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Eshonai",
+		"name": ["Eshonai"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Singer", "Listener"],
@@ -374,7 +376,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Essu",
+		"name": ["Essu"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Singer", "Fused"],
@@ -382,7 +384,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Felt",
+		"name": ["Felt"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
@@ -391,7 +393,7 @@
 		"validUntil": 20277
 	},
 	{
-		"name": "Fort",
+		"name": ["Fort"],
 		"homeWorld": "Lumar",
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Islands of Lobu"],
@@ -399,7 +401,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Frava",
+		"name": ["Frava"],
 		"homeWorld": "Sel",
 		"firstAppearance": "The Emperor's Soul",
 		"species": ["Human", "Grand"],
@@ -407,7 +409,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Galladon",
+		"name": ["Galladon"],
 		"homeWorld": "Sel",
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Dula"],
@@ -415,7 +417,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Gaotona",
+		"name": ["Gaotona"],
 		"homeWorld": "Sel",
 		"firstAppearance": "The Emperor's Soul",
 		"species": ["Human", "Grand"],
@@ -423,23 +425,25 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Gavilar",
+		"name": ["Gavilar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Gavinor",
+		"name": ["Gavinor"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Gaz",
+		"name": ["Gaz"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -447,15 +451,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Glys",
+		"name": ["Glys"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Hammond",
+		"name": ["Hammond"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
@@ -463,7 +468,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Hariel",
+		"name": ["Hariel"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Singer", "Fused"],
@@ -471,7 +476,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Hnanan",
+		"name": ["Hnanan"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Singer", "Fused"],
@@ -479,7 +484,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Hoid",
+		"name": ["Hoid"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Unspecified"],
@@ -496,7 +501,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Hrathen",
+		"name": ["Hrathen"],
 		"homeWorld": "Sel",
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Fjordell"],
@@ -504,7 +509,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Huio",
+		"name": ["Huio"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Herdazian"],
@@ -512,7 +517,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Ishar",
+		"name": ["Ishar"],
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
@@ -520,7 +525,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Ivory",
+		"name": ["Ivory"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Inkspren"],
@@ -528,7 +533,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Iyatil",
+		"name": ["Iyatil"],
 		"homeWorld": "Silverlight",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Southern Scadrian"],
@@ -536,7 +541,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Izzy",
+		"name": ["Izzy"],
 		"homeWorld": "Komashi",
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Nagadan"],
@@ -544,7 +549,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Jasnah Kholin",
+		"name": ["Jasnah", "Kholin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -552,7 +557,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Jewels",
+		"name": ["Jewels"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
@@ -560,7 +565,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Jezrien",
+		"name": ["Jezrien"],
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
@@ -568,7 +573,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Kaladin",
+		"name": ["Kaladin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -582,7 +587,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Kalak",
+		"name": ["Kalak"],
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
@@ -590,7 +595,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Kelsier",
+		"name": ["Kelsier"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
@@ -604,15 +609,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Khriss",
+		"name": ["Khriss"],
 		"homeWorld": "Taldain",
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Darksider"],
 		"abilities": ["Starmarks", "Worldhopper"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Kiin",
+		"name": ["Kiin"],
 		"homeWorld": "Sel",
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Teo"],
@@ -620,15 +626,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Kokerlii",
+		"name": ["Kokerlii"],
 		"homeWorld": "First of the Sun",
 		"firstAppearance": "Sixth of the Dusk",
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Koravellium Avast",
+		"name": ["Koravellium", "Avast"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "Oathbringer",
 		"species": ["Dragon", "Unspecified"],
@@ -636,7 +643,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Kwaan",
+		"name": ["Kwaan"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Terris"],
@@ -644,7 +651,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Kyril",
+		"name": ["Kyril"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Singer", "Fused"],
@@ -652,7 +659,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Laggart",
+		"name": ["Laggart"],
 		"homeWorld": "Lumar",
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Unspecified"],
@@ -660,7 +667,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Leras",
+		"name": ["Leras"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Unspecified"],
@@ -668,7 +675,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Leshwi",
+		"name": ["Leshwi"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Singer", "Fused"],
@@ -676,15 +683,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Lezian",
+		"name": ["Lezian"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Singer", "Fused"],
 		"abilities": ["Fused", "Nex-im"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Lift",
+		"name": ["Lift"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Reshi"],
@@ -692,7 +700,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Lightsong",
+		"name": ["Lightsong"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
@@ -700,7 +708,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Liyun",
+		"name": ["Liyun"],
 		"homeWorld": "Komashi",
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Torish"],
@@ -708,7 +716,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Llarimar",
+		"name": ["Llarimar"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
@@ -716,7 +724,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Lopen",
+		"name": ["Lopen"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Herdazian"],
@@ -724,7 +732,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Marasi Colms",
+		"name": ["Marasi", "Colms"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Elendel"],
@@ -732,7 +740,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Marsh",
+		"name": ["Marsh"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
@@ -740,15 +748,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Masaka",
+		"name": ["Masaka"],
 		"homeWorld": "Unspecified",
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Sleepless", "Nagadan"],
 		"abilities": ["Hordelings", "Nightmare Painter", "Worldhopper"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Mayalaran",
+		"name": ["Mayalaran"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Spren", "Cultivation spren"],
@@ -762,15 +771,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "MeLaan",
+		"name": ["MeLaan"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Hero of Ages",
 		"species": ["Kandra", "Seventh Generation"],
 		"abilities": ["Shapeshifting", "Worldhopper"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Miles Dagouter",
+		"name": ["Miles", "Dagouter"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Terris"],
@@ -783,18 +793,20 @@
 			"Savant",
 			"Twinborn"
 		],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Mirris",
+		"name": ["Mirris"],
 		"homeWorld": "First of the Sun",
 		"firstAppearance": "Sixth of the Dusk",
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Moash",
+		"name": ["Moash"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -802,7 +814,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Mraize",
+		"name": ["Mraize"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Thaylen"],
@@ -810,7 +822,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Nale",
+		"name": ["Nale"],
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
@@ -825,7 +837,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Navani Kholin",
+		"name": ["Navani", "Kholin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -833,7 +845,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Nazh",
+		"name": ["Nazh"],
 		"homeWorld": "Threnody",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Threnodite"],
@@ -841,7 +853,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Night",
+		"name": ["Night"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Wind and Truth",
 		"species": ["Spren", "Ancient"],
@@ -849,15 +861,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Nightblood",
+		"name": ["Nightblood"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Sword", "nimi"],
 		"abilities": ["Comedic timing", "Consumes Investiture", "Worldhopper"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Nightwatcher",
+		"name": ["Nightwatcher"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Bondsmith"],
@@ -865,7 +878,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Nikaro",
+		"name": ["Nikaro"],
 		"homeWorld": "Komashi",
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Nagadan"],
@@ -873,7 +886,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Nikliasorm",
+		"name": ["Nikliasorm"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Dawnshard",
 		"species": ["Sleepless", "Aimian"],
@@ -881,7 +894,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Noura",
+		"name": ["Noura"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Edgedancer",
 		"species": ["Human", "Azish"],
@@ -889,15 +902,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Paalm",
+		"name": ["Paalm"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Kandra", "Third Generation"],
 		"abilities": ["Hemalurgy", "Shapeshifting"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Pailiah",
+		"name": ["Pailiah"],
 		"homeWorld": "Ashyn",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Ashyn"],
@@ -905,7 +919,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Pattern",
+		"name": ["Pattern"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Spren", "Cryptic"],
@@ -913,7 +927,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Phendorana",
+		"name": ["Phendorana"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Honorspren"],
@@ -921,7 +935,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Quellion",
+		"name": ["Quellion"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Hero of Ages",
 		"species": ["Human", "Skaa"],
@@ -929,7 +943,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Raboniel",
+		"name": ["Raboniel"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Singer", "Fused"],
@@ -937,7 +951,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Ranette",
+		"name": ["Ranette"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Unspecified"],
@@ -945,7 +959,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Raoden",
+		"name": ["Raoden"],
 		"homeWorld": "Sel",
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Aonic"],
@@ -953,7 +967,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Rashek",
+		"name": ["Rashek"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Terris"],
@@ -968,7 +982,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Rayse",
+		"name": ["Rayse"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Unspecified"],
@@ -976,7 +990,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Renarin Kholin",
+		"name": ["Renarin", "Kholin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -990,7 +1004,7 @@
 		"validUntil": 20294
 	},
 	{
-		"name": "Riina",
+		"name": ["Riina"],
 		"homeWorld": "Sel",
 		"firstAppearance": "Secret History",
 		"species": ["Human", "Unspecified"],
@@ -998,7 +1012,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Rlain",
+		"name": ["Rlain"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Singer", "Listener"],
@@ -1006,7 +1020,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Rock",
+		"name": ["Rock"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Unkalaki"],
@@ -1014,7 +1028,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Rua",
+		"name": ["Rua"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Honorspren"],
@@ -1022,7 +1036,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Rysn",
+		"name": ["Rysn"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Thaylen"],
@@ -1030,15 +1044,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Sak",
+		"name": ["Sak"],
 		"homeWorld": "First of the Sun",
 		"firstAppearance": "Sixth of the Dusk",
 		"species": ["Aviar", "Unspecified"],
 		"abilities": ["Precognition"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Salay",
+		"name": ["Salay"],
 		"homeWorld": "Lumar",
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Islands of Lobu"],
@@ -1046,7 +1061,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Sarene",
+		"name": ["Sarene"],
 		"homeWorld": "Sel",
 		"firstAppearance": "Elantris",
 		"species": ["Human", "Teo"],
@@ -1054,7 +1069,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Sazed",
+		"name": ["Sazed"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Terris"],
@@ -1062,7 +1077,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Sebruki",
+		"name": ["Sebruki"],
 		"homeWorld": "Threnody",
 		"firstAppearance": "Shadows for Silence in the Forests of Hell",
 		"species": ["Human", "Threnodite"],
@@ -1070,15 +1085,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Shai",
+		"name": ["Shai"],
 		"homeWorld": "Sel",
 		"firstAppearance": "The Emperor's Soul",
 		"species": ["Human", "MaiPon"],
 		"abilities": ["Forger", "Worldhopper"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Shalash",
+		"name": ["Shalash"],
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
@@ -1086,7 +1102,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Shallan Davar",
+		"name": ["Shallan", "Davar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
@@ -1099,7 +1115,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Shashara",
+		"name": ["Shashara"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
@@ -1114,7 +1130,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Shuden",
+		"name": ["Shuden"],
 		"homeWorld": "Sel",
 		"firstAppearance": "Elantris",
 		"species": ["Human", "JinDo"],
@@ -1122,7 +1138,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Sibling",
+		"name": ["Sibling"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Bondsmith"],
@@ -1130,7 +1146,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Sigzil",
+		"name": ["Sigzil"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Azish"],
@@ -1145,7 +1161,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Silence",
+		"name": ["Silence"],
 		"homeWorld": "Threnody",
 		"firstAppearance": "Shadows for Silence in the Forests of Hell",
 		"species": ["Human", "Threnodite"],
@@ -1153,7 +1169,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Siri",
+		"name": ["Siri"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Idrian"],
@@ -1161,7 +1177,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Sja-anat",
+		"name": ["Sja-anat"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Unmade"],
@@ -1169,7 +1185,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Skar",
+		"name": ["Skar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1177,7 +1193,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Spook",
+		"name": ["Spook"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
@@ -1185,7 +1201,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Steris Harms",
+		"name": ["Steris", "Harms"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Elendel"],
@@ -1193,7 +1209,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Stone",
+		"name": ["Stone"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Wind and Truth",
 		"species": ["Spren", "Ancient"],
@@ -1201,7 +1217,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Stormfather",
+		"name": ["Stormfather"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Spren", "Bondsmith"],
@@ -1215,7 +1231,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Straff Venture",
+		"name": ["Straff", "Venture"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
@@ -1223,7 +1239,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Susebron",
+		"name": ["Susebron"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Hallandren"],
@@ -1231,7 +1247,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Sylphrena",
+		"name": ["Sylphrena"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Spren", "Honorspren"],
@@ -1239,15 +1255,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Szeth",
+		"name": ["Szeth"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Shin"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Skybreaker", "Surgebinder"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Talenel",
+		"name": ["Talenel"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
@@ -1255,7 +1272,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Tanavast",
+		"name": ["Tanavast"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Unspecified"],
@@ -1263,7 +1280,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Taravangian",
+		"name": ["Taravangian"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Kharbranthian"],
@@ -1271,7 +1288,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Teft",
+		"name": ["Teft"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1279,7 +1296,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Telsin Ladrian",
+		"name": ["Telsin", "Ladrian"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Terris"],
@@ -1287,7 +1304,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "TenSoon",
+		"name": ["TenSoon"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Kandra", "Third Generation"],
@@ -1296,10 +1313,11 @@
 			"Blessing of Presence",
 			"Shapeshifting"
 		],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Testament",
+		"name": ["Testament"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Cryptic"],
@@ -1307,7 +1325,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Tien",
+		"name": ["Tien"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1315,7 +1333,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Timbre",
+		"name": ["Timbre"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Reacher"],
@@ -1323,7 +1341,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Tindwyl",
+		"name": ["Tindwyl"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Terris"],
@@ -1331,7 +1349,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Tojin",
+		"name": ["Tojin"],
 		"homeWorld": "Komashi",
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Nagadan"],
@@ -1339,7 +1357,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Tonk Fah",
+		"name": ["Tonk", "Fah"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Pahn Kahl"],
@@ -1347,7 +1365,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Torol Sadeas",
+		"name": ["Torol", "Sadeas"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1355,7 +1373,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Tress",
+		"name": ["Tress"],
 		"homeWorld": "Lumar",
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Human", "Diggen's Point"],
@@ -1363,7 +1381,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Tumi",
+		"name": ["Tumi"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Mistspren"],
@@ -1371,23 +1389,25 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Ulaam",
+		"name": ["Ulaam"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Lost Metal",
 		"species": ["Kandra", "Unspecified"],
 		"abilities": ["Shapeshifting"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Uli Da",
+		"name": ["Uli", "Da"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "Oathbringer",
 		"species": ["Sho Del", "Unspecified"],
 		"abilities": ["Shard Vessel"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Vasher",
+		"name": ["Vasher"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Unspecified"],
@@ -1401,15 +1421,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Vathi",
+		"name": ["Vathi"],
 		"homeWorld": "First of the Sun",
 		"firstAppearance": "Sixth of the Dusk",
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Vedel",
+		"name": ["Vedel"],
 		"homeWorld": "Ashyn",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Ashyn"],
@@ -1417,7 +1438,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Venli",
+		"name": ["Venli"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Singer", "Listener"],
@@ -1426,7 +1447,7 @@
 		"validUntil": 20294
 	},
 	{
-		"name": "Vienta",
+		"name": ["Vienta"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Honorspren"],
@@ -1434,7 +1455,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Vin",
+		"name": ["Vin"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
@@ -1442,7 +1463,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Vivenna",
+		"name": ["Vivenna"],
 		"homeWorld": "Nalthis",
 		"firstAppearance": "Warbreaker",
 		"species": ["Human", "Idrian"],
@@ -1450,7 +1471,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Waxillium Ladrian",
+		"name": ["Waxillium", "Ladrian"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Terris"],
@@ -1465,7 +1486,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Wayne",
+		"name": ["Wayne"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Alloy of Law",
 		"species": ["Human", "Terris"],
@@ -1480,7 +1501,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Weedfingers",
+		"name": ["Weedfingers"],
 		"homeWorld": "Sel",
 		"firstAppearance": "The Emperor's Soul",
 		"species": ["Human", "Dzhamarian"],
@@ -1488,7 +1509,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "William Ann",
+		"name": ["William", "Ann"],
 		"homeWorld": "Threnody",
 		"firstAppearance": "Shadows for Silence in the Forests of Hell",
 		"species": ["Human", "Threnodite"],
@@ -1496,7 +1517,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Wind",
+		"name": ["Wind"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Wind and Truth",
 		"species": ["Spren", "Ancient"],
@@ -1504,7 +1525,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Wyndle",
+		"name": ["Wyndle"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Cultivation spren"],
@@ -1512,15 +1533,16 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Xisisrefliel",
+		"name": ["Xisisrefliel"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "Tress of the Emerald Sea",
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Awakener", "Worldhopper"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
-		"name": "Yanagawn",
+		"name": ["Yanagawn"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Azish"],
@@ -1528,7 +1550,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Yelamaiszin",
+		"name": ["Yelamaiszin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Dawnshard",
 		"species": ["Sleepless", "Aimian"],
@@ -1536,7 +1558,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Yumi",
+		"name": ["Yumi"],
 		"homeWorld": "Komashi",
 		"firstAppearance": "Yumi and the Nightmare Painter",
 		"species": ["Human", "Torish"],
@@ -1544,7 +1566,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Zane Venture",
+		"name": ["Zane", "Venture"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Well of Ascension",
 		"species": ["Human", "Noble"],
@@ -1552,7 +1574,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Zeal",
+		"name": ["Zeal"],
 		"homeWorld": "Canticle",
 		"firstAppearance": "The Sunlit Man",
 		"species": ["Human", "Threnodite"],
@@ -1560,7 +1582,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": "Jaxlim",
+		"name": ["Jaxlim"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Singer", "Listener"],
@@ -1568,7 +1590,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Notum",
+		"name": ["Notum"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Honorspren"],
@@ -1576,7 +1598,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Caelinora",
+		"name": ["Caelinora"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Dawnshard",
 		"species": ["Spren", "Honorspren"],
@@ -1584,7 +1606,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Sekeir",
+		"name": ["Sekeir"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Honorspren"],
@@ -1592,7 +1614,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Sureblood",
+		"name": ["Sureblood"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Horse", "Ryshadium"],
@@ -1600,7 +1622,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Gallant",
+		"name": ["Gallant"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Horse", "Ryshadium"],
@@ -1608,7 +1630,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Aladar",
+		"name": ["Aladar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1616,7 +1638,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "May Aladar",
+		"name": ["May", "Aladar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Alethi"],
@@ -1624,7 +1646,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Bethab",
+		"name": ["Bethab"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Alethi"],
@@ -1632,7 +1654,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Hatham",
+		"name": ["Hatham"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1640,7 +1662,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Relis Ruthar",
+		"name": ["Relis", "Ruthar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Alethi"],
@@ -1648,7 +1670,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Roion",
+		"name": ["Roion"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1656,7 +1678,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Ruthar",
+		"name": ["Ruthar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1664,7 +1686,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Turinad Sebarial",
+		"name": ["Turinad", "Sebarial"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Alethi"],
@@ -1672,7 +1694,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Valam",
+		"name": ["Valam"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
@@ -1680,7 +1702,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Hanavanar",
+		"name": ["Hanavanar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
@@ -1688,7 +1710,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Helaran Davar",
+		"name": ["Helaran", "Davar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
@@ -1696,7 +1718,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Jushu Davar",
+		"name": ["Jushu", "Davar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
@@ -1704,7 +1726,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Lin Davar",
+		"name": ["Lin", "Davar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
@@ -1712,7 +1734,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Malata",
+		"name": ["Malata"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Human", "Veden"],
@@ -1725,7 +1747,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Spark",
+		"name": ["Spark"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Ashspren"],
@@ -1733,7 +1755,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Malise Gevelmar",
+		"name": ["Malise", "Gevelmar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
@@ -1741,7 +1763,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Redin",
+		"name": ["Redin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Veden"],
@@ -1749,7 +1771,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Wikim Davar",
+		"name": ["Wikim", "Davar"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Veden"],
@@ -1757,7 +1779,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Blended",
+		"name": ["Blended"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Inkspren"],
@@ -1765,7 +1787,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Dreaming-though-Awake",
+		"name": ["Dreaming-though-Awake"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Mistspren"],
@@ -1773,7 +1795,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Tumi",
+		"name": ["Tumi"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Mistspren"],
@@ -1781,7 +1803,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Ym",
+		"name": ["Ym"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Human", "Iriali"],
@@ -1789,7 +1811,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Uma",
+		"name": ["Uma"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Spren", "Mistspren"],
@@ -1797,7 +1819,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Ico",
+		"name": ["Ico"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Oathbringer",
 		"species": ["Spren", "Reacher"],
@@ -1805,7 +1827,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Ua'pam",
+		"name": ["Ua'pam"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Spren", "Peakspren"],
@@ -1813,7 +1835,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Zu",
+		"name": ["Zu"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Rhythm of War",
 		"species": ["Human", "Iriali"],
@@ -1821,7 +1843,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Dami",
+		"name": ["Dami"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Wind and Truth",
 		"species": ["Human", "Riran"],
@@ -1829,7 +1851,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Nohadon",
+		"name": ["Nohadon"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Unspecified"],
@@ -1837,7 +1859,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Kabsal",
+		"name": ["Kabsal"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Herdazian"],
@@ -1845,7 +1867,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": "Medelantorius",
+		"name": ["Medelantorius"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "Wind and Truth",
 		"species": ["Dragon", "Unspecified"],
@@ -1853,15 +1875,16 @@
 		"validFrom": 20270
 	},
 	{
-		"name": "Frost",
+		"name": ["Frost"],
 		"homeWorld": "Yolen",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Unknown"],
-		"validFrom": 20270
+		"validFrom": 20270,
+		"validUntil": 20294
 	},
 	{
-		"name": "Lirin",
+		"name": ["Lirin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1869,7 +1892,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Hesina",
+		"name": ["Hesina"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1877,7 +1900,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Demoux",
+		"name": ["Demoux"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
@@ -1885,7 +1908,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Aradan Yomen",
+		"name": ["Aradan", "Yomen"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Hero of Ages",
 		"species": ["Human", "Noble"],
@@ -1893,7 +1916,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Armal Harms",
+		"name": ["Armal", "Harms"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Lost Metal",
 		"species": ["Human", "Elendel"],
@@ -1901,7 +1924,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Forch",
+		"name": ["Forch"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Bands of Mourning",
 		"species": ["Human", "Terris"],
@@ -1909,7 +1932,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Gemmel",
+		"name": ["Gemmel"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Eleventh Metal",
 		"species": ["Human", "Skaa"],
@@ -1917,7 +1940,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Jak",
+		"name": ["Jak"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "Allomancer Jak and the Pits of Eltania",
 		"species": ["Human", "Elendel"],
@@ -1925,7 +1948,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Mare",
+		"name": ["Mare"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
@@ -1933,7 +1956,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Redd",
+		"name": ["Redd"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Skaa"],
@@ -1941,7 +1964,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Shan Elariel",
+		"name": ["Shan", "Elariel"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
@@ -1949,7 +1972,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Felt",
+		"name": ["Felt"],
 		"homeWorld": "Scadrial",
 		"firstAppearance": "The Final Empire",
 		"species": ["Human", "Noble"],
@@ -1957,7 +1980,7 @@
 		"validFrom": 20278
 	},
 	{
-		"name": "Renarin Kholin",
+		"name": ["Renarin", "Kholin"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "The Way of Kings",
 		"species": ["Human", "Alethi"],
@@ -1971,7 +1994,7 @@
 		"validFrom": 20295
 	},
 	{
-		"name": "Venli",
+		"name": ["Venli"],
 		"homeWorld": "Roshar",
 		"firstAppearance": "Words of Radiance",
 		"species": ["Singer", "Listener"],
@@ -1981,6 +2004,451 @@
 			"Surgebinder",
 			"Willshaper"
 		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Kenton"],
+		"homeWorld": "Taldain",
+		"firstAppearance": "White Sand",
+		"species": ["Human", "Daysider"],
+		"abilities": ["Mastrell", "Sand master"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Praxton"],
+		"homeWorld": "Taldain",
+		"firstAppearance": "White Sand",
+		"species": ["Human", "Daysider"],
+		"abilities": ["Mastrell", "Sand master"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Baon"],
+		"homeWorld": "Taldain",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Darksider"],
+		"abilities": ["Sand master", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Drile"],
+		"homeWorld": "Taldain",
+		"firstAppearance": "White Sand",
+		"species": ["Human", "Daysider", "Undermastrell"],
+		"abilities": ["Sand master"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Elorin"],
+		"homeWorld": "Taldain",
+		"firstAppearance": "White Sand",
+		"species": ["Human", "Daysider", "Undermastrell"],
+		"abilities": ["Sand master"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Masaka", "(Chinikdakordich)"],
+		"homeWorld": "Unknown",
+		"firstAppearance": "Yumi and the Nightmare Painter",
+		"species": ["Sleepless", "Nagadan"],
+		"abilities": ["Hordelings", "Nightmare Painter", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Khrissalla"],
+		"homeWorld": "Taldain",
+		"firstAppearance": "The Bands of Mourning",
+		"species": ["Human", "Darksider"],
+		"abilities": ["Starcarved", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Lezian", "the Pursuer"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Singer", "Fused"],
+		"abilities": ["Fused", "Nex-im"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Gyundok"],
+		"homeWorld": "Komashi",
+		"firstAppearance": "Yumi and the Nightmare Painter",
+		"species": ["Human", "Torish"],
+		"abilities": ["Nightmare"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Miles", "\"Hundredlives\"", "Dagouter"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Human", "Terris"],
+		"abilities": [
+			"Augur",
+			"Bloodmaker",
+			"Ferring",
+			"Hemalurgy",
+			"Misting",
+			"Savant",
+			"Twinborn"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Nightblood"],
+		"homeWorld": "Nalthis",
+		"firstAppearance": "Warbreaker",
+		"species": ["Sword", "nimi"],
+		"abilities": ["Consumes Investiture", "Surgebinder", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Sak"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Isles of the Emberdark",
+		"species": ["Aviar", "Unspecified"],
+		"abilities": ["Precognition", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Vathi"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Isles of the Emberdark",
+		"species": ["Human", "Eelakin"],
+		"abilities": ["Aviar Bond"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Sixth", "of", "the", "Dusk"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Isles of the Emberdark",
+		"species": ["Human", "Eelakin"],
+		"abilities": ["Aviar Bond", "Navigator", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Kokerlii"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Isles of the Emberdark",
+		"species": ["Aviar", "Streamer"],
+		"abilities": ["Mental shielding"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Mirris"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Isles of the Emberdark",
+		"species": ["Aviar", "Streamer"],
+		"abilities": ["Mental shielding"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Rokke"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Isles of the Emberdark",
+		"species": ["Aviar", "Unspecified"],
+		"abilities": ["Mental shielding", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Patji"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Isles of the Emberdark",
+		"species": ["Unknown"],
+		"abilities": ["Avatar"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Sand", "Lord"],
+		"homeWorld": "Taldain",
+		"firstAppearance": "White Sand",
+		"species": ["Unknown"],
+		"abilities": ["Avatar"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Getruda"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Lost Metal",
+		"species": ["Human", "Unspecified"],
+		"abilities": ["Bloodmaker", "Hemalurgy", "Slider"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Dumad"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Lost Metal",
+		"species": ["Human", "Unspecified"],
+		"abilities": [
+			"Coinshot",
+			"Duralumin Gnat",
+			"Hemalurgy",
+			"Leecher",
+			"Pewterarm",
+			"Seeker"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Glys"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Mistspren"],
+		"abilities": ["Enlightened", "Nahel Bond", "Splinter", "Truthwatcher"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Frost"],
+		"homeWorld": "Yolen",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Dragon", "Unspecified"],
+		"abilities": ["Immortal", "Shapeshifter"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Xisisrefliel"],
+		"homeWorld": "Yolen",
+		"firstAppearance": "Tress of the Emerald Sea",
+		"species": ["Dragon", "Unspecified"],
+		"abilities": ["Awakener", "Immortal", "Shapeshifter", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["MeLaan"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Hero of Ages",
+		"species": ["Kandra", "Seventh Generation"],
+		"abilities": ["Shapeshifter", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Paalm"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Kandra", "Third Generation"],
+		"abilities": ["Hemalurgy", "Shapeshifter"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["TenSoon"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Kandra", "Third Generation"],
+		"abilities": [
+			"Blessing of Potency",
+			"Blessing of Presence",
+			"Shapeshifter"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Ulaam"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Lost Metal",
+		"species": ["Kandra", "Unspecified"],
+		"abilities": ["Shapeshifter", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["OreSeur"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Final Empire",
+		"species": ["Kandra", "Third Generation"],
+		"abilities": ["Blessing of Potency", "Shapeshifter"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Gavinor", "Kholin"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Gavilar", "Kholin"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": ["Shardbearer"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Cakoban"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": "Isles of the Emberdark",
+		"species": ["Human", "Eelakin"],
+		"abilities": ["Navigator", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Edwarn", "Ladrian"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": "The Alloy of Law",
+		"species": ["Human", "Elendel"],
+		"abilities": ["Bloodmaker", "Coinshot", "Hemalurgy", "Leecher"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["121"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Spren", "Highspren"],
+		"abilities": [
+			"Knight Radiant",
+			"Nahel Bond",
+			"Skybreaker",
+			"Splinter",
+			"Worldhopper"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Ral-na"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Reshi"],
+		"abilities": ["Dustbringer", "Surgebinder"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Iadon"],
+		"homeWorld": "Sel",
+		"firstAppearance": "Elantris",
+		"species": ["Human", "Aonic"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Wan", "ShaiLu"],
+		"homeWorld": "Sel",
+		"firstAppearance": "The Emperor's Soul",
+		"species": ["Human", "MaiPon"],
+		"abilities": ["Forger", "Worldhopper"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Neturo-son-Vallano"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Shin"],
+		"abilities": [
+			"Bondsmith",
+			"Cognitive Shadow",
+			"Honorbearer",
+			"Shardbearer",
+			"Surgebinder"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Elid-daughter-Zeenid"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Wind and Truth",
+		"species": ["Human", "Shin"],
+		"abilities": [
+			"Cognitive Shadow",
+			"Dustbringer",
+			"Honorbearer",
+			"Shardbearer",
+			"Surgebinder"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Sivi-daughter-Sivi"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Wind and Truth",
+		"species": ["Human", "Shin"],
+		"abilities": [
+			"Cognitive Shadow",
+			"Honorbearer",
+			"Shardbearer",
+			"Surgebinder",
+			"Willshaper"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Moss-son-Farrier"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Wind and Truth",
+		"species": ["Human", "Shin"],
+		"abilities": [
+			"Cognitive Shadow",
+			"Honorbearer",
+			"Lightweaver",
+			"Shardbearer",
+			"Surgebinder"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Rit-daughter-Clutio"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Wind and Truth",
+		"species": ["Human", "Shin"],
+		"abilities": [
+			"Cognitive Shadow",
+			"Honorbearer",
+			"Shardbearer",
+			"Stoneward",
+			"Surgebinder"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Pozen-son-Nash"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Wind and Truth",
+		"species": ["Human", "Shin"],
+		"abilities": [
+			"Cognitive Shadow",
+			"Elsecaller",
+			"Honorbearer",
+			"Shardbearer",
+			"Surgebinder"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Szeth-son-Vallano"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Shin"],
+		"abilities": ["Knight Radiant", "Shardbearer", "Skybreaker", "Surgebinder"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Adrotagia"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Human", "Kharbranthian"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Uli", "Da"],
+		"homeWorld": "Yolen",
+		"firstAppearance": "Oathbringer",
+		"species": ["Sho Del"],
+		"abilities": ["Shard Vessel"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Unativi"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Rhythm of War",
+		"species": ["Spren", "Peakspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Stoneward"],
+		"validFrom": 20295
+	},
+	{
+		"name": ["Evi", "Kholin"],
+		"homeWorld": "Roshar",
+		"firstAppearance": "Oathbringer",
+		"species": ["Human", "Riran"],
+		"abilities": ["Uninvested"],
 		"validFrom": 20295
 	}
 ]
