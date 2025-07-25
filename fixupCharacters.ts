@@ -11,7 +11,9 @@ for (const character of CHARACTERS) {
 		homeWorld: character.homeWorld,
 		firstAppearance: character.firstAppearance,
 		species: character.species,
-		abilities: character.abilities.sort(),
+		abilities: character.abilities
+			.filter((ability, idx, abilities) => abilities.indexOf(ability) === idx)
+			.sort(),
 		validFrom: character.validFrom,
 		validUntil: character.validUntil,
 	});

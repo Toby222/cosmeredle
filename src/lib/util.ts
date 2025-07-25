@@ -62,6 +62,7 @@ export type Character = {
 	validFrom: number;
 	validUntil?: number;
 };
+
 export function charactersForDay(day: number): Character[] {
 	return CHARACTERS.filter(
 		(character) =>
@@ -86,3 +87,48 @@ export const charactersForToday: () => Character[] = (() => {
 		return todaysCharacters;
 	};
 })();
+
+function compareSpecies(
+	speciesA: string[],
+	speciesB: string[],
+): keyof typeof Overlap {
+	if (speciesA[0] !== speciesB[0]) return Overlap.None;
+	if (speciesA[1] !== speciesB[1]) return Overlap.Partial;
+	return Overlap.Full;
+}
+
+function compareAbilities(
+	abilitiesA: string[],
+	abilitiesB: string[],
+): keyof typeof Overlap {
+	const biggerLength = Math.max(abilitiesA.length, abilitiesB.length);
+	const [biggerArray, smallerArray] =
+		abilitiesA.length === biggerLength
+			? [abilitiesA, abilitiesB]
+			: [abilitiesB, abilitiesA];
+
+	let matching = 0;
+	for (const value of biggerArray) {
+		if (smallerArray.includes(value)) matching++;
+	}
+	return matching === 0
+		? Overlap.None
+		: matching === biggerLength
+			? Overlap.Full
+			: Overlap.Partial;
+}
+
+export function compareCharacters(
+	characterA: Character,
+	characterB: Character,
+): (keyof typeof Overlap)[] {
+	return [
+		characterA.name === characterB.name ? Overlap.Full : Overlap.None,
+		characterA.homeWorld === characterB.homeWorld ? Overlap.Full : Overlap.None,
+		characterA.firstAppearance === characterB.firstAppearance
+			? Overlap.Full
+			: Overlap.None,
+		compareSpecies(characterA.species, characterB.species),
+		compareAbilities(characterA.abilities, characterB.abilities),
+	];
+}

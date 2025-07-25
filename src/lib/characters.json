@@ -986,7 +986,8 @@
 			"Truthwatcher",
 			"Voidbinder"
 		],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
 		"name": "Riina",
@@ -1381,7 +1382,7 @@
 		"name": "Uli Da",
 		"homeWorld": "Yolen",
 		"firstAppearance": "Oathbringer",
-		"species": ["Del", "Unspecified"],
+		"species": ["Sho Del", "Unspecified"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 0
 	},
@@ -1421,7 +1422,8 @@
 		"firstAppearance": "Words of Radiance",
 		"species": ["Singer", "Listener"],
 		"abilities": ["Forms of Power", "Knight Radiant", "Willshaper"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20294
 	},
 	{
 		"name": "Vienta",
@@ -1953,5 +1955,32 @@
 		"species": ["Human", "Noble"],
 		"abilities": ["Awakener", "Worldhopper"],
 		"validFrom": 20278
+	},
+	{
+		"name": "Renarin Kholin",
+		"homeWorld": "Roshar",
+		"firstAppearance": "The Way of Kings",
+		"species": ["Human", "Alethi"],
+		"abilities": [
+			"Knight Radiant",
+			"Shardbearer",
+			"Surgebinder",
+			"Truthwatcher",
+			"Voidbinder"
+		],
+		"validFrom": 20295
+	},
+	{
+		"name": "Venli",
+		"homeWorld": "Roshar",
+		"firstAppearance": "Words of Radiance",
+		"species": ["Singer", "Listener"],
+		"abilities": [
+			"Forms of Power",
+			"Knight Radiant",
+			"Surgebinder",
+			"Willshaper"
+		],
+		"validFrom": 20295
 	}
 ]
