@@ -3,7 +3,9 @@ import {
 	type Character,
 	charactersForDay,
 	compareCharacters,
+	compareFirstAppearance,
 	daysSinceEpoch,
+	getSeries,
 	MS_PER_DAY,
 	Overlap,
 } from "lib/util";
@@ -60,4 +62,30 @@ test("Gavinor and Gavilar are from different times", () => {
 
 test("Didn't forget to remove debug from daysSinceEpoch", () => {
 	expect(daysSinceEpoch()).toBe(Math.floor(Date.now() / MS_PER_DAY));
+});
+
+test("Series comparison works", () => {
+	expect(
+		compareFirstAppearance(
+			getSeries("The Way of Kings"),
+			getSeries("Words of Radiance"),
+		),
+		"Stormlight Archive should be a series",
+	).toBe(Overlap.Partial);
+
+	expect(
+		compareFirstAppearance(
+			getSeries("The Final Empire"),
+			getSeries("The Alloy of Law"),
+		),
+		"Mistborn Era 1 & 2 should be separate series",
+	);
+
+	expect(
+		compareFirstAppearance(
+			getSeries("Yumi and the Nightmare Painter"),
+			getSeries("Tress of the Emerald Sea"),
+		),
+		"Standalone books should each be their own series",
+	).toBe(Overlap.None);
 });

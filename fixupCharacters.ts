@@ -1,7 +1,7 @@
 #! /usr/bin/env bun
 import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
-import { getSeries, type Character } from "lib/util";
+import { type Character, getSeries } from "lib/util";
 
 const newCharacters: Character[] = [];
 

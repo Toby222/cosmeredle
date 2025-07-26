@@ -178,7 +178,7 @@ function fuzzyCompareArray(
 			: Overlap.Partial;
 }
 
-function compareFirstAppearance(
+export function compareFirstAppearance(
 	firstAppearanceA: string[],
 	firstAppearanceB: string[],
 ): OverlapType {
