@@ -5,7 +5,6 @@ import {
 	charactersMatch,
 	daysSinceEpoch,
 	formatSpecies,
-	formatTime,
 	MS_PER_DAY,
 } from "lib/util";
 

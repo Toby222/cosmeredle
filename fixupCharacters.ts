@@ -15,7 +15,9 @@ for (const character of CHARACTERS) {
 		firstAppearance:
 			typeof character.firstAppearance === "string"
 				? getSeries(character.firstAppearance as string)
-				: character.firstAppearance,
+				: character.firstAppearance.length === 1
+					? [character.firstAppearance[0], character.firstAppearance[0]]
+					: character.firstAppearance,
 		species: character.species,
 		abilities: character.abilities
 			.filter((ability, idx, abilities) => abilities.indexOf(ability) === idx)

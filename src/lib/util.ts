@@ -157,15 +157,10 @@ function compareAbilities(
 	return fuzzyCompareArray(abilitiesA, abilitiesB);
 }
 
-function fuzzyCompareArray(
-	abilitiesA: string[],
-	abilitiesB: string[],
-): OverlapType {
-	const biggerLength = Math.max(abilitiesA.length, abilitiesB.length);
+function fuzzyCompareArray(arrayA: string[], arrayB: string[]): OverlapType {
+	const biggerLength = Math.max(arrayA.length, arrayB.length);
 	const [biggerArray, smallerArray] =
-		abilitiesA.length === biggerLength
-			? [abilitiesA, abilitiesB]
-			: [abilitiesB, abilitiesA];
+		arrayA.length === biggerLength ? [arrayA, arrayB] : [arrayB, arrayA];
 
 	let matching = 0;
 	for (const value of biggerArray) {

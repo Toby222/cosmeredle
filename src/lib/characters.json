@@ -10,7 +10,7 @@
 	{
 		"name": ["Adonalsium-Will-Remember-Our-Plight-Eventually"],
 		"homeWorld": "Canticle",
-		"firstAppearance": ["The Sunlit Man"],
+		"firstAppearance": ["The Sunlit Man", "The Sunlit Man"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -18,7 +18,10 @@
 	{
 		"name": ["Akane"],
 		"homeWorld": "Komashi",
-		"firstAppearance": ["Yumi and the Nightmare Painter"],
+		"firstAppearance": [
+			"Yumi and the Nightmare Painter",
+			"Yumi and the Nightmare Painter"
+		],
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Nightmare Painter"],
 		"validFrom": 0
@@ -58,7 +61,7 @@
 	{
 		"name": ["Ann"],
 		"homeWorld": "Lumar",
-		"firstAppearance": ["Tress of the Emerald Sea"],
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -74,7 +77,7 @@
 	{
 		"name": ["Arsteel"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Cognitive Shadow", "Lifeless", "Returned"],
 		"validFrom": 0
@@ -146,7 +149,7 @@
 	{
 		"name": ["Bluefingers"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Pahn Kahl"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -154,7 +157,7 @@
 	{
 		"name": ["Blushweaver"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Cognitive Shadow", "Returned"],
 		"validFrom": 0
@@ -178,7 +181,7 @@
 	{
 		"name": ["Charlie"],
 		"homeWorld": "Lumar",
-		"firstAppearance": ["Tress of the Emerald Sea"],
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Diggen's Point"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -186,7 +189,10 @@
 	{
 		"name": ["Chesterton", "Divide"],
 		"homeWorld": "Threnody",
-		"firstAppearance": ["Shadows for Silence in the Forests of Hell"],
+		"firstAppearance": [
+			"Shadows for Silence in the Forests of Hell",
+			"Shadows for Silence in the Forests of Hell"
+		],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -202,7 +208,7 @@
 	{
 		"name": ["Cinder", "King"],
 		"homeWorld": "Canticle",
-		"firstAppearance": ["The Sunlit Man"],
+		"firstAppearance": ["The Sunlit Man", "The Sunlit Man"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Charred"],
 		"validFrom": 0
@@ -234,7 +240,7 @@
 	{
 		"name": ["Crow"],
 		"homeWorld": "Lumar",
-		"firstAppearance": ["Tress of the Emerald Sea"],
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Spore Eater"],
 		"validFrom": 0
@@ -274,7 +280,7 @@
 	{
 		"name": ["Denth"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Unspecified"],
 		"abilities": [
 			"Awakener",
@@ -312,7 +318,7 @@
 	{
 		"name": ["Dusk"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Sixth of the Dusk"],
+		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond"],
 		"validFrom": 0,
@@ -321,7 +327,7 @@
 	{
 		"name": ["Edgli"],
 		"homeWorld": "Yolen",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Shard Vessel"],
 		"validFrom": 0
@@ -346,7 +352,7 @@
 	{
 		"name": ["Elegy"],
 		"homeWorld": "Canticle",
-		"firstAppearance": ["The Sunlit Man"],
+		"firstAppearance": ["The Sunlit Man", "The Sunlit Man"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Charred"],
 		"validFrom": 0
@@ -395,7 +401,7 @@
 	{
 		"name": ["Fort"],
 		"homeWorld": "Lumar",
-		"firstAppearance": ["Tress of the Emerald Sea"],
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Islands of Lobu"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -543,7 +549,10 @@
 	{
 		"name": ["Izzy"],
 		"homeWorld": "Komashi",
-		"firstAppearance": ["Yumi and the Nightmare Painter"],
+		"firstAppearance": [
+			"Yumi and the Nightmare Painter",
+			"Yumi and the Nightmare Painter"
+		],
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Nightmare Painter"],
 		"validFrom": 0
@@ -559,7 +568,7 @@
 	{
 		"name": ["Jewels"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -628,7 +637,7 @@
 	{
 		"name": ["Kokerlii"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Sixth of the Dusk"],
+		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
 		"validFrom": 0,
@@ -662,7 +671,7 @@
 	{
 		"name": ["Laggart"],
 		"homeWorld": "Lumar",
-		"firstAppearance": ["Tress of the Emerald Sea"],
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -703,7 +712,7 @@
 	{
 		"name": ["Lightsong"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Cognitive Shadow", "Returned"],
 		"validFrom": 0
@@ -711,7 +720,10 @@
 	{
 		"name": ["Liyun"],
 		"homeWorld": "Komashi",
-		"firstAppearance": ["Yumi and the Nightmare Painter"],
+		"firstAppearance": [
+			"Yumi and the Nightmare Painter",
+			"Yumi and the Nightmare Painter"
+		],
 		"species": ["Human", "Torish"],
 		"abilities": ["Nightmare"],
 		"validFrom": 0
@@ -719,7 +731,7 @@
 	{
 		"name": ["Llarimar"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -751,7 +763,10 @@
 	{
 		"name": ["Masaka"],
 		"homeWorld": "Unspecified",
-		"firstAppearance": ["Yumi and the Nightmare Painter"],
+		"firstAppearance": [
+			"Yumi and the Nightmare Painter",
+			"Yumi and the Nightmare Painter"
+		],
 		"species": ["Sleepless", "Nagadan"],
 		"abilities": ["Hordelings", "Nightmare Painter", "Worldhopper"],
 		"validFrom": 0,
@@ -800,7 +815,7 @@
 	{
 		"name": ["Mirris"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Sixth of the Dusk"],
+		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
 		"validFrom": 0,
@@ -865,7 +880,7 @@
 	{
 		"name": ["Nightblood"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Sword", "nimi"],
 		"abilities": ["Comedic timing", "Consumes Investiture", "Worldhopper"],
 		"validFrom": 0,
@@ -882,7 +897,10 @@
 	{
 		"name": ["Nikaro"],
 		"homeWorld": "Komashi",
-		"firstAppearance": ["Yumi and the Nightmare Painter"],
+		"firstAppearance": [
+			"Yumi and the Nightmare Painter",
+			"Yumi and the Nightmare Painter"
+		],
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Cognitive Shadow", "Nightmare Painter"],
 		"validFrom": 0
@@ -1049,7 +1067,7 @@
 	{
 		"name": ["Sak"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Sixth of the Dusk"],
+		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
 		"species": ["Aviar", "Unspecified"],
 		"abilities": ["Precognition"],
 		"validFrom": 0,
@@ -1058,7 +1076,7 @@
 	{
 		"name": ["Salay"],
 		"homeWorld": "Lumar",
-		"firstAppearance": ["Tress of the Emerald Sea"],
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Islands of Lobu"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1082,7 +1100,10 @@
 	{
 		"name": ["Sebruki"],
 		"homeWorld": "Threnody",
-		"firstAppearance": ["Shadows for Silence in the Forests of Hell"],
+		"firstAppearance": [
+			"Shadows for Silence in the Forests of Hell",
+			"Shadows for Silence in the Forests of Hell"
+		],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1120,7 +1141,7 @@
 	{
 		"name": ["Shashara"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Unspecified"],
 		"abilities": [
 			"Awakener",
@@ -1166,7 +1187,10 @@
 	{
 		"name": ["Silence"],
 		"homeWorld": "Threnody",
-		"firstAppearance": ["Shadows for Silence in the Forests of Hell"],
+		"firstAppearance": [
+			"Shadows for Silence in the Forests of Hell",
+			"Shadows for Silence in the Forests of Hell"
+		],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1174,7 +1198,7 @@
 	{
 		"name": ["Siri"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Idrian"],
 		"abilities": ["Royal Locks"],
 		"validFrom": 0
@@ -1244,7 +1268,7 @@
 	{
 		"name": ["Susebron"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Hallandren"],
 		"abilities": ["Awakener", "Cognitive Shadow", "Returned"],
 		"validFrom": 0
@@ -1354,7 +1378,10 @@
 	{
 		"name": ["Tojin"],
 		"homeWorld": "Komashi",
-		"firstAppearance": ["Yumi and the Nightmare Painter"],
+		"firstAppearance": [
+			"Yumi and the Nightmare Painter",
+			"Yumi and the Nightmare Painter"
+		],
 		"species": ["Human", "Nagadan"],
 		"abilities": ["Nightmare Painter"],
 		"validFrom": 0
@@ -1362,7 +1389,7 @@
 	{
 		"name": ["Tonk", "Fah"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Pahn Kahl"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1378,7 +1405,7 @@
 	{
 		"name": ["Tress"],
 		"homeWorld": "Lumar",
-		"firstAppearance": ["Tress of the Emerald Sea"],
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Diggen's Point"],
 		"abilities": ["Sprouter"],
 		"validFrom": 0
@@ -1412,7 +1439,7 @@
 	{
 		"name": ["Vasher"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Unspecified"],
 		"abilities": [
 			"Awakener",
@@ -1426,7 +1453,7 @@
 	{
 		"name": ["Vathi"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Sixth of the Dusk"],
+		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond"],
 		"validFrom": 0,
@@ -1468,7 +1495,7 @@
 	{
 		"name": ["Vivenna"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Human", "Idrian"],
 		"abilities": ["Awakener", "Royal Locks", "Shardbearer", "Worldhopper"],
 		"validFrom": 0
@@ -1514,7 +1541,10 @@
 	{
 		"name": ["William", "Ann"],
 		"homeWorld": "Threnody",
-		"firstAppearance": ["Shadows for Silence in the Forests of Hell"],
+		"firstAppearance": [
+			"Shadows for Silence in the Forests of Hell",
+			"Shadows for Silence in the Forests of Hell"
+		],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -1538,7 +1568,7 @@
 	{
 		"name": ["Xisisrefliel"],
 		"homeWorld": "Yolen",
-		"firstAppearance": ["Tress of the Emerald Sea"],
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Awakener", "Worldhopper"],
 		"validFrom": 0,
@@ -1563,7 +1593,10 @@
 	{
 		"name": ["Yumi"],
 		"homeWorld": "Komashi",
-		"firstAppearance": ["Yumi and the Nightmare Painter"],
+		"firstAppearance": [
+			"Yumi and the Nightmare Painter",
+			"Yumi and the Nightmare Painter"
+		],
 		"species": ["Human", "Torish"],
 		"abilities": ["Cognitive Shadow", "Yoki-Hijo"],
 		"validFrom": 0
@@ -1579,7 +1612,7 @@
 	{
 		"name": ["Zeal"],
 		"homeWorld": "Canticle",
-		"firstAppearance": ["The Sunlit Man"],
+		"firstAppearance": ["The Sunlit Man", "The Sunlit Man"],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
 		"validFrom": 0
@@ -2016,7 +2049,7 @@
 	{
 		"name": ["Kenton"],
 		"homeWorld": "Taldain",
-		"firstAppearance": ["White Sand"],
+		"firstAppearance": ["White Sand", "White Sand"],
 		"species": ["Human", "Daysider"],
 		"abilities": ["Mastrell", "Sand master"],
 		"validFrom": 20295
@@ -2024,7 +2057,7 @@
 	{
 		"name": ["Praxton"],
 		"homeWorld": "Taldain",
-		"firstAppearance": ["White Sand"],
+		"firstAppearance": ["White Sand", "White Sand"],
 		"species": ["Human", "Daysider"],
 		"abilities": ["Mastrell", "Sand master"],
 		"validFrom": 20295
@@ -2040,7 +2073,7 @@
 	{
 		"name": ["Drile"],
 		"homeWorld": "Taldain",
-		"firstAppearance": ["White Sand"],
+		"firstAppearance": ["White Sand", "White Sand"],
 		"species": ["Human", "Daysider"],
 		"abilities": ["Sand master", "Undermastrell"],
 		"validFrom": 20295
@@ -2048,7 +2081,7 @@
 	{
 		"name": ["Elorin"],
 		"homeWorld": "Taldain",
-		"firstAppearance": ["White Sand"],
+		"firstAppearance": ["White Sand", "White Sand"],
 		"species": ["Human", "Daysider"],
 		"abilities": ["Sand master", "Undermastrell"],
 		"validFrom": 20295
@@ -2056,7 +2089,10 @@
 	{
 		"name": ["Masaka", "(Chinikdakordich)"],
 		"homeWorld": "Unknown",
-		"firstAppearance": ["Yumi and the Nightmare Painter"],
+		"firstAppearance": [
+			"Yumi and the Nightmare Painter",
+			"Yumi and the Nightmare Painter"
+		],
 		"species": ["Sleepless", "Nagadan"],
 		"abilities": ["Hordelings", "Nightmare Painter", "Worldhopper"],
 		"validFrom": 20295
@@ -2080,7 +2116,10 @@
 	{
 		"name": ["Gyundok"],
 		"homeWorld": "Komashi",
-		"firstAppearance": ["Yumi and the Nightmare Painter"],
+		"firstAppearance": [
+			"Yumi and the Nightmare Painter",
+			"Yumi and the Nightmare Painter"
+		],
 		"species": ["Human", "Torish"],
 		"abilities": ["Nightmare"],
 		"validFrom": 20295
@@ -2104,7 +2143,7 @@
 	{
 		"name": ["Nightblood"],
 		"homeWorld": "Nalthis",
-		"firstAppearance": ["Warbreaker"],
+		"firstAppearance": ["Warbreaker", "Warbreaker"],
 		"species": ["Sword", "nimi"],
 		"abilities": ["Consumes Investiture", "Surgebinder", "Worldhopper"],
 		"validFrom": 20295
@@ -2112,7 +2151,7 @@
 	{
 		"name": ["Sak"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Aviar", "Unspecified"],
 		"abilities": ["Precognition", "Worldhopper"],
 		"validFrom": 20295
@@ -2120,7 +2159,7 @@
 	{
 		"name": ["Vathi"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond"],
 		"validFrom": 20295
@@ -2128,7 +2167,7 @@
 	{
 		"name": ["Sixth", "of", "the", "Dusk"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Aviar Bond", "Navigator", "Worldhopper"],
 		"validFrom": 20295
@@ -2136,7 +2175,7 @@
 	{
 		"name": ["Kokerlii"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
 		"validFrom": 20295
@@ -2144,7 +2183,7 @@
 	{
 		"name": ["Mirris"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Aviar", "Streamer"],
 		"abilities": ["Mental shielding"],
 		"validFrom": 20295
@@ -2152,7 +2191,7 @@
 	{
 		"name": ["Rokke"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Aviar", "Unspecified"],
 		"abilities": ["Mental shielding", "Worldhopper"],
 		"validFrom": 20295
@@ -2160,7 +2199,7 @@
 	{
 		"name": ["Patji"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Unknown"],
 		"abilities": ["Avatar"],
 		"validFrom": 20295
@@ -2168,7 +2207,7 @@
 	{
 		"name": ["Sand", "Lord"],
 		"homeWorld": "Taldain",
-		"firstAppearance": ["White Sand"],
+		"firstAppearance": ["White Sand", "White Sand"],
 		"species": ["Unknown"],
 		"abilities": ["Avatar"],
 		"validFrom": 20295
@@ -2215,7 +2254,7 @@
 	{
 		"name": ["Xisisrefliel"],
 		"homeWorld": "Yolen",
-		"firstAppearance": ["Tress of the Emerald Sea"],
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Dragon", "Unspecified"],
 		"abilities": ["Awakener", "Immortal", "Shapeshifter", "Worldhopper"],
 		"validFrom": 20295
@@ -2283,7 +2322,7 @@
 	{
 		"name": ["Cakoban"],
 		"homeWorld": "First of the Sun",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Human", "Eelakin"],
 		"abilities": ["Navigator", "Worldhopper"],
 		"validFrom": 20295
@@ -2469,7 +2508,7 @@
 	{
 		"name": ["Illistandrista (Starling)"],
 		"homeWorld": "Yolen",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Dragon"],
 		"abilities": ["Immortal", "Worldhopper"],
 		"validFrom": 20295
@@ -2501,7 +2540,7 @@
 	{
 		"name": ["Aditil"],
 		"homeWorld": "Dhatri",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Aetherbound", "Worldhopper"],
 		"validFrom": 20295
@@ -2517,7 +2556,7 @@
 	{
 		"name": ["Eddlin"],
 		"homeWorld": "Silverlight",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Human", "Vaxilian"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20295
@@ -2525,7 +2564,7 @@
 	{
 		"name": ["ZeetZi"],
 		"homeWorld": "The Grand Apparatus",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Lawnark"],
 		"abilities": ["Unnamed electricity power"],
 		"validFrom": 20295
@@ -2533,7 +2572,7 @@
 	{
 		"name": ["Chrysalis"],
 		"homeWorld": "Unknown",
-		"firstAppearance": ["Isles of the Emberdark"],
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Sleepless"],
 		"abilities": ["Hordelings", "Worldhopper"],
 		"validFrom": 20295
