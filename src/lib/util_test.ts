@@ -88,4 +88,9 @@ test("Series comparison works", () => {
 		),
 		"Standalone books should each be their own series",
 	).toBe(Overlap.None);
+
+	const tress = "Tress of the Emerald Sea";
+	const tressSeries = getSeries(tress);
+	expect(tressSeries[0], "Solo books are their own book").toBe(tress);
+	expect(tressSeries[1], "Solo books are their own series").toBe(tress);
 });
