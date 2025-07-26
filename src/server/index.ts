@@ -83,7 +83,6 @@ Bun.serve({
 		return Response.redirect("/", 301);
 	},
 	routes: {
-		"/favicon.ico": () => new Response(null, { status: 404 }),
 		"/bg.gif": () => new Response(Bun.file(BACKGROUND)),
 		"/": () =>
 			new Response(INDEX, {
@@ -93,7 +92,7 @@ Bun.serve({
 			new Response(STYLE, {
 				headers: { "Content-Type": "text/css" },
 			}),
-		"/favicon.svg": () =>
+		"/favicon.ico": () =>
 			new Response(FAVICON, {
 				headers: { "Content-Type": "image/svg+xml" },
 			}),
@@ -119,9 +118,7 @@ Bun.serve({
 					JSON.stringify(
 						compareCharacters(char, characters[todaysCharacterIndex]),
 					),
-					{
-						headers: { "Content-Type": "application/json" },
-					},
+					{ headers: { "Content-Type": "application/json" } },
 				);
 			},
 		},
@@ -131,9 +128,7 @@ Bun.serve({
 					today: today,
 					tomorrow: (today + 1) * MS_PER_DAY,
 				}),
-				{
-					headers: { "Content-Type": "application/json" },
-				},
+				{ headers: { "Content-Type": "application/json" } },
 			),
 		"/characters": () =>
 			new Response(JSON.stringify(charactersForDay(today)), {
