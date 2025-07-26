@@ -86,7 +86,8 @@ export function getSeries(book: string): [string, string] {
 		case "Allomancer Jak and the Pits of Eltania":
 			return [book, "Mistborn Era 2"];
 	}
-	throw new Error(`Unknown book ${book}`);
+	console.warn(`Unknown book ${book} adding as its own series`);
+	return [book, book];
 }
 
 export const MS_PER_DAY = 24 * 60 * 60 * 1000;
@@ -147,7 +148,13 @@ function compareSpecies(speciesA: string[], speciesB: string[]): OverlapType {
 }
 
 export function compareName(nameA: string[], nameB: string[]): OverlapType {
-	return fuzzyCompareArray(nameA, nameB);
+	const normalizedNameA = nameA.map((namePart) =>
+		namePart.replaceAll(/(^\(|\)$)/g, ""),
+	);
+	const normalizedNameB = nameB.map((namePart) =>
+		namePart.replaceAll(/(^\(|\)$)/g, ""),
+	);
+	return fuzzyCompareArray(normalizedNameA, normalizedNameB);
 }
 
 function compareAbilities(
@@ -192,7 +199,13 @@ export function compareFirstAppearance(
 export function compareCharacters(
 	characterA: Character,
 	characterB: Character,
-): [OverlapType, OverlapType, OverlapType, OverlapType, OverlapType] {
+): [
+	nameMatch: OverlapType,
+	homeWorldMatch: OverlapType,
+	firstAppearanceMatch: OverlapType,
+	speciesMatch: OverlapType,
+	abilitiesMatch: OverlapType,
+] {
 	return [
 		compareName(characterA.name, characterB.name),
 		characterA.homeWorld === characterB.homeWorld ? Overlap.Full : Overlap.None,

@@ -75,7 +75,6 @@ const expectedUniqueSpecies = [
 	"Kandra Unspecified", // Ulaam
 	"Human MaiPon", // Wan ShaiLu
 	"Sho Del", // Uli Da
-	"Shade", // Nazh
 	"Human Vaxilian", // Eddlin
 	"Lawnark", // Zeetzi
 ];

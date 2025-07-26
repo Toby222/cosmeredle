@@ -1106,7 +1106,8 @@
 		],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20295
 	},
 	{
 		"name": ["Shai"],
@@ -1193,7 +1194,8 @@
 		],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20295
 	},
 	{
 		"name": ["Siri"],
@@ -1547,7 +1549,8 @@
 		],
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Uninvested"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20296
 	},
 	{
 		"name": ["Wind"],
@@ -2576,5 +2579,49 @@
 		"species": ["Sleepless"],
 		"abilities": ["Hordelings", "Worldhopper"],
 		"validFrom": 20295
+	},
+	{
+		"name": ["Sebruki", "Forescout"],
+		"homeWorld": "Threnody",
+		"firstAppearance": [
+			"Shadows for Silence in the Forests of Hell",
+			"Shadows for Silence in the Forests of Hell"
+		],
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20296
+	},
+	{
+		"name": ["Silence", "(Forescout)", "Montane"],
+		"homeWorld": "Threnody",
+		"firstAppearance": [
+			"Shadows for Silence in the Forests of Hell",
+			"Shadows for Silence in the Forests of Hell"
+		],
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20296
+	},
+	{
+		"name": ["William Ann", "Montane"],
+		"homeWorld": "Threnody",
+		"firstAppearance": [
+			"Shadows for Silence in the Forests of Hell",
+			"Shadows for Silence in the Forests of Hell"
+		],
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20296
+	},
+	{
+		"name": ["\"Grandmother\"", "Forescout"],
+		"homeWorld": "Threnody",
+		"firstAppearance": [
+			"Shadows for Silence in the Forests of Hell",
+			"Shadows for Silence in the Forests of Hell"
+		],
+		"species": ["Shade"],
+		"abilities": ["Cognitive Shadow"],
+		"validFrom": 20296
 	}
 ]

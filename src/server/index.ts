@@ -36,6 +36,8 @@ if (
 	loggerConfig.level = "info";
 }
 
+const log = createSimpleLogger(loggerConfig);
+
 let todaysCharacterIndex = 0;
 let today = 0;
 
@@ -58,7 +60,7 @@ function nextDay() {
 		"Updating today to",
 		today,
 		"; today's character is",
-		characters[todaysCharacterIndex].name,
+		characters[todaysCharacterIndex].name.join(" "),
 	);
 }
 
@@ -70,8 +72,6 @@ function updateToday() {
 
 updateToday();
 setInterval(updateToday, 1_000);
-
-const log = createSimpleLogger(loggerConfig);
 
 const PORT = 45065;
 
@@ -92,6 +92,7 @@ Bun.serve({
 			new Response(STYLE, {
 				headers: { "Content-Type": "text/css" },
 			}),
+		// I know .ico is the wrong extension but it's the one firefox tries to auto-fetch
 		"/favicon.ico": () =>
 			new Response(FAVICON, {
 				headers: { "Content-Type": "image/svg+xml" },

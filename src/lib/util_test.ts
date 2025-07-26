@@ -10,15 +10,15 @@ import {
 	Overlap,
 } from "lib/util";
 
+const characters = charactersForDay(daysSinceEpoch() + 1);
+
 function getCharacter(firstName: string): Character {
 	const character = characters.find(
 		(character) => character.name[0] === firstName,
 	);
-	expect(character).not.toBeUndefined();
+	expect(character, `Could not find ${firstName}`).toBeDefined();
 	return character as Character;
 }
-
-const characters = charactersForDay(daysSinceEpoch() + 1);
 
 function charactersShouldMatch(characterA: Character, characterB: Character) {
 	const match = compareCharacters(characterA, characterB);
@@ -71,6 +71,67 @@ test("Tress and Silence are unrelated", () => {
 	expect(match[2], "First Appearance matching broken").toBe(Overlap.None);
 	expect(match[3], "Species matching broken").toBe(Overlap.Partial);
 	expect(match[4], "Abilities matching broken").toBe(Overlap.None);
+});
+
+test("Montane/Forescout family", () => {
+	const silence = getCharacter("Silence");
+	const sebruki = getCharacter("Sebruki");
+	const williamann = getCharacter("William Ann");
+	const grandmother = getCharacter('"Grandmother"');
+
+	const silenceSebruki = compareCharacters(silence, sebruki);
+	expect(silenceSebruki).toEqual([
+		Overlap.Partial, // Name
+		Overlap.Full, // Home world
+		Overlap.Full, // First appearance
+		Overlap.Full, // Species
+		Overlap.Full, // Abilities
+	]);
+
+	const sebrukiWilliamann = compareCharacters(sebruki, williamann);
+	expect(sebrukiWilliamann).toEqual([
+		Overlap.None, // Name
+		Overlap.Full, // Home world
+		Overlap.Full, // First appearance
+		Overlap.Full, // Species
+		Overlap.Full, // Abilities
+	]);
+
+	const williamannSilence = compareCharacters(williamann, silence);
+	expect(williamannSilence).toEqual([
+		Overlap.Partial, // Name
+		Overlap.Full, // Home world
+		Overlap.Full, // First appearance
+		Overlap.Full, // Species
+		Overlap.Full, // Abilities
+	]);
+
+	const grandmotherSebruki = compareCharacters(grandmother, sebruki);
+	expect(grandmotherSebruki).toEqual([
+		Overlap.Partial, // Name
+		Overlap.Full, // Home world
+		Overlap.Full, // First appearance
+		Overlap.None, // Species
+		Overlap.None, // Abilities
+	]);
+
+	const grandmotherWilliamann = compareCharacters(grandmother, williamann);
+	expect(grandmotherWilliamann).toEqual([
+		Overlap.None, // Name
+		Overlap.Full, // Home world
+		Overlap.Full, // First appearance
+		Overlap.None, // Species
+		Overlap.None, // Abilities
+	]);
+
+	const grandmotherSilence = compareCharacters(grandmother, silence);
+	expect(grandmotherSilence).toEqual([
+		Overlap.Partial, // Name
+		Overlap.Full, // Home world
+		Overlap.Full, // First appearance
+		Overlap.None, // Species
+		Overlap.None, // Abilities
+	]);
 });
 
 test("Series comparison works", () => {
