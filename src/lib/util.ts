@@ -47,7 +47,7 @@ export function formatSpecies(species: string[]) {
 	return `${species[0]} (${species[1]})`;
 }
 
-export function getSeries(book: string): [string] | [string, string] {
+export function getSeries(book: string): [string, string] {
 	switch (book) {
 		case "The Sunlit Man":
 		case "Yumi and the Nightmare Painter":
@@ -57,7 +57,7 @@ export function getSeries(book: string): [string] | [string, string] {
 		case "White Sand":
 		case "Sixth of the Dusk":
 		case "Isles of the Emberdark":
-			return [book];
+			return [book, book];
 
 		case "The Emperor's Soul":
 		case "Elantris":
