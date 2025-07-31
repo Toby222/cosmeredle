@@ -1634,7 +1634,8 @@
 		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
-		"validFrom": 20266
+		"validFrom": 20266,
+		"validUntil": 20300
 	},
 	{
 		"name": ["Caelinora"],
@@ -2623,5 +2624,13 @@
 		"species": ["Shade"],
 		"abilities": ["Cognitive Shadow"],
 		"validFrom": 20296
+	},
+	{
+		"name": ["Notum"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
+		"species": ["Spren", "Honorspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Unoathed", "Windrunner"],
+		"validFrom": 20301
 	}
 ]
