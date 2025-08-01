@@ -5,13 +5,19 @@ import {
 	MS_PER_DAY,
 } from "lib/util";
 import { createSimpleLogger, type STANDARD_LEVELS } from "simple-node-logger";
-
-import BACKGROUND from "../../public/bg.gif" with { type: "file" };
-import FAVICON from "../../public/favicon.svg" with { type: "text" };
-import INDEX from "../../public/index.html" with { type: "text" };
-import INDEX_JS from "../../public/js/index.js" with { type: "text" };
-import INDEX_JS_MAP from "../../public/js/index.js.map" with { type: "text" };
-import STYLE from "../../public/style.css" with { type: "text" };
+import {
+	APPLE_TOUCH_ICON,
+	BACKGROUND,
+	FAVICON_96,
+	FAVICON_ICO,
+	FAVICON_SVG,
+	INDEX,
+	INDEX_JS,
+	INDEX_JS_MAP,
+	STYLE,
+	WEB_APP_MANIFEST_192,
+	WEB_APP_MANIFEST_512,
+} from "./public_files";
 
 import { seededRandom } from "./random";
 
@@ -84,30 +90,18 @@ Bun.serve({
 	},
 	routes: {
 		"/bg.gif": () => new Response(Bun.file(BACKGROUND)),
-		"/": () =>
-			new Response(INDEX, {
-				headers: { "Content-Type": "text/html" },
-			}),
-		"/style.css": () =>
-			new Response(STYLE, {
-				headers: { "Content-Type": "text/css" },
-			}),
-		// I know .ico is the wrong extension but it's the one firefox tries to auto-fetch
-		"/favicon.ico": () =>
-			new Response(FAVICON, {
-				headers: { "Content-Type": "image/svg+xml" },
-			}),
-		"/js/index.js": () =>
-			new Response(INDEX_JS, {
-				headers: {
-					"Content-Type": "text/javascript",
-					SourceMap: "/js/index.js.map",
-				},
-			}),
-		"/js/index.js.map": () =>
-			new Response(INDEX_JS_MAP, {
-				headers: { "Content-Type": "application/json" },
-			}),
+		"/": () => new Response(Bun.file(INDEX)),
+		"/style.css": () => new Response(Bun.file(STYLE)),
+		"/apple-touch-icon.png": () => new Response(Bun.file(APPLE_TOUCH_ICON)),
+		"/favicon.svg": () => new Response(Bun.file(FAVICON_SVG)),
+		"/favicon.ico": () => new Response(Bun.file(FAVICON_ICO)),
+		"/favicon-96x96.png": () => new Response(Bun.file(FAVICON_96)),
+		"/js/index.js": () => new Response(Bun.file(INDEX_JS)),
+		"/js/index.js.map": () => new Response(Bun.file(INDEX_JS_MAP)),
+		"/web-app-manifest-192x192.png": () =>
+			new Response(Bun.file(WEB_APP_MANIFEST_192)),
+		"/web-app-manifest-512x512.png": () =>
+			new Response(Bun.file(WEB_APP_MANIFEST_512)),
 		"/guess/:characterIdx": {
 			async POST(request) {
 				const { characterIdx } = request.params;
