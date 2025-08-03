@@ -2539,7 +2539,8 @@
 		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Shade"],
 		"abilities": ["Cognitive Shadow", "Worldhopper"],
-		"validFrom": 20295
+		"validFrom": 20295,
+		"validUntil": 20303
 	},
 	{
 		"name": ["Aditil"],
@@ -2623,7 +2624,8 @@
 		],
 		"species": ["Shade"],
 		"abilities": ["Cognitive Shadow"],
-		"validFrom": 20296
+		"validFrom": 20296,
+		"validUntil": 20303
 	},
 	{
 		"name": ["Notum"],
@@ -2632,5 +2634,24 @@
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Unoathed", "Windrunner"],
 		"validFrom": 20301
+	},
+	{
+		"name": ["Nazrilof", "(Nazh)"],
+		"homeWorld": "Threnody",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Cognitive Shadow", "Shade", "Worldhopper"],
+		"validFrom": 20304
+	},
+	{
+		"name": ["\"Grandmother\"", "Forescout"],
+		"homeWorld": "Threnody",
+		"firstAppearance": [
+			"Shadows for Silence in the Forests of Hell",
+			"Shadows for Silence in the Forests of Hell"
+		],
+		"species": ["Human", "Threnodite"],
+		"abilities": ["Cognitive Shadow", "Shade"],
+		"validFrom": 20304
 	}
 ]

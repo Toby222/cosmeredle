@@ -111,7 +111,7 @@ test("Montane/Forescout family", () => {
 		Overlap.Partial, // Name
 		Overlap.Full, // Home world
 		Overlap.Full, // First appearance
-		Overlap.None, // Species
+		Overlap.Full, // Species
 		Overlap.None, // Abilities
 	]);
 
@@ -120,7 +120,7 @@ test("Montane/Forescout family", () => {
 		Overlap.None, // Name
 		Overlap.Full, // Home world
 		Overlap.Full, // First appearance
-		Overlap.None, // Species
+		Overlap.Full, // Species
 		Overlap.None, // Abilities
 	]);
 
@@ -129,7 +129,7 @@ test("Montane/Forescout family", () => {
 		Overlap.Partial, // Name
 		Overlap.Full, // Home world
 		Overlap.Full, // First appearance
-		Overlap.None, // Species
+		Overlap.Full, // Species
 		Overlap.None, // Abilities
 	]);
 });
