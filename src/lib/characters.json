@@ -1359,7 +1359,8 @@
 		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Lightweaver"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20315
 	},
 	{
 		"name": ["Timbre"],
@@ -2653,5 +2654,13 @@
 		"species": ["Human", "Threnodite"],
 		"abilities": ["Cognitive Shadow", "Shade"],
 		"validFrom": 20304
+	},
+	{
+		"name": ["Tien"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
+		"species": ["Human", "Alethi"],
+		"abilities": ["Lightweaver", "Surgebinder"],
+		"validFrom": 20316
 	}
 ]
