@@ -1,3 +1,4 @@
+import { playGame } from "lib/solve";
 import {
 	charactersForDay,
 	compareCharacters,
@@ -18,7 +19,6 @@ import {
 	WEB_APP_MANIFEST_192,
 	WEB_APP_MANIFEST_512,
 } from "./public_files";
-
 import { seededRandom } from "./random";
 
 const logLevel = Bun.env.LOG_LEVEL;
@@ -46,6 +46,7 @@ const log = createSimpleLogger(loggerConfig);
 
 let todaysCharacterIndex = 0;
 let today = 0;
+let par = 0;
 
 function nextDay() {
 	const yesterday = today;
@@ -69,15 +70,26 @@ function nextDay() {
 		characters[todaysCharacterIndex].name.join(" "),
 	);
 }
+function setPar() {
+	const characters = charactersForDay(today);
+	par = playGame(characters, characters[todaysCharacterIndex], false).length;
+}
 
-function updateToday() {
+function updateToday(): boolean {
+	if (today === daysSinceEpoch()) return false;
 	while (today < daysSinceEpoch()) {
 		nextDay();
 	}
+	return true;
 }
 
 updateToday();
-setInterval(updateToday, 1_000);
+setPar();
+
+console.debug("par is", par);
+setInterval(() => {
+	if (updateToday()) setPar();
+}, 1_000);
 
 const PORT = 45065;
 
@@ -125,6 +137,10 @@ Bun.serve({
 				}),
 				{ headers: { "Content-Type": "application/json" } },
 			),
+		"/par": () =>
+			new Response(par.toString(), {
+				headers: { "Content-Type": "text/plain" },
+			}),
 		"/characters": () =>
 			new Response(JSON.stringify(charactersForDay(today)), {
 				headers: { "Content-Type": "application/json" },

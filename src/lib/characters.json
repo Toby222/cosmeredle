@@ -1419,7 +1419,8 @@
 		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Mistspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Truthwatcher"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20318
 	},
 	{
 		"name": ["Ulaam"],

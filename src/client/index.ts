@@ -30,6 +30,7 @@ const dates = (await (await fetch("/today")).json()) as {
 	today: number;
 	tomorrow: number;
 };
+const par = Number.parseInt(await (await fetch("/par")).text());
 
 if (localStorage.getItem("shareLink") === "true") {
 	shareLink.value = true;
@@ -212,6 +213,7 @@ $("main", () => {
 					$("span:Game over! ");
 					$("hr");
 					$(`span:You took ${previousGuesses.length} guesses`);
+					$(`span:Par: ${par}`);
 
 					const shareable = previousGuesses.map(emojiFromGuess).join("\n");
 					$(`pre:${shareable}`);
@@ -223,10 +225,16 @@ $("main", () => {
 							});
 						});
 						$("span: ");
+						const parText =
+							previousGuesses.length === par
+								? "on par"
+								: previousGuesses.length > par
+									? `${previousGuesses.length - par} over par`
+									: `${par - previousGuesses.length} under par`;
 						$("button:Copy", {
 							click() {
 								navigator.clipboard.writeText(
-									`I got today's Cosmeredle in ${previousGuesses.length}!\n${shareable}${
+									`I got today's Cosmeredle in ${previousGuesses.length}!\n${parText}\n${shareable}${
 										shareLink.value ? `\n${location.href}` : ""
 									}`,
 								);
