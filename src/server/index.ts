@@ -63,7 +63,7 @@ function nextDay() {
 		todaysCharacterIndex = (todaysCharacterIndex + 1) % characters.length;
 	}
 
-	console.debug(
+	log.info(
 		"Updating today to",
 		today,
 		"; today's character is",
@@ -73,7 +73,7 @@ function nextDay() {
 function setPar() {
 	const characters = charactersForDay(today);
 	par = playGame(characters, characters[todaysCharacterIndex], false).length;
-	log.debug("par is", par);
+	log.info("par is", par);
 }
 
 function updateToday(): boolean {
