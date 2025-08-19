@@ -45,9 +45,33 @@ function getOverlapFromInput(input: string): OverlapType | undefined {
 	}
 }
 
-const guessesMade = [] as SolveGuess[];
+const guessesMade = [
+	// [
+	// 	"Tress",
+	// 	[
+	// 		Overlap.None,
+	// 		Overlap.None,
+	// 		Overlap.None,
+	// 		Overlap.Partial,
+	// 		Overlap.None
+	// 	]
+	// ]
+] as SolveGuess[];
 
 let remainingCharacters = characters.slice();
+
+for (const guess of guessesMade) {
+	remainingCharacters = remainingCharacters.filter(
+		(remainingCharacter) =>
+			remainingCharacter.name.join(" ") !== guess[0] &&
+			characterIsValid(
+				remainingCharacter,
+				guess as SolveGuess,
+				remainingCharacters,
+			),
+	);
+}
+
 while (remainingCharacters.length > 0) {
 	const bestGuess = getBestGuessOutOfPossible(remainingCharacters);
 	guessesMade.push([

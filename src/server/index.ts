@@ -73,6 +73,7 @@ function nextDay() {
 function setPar() {
 	const characters = charactersForDay(today);
 	par = playGame(characters, characters[todaysCharacterIndex], false).length;
+	log.debug("par is", par);
 }
 
 function updateToday(): boolean {
@@ -86,7 +87,6 @@ function updateToday(): boolean {
 updateToday();
 setPar();
 
-console.debug("par is", par);
 setInterval(() => {
 	if (updateToday()) setPar();
 }, 1_000);
