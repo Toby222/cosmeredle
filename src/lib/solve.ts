@@ -45,7 +45,8 @@ export function characterIsValid(
 	const guessedChar = remainingCharacters.find(
 		(char) => char.name.join(" ") === guess[0],
 	);
-	if (guessedChar === undefined) throw new Error("wtf bro");
+	if (guessedChar === undefined)
+		throw new Error(`undefined character "${guess[0]}"`);
 
 	return compareCharacters(character, guessedChar).every((overlap, idx) =>
 		overlapValidFor(overlap, guess[1][idx]),
