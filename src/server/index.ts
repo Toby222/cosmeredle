@@ -72,7 +72,8 @@ function nextDay() {
 }
 function setPar() {
 	const characters = charactersForDay(today);
-	par = 3 + playGame(characters, characters[todaysCharacterIndex], false).length;
+	par =
+		3 + playGame(characters, characters[todaysCharacterIndex], false).length;
 	console.log("par is", par);
 }
 

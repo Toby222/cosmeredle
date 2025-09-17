@@ -1,4 +1,4 @@
-import { $, observe, proxy, type ValueRef } from "aberdeen";
+import { $, proxy, type ValueRef } from "aberdeen";
 
 export type Entry<T> = {
 	label: string;
@@ -23,19 +23,19 @@ export function CustomSelectNumber(
 		search.value = entry.label;
 		opened.value = false;
 	}
-	observe(() => {
+	derive(() => {
 		if (!opened.value) selectedIndex.value = undefined;
 	});
-	const filteredEntries = observe(() =>
+	const filteredEntries = derive(() =>
 		entries.filter((entry) =>
 			entry.label.toLowerCase().includes(search.value.toLowerCase()),
 		),
 	);
-	const enabledEntries = observe(() =>
+	const enabledEntries = derive(() =>
 		filteredEntries.value.filter((entry) => !entry.disabled),
 	);
 
-	observe(() => {
+	derive(() => {
 		const index = filteredEntries.value.findIndex(
 			(entry) => entry.label === search.value,
 		);

@@ -1,4 +1,4 @@
-import { $, observe, onEach, proxy } from "aberdeen";
+import { $, derive, onEach, proxy } from "aberdeen";
 import { emojiFromGuess, type StoredGuess } from "client/util";
 import {
 	charactersForToday,
@@ -30,16 +30,16 @@ const dates = (await (await fetch("/today")).json()) as {
 	today: number;
 	tomorrow: number;
 };
-const par = Number.parseInt(await (await fetch("/par")).text());
+const par = Number.parseInt(await (await fetch("/par")).text(), 10);
 
 if (localStorage.getItem("shareLink") === "true") {
 	shareLink.value = true;
 }
 
-observe(() => {
+derive(() => {
 	localStorage.setItem("shareLink", shareLink.value.toString());
 });
-observe(() => {
+derive(() => {
 	localStorage.setItem(
 		"spoilerWarningDismissed",
 		spoilerWarningDismissed.value.toString(),
@@ -78,7 +78,7 @@ const characters = charactersForToday();
 		(_character, idx) => !previousIdxs.includes(idx),
 	).length;
 }
-observe(() => {
+derive(() => {
 	if (availableCharacters.value === 0) selectedCharacter.value = undefined;
 });
 answerPending.value = false;

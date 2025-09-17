@@ -45,18 +45,26 @@ function getOverlapFromInput(input: string): OverlapType | undefined {
 	}
 }
 
-const guessesMade = [
-	// [
-	// 	"Tress",
-	// 	[
-	// 		Overlap.None,
-	// 		Overlap.None,
-	// 		Overlap.None,
-	// 		Overlap.Partial,
-	// 		Overlap.None
-	// 	]
-	// ]
-] as SolveGuess[];
+const guessesMade = [].map((guess) => {
+	if (typeof guess[1] === "string") {
+		guess[1] = Array.from(guess[1]).map((char) => {
+			switch (char) {
+				case "R":
+				case "r":
+					return Overlap.None;
+				case "Y":
+				case "y":
+					return Overlap.Partial;
+				case "G":
+				case "g":
+					return Overlap.Full;
+				default:
+					throw new Error("Unknown overlap");
+			}
+		});
+	}
+	return guess;
+}) as SolveGuess[];
 
 let remainingCharacters = characters.slice();
 
