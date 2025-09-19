@@ -1,4 +1,4 @@
-import { $, proxy, type ValueRef } from "aberdeen";
+import { $, derive, proxy, type ValueRef } from "aberdeen";
 
 export type Entry<T> = {
 	label: string;
