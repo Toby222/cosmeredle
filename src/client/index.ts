@@ -216,7 +216,9 @@ $("main", () => {
 					$(`span:Par: ${par}`);
 
 					const shareable = previousGuesses.map(emojiFromGuess).join("\n");
-					$(`pre:${shareable}`);
+					if (shareable.length > 0) {
+						$(`pre:${shareable}`);
+					}
 					$("div", () => {
 						$("label:Include link", () => {
 							$("input", {

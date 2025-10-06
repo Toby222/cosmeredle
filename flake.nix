@@ -39,7 +39,7 @@
               biome
               bun
               nixfmt-rfc-style
-              nodejs
+              nodejs_latest
             ];
             env = {
               LOG_TO_FILE = "true";
