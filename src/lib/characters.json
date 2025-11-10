@@ -346,7 +346,7 @@
 		"homeWorld": "Roshar",
 		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
-		"abilities": ["Shardbearer"],
+		"abilities": ["Fused", "Shardbearer"],
 		"validFrom": 0
 	},
 	{
@@ -1483,7 +1483,7 @@
 	{
 		"name": ["Vienta"],
 		"homeWorld": "Roshar",
-		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
 		"validFrom": 0
