@@ -32,7 +32,8 @@
 		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Khlenni"],
 		"abilities": ["Misting", "Seeker"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20430
 	},
 	{
 		"name": ["Allik", "Neverfar"],
@@ -2663,5 +2664,13 @@
 		"species": ["Human", "Alethi"],
 		"abilities": ["Lightweaver", "Surgebinder"],
 		"validFrom": 20316
+	},
+	{
+		"name": ["Alendi"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
+		"species": ["Human", "Khlenni"],
+		"abilities": ["Hemalurgy", "Misting", "Seeker"],
+		"validFrom": 20431
 	}
 ]
