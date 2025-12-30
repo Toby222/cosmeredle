@@ -113,7 +113,8 @@
 		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Spren", "Highspren"],
 		"abilities": ["Nahel Bond", "Skybreaker", "Splinter", "Worldhopper"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20452
 	},
 	{
 		"name": ["Axies"],
@@ -2672,5 +2673,13 @@
 		"species": ["Human", "Khlenni"],
 		"abilities": ["Hemalurgy", "Misting", "Seeker"],
 		"validFrom": 20431
+	},
+	{
+		"name": ["Auxiliary"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
+		"species": ["Spren", "Highspren"],
+		"abilities": ["Nahel Bond", "Skybreaker", "Splinter", "Worldhopper"],
+		"validFrom": 20453
 	}
 ]
