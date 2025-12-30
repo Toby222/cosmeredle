@@ -1,4 +1,3 @@
-import { insertCss } from "aberdeen";
 import { emojiFromOverlap, Overlap, type OverlapType } from "lib/util";
 
 export type StoredGuess = [
@@ -10,11 +9,11 @@ export type StoredGuess = [
 	number,
 ];
 
-export const OVERLAP_STYLES = {
-	[Overlap.None]: insertCss({ background: "red" }),
-	[Overlap.Partial]: insertCss({ background: "yellow" }),
-	[Overlap.Full]: insertCss({ background: "green" }),
-	Placeholder: insertCss({ background: "#444" }),
+export const OVERLAP_COLORS = {
+	[Overlap.None]: "red",
+	[Overlap.Partial]: "yellow",
+	[Overlap.Full]: "green",
+	Placeholder: "#444",
 } as const;
 
 export function emojiFromGuess(guess: StoredGuess): string {

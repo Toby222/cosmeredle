@@ -134,22 +134,22 @@ $("main", () => {
 			makeGuess,
 		);
 
-		$("button:Guess", {
+		$("button#Guess", {
 			click: makeGuess,
 			".disabled": answerPending,
 		});
 	});
 	$("div", { id: "nextGame" }, () => {
-		$(`span:Next game: ${dateDiff(now.value, nextGame, true)}`);
+		$(`span#Next game: ${dateDiff(now.value, nextGame, true)}`);
 	});
 
 	$("div", { id: "guesses" }, () => {
 		$("div", { id: "guessHeader" }, () => {
-			$("span.guessTitle:Name");
-			$("span.guessTitle:Home World");
-			$("span.guessTitle:First Appearance");
-			$("span.guessTitle:Species");
-			$("span.guessTitle:Abilities/Investiture");
+			$("span.guessTitle#Name");
+			$("span.guessTitle#Home World");
+			$("span.guessTitle#First Appearance");
+			$("span.guessTitle#Species");
+			$("span.guessTitle#Abilities/Investiture");
 		});
 		onEach(
 			previousGuesses,
@@ -178,20 +178,17 @@ $("main", () => {
 			},
 			() => {
 				$("div.popup", () => {
-					$("span:Spoiler warning!");
+					$("span#Spoiler warning!");
 					$("hr");
 					$("span", () => {
-						$(":This game contains spoilers for ");
-						$("em:all", {
-							$color: "red",
-							$fontStyle: "cursive",
-						});
-						$(": of the Cosmere!");
+						$("#This game contains spoilers for ");
+						$("em color:red fontStyle:cursive #all");
+						$("# of the Cosmere!");
 					});
 					$(
-						"span:Do not continue unless you're caught-up with all books or don't mind potentially getting spoiled.",
+						"span#Do not continue unless you're caught-up with all books or don't mind potentially getting spoiled.",
 					);
-					$("span:click/tap to close this notice, it will not be shown again");
+					$("span#click/tap to close this notice, it will not be shown again");
 				});
 			},
 		);
@@ -210,30 +207,30 @@ $("main", () => {
 			},
 			() => {
 				$("div.popup", () => {
-					$("span:Game over! ");
+					$("span#Game over! ");
 					$("hr");
-					$(`span:You took ${previousGuesses.length} guesses`);
-					$(`span:Par: ${par}`);
+					$(`span#You took ${previousGuesses.length} guesses`);
+					$(`span#Par: ${par}`);
 
 					const shareable = previousGuesses.map(emojiFromGuess).join("\n");
 					if (shareable.length > 0) {
-						$(`pre:${shareable}`);
+						$(`pre#${shareable}`);
 					}
 					$("div", () => {
-						$("label:Include link", () => {
+						$("label#Include link", () => {
 							$("input", {
 								type: "checkbox",
 								bind: shareLink,
 							});
 						});
-						$("span: ");
+						$("span# ");
 						const parText =
 							previousGuesses.length === par
 								? "on par"
 								: previousGuesses.length > par
 									? `${previousGuesses.length - par} over par`
 									: `${par - previousGuesses.length} under par`;
-						$("button:Copy", {
+						$("button#Copy", {
 							click() {
 								navigator.clipboard.writeText(
 									`I got today's Cosmeredle in ${previousGuesses.length}!\n${parText}\n${shareable}${

@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { OVERLAP_STYLES } from "client/util";
+import { OVERLAP_COLORS } from "client/util";
 import { charactersForToday, formatSpecies, Overlap } from "lib/util";
 import { GuessRow } from "./GuessRow";
 
@@ -17,11 +17,11 @@ test("GuessRow looks sane", () => {
 			])?.innerHTML,
 			`GuessRow broken for ${characters[idx].name.join(" ")}`,
 		).toBe(
-			`<div class="guessBubble ${OVERLAP_STYLES[Overlap.None].replace(/^\./, "")}">${characters[idx].name.join(" ")}</div>` +
-				`<div class="guessBubble ${OVERLAP_STYLES[Overlap.Partial].replace(/^\./, "")}">${characters[idx].homeWorld}</div>` +
-				`<div class="guessBubble ${OVERLAP_STYLES[Overlap.Full].replace(/^\./, "")}">${characters[idx].firstAppearance[0]}</div>` +
-				`<div class="guessBubble ${OVERLAP_STYLES[Overlap.Full].replace(/^\./, "")}">${formatSpecies(characters[idx].species)}</div>` +
-				`<div class="guessBubble ${OVERLAP_STYLES[Overlap.Full].replace(/^\./, "")}">${characters[idx].abilities.join(", ")}</div>`,
+			`<div style="background-color: ${OVERLAP_COLORS[Overlap.None]};" class="guessBubble">${characters[idx].name.join(" ")}</div>` +
+				`<div style="background-color: ${OVERLAP_COLORS[Overlap.Partial]};" class="guessBubble">${characters[idx].homeWorld}</div>` +
+				`<div style="background-color: ${OVERLAP_COLORS[Overlap.Full]};" class="guessBubble">${characters[idx].firstAppearance[0]}</div>` +
+				`<div style="background-color: ${OVERLAP_COLORS[Overlap.Full]};" class="guessBubble">${formatSpecies(characters[idx].species)}</div>` +
+				`<div style="background-color: ${OVERLAP_COLORS[Overlap.Full]};" class="guessBubble">${characters[idx].abilities.join(", ")}</div>`,
 		);
 	}
 });

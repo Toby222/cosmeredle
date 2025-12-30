@@ -127,7 +127,7 @@ export function CustomSelectNumber(
 					disabled: enabled.value ? undefined : true,
 				});
 				(input as HTMLInputElement | undefined)?.focus();
-				$("button:Clear", {
+				$("button#Clear", {
 					click() {
 						search.value = "";
 						selectedIndex.value = undefined;
@@ -142,7 +142,7 @@ export function CustomSelectNumber(
 				);
 				for (let idx = 0; idx < entries.length; idx++) {
 					const entry = entries[idx];
-					const listItem = $(`li:${entry.label}`, {
+					const listItem = $(`li#${entry.label}`, {
 						click(event: MouseEvent) {
 							if (event.target === this) {
 								event.stopPropagation();
