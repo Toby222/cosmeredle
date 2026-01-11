@@ -93,7 +93,7 @@
           };
         };
       overlays.default = final: prev: {
-        cosmeredle = self.packages.${final.system}.default;
+        cosmeredle = self.packages.${final.stdenv.hostPlatform.system}.default;
       };
       packages = forEachSupportedSystem (
         { pkgs, ... }:
