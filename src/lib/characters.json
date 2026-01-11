@@ -221,7 +221,8 @@
 		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Misting", "Smoker"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20464
 	},
 	{
 		"name": ["Colot"],
@@ -1229,7 +1230,8 @@
 		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
 		"species": ["Human", "Skaa"],
 		"abilities": ["Hemalurgy", "Mistborn", "Misting", "Savant", "Tineye"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20464
 	},
 	{
 		"name": ["Steris", "Harms"],
@@ -2576,7 +2578,8 @@
 		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
 		"species": ["Lawnark"],
 		"abilities": ["Unnamed electricity power"],
-		"validFrom": 20295
+		"validFrom": 20295,
+		"validUntil": 20464
 	},
 	{
 		"name": ["Chrysalis"],
@@ -2681,5 +2684,45 @@
 		"species": ["Spren", "Highspren"],
 		"abilities": ["Nahel Bond", "Skybreaker", "Splinter", "Worldhopper"],
 		"validFrom": 20453
+	},
+	{
+		"name": ["Human", "(Vershad)"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": ["The Hero of Ages", "Mistborn Era 1"],
+		"species": ["Koloss", "Human"],
+		"abilities": ["Hemalurgy"],
+		"validFrom": 20465
+	},
+	{
+		"name": ["Cladent", "(Clubs)"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
+		"species": ["Human", "Skaa"],
+		"abilities": ["Misting", "Smoker"],
+		"validFrom": 20465
+	},
+	{
+		"name": ["Spook", "(Lestibournes", "Jedal)"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": ["The Final Empire", "Mistborn Era 1"],
+		"species": ["Human", "Skaa"],
+		"abilities": ["Hemalurgy", "Mistborn", "Misting", "Savant", "Tineye"],
+		"validFrom": 20465
+	},
+	{
+		"name": ["Tarson"],
+		"homeWorld": "Scadrial",
+		"firstAppearance": ["The Alloy of Law", "Mistborn Era 2"],
+		"species": ["Human", "Koloss"],
+		"abilities": ["Pewterarm", "Savant"],
+		"validFrom": 20465
+	},
+	{
+		"name": ["ZeetZi"],
+		"homeWorld": "The Grand Apparatus",
+		"firstAppearance": ["Isles of the Emberdark", "Isles of the Emberdark"],
+		"species": ["Human", "Lawnark"],
+		"abilities": ["Unnamed electricity power"],
+		"validFrom": 20465
 	}
 ]

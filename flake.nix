@@ -38,7 +38,7 @@
               nixd
               biome
               bun
-              nixfmt-rfc-style
+              nixfmt
               nodejs_latest
             ];
             env = {

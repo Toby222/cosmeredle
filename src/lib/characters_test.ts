@@ -76,7 +76,9 @@ const expectedUniqueSpecies = [
 	"Human MaiPon", // Wan ShaiLu
 	"Sho Del", // Uli Da
 	"Human Vaxilian", // Eddlin
-	"Lawnark", // Zeetzi
+	"Human Lawnark", // ZeetZi
+	"Koloss Human", // Human (Vershad)
+	"Human Koloss", // Tarson
 ];
 test("Proper species occurence count", () => {
 	const allSpecies = characters.map((character) => character.species.join(" "));
@@ -117,6 +119,7 @@ const expectedUniqueAbilities: string[] = [
 	"Precognition", // Sak
 	"Duralumin Gnat", // Dumad
 	"Unnamed electricity power", // ZeetZi
+	"Koloss", // Human (Vershad)
 ];
 test("Proper ability occurence count", () => {
 	const abilities = characters.flatMap((character) => character.abilities);

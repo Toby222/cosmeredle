@@ -73,6 +73,17 @@ test("Tress and Silence are unrelated", () => {
 	expect(match[4], "Abilities matching broken").toBe(Overlap.None);
 });
 
+test("Unspecified does not cross species", () => {
+	const ann = getCharacter("Ann");
+	const ulaam = getCharacter("Ulaam");
+	const match = compareCharacters(ann, ulaam);
+	expect(match[0], "Name matching broken").toBe(Overlap.None);
+	expect(match[1], "Homeworld matching broken").toBe(Overlap.None);
+	expect(match[2], "First Appearance matching broken").toBe(Overlap.None);
+	expect(match[3], "Species matching broken").toBe(Overlap.None);
+	expect(match[4], "Abilities matching broken").toBe(Overlap.None);
+});
+
 test("Montane/Forescout family", () => {
 	const silence = getCharacter("Silence");
 	const sebruki = getCharacter("Sebruki");
