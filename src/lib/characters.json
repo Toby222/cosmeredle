@@ -2724,5 +2724,13 @@
 		"species": ["Human", "Lawnark"],
 		"abilities": ["Unnamed electricity power"],
 		"validFrom": 20465
+	},
+	{
+		"name": ["Fen", "Rnamdi"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
+		"species": ["Human", "Thaylen"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20501
 	}
 ]
