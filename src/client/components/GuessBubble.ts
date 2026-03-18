@@ -1,11 +1,11 @@
-import { $ } from "aberdeen";
+import A from "aberdeen";
 import { OVERLAP_COLORS } from "client/util";
 
 export function GuessBubble(
 	text: string,
 	overlap: keyof typeof OVERLAP_COLORS,
 ): Element | undefined {
-	return $(
+	return A(
 		`div backgroundColor:${OVERLAP_COLORS[overlap]} .guessBubble #${text}`,
 	);
 }

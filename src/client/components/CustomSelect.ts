@@ -1,5 +1,4 @@
-import { $, derive, proxy, type ValueRef } from "aberdeen";
-
+import A, { type ValueRef } from "aberdeen";
 export type Entry<T> = {
 	label: string;
 	value: T;
@@ -12,10 +11,10 @@ export function CustomSelectNumber(
 	enabled: ValueRef<boolean>,
 	enterValue: () => void,
 ): HTMLDivElement | undefined {
-	const search = proxy("");
-	const opened = proxy(false);
+	const search = A.proxy("");
+	const opened = A.proxy(false);
 	// Selected index into filteredEntries
-	const selectedIndex = proxy<number | undefined>(undefined);
+	const selectedIndex = A.proxy<number | undefined>(undefined);
 
 	function selectEntry(entry: Entry<number>) {
 		console.debug("selecting", entry);
@@ -23,19 +22,19 @@ export function CustomSelectNumber(
 		search.value = entry.label;
 		opened.value = false;
 	}
-	derive(() => {
+	A.derive(() => {
 		if (!opened.value) selectedIndex.value = undefined;
 	});
-	const filteredEntries = derive(() =>
+	const filteredEntries = A.derive(() =>
 		entries.filter((entry) =>
 			entry.label.toLowerCase().includes(search.value.toLowerCase()),
 		),
 	);
-	const enabledEntries = derive(() =>
+	const enabledEntries = A.derive(() =>
 		filteredEntries.value.filter((entry) => !entry.disabled),
 	);
 
-	derive(() => {
+	A.derive(() => {
 		const index = filteredEntries.value.findIndex(
 			(entry) => entry.label === search.value,
 		);
@@ -85,15 +84,15 @@ export function CustomSelectNumber(
 		}
 	}
 
-	return $(
+	return A(
 		"div.customSelect",
 		{
 			".opened": opened,
 			".enabled": enabled,
 		},
 		() => {
-			$("div.input", () => {
-				const input = $("input", {
+			A("div.input", () => {
+				const input = A("input", {
 					type: "text",
 					placeholder: "Search",
 					bind: search,
@@ -127,7 +126,7 @@ export function CustomSelectNumber(
 					disabled: enabled.value ? undefined : true,
 				});
 				(input as HTMLInputElement | undefined)?.focus();
-				$("button#Clear", {
+				A("button#Clear", {
 					click() {
 						search.value = "";
 						selectedIndex.value = undefined;
@@ -136,13 +135,13 @@ export function CustomSelectNumber(
 			});
 			let disableAutoScroll = false;
 			let autoScrollTimeout: ReturnType<typeof setTimeout> | undefined;
-			$("ul", () => {
+			A("ul", () => {
 				const entries = filteredEntries.value.sort((entryA, entryB) =>
 					entryA.label.localeCompare(entryB.label),
 				);
 				for (let idx = 0; idx < entries.length; idx++) {
 					const entry = entries[idx];
-					const listItem = $(`li#${entry.label}`, {
+					const listItem = A(`li#${entry.label}`, {
 						click(event: MouseEvent) {
 							if (event.target === this) {
 								event.stopPropagation();

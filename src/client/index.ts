@@ -1,4 +1,4 @@
-import { $, derive, onEach, proxy } from "aberdeen";
+import A from "aberdeen";
 import { emojiFromGuess, type StoredGuess } from "client/util";
 import {
 	charactersForToday,
@@ -12,16 +12,16 @@ import { Footer } from "./components/Footer";
 import { GuessBubble } from "./components/GuessBubble";
 import { GuessRow } from "./components/GuessRow";
 
-const previousGuesses: StoredGuess[] = proxy([]);
-const availableCharacters = proxy(0);
-const answerPending = proxy(true);
-const gameInProgress = proxy(true);
-const shareLink = proxy(false);
-const spoilerWarningDismissed = proxy(
+const previousGuesses: StoredGuess[] = A.proxy([]);
+const availableCharacters = A.proxy(0);
+const answerPending = A.proxy(true);
+const gameInProgress = A.proxy(true);
+const shareLink = A.proxy(false);
+const spoilerWarningDismissed = A.proxy(
 	localStorage.getItem("spoilerWarningDismissed") === "true",
 );
-const selectedCharacter = proxy<number | undefined>(undefined);
-const now = proxy(Date.now());
+const selectedCharacter = A.proxy<number | undefined>(undefined);
+const now = A.proxy(Date.now());
 setInterval(() => {
 	now.value = Date.now();
 }, 100);
@@ -36,10 +36,10 @@ if (localStorage.getItem("shareLink") === "true") {
 	shareLink.value = true;
 }
 
-derive(() => {
+A.derive(() => {
 	localStorage.setItem("shareLink", shareLink.value.toString());
 });
-derive(() => {
+A.derive(() => {
 	localStorage.setItem(
 		"spoilerWarningDismissed",
 		spoilerWarningDismissed.value.toString(),
@@ -78,7 +78,7 @@ const characters = charactersForToday();
 		(_character, idx) => !previousIdxs.includes(idx),
 	).length;
 }
-derive(() => {
+A.derive(() => {
 	if (availableCharacters.value === 0) selectedCharacter.value = undefined;
 });
 answerPending.value = false;
@@ -112,10 +112,10 @@ async function guess(characterId: number) {
 	answerPending.value = false;
 }
 
-const hideGameOver = proxy(false);
+const hideGameOver = A.proxy(false);
 
-$("main", () => {
-	$("div", { id: "makeGuess" }, () => {
+A("main", () => {
+	A("div", { id: "makeGuess" }, () => {
 		const guessedCharacters = previousGuesses.map((guess) => guess[5]);
 		function makeGuess() {
 			if (selectedCharacter.value !== undefined) {
@@ -134,30 +134,30 @@ $("main", () => {
 			makeGuess,
 		);
 
-		$("button#Guess", {
+		A("button#Guess", {
 			click: makeGuess,
 			".disabled": answerPending,
 		});
 	});
-	$("div", { id: "nextGame" }, () => {
-		$(`span#Next game: ${dateDiff(now.value, nextGame, true)}`);
+	A("div", { id: "nextGame" }, () => {
+		A(`span#Next game: ${dateDiff(now.value, nextGame, true)}`);
 	});
 
-	$("div", { id: "guesses" }, () => {
-		$("div", { id: "guessHeader" }, () => {
-			$("span.guessTitle#Name");
-			$("span.guessTitle#Home World");
-			$("span.guessTitle#First Appearance");
-			$("span.guessTitle#Species");
-			$("span.guessTitle#Abilities/Investiture");
+	A("div", { id: "guesses" }, () => {
+		A("div", { id: "guessHeader" }, () => {
+			A("span.guessTitle#Name");
+			A("span.guessTitle#Home World");
+			A("span.guessTitle#First Appearance");
+			A("span.guessTitle#Species");
+			A("span.guessTitle#Abilities/Investiture");
 		});
-		onEach(
+		A.onEach(
 			previousGuesses,
 			(guess) => GuessRow(guess),
 			(_guess, idx) => -idx,
 		);
 		if (previousGuesses.length === 0) {
-			$("div.guessRow", () => {
+			A("div.guessRow", () => {
 				GuessBubble("?", "Placeholder");
 				GuessBubble("?", "Placeholder");
 				GuessBubble("?", "Placeholder");
@@ -168,7 +168,7 @@ $("main", () => {
 	});
 
 	if (!spoilerWarningDismissed.value) {
-		$(
+		A(
 			"div.popupWrapper",
 			{
 				id: "spoilerWarning",
@@ -177,24 +177,24 @@ $("main", () => {
 				},
 			},
 			() => {
-				$("div.popup", () => {
-					$("span#Spoiler warning!");
-					$("hr");
-					$("span", () => {
-						$("#This game contains spoilers for ");
-						$("em color:red fontStyle:cursive #all");
-						$("# of the Cosmere!");
+				A("div.popup", () => {
+					A("span#Spoiler warning!");
+					A("hr");
+					A("span", () => {
+						A("#This game contains spoilers for ");
+						A("em color:red fontStyle:cursive #all");
+						A("# of the Cosmere!");
 					});
-					$(
+					A(
 						"span#Do not continue unless you're caught-up with all books or don't mind potentially getting spoiled.",
 					);
-					$("span#click/tap to close this notice, it will not be shown again");
+					A("span#click/tap to close this notice, it will not be shown again");
 				});
 			},
 		);
 	}
 	if (!hideGameOver.value) {
-		$(
+		A(
 			"div.popupWrapper",
 			{
 				id: "gameOver",
@@ -206,31 +206,31 @@ $("main", () => {
 				},
 			},
 			() => {
-				$("div.popup", () => {
-					$("span#Game over! ");
-					$("hr");
-					$(`span#You took ${previousGuesses.length} guesses`);
-					$(`span#Par: ${par}`);
+				A("div.popup", () => {
+					A("span#Game over! ");
+					A("hr");
+					A(`span#You took ${previousGuesses.length} guesses`);
+					A(`span#Par: ${par}`);
 
 					const shareable = previousGuesses.map(emojiFromGuess).join("\n");
 					if (shareable.length > 0) {
-						$(`pre#${shareable}`);
+						A(`pre#${shareable}`);
 					}
-					$("div", () => {
-						$("label#Include link", () => {
-							$("input", {
+					A("div", () => {
+						A("label#Include link", () => {
+							A("input", {
 								type: "checkbox",
 								bind: shareLink,
 							});
 						});
-						$("span# ");
+						A("span# ");
 						const parText =
 							previousGuesses.length === par
 								? "on par"
 								: previousGuesses.length > par
 									? `${previousGuesses.length - par} over par`
 									: `${par - previousGuesses.length} under par`;
-						$("button#Copy", {
+						A("button#Copy", {
 							click() {
 								navigator.clipboard.writeText(
 									`I got today's Cosmeredle in ${previousGuesses.length}!\n${parText}\n${shareable}${
