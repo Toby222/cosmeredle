@@ -8,13 +8,13 @@
 	},
 	"main": "server.ts",
 	"dependencies": {
-		"@types/bun": "^1.3.10",
+		"@types/bun": "^1.3.11",
 		"aberdeen": "^1.10.0",
 		"simple-node-logger": "^21.8.12",
-		"typescript": "^5.9.3"
+		"typescript": "^6.0.2"
 	},
 	"devDependencies": {
-		"@happy-dom/global-registrator": "^20.8.4",
+		"@happy-dom/global-registrator": "^20.8.8",
 		"husky": "^9.1.7"
 	},
 	"bugs": {

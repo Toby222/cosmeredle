@@ -1632,7 +1632,8 @@
 		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Singer", "Listener"],
 		"abilities": ["Uninvested"],
-		"validFrom": 20266
+		"validFrom": 20266,
+		"validUntil": 20538
 	},
 	{
 		"name": ["Notum"],
@@ -2732,5 +2733,25 @@
 		"species": ["Human", "Thaylen"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20501
+	},
+	{
+		"name": ["Thude"],
+		"homeWorld": "Roshar",
+		"firstAppearance": [
+			"Words of Radiance",
+			"Stormlight Archive",
+			"Shardbearer"
+		],
+		"species": ["Singer", "Listener"],
+		"abilities": ["Knight Radiant", "Willshaper"],
+		"validFrom": 20539
+	},
+	{
+		"name": ["Jaxlim"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
+		"species": ["Singer", "Listener"],
+		"abilities": ["Knight Radiant", "Willshaper"],
+		"validFrom": 20539
 	}
 ]
