@@ -14,7 +14,7 @@ function MurmurHash3(seed: string) {
 	};
 }
 
-function SimpleFastCounter32() {
+export function SimpleFastCounter32() {
 	const generateSeed = MurmurHash3(env.RANDOM_SEED ?? "RANDOM_SEED");
 	let seed_1 = generateSeed();
 	let seed_2 = generateSeed();
@@ -36,4 +36,11 @@ function SimpleFastCounter32() {
 	};
 }
 
-export const seededRandom = SimpleFastCounter32();
+const buffered: number[] = [];
+const nextRandom = SimpleFastCounter32();
+export function seededRandom(index: number): number {
+	for (let i = buffered.length; i <= index + 1; i++) {
+		buffered[i] = nextRandom();
+	}
+	return buffered[index];
+}

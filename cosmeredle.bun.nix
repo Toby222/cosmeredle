@@ -53,18 +53,6 @@
     url = "https://registry.npmjs.org/husky/-/husky-9.1.7.tgz";
     hash = "sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==";
   };
-  "lodash@4.18.1" = fetchurl {
-    url = "https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz";
-    hash = "sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==";
-  };
-  "moment@2.30.1" = fetchurl {
-    url = "https://registry.npmjs.org/moment/-/moment-2.30.1.tgz";
-    hash = "sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==";
-  };
-  "simple-node-logger@21.8.12" = fetchurl {
-    url = "https://registry.npmjs.org/simple-node-logger/-/simple-node-logger-21.8.12.tgz";
-    hash = "sha512-RPImnYDq3jdUjaTvYLghaF1n65Dd0LV8hdZtlT0X1NZBAkw+lx0ZJtFydcUyYKjg0Yxd27AW9IAIc3OLhTjBzA==";
-  };
   "typescript@6.0.3" = fetchurl {
     url = "https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz";
     hash = "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==";

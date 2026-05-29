@@ -1,68 +1,23 @@
 import INDEX from "assets/index.html";
-import { playGame } from "lib/solve";
 import {
 	charactersForDay,
 	compareCharacters,
 	daysSinceEpoch,
 	MS_PER_DAY,
 } from "lib/util";
-import { seededRandom } from "server/random";
-import { createSimpleLogger, type STANDARD_LEVELS } from "simple-node-logger";
+import { characterForDay, getPar } from "server/util";
 
-const logLevel = Bun.env.LOG_LEVEL;
-const logToFile = Bun.env.LOG_TO_FILE === "true";
-
-type LoggerConfig = Parameters<typeof createSimpleLogger>[number];
-
-const loggerConfig: LoggerConfig = {
-	timestampFormat: "YYYY-MM-DDTHH:mm:ss",
-};
-
-if (logToFile) {
-	loggerConfig.logFilePath = "cosmeredle.log";
-}
-if (
-	logLevel !== undefined &&
-	["all", "trace", "debug", "info", "warn", "error", "fatal"].includes(logLevel)
-) {
-	loggerConfig.level = logLevel as STANDARD_LEVELS;
-} else {
-	loggerConfig.level = "info";
-}
-
-const log = createSimpleLogger(loggerConfig);
-
-let todaysCharacterIndex = 0;
 let today = 0;
-let par = 0;
 
 function nextDay() {
-	const yesterday = today;
-	const charactersYesterday = charactersForDay(yesterday);
-	const yesterdaysCharacterName =
-		charactersYesterday[todaysCharacterIndex]?.name;
+	today = daysSinceEpoch();
 
-	today++;
-
-	const characters = charactersForDay(today);
-	todaysCharacterIndex = Math.floor(seededRandom() * characters.length);
-
-	if (characters[todaysCharacterIndex].name === yesterdaysCharacterName) {
-		todaysCharacterIndex = (todaysCharacterIndex + 1) % characters.length;
-	}
-
-	console.log(
+	console.info(
 		"Updating today to",
 		today,
 		"; today's character is",
-		characters[todaysCharacterIndex].name.join(" "),
+		characterForDay(today).name.join(" "),
 	);
-}
-function setPar() {
-	const characters = charactersForDay(today);
-	par =
-		3 + playGame(characters, characters[todaysCharacterIndex], false).length;
-	console.log("par is", par);
 }
 
 function updateToday(): boolean {
@@ -74,18 +29,16 @@ function updateToday(): boolean {
 }
 
 updateToday();
-setPar();
-
 setInterval(() => {
-	if (updateToday()) setPar();
+	updateToday();
 }, 1_000);
 
 const PORT = 45065;
 
-log.info("listening on port ", PORT);
+console.info("listening on port", PORT);
 Bun.serve({
 	port: PORT,
-	fetch: (request) => {
+	fetch: async (request) => {
 		console.debug(request);
 		return Response.redirect("/", 301);
 	},
@@ -99,14 +52,28 @@ Bun.serve({
 				const char = characters[Number.parseInt(characterIdx, 10)];
 
 				return new Response(
+					JSON.stringify(compareCharacters(char, characterForDay(today))),
+					{ headers: { "Content-Type": "application/json" } },
+				);
+			},
+		},
+		"/guess/:characterIdx/:day": {
+			async POST(request) {
+				const { characterIdx, day } = request.params;
+				if (!/\d+/.test(characterIdx)) return Response.error();
+				if (!/\d+/.test(day)) return Response.error();
+				const characters = charactersForDay(Number.parseInt(day, 10));
+				const char = characters[Number.parseInt(characterIdx, 10)];
+
+				return new Response(
 					JSON.stringify(
-						compareCharacters(char, characters[todaysCharacterIndex]),
+						compareCharacters(char, characterForDay(Number.parseInt(day, 10))),
 					),
 					{ headers: { "Content-Type": "application/json" } },
 				);
 			},
 		},
-		"/today": () =>
+		"/today": async () =>
 			new Response(
 				JSON.stringify({
 					today: today,
@@ -114,13 +81,32 @@ Bun.serve({
 				}),
 				{ headers: { "Content-Type": "application/json" } },
 			),
-		"/par": () =>
-			new Response(par.toString(), {
+		"/par": async () =>
+			new Response(getPar(today).toString(), {
 				headers: { "Content-Type": "text/plain" },
 			}),
-		"/characters": () =>
+		"/par/:day": async (request) =>
+			/\d+/.test(request.params.day)
+				? new Response(
+						getPar(Number.parseInt(request.params.day, 10)).toString(),
+						{
+							headers: { "Content-Type": "text/plain" },
+						},
+					)
+				: Response.error(),
+		"/characters": async () =>
 			new Response(JSON.stringify(charactersForDay(today)), {
 				headers: { "Content-Type": "application/json" },
 			}),
+		"/characters/:day": async (request) => {
+			const { day } = request.params;
+			if (!/\d+/.test(day)) return Response.error();
+			return new Response(
+				JSON.stringify(charactersForDay(Number.parseInt(day, 10))),
+				{
+					headers: { "Content-Type": "application/json" },
+				},
+			);
+		},
 	},
 });
