@@ -24,13 +24,12 @@
 	"homepage": "https://git.tobot.dev/toby/cosmeredle#readme",
 	"license": "CC0-1.0",
 	"scripts": {
-		"fix": "biome lint --write && biome format --write",
-		"lint": "biome lint && biome format",
-		"build:client": "rm -rf public/js && bun build ./src/client/index.ts --outdir public/js --target browser --sourcemap=external",
-		"build": "bun run build:client && bun build ./src/server/index.ts --compile --outfile cosmeredle --production",
-		"start": "bun run ./src/server/index.ts --production",
-		"dev:server": "bun run --watch ./src/server/index.ts",
-		"dev:client": "bun run build:client --watch",
-		"prepare": "husky"
+		"fix": "biome lint --write && biome format --write && biome check --write",
+		"lint": "biome ci",
+		"build": "bun build --compile --minify --production --chunk-naming='[name].[ext]' --asset-naming='[name].[ext]' --no-compile-autoload-dotenv --no-compile-autoload-bunfig --no-compile-autoload-tsconfig --no-compile-autoload-package-json --format esm ./src/server.ts --outfile cosmeredle --bytecode",
+		"start": "bun run ./src/server.ts --production",
+		"dev": "bun run --watch ./src/server.ts",
+		"prepare": "husky",
+		"postinstall": "bun2nix -o cosmeredle.bun.nix"
 	}
 }

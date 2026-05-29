@@ -1,12 +1,25 @@
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+
+    bun2nix.url = "github:nix-community/bun2nix";
+    bun2nix.inputs.nixpkgs.follows = "nixpkgs";
+  };
+
+  nixConfig = {
+    extra-substituters = [
+      "https://nix-community.cachix.org"
+    ];
+    extra-trusted-public-keys = [
+      "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
+    ];
   };
 
   outputs =
     {
       self,
       nixpkgs,
+      bun2nix,
     }:
     let
       supportedSystems = [
@@ -22,6 +35,7 @@
           f {
             pkgs = import nixpkgs {
               inherit system;
+              overlays = [ bun2nix.overlays.default ];
             };
           }
         );
@@ -39,7 +53,7 @@
               biome
               bun
               nixfmt
-              nodejs_latest
+              bun2nix.packages.${pkgs.stdenv.system}.default
             ];
             env = {
               LOG_TO_FILE = "true";
@@ -98,37 +112,25 @@
       packages = forEachSupportedSystem (
         { pkgs, ... }:
         {
-          default =
-            let
-              packageJSON = pkgs.lib.importJSON ./package.json;
-              packageLock = pkgs.lib.importJSON ./package-lock.json;
-              src = pkgs.lib.cleanSource ./.;
-            in
-            pkgs.buildNpmPackage {
-              nodejs = pkgs.nodejs_latest;
-              name = packageJSON.name;
-              version = packageJSON.version;
-              inherit src;
-              npmDeps = pkgs.importNpmLock {
-                npmRoot = src;
-                version = packageJSON.version;
-                pname = packageJSON.name;
-                package = packageJSON;
-                packageLock = packageLock;
-              };
-              nativeBuildInputs = with pkgs; [
-                bun
-              ];
-              npmConfigHook = pkgs.importNpmLock.npmConfigHook;
+          default = pkgs.bun2nix.mkDerivation {
+            packageJson = ./package.json;
 
-              postBuild = ''
-                mkdir -p $out/bin/
-                cp ./cosmeredle $out/bin/cosmeredle
-              '';
-              postInstall = ''
-                rm -rv $out/lib/
-              '';
+            src = pkgs.lib.cleanSource ./.;
+
+            bunDeps = pkgs.bun2nix.fetchBunDeps {
+              bunNix = ./cosmeredle.bun.nix;
             };
+
+            # Get the flags from package.json for parity
+            bunBuildFlags =
+              builtins.replaceStrings [ "bun build " ] [ "" ]
+                (builtins.fromJSON (builtins.readFile ./package.json)).scripts.build;
+
+            # All the executable scripts are just for dev utility, not relevant to the package
+            dontUseBunPatch = true;
+            # We don't need husky in the build env
+            dontRunLifecycleScripts = true;
+          };
         }
       );
     };

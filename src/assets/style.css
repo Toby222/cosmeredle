@@ -1,0 +1,239 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:where(input, button, :root, .guessBubble) {
+	font-size: var(--font-size);
+}
+
+:root {
+	--font-size: 2.5vmin;
+	--footer-height: 2rem;
+	--accent-color: hsl(46, 70%, 63%);
+	--light-background: hsl(218, 12%, 18%);
+	--extra-padding: 0;
+	font-family: sans-serif;
+	background: url("bg.gif"), black;
+	color: white;
+}
+@media (max-aspect-ratio: 1810 / 1440) {
+	:root {
+		--footer-height: 3rem;
+		--extra-padding: 3vmin;
+	}
+}
+
+#nextGame {
+	user-select: none;
+}
+
+label:has(input[type="checkbox"]),
+input[type="checkbox"] {
+	user-select: none;
+	cursor: pointer;
+}
+
+a,
+a:visited {
+	color: var(--accent-color);
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+hr {
+	width: 100%;
+	color: var(--accent-color);
+}
+
+main {
+	align-self: center;
+	overflow: scroll;
+	height: calc(100vh - var(--footer-height));
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+button {
+	background-color: var(--light-background);
+	border-color: var(--accent-color);
+	border-width: 0.4vmin;
+	color: white;
+	cursor: pointer;
+	padding: 0.2vmin;
+}
+
+footer {
+	width: 100%;
+	height: var(--footer-height);
+	margin: 0;
+	padding: 1vmin;
+	position: fixed;
+	bottom: 0px;
+	background-color: var(--light-background);
+	display: flex;
+	justify-content: space-between;
+}
+
+div.popupWrapper {
+	position: absolute;
+	width: 100vw;
+	height: calc(100vh - var(--footer-height));
+	overflow: scroll;
+	margin: 0;
+	background-color: hsla(0, 0%, 0%, 0.8);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	&.hidden {
+		height: 0;
+		visibility: collapse;
+		display: none;
+	}
+
+	> .popup {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid 0.2vmin var(--accent-color);
+		background-color: hsl(220, 15%, 23%);
+		padding: 2vmin;
+		border-radius: 1vmin;
+
+		hr {
+			width: calc(100% + 4vmin);
+			margin-left: -2vmin;
+			border-width: 0.2vmin;
+		}
+	}
+}
+
+#guesses {
+	width: min-content;
+}
+
+.customSelect {
+	position: relative;
+	margin: 0;
+	user-select: none;
+	.input {
+		width: 100%;
+		height: 100%;
+		input {
+			width: 90%;
+			height: 100%;
+			outline: none;
+			background-color: var(--light-background);
+			color: white;
+			border: solid 0.2vmin var(--accent-color);
+		}
+		button {
+			width: 10%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+	}
+	&:not(.enabled) input {
+		cursor: default;
+		user-select: none;
+	}
+	ul {
+		width: 100vmin;
+		max-height: 80vh;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		cursor: pointer;
+		outline: none;
+		position: absolute;
+		background-color: var(--light-background);
+		visibility: hidden;
+		overflow: scroll;
+		border: solid 0.2vmin var(--accent-color);
+		li {
+			transition:
+				color 0.1s ease,
+				background 0.1s ease;
+			color: white;
+			padding: var(--extra-padding);
+			&:nth-of-type(even) {
+				background-color: hsl(218, 12%, 12%);
+			}
+			&.selected:not(.disabled) {
+				background-color: hsl(220, 15%, 30%);
+			}
+			&.disabled {
+				cursor: initial;
+				color: #444;
+			}
+		}
+		li.hidden {
+			height: 0;
+			visibility: collapse;
+			display: none;
+		}
+	}
+	&.opened {
+		ul {
+			visibility: visible;
+		}
+	}
+}
+
+#makeGuess {
+	display: flex;
+	justify-content: center;
+	width: 100vmin;
+	padding: 1vmin 0;
+
+	.customSelect {
+		width: 90%;
+		border-right: none;
+	}
+	> button {
+		border-radius: 0;
+		width: 10%;
+	}
+	.customSelect,
+	> button {
+		height: calc(2vmin + var(--font-size) + var(--extra-padding));
+	}
+}
+
+.guessRow,
+#guessHeader {
+	user-select: none;
+	display: flex;
+	justify-content: center;
+}
+
+.guessTitle,
+.guessBubble {
+	width: 18vmin;
+	text-align: center;
+	align-content: center;
+}
+
+.guessTitle {
+	margin: 0 1vmin;
+}
+
+.guessBubble {
+	min-height: 18vmin;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1vmin;
+	border: solid 0.2vmin var(--accent-color);
+	overflow-wrap: anywhere;
+}

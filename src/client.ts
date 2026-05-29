@@ -1,4 +1,8 @@
 import A from "aberdeen";
+import { CustomSelectNumber } from "client/components/CustomSelect";
+import { Footer } from "client/components/Footer";
+import { GuessBubble } from "client/components/GuessBubble";
+import { GuessRow } from "client/components/GuessRow";
 import { emojiFromGuess, type StoredGuess } from "client/util";
 import {
 	charactersForToday,
@@ -6,11 +10,6 @@ import {
 	Overlap,
 	type OverlapType,
 } from "lib/util";
-
-import { CustomSelectNumber } from "./components/CustomSelect";
-import { Footer } from "./components/Footer";
-import { GuessBubble } from "./components/GuessBubble";
-import { GuessRow } from "./components/GuessRow";
 
 const previousGuesses: StoredGuess[] = A.proxy([]);
 const availableCharacters = A.proxy(0);

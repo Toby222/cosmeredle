@@ -1,3 +1,4 @@
+import INDEX from "assets/index.html";
 import { playGame } from "lib/solve";
 import {
 	charactersForDay,
@@ -5,21 +6,8 @@ import {
 	daysSinceEpoch,
 	MS_PER_DAY,
 } from "lib/util";
+import { seededRandom } from "server/random";
 import { createSimpleLogger, type STANDARD_LEVELS } from "simple-node-logger";
-import {
-	APPLE_TOUCH_ICON,
-	BACKGROUND,
-	FAVICON_96,
-	FAVICON_ICO,
-	FAVICON_SVG,
-	INDEX,
-	INDEX_JS,
-	INDEX_JS_MAP,
-	STYLE,
-	WEB_APP_MANIFEST_192,
-	WEB_APP_MANIFEST_512,
-} from "./public_files";
-import { seededRandom } from "./random";
 
 const logLevel = Bun.env.LOG_LEVEL;
 const logToFile = Bun.env.LOG_TO_FILE === "true";
@@ -102,19 +90,7 @@ Bun.serve({
 		return Response.redirect("/", 301);
 	},
 	routes: {
-		"/bg.gif": () => new Response(Bun.file(BACKGROUND)),
-		"/": () => new Response(Bun.file(INDEX)),
-		"/style.css": () => new Response(Bun.file(STYLE)),
-		"/apple-touch-icon.png": () => new Response(Bun.file(APPLE_TOUCH_ICON)),
-		"/favicon.svg": () => new Response(Bun.file(FAVICON_SVG)),
-		"/favicon.ico": () => new Response(Bun.file(FAVICON_ICO)),
-		"/favicon-96x96.png": () => new Response(Bun.file(FAVICON_96)),
-		"/js/index.js": () => new Response(Bun.file(INDEX_JS)),
-		"/js/index.js.map": () => new Response(Bun.file(INDEX_JS_MAP)),
-		"/web-app-manifest-192x192.png": () =>
-			new Response(Bun.file(WEB_APP_MANIFEST_192)),
-		"/web-app-manifest-512x512.png": () =>
-			new Response(Bun.file(WEB_APP_MANIFEST_512)),
+		"/": INDEX,
 		"/guess/:characterIdx": {
 			async POST(request) {
 				const { characterIdx } = request.params;
