@@ -18,7 +18,7 @@
 	background: url("bg.gif"), black;
 	color: white;
 }
-@media (max-aspect-ratio: 1810 / 1440) {
+@media (max-aspect-ratio: 2000 / 1440) {
 	:root {
 		--footer-height: 3rem;
 		--extra-padding: 3vmin;
