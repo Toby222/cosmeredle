@@ -350,7 +350,8 @@
 		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
 		"species": ["Singer", "Fused"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20602
 	},
 	{
 		"name": ["Elegy"],
@@ -1491,7 +1492,8 @@
 		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Spren", "Honorspren"],
 		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20602
 	},
 	{
 		"name": ["Vin"],
@@ -2761,6 +2763,22 @@
 		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Hemalurgy", "Shardbearer"],
+		"validFrom": 20603
+	},
+	{
+		"name": ["Vienta"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
+		"species": ["Spren", "Honorspren"],
+		"abilities": ["Nahel Bond", "Splinter", "Windrunner"],
+		"validFrom": 20603
+	},
+	{
+		"name": ["El"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["Rhythm of War", "Stormlight Archive"],
+		"species": ["Singer", "Fused"],
+		"abilities": ["Fused", "Shardbearer"],
 		"validFrom": 20603
 	}
 ]
