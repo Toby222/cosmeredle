@@ -830,7 +830,8 @@
 		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Human", "Alethi"],
 		"abilities": ["Shardbearer"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20602
 	},
 	{
 		"name": ["Mraize"],
@@ -2753,5 +2754,13 @@
 		"species": ["Singer", "Listener"],
 		"abilities": ["Knight Radiant", "Willshaper"],
 		"validFrom": 20539
+	},
+	{
+		"name": ["Moash"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
+		"species": ["Human", "Alethi"],
+		"abilities": ["Hemalurgy", "Shardbearer"],
+		"validFrom": 20603
 	}
 ]
