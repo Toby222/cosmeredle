@@ -41,7 +41,6 @@ test("Proper homeworld occurence count", () => {
 const expectedSingleCharacterBooks = [
 	"Secret History", // Most characters known from Era 1; only Riina new
 	"The Eleventh Metal", // Only has two Characters
-	"Allomancer Jak and the Pits of Eltania", // Jak
 ];
 test("Proper book occurence count", () => {
 	const books = characters.map((character) => character.firstAppearance[0]);
@@ -74,11 +73,11 @@ const expectedUniqueSpecies = [
 	"Kandra Seventh Generation", // MeLaan
 	"Kandra Unspecified", // Ulaam
 	"Human MaiPon", // Wan ShaiLu
-	"Sho Del", // Uli Da
+	"Sho Del Yolish", // Uli Da
 	"Human Vaxilian", // Eddlin
 	"Human Lawnark", // ZeetZi
 	"Koloss Human", // Human (Vershad)
-	"Human Koloss", // Tarson
+	"Human Rosharan", // Talenel'Elin, Stonesinew, Bearer of Agonies, Herald of War, Patron of the Stonewards
 ];
 test("Proper species occurence count", () => {
 	const allSpecies = characters.map((character) => character.species.join(" "));

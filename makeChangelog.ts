@@ -10,8 +10,8 @@ import {
 
 const from = daysSinceEpoch();
 const to = daysSinceEpoch() + 1;
-const fromCharacters = charactersForDay(from); //.filter(character => character.name.includes("Ulaam"));
-const toCharacters = charactersForDay(to); //.filter(character => character.name.includes("Ulaam"));
+const fromCharacters = charactersForDay(from);
+const toCharacters = charactersForDay(to);
 
 const removed = fromCharacters.filter(
 	(fromCharacter) =>
@@ -42,4 +42,4 @@ const changeLog =
 		.sort((a, b) => a.slice(2).localeCompare(b.slice(2)))
 		.join("\n");
 
-await Bun.file("changelog.diff").write(changeLog);
+await Bun.file(`changelog.${from}.${to}.diff`).write(changeLog);
