@@ -53,7 +53,7 @@
               biome
               bun
               nixfmt
-              bun2nix.packages.${pkgs.stdenv.system}.default
+              bun2nix.packages.${pkgs.stdenv.hostPlatform.system}.default
             ];
             env = {
               LOG_TO_FILE = "true";
