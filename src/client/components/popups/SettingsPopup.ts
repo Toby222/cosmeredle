@@ -23,6 +23,15 @@ export function SettingsPopup($visible: ValueRef<boolean>) {
 						bind: settings.shareLink.ref,
 					});
 				});
+				A("label#Font size", () => {
+					A("input", {
+						type: "number",
+						bind: settings.fontSize.ref,
+						step: 0.1,
+						min: 0.5,
+						max: 5,
+					});
+				});
 
 				A("hr");
 				A("h2#Colors", () => {

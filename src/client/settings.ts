@@ -5,6 +5,12 @@ const settings = {
 		ref: A.proxy(localStorage.getItem("shareLink") === "true"),
 		default: false,
 	},
+	fontSize: {
+		ref: A.proxy(Number.parseFloat(localStorage.getItem("fontSize") ?? "2.5")),
+		default: 2.5,
+		min: 1.5,
+		max: 5,
+	},
 	spoilerWarningDismissed: {
 		ref: A.proxy(localStorage.getItem("spoilerWarningDismissed") === "true"),
 		default: false,
@@ -98,6 +104,17 @@ A.derive(() => {
 		settings.colorOverlapPlaceholder.ref.value,
 	);
 });
+A.derive(() => {
+	if (settings.fontSize.ref.value < settings.fontSize.min) {
+		settings.fontSize.ref.value = settings.fontSize.min;
+	} else if (settings.fontSize.ref.value > settings.fontSize.max) {
+		settings.fontSize.ref.value = settings.fontSize.max;
+	}
+	document.documentElement.style.setProperty(
+		"--font-size-base",
+		`${settings.fontSize.ref.value}vmin`,
+	);
+});
 
 for (const [
 	settingName,
@@ -112,10 +129,11 @@ for (const [
 			`(${typeof setting.value})`,
 		);
 		if (
-			setting.value === undefined ||
-			setting.value === defaultValue ||
-			typeof setting.value !== typeof defaultValue
+			typeof setting.value !== typeof defaultValue ||
+			Number.isNaN(setting.value)
 		)
+			setting.value = defaultValue;
+		if (setting.value === undefined || setting.value === defaultValue)
 			localStorage.removeItem(settingName);
 		else localStorage.setItem(settingName, JSON.stringify(setting.value));
 	});
