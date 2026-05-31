@@ -112,7 +112,7 @@ A.derive(() => {
 	}
 	document.documentElement.style.setProperty(
 		"--font-size-base",
-		`${settings.fontSize.ref.value}vmin`,
+		`calc(${settings.fontSize.ref.value} * var(--base-unit)`,
 	);
 });
 

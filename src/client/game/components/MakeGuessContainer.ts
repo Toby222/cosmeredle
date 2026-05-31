@@ -33,7 +33,10 @@ export function MakeGuessContainer(
 
 		A("button#⚙️", {
 			id: "settingsButton",
-			click: () => ($showSettings.value = true),
+			click() {
+				console.debug("Showing settings");
+				$showSettings.value = true;
+			},
 		});
 	});
 }

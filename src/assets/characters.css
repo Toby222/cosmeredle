@@ -1,0 +1,42 @@
+table {
+	width: 90vw;
+	max-width: 90vw;
+
+	border-collapse: collapse;
+
+	tr {
+		max-width: 90vw;
+		&:where(:nth-child(even)) {
+			--background-color: var(--light-background);
+		}
+
+		&:where(:nth-child(odd)) {
+			--background-color: var(--dark-background);
+		}
+
+		background-color: var(--background-color);
+		color: contrast-color(var(--background-color));
+
+		td {
+			width: fit-content;
+			border: solid 0.1em var(--accent-color);
+		}
+	}
+
+	thead {
+		tr {
+			--background-color: var(--light-background);
+			td {
+				user-select: none;
+
+				&.sortable {
+					cursor: pointer;
+				}
+				div {
+					display: flex;
+					justify-content: space-between;
+				}
+			}
+		}
+	}
+}

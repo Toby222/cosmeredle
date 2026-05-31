@@ -3044,5 +3044,13 @@
 		"species": ["Human", "Herdazian"],
 		"abilities": ["Knight Radiant", "Shardbearer", "Windrunner"],
 		"validFrom": 20605
+	},
+	{
+		"name": ["Tyvnk"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
+		"species": ["Grass", "Shin"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20605
 	}
 ]

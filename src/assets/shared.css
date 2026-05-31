@@ -1,0 +1,202 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+:where(input, button, :root) {
+	font-size: var(--font-size);
+}
+
+:root {
+	--base-unit: 1vmin;
+	--font-size-base: calc(2.5 * var(--base-unit));
+	--font-size: var(--font-size-base);
+
+	--accent-color: hsl(46, 70%, 63%);
+	--light-background: hsl(218, 12%, 15%);
+	--dark-background: hsl(218, 12%, 3%);
+	--extra-padding: 0;
+	font-family: sans-serif;
+	background: url("bg.gif"), black;
+	color: white;
+	height: 100%;
+}
+
+@media (max-aspect-ratio: 2000 / 1440) {
+	:root {
+		--extra-padding: calc(3 * var(--base-unit));
+	}
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	main {
+		flex-grow: 1;
+		flex-basis: 100%;
+		flex-shrink: 1;
+		align-self: center;
+		overflow: scroll;
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer {
+		flex-grow: 0;
+		flex-shrink: 0;
+		width: 100%;
+		margin: 0;
+		padding: var(--base-unit);
+		background-color: var(--light-background);
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+button {
+	background-color: var(--light-background);
+	border-color: var(--accent-color);
+	border-width: calc(0.4 * var(--base-unit));
+	color: white;
+	cursor: pointer;
+	padding: calc(0.2 * var(--base-unit));
+}
+
+a,
+a:visited {
+	color: var(--accent-color);
+}
+
+hr {
+	width: 100%;
+	color: var(--accent-color);
+}
+
+input[type="date"] {
+	background-color: var(--dark-background);
+	color: contrast-color(var(--dark-background));
+}
+label:has(input[type="checkbox"]),
+input[type="checkbox"] {
+	user-select: none;
+	cursor: pointer;
+}
+input[type="checkbox"] {
+	aspect-ratio: 1 / 1;
+}
+
+pre {
+	font-family: monospace;
+}
+
+#popupContainer {
+	width: 100vw;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	user-select: none;
+	pointer-events: none;
+
+	.popupWrapper {
+		width: 100vw;
+		height: 100%;
+		overflow: scroll;
+		margin: 0;
+		background-color: hsla(0, 0%, 0%, 0.8);
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		pointer-events: initial;
+		&.hidden {
+			height: 0;
+			visibility: collapse;
+			display: none;
+		}
+
+		> .popup {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			border: solid calc(0.2 * var(--base-unit)) var(--accent-color);
+			background-color: hsl(220, 15%, 23%);
+			padding: calc(2 * var(--base-unit));
+			border-radius: var(--base-unit);
+
+			& h1,
+			h2,
+			h3,
+			h4,
+			h5 {
+				margin: 0;
+				white-space: nowrap;
+
+				button {
+					margin-left: 0.5em;
+					font-size: inherit;
+					padding: 0;
+					aspect-ratio: 1 / 1;
+					height: 100%;
+				}
+			}
+
+			hr {
+				width: calc(100% + calc(4 * var(--base-unit)));
+				margin-left: calc(-2 * var(--base-unit));
+				border-width: calc(0.2 * var(--base-unit));
+			}
+		}
+	}
+
+	#settings {
+		label {
+			width: 100%;
+			display: inline-flex;
+
+			justify-content: space-between;
+			white-space: nowrap;
+		}
+
+		input {
+			border: none;
+			padding: 0;
+
+			&:not([type="number"]) {
+				width: var(--font-size);
+			}
+			&[type="number"] {
+				height: 100%;
+				text-align: right;
+				max-width: 30%;
+			}
+			height: var(--font-size);
+			cursor: pointer;
+
+			&:is([type="text"], [type="number"]) {
+				background-color: black;
+				color: white;
+			}
+		}
+	}
+}
+
+#settingsButton {
+	aspect-ratio: 1 / 1;
+	height: 100%;
+}

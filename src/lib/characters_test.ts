@@ -78,6 +78,7 @@ const expectedUniqueSpecies = [
 	"Human Lawnark", // ZeetZi
 	"Koloss Human", // Human (Vershad)
 	"Human Rosharan", // Talenel'Elin, Stonesinew, Bearer of Agonies, Herald of War, Patron of the Stonewards
+	"Grass Shin", // Tyvnk, Rysn's pet grass
 ];
 test("Proper species occurence count", () => {
 	const allSpecies = characters.map((character) => character.species.join(" "));

@@ -1,12 +1,12 @@
 import A from "aberdeen";
-import { Footer } from "client/components/Footer";
-import { GuessContainer } from "client/components/GuessContainer";
-import { MakeGuessContainer } from "client/components/MakeGuessContainer";
+import { Footer } from "client/game/components/Footer";
+import { GuessContainer } from "client/game/components/GuessContainer";
+import { MakeGuessContainer } from "client/game/components/MakeGuessContainer";
 import {
 	GameOverPopup,
 	SettingsPopup,
 	SpoilerWarningPopup,
-} from "client/components/popups";
+} from "client/game/components/popups";
 import settings from "client/settings";
 import type { StoredGuess } from "client/util";
 import {
@@ -109,7 +109,7 @@ function makeGuess() {
 	}
 }
 
-A("main", () => {
+A("header", () => {
 	MakeGuessContainer(
 		characters,
 		$previousGuesses,
@@ -122,15 +122,19 @@ A("main", () => {
 	A("div", { id: "nextGame" }, () => {
 		A(`span#Next game: ${dateDiff(now.value, nextGame, true)}`);
 	});
+});
+A("main", () => {
 	GuessContainer($previousGuesses);
-	SettingsPopup($showSettings);
-	GameOverPopup(
-		$hideGameOver,
-		$gameInProgress,
-		settings.shareLink.ref,
-		$previousGuesses,
-		par,
-	);
-	SpoilerWarningPopup(settings.spoilerWarningDismissed.ref);
+	A("div", { id: "popupContainer" }, () => {
+		SettingsPopup($showSettings);
+		GameOverPopup(
+			$hideGameOver,
+			$gameInProgress,
+			settings.shareLink.ref,
+			$previousGuesses,
+			par,
+		);
+		SpoilerWarningPopup(settings.spoilerWarningDismissed.ref);
+	});
 });
 Footer();

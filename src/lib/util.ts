@@ -92,8 +92,8 @@ export function getSeries(book: string): [string, string] {
 }
 
 export const MS_PER_DAY = 24 * 60 * 60 * 1000;
-export function daysSinceEpoch() {
-	return Math.floor(Date.now() / MS_PER_DAY);
+export function daysSinceEpoch(date?: Date) {
+	return Math.floor((date?.getTime() ?? Date.now()) / MS_PER_DAY);
 }
 
 export type Character = {

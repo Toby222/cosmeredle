@@ -1,4 +1,5 @@
-import INDEX from "assets/index.html";
+import CHARACTERS from "assets/characters.html";
+import GAME from "assets/game.html";
 import {
 	charactersForDay,
 	compareCharacters,
@@ -43,7 +44,8 @@ Bun.serve({
 		return Response.redirect("/", 301);
 	},
 	routes: {
-		"/": INDEX,
+		"/": GAME,
+		"/characters.html": CHARACTERS,
 		"/guess/:characterIdx": {
 			async POST(request) {
 				const { characterIdx } = request.params;
@@ -51,10 +53,7 @@ Bun.serve({
 				const characters = charactersForDay(today);
 				const char = characters[Number.parseInt(characterIdx, 10)];
 
-				return new Response(
-					JSON.stringify(compareCharacters(char, characterForDay(today))),
-					{ headers: { "Content-Type": "application/json" } },
-				);
+				return Response.json(compareCharacters(char, characterForDay(today)));
 			},
 		},
 		"/guess/:characterIdx/:day": {
@@ -65,22 +64,16 @@ Bun.serve({
 				const characters = charactersForDay(Number.parseInt(day, 10));
 				const char = characters[Number.parseInt(characterIdx, 10)];
 
-				return new Response(
-					JSON.stringify(
-						compareCharacters(char, characterForDay(Number.parseInt(day, 10))),
-					),
-					{ headers: { "Content-Type": "application/json" } },
+				return Response.json(
+					compareCharacters(char, characterForDay(Number.parseInt(day, 10))),
 				);
 			},
 		},
 		"/today": async () =>
-			new Response(
-				JSON.stringify({
-					today: today,
-					tomorrow: (today + 1) * MS_PER_DAY,
-				}),
-				{ headers: { "Content-Type": "application/json" } },
-			),
+			Response.json({
+				today: today,
+				tomorrow: (today + 1) * MS_PER_DAY,
+			}),
 		"/par": async () =>
 			new Response(getPar(today).toString(), {
 				headers: { "Content-Type": "text/plain" },
@@ -94,19 +87,11 @@ Bun.serve({
 						},
 					)
 				: Response.error(),
-		"/characters": async () =>
-			new Response(JSON.stringify(charactersForDay(today)), {
-				headers: { "Content-Type": "application/json" },
-			}),
+		"/characters": async () => Response.json(charactersForDay(today)),
 		"/characters/:day": async (request) => {
 			const { day } = request.params;
 			if (!/\d+/.test(day)) return Response.error();
-			return new Response(
-				JSON.stringify(charactersForDay(Number.parseInt(day, 10))),
-				{
-					headers: { "Content-Type": "application/json" },
-				},
-			);
+			return Response.json(charactersForDay(Number.parseInt(day, 10)));
 		},
 	},
 });
