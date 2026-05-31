@@ -208,7 +208,8 @@
 		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Larkin"],
 		"abilities": ["Consumes Investiture"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20604
 	},
 	{
 		"name": ["Cinder", "King"],
@@ -3051,6 +3052,22 @@
 		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Grass", "Shin"],
 		"abilities": ["Uninvested"],
+		"validFrom": 20605
+	},
+	{
+		"name": ["Relu-na"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
+		"species": ["Greatshell", "Tai-na"],
+		"abilities": ["Nahel Bond"],
+		"validFrom": 20605
+	},
+	{
+		"name": ["Chiri-Chiri"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
+		"species": ["Greatshell", "Larkin"],
+		"abilities": ["Consumes Investiture"],
 		"validFrom": 20605
 	}
 ]

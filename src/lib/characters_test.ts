@@ -61,7 +61,8 @@ const expectedUniqueSpecies = [
 	"Human Khlenni", // Alendi
 	"Human Malwish", // Allik Neverfar
 	"Siah Aimian", // Axies
-	"Larkin", // Chiri-Chiri
+	"Greatshell Tai-na", // Relu-na
+	"Greatshell Larkin", // Chiri-Chiri
 	"Human Dula", // Galladon
 	"Human Southern Scadrian", // Iyatil
 	"Human JinDo", // Shuden
