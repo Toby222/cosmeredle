@@ -20,7 +20,7 @@ const $previousGuesses = A.proxy([] as StoredGuess[]);
 const $availableCharacters = A.proxy(0);
 const $answerPending = A.proxy(true);
 const $gameInProgress = A.proxy(true);
-const $showSettings = A.proxy(true); // TODO: Change to false
+const $showSettings = A.proxy(false);
 
 const selectedCharacter = A.proxy<number | undefined>(undefined);
 const now = A.proxy(Date.now());
