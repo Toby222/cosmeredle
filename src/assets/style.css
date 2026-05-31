@@ -17,6 +17,10 @@
 	font-family: sans-serif;
 	background: url("bg.gif"), black;
 	color: white;
+	--overlap-full: green;
+	--overlap-partial: yellow;
+	--overlap-none: red;
+	--overlap-placeholder: #444;
 }
 @media (max-aspect-ratio: 2000 / 1440) {
 	:root {
@@ -107,6 +111,23 @@ div.popupWrapper {
 		background-color: hsl(220, 15%, 23%);
 		padding: 2vmin;
 		border-radius: 1vmin;
+
+		& h1,
+		h2,
+		h3,
+		h4,
+		h5 {
+			margin: 0;
+			white-space: nowrap;
+
+			button {
+				margin-left: 0.5em;
+				font-size: inherit;
+				padding: 0;
+				aspect-ratio: 1 / 1;
+				height: 100%;
+			}
+		}
 
 		hr {
 			width: calc(100% + 4vmin);
@@ -201,7 +222,7 @@ div.popupWrapper {
 	}
 	> button {
 		border-radius: 0;
-		width: 10%;
+		width: fit-content;
 	}
 	.customSelect,
 	> button {
@@ -221,6 +242,71 @@ div.popupWrapper {
 	width: 18vmin;
 	text-align: center;
 	align-content: center;
+
+	&.overlapFull {
+		background-color: var(--overlap-full);
+		color: contrast-color(var(--overlap-full));
+		text-shadow:
+			-0.05em 0 0.2em contrast-color(contrast-color(var(--overlap-full))),
+			0 0.05em 0.2em contrast-color(contrast-color(var(--overlap-full))),
+			0.05em 0 0.2em contrast-color(contrast-color(var(--overlap-full))),
+			0 -0.05em 0.2em contrast-color(contrast-color(var(--overlap-full)));
+	}
+	&.overlapPartial {
+		background-color: var(--overlap-partial);
+		color: contrast-color(var(--overlap-partial));
+		text-shadow:
+			-0.05em 0 0.2em contrast-color(contrast-color(var(--overlap-partial))),
+			0 0.05em 0.2em contrast-color(contrast-color(var(--overlap-partial))),
+			0.05em 0 0.2em contrast-color(contrast-color(var(--overlap-partial))),
+			0 -0.05em 0.2em contrast-color(contrast-color(var(--overlap-partial)));
+	}
+	&.overlapNone {
+		background-color: var(--overlap-none);
+		color: contrast-color(var(--overlap-none));
+		text-shadow:
+			-0.05em 0 0.2em contrast-color(contrast-color(var(--overlap-none))),
+			0 0.05em 0.2em contrast-color(contrast-color(var(--overlap-none))),
+			0.05em 0 0.2em contrast-color(contrast-color(var(--overlap-none))),
+			0 -0.05em 0.2em contrast-color(contrast-color(var(--overlap-none)));
+	}
+	&.overlapPlaceholder {
+		background-color: var(--overlap-placeholder);
+		color: contrast-color(var(--overlap-placeholder));
+		text-shadow:
+			-0.05em 0 0.2em contrast-color(contrast-color(var(--overlap-placeholder))),
+			0 0.05em 0.2em contrast-color(contrast-color(var(--overlap-placeholder))),
+			0.05em 0 0.2em contrast-color(contrast-color(var(--overlap-placeholder))),
+			0 -0.05em 0.2em contrast-color(contrast-color(var(--overlap-placeholder)));
+	}
+}
+
+#settingsButton {
+	aspect-ratio: 1 / 1;
+	height: 100%;
+}
+
+#settings {
+	label {
+		width: 100%;
+		display: inline-flex;
+
+		justify-content: space-between;
+	}
+
+	input {
+		border: none;
+		padding: 0;
+
+		width: var(--font-size);
+		height: var(--font-size);
+		cursor: pointer;
+
+		&[type="text"] {
+			background-color: black;
+			color: white;
+		}
+	}
 }
 
 .guessTitle {
@@ -236,4 +322,8 @@ div.popupWrapper {
 	margin: 1vmin;
 	border: solid 0.2vmin var(--accent-color);
 	overflow-wrap: anywhere;
+}
+
+pre {
+	font-family: monospace;
 }

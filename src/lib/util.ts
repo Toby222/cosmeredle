@@ -34,6 +34,7 @@ export const Overlap = {
 	Full: "Full",
 	Partial: "Partial",
 	None: "None",
+	Placeholder: "Placeholder",
 } as const;
 export type OverlapType = keyof typeof Overlap;
 
@@ -93,17 +94,6 @@ export function getSeries(book: string): [string, string] {
 export const MS_PER_DAY = 24 * 60 * 60 * 1000;
 export function daysSinceEpoch() {
 	return Math.floor(Date.now() / MS_PER_DAY);
-}
-
-export function emojiFromOverlap(overlap: OverlapType) {
-	switch (overlap) {
-		case Overlap.None:
-			return "🟥";
-		case Overlap.Partial:
-			return "🟨";
-		case Overlap.Full:
-			return "🟩";
-	}
 }
 
 export type Character = {

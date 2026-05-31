@@ -1,7 +1,7 @@
 import A from "aberdeen";
 
 export function Footer() {
-	A("footer", () => {
+	return A("footer", () => {
 		A("span.footerItem", () => {
 			A("#Contact: ");
 			A("a#cosmeredle@tobot.dev", { href: "mailto:cosmeredle@tobot.dev" });

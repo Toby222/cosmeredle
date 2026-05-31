@@ -45,7 +45,9 @@ function getOverlapFromInput(input: string): OverlapType | undefined {
 	}
 }
 
-const guessesMade = [].map((guess) => {
+const guessesMade = (
+	[] as [characterName: string, answer: string | OverlapType[]][]
+).map((guess) => {
 	if (typeof guess[1] === "string") {
 		guess[1] = Array.from(guess[1]).map((char) => {
 			switch (char) {

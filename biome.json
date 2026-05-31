@@ -32,6 +32,14 @@
 				"useNumberNamespace": "error",
 				"noInferrableTypes": "error",
 				"noUselessElse": "error"
+			},
+			"correctness": {
+				"noUnknownFunction": {
+					"level": "error",
+					"options": {
+						"ignore": ["contrast-color"]
+					}
+				}
 			}
 		}
 	},
