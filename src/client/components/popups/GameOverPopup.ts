@@ -50,7 +50,7 @@ export function GameOverPopup(
 					A("button#Copy", {
 						click() {
 							navigator.clipboard.writeText(
-								`I got today's Cosmeredle in ${guesses.length}!\n${parText}\n${shareable}${
+								`I got today's Cosmeredle in ${guesses.length}!\n${parText}\n${shareable.value}${
 									$includeLink.value ? `\n${location.href}` : ""
 								}`,
 							);
