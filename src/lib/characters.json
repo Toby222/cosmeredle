@@ -529,7 +529,8 @@
 		"firstAppearance": ["Oathbringer", "Stormlight Archive"],
 		"species": ["Human", "Herdazian"],
 		"abilities": ["Knight Radiant", "Surgebinder", "Windrunner"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20604
 	},
 	{
 		"name": ["Ishar"],
@@ -3035,5 +3036,13 @@
 		"species": ["Human", "Koloss"],
 		"abilities": ["Uninvested"],
 		"validFrom": 20604
+	},
+	{
+		"name": ["Huio"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
+		"species": ["Human", "Herdazian"],
+		"abilities": ["Knight Radiant", "Shardbearer", "Windrunner"],
+		"validFrom": 20605
 	}
 ]
