@@ -65,7 +65,8 @@
 		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Uninvested"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20605
 	},
 	{
 		"name": ["Arclomedarian"],
@@ -189,7 +190,8 @@
 		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Diggen's Point"],
 		"abilities": ["Uninvested"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20605
 	},
 	{
 		"name": ["Chesterton", "Divide"],
@@ -250,7 +252,8 @@
 		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Spore Eater"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20605
 	},
 	{
 		"name": ["Dabbid"],
@@ -413,7 +416,8 @@
 		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Islands of Lobu"],
 		"abilities": ["Uninvested"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20605
 	},
 	{
 		"name": ["Frava"],
@@ -688,7 +692,8 @@
 		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Unspecified"],
 		"abilities": ["Uninvested"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20605
 	},
 	{
 		"name": ["Leras"],
@@ -1099,7 +1104,8 @@
 		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Islands of Lobu"],
 		"abilities": ["Uninvested"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20605
 	},
 	{
 		"name": ["Sarene"],
@@ -1435,7 +1441,8 @@
 		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
 		"species": ["Human", "Diggen's Point"],
 		"abilities": ["Sprouter"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20605
 	},
 	{
 		"name": ["Tumi"],
@@ -3069,5 +3076,77 @@
 		"species": ["Greatshell", "Larkin"],
 		"abilities": ["Consumes Investiture"],
 		"validFrom": 20605
+	},
+	{
+		"name": ["Weev"],
+		"homeWorld": "Lumar",
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
+		"species": ["Human", "Lumaran"],
+		"abilities": ["Sprouter"],
+		"validFrom": 20606
+	},
+	{
+		"name": ["Tress"],
+		"homeWorld": "Lumar",
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
+		"species": ["Human", "Lumaran"],
+		"abilities": ["Sprouter"],
+		"validFrom": 20606
+	},
+	{
+		"name": ["Charlie (Chuck)"],
+		"homeWorld": "Lumar",
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
+		"species": ["Human", "Lumaran"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20606
+	},
+	{
+		"name": ["Ann"],
+		"homeWorld": "Lumar",
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
+		"species": ["Human", "Lumaran"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20606
+	},
+	{
+		"name": ["Crow"],
+		"homeWorld": "Lumar",
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
+		"species": ["Human", "Lumaran"],
+		"abilities": ["Spore Eater"],
+		"validFrom": 20606
+	},
+	{
+		"name": ["Fort"],
+		"homeWorld": "Lumar",
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
+		"species": ["Human", "Lumaran"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20606
+	},
+	{
+		"name": ["Laggart"],
+		"homeWorld": "Lumar",
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
+		"species": ["Human", "Lumaran"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20606
+	},
+	{
+		"name": ["Salay"],
+		"homeWorld": "Lumar",
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
+		"species": ["Human", "Lumaran"],
+		"abilities": ["Uninvested"],
+		"validFrom": 20606
+	},
+	{
+		"name": ["Dorp"],
+		"homeWorld": "Lumar",
+		"firstAppearance": ["Tress of the Emerald Sea", "Tress of the Emerald Sea"],
+		"species": ["Human", "Lumaran"],
+		"abilities": ["Sprouter"],
+		"validFrom": 20606
 	}
 ]

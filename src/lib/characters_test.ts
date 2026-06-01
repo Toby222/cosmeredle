@@ -111,7 +111,6 @@ const expectedUniqueAbilities: string[] = [
 	"ChayShan", // Shuden
 	"Windwhisperer", // Telsin Ladrian
 	"Blessing of Presence", // TenSoon
-	"Sprouter", // Only Tress is significant
 	"Skimmer", // Only Wax is significant
 	"Bloodsealer", // Weedfingers
 	"Yoki-Hijo", // Yumi
