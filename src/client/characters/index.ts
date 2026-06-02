@@ -68,7 +68,7 @@ function setSort(field: SortField) {
 
 function columnHead(key: SortField, label: string) {
 	A(
-		"td.sortable",
+		"th.sortable",
 		{
 			click() {
 				setSort(key);
@@ -112,44 +112,46 @@ A("main", () => {
 				columnHead("homeWorld", "Home World");
 				columnHead("firstAppearance", "First Appearance");
 				columnHead("species", "Species");
-				A("td#Abilities/Investiture");
+				A("th#Abilities/Investiture");
 			});
 		});
-		A.onEach(
-			$characters.value,
-			(char) => {
-				A("tr", () => {
-					A("td#", char.name.join(" "));
-					A("td", () => A(`span.nowrap#${char.homeWorld}`));
-					A("td", () => {
-						A(`span#${char.firstAppearance[0]}`);
-						if (char.firstAppearance[1] !== char.firstAppearance[0]) {
-							A("br");
-							A(`span.nowrap# (${char.firstAppearance[1]})`);
-						}
-					});
-					A("td", () => {
-						A(`span.nowrap#${char.species[0]}`);
-						if (char.species.length > 1) {
-							A("br");
-							A(
-								`span.nowrap# ${char.species.length > 1 ? ` (${char.species[1]})` : ""}`,
-							);
-						}
-					});
-					A("td", () => {
-						A.onEach(char.abilities, (ability, idx) => {
-							A(`span.nowrap#${ability}`);
-							if (idx < char.abilities.length - 1) {
-								A("#, ");
-								A("wbr");
+		A("tbody", () => {
+			A.onEach(
+				$characters.value,
+				(char) => {
+					A("tr", () => {
+						A("td#", char.name.join(" "));
+						A("td", () => A(`span#${char.homeWorld}`));
+						A("td", () => {
+							A(`span#${char.firstAppearance[0]}`);
+							if (char.firstAppearance[1] !== char.firstAppearance[0]) {
+								A("br");
+								A(`span# (${char.firstAppearance[1]})`);
 							}
 						});
+						A("td", () => {
+							A(`span#${char.species[0]}`);
+							if (char.species.length > 1) {
+								A("br");
+								A(
+									`span# ${char.species.length > 1 ? ` (${char.species[1]})` : ""}`,
+								);
+							}
+						});
+						A("td", () => {
+							A.onEach(char.abilities, (ability, idx) => {
+								A(`span#${ability}`);
+								if (idx < char.abilities.length - 1) {
+									A("#, ");
+									A("wbr");
+								}
+							});
+						});
 					});
-				});
-			},
-			charKey,
-		);
+				},
+				charKey,
+			);
+		});
 	});
 	SettingsPopup($showSettings);
 });
