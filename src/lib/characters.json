@@ -124,7 +124,8 @@
 		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
 		"species": ["Siah", "Aimian"],
 		"abilities": ["Curse of Kind"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20606
 	},
 	{
 		"name": ["Ba-Ado-Mishram"],
@@ -2774,14 +2775,11 @@
 	{
 		"name": ["Thude"],
 		"homeWorld": "Roshar",
-		"firstAppearance": [
-			"Words of Radiance",
-			"Stormlight Archive",
-			"Shardbearer"
-		],
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
 		"species": ["Singer", "Listener"],
 		"abilities": ["Knight Radiant", "Willshaper"],
-		"validFrom": 20539
+		"validFrom": 20539,
+		"validUntil": 20606
 	},
 	{
 		"name": ["Jaxlim"],
@@ -3148,5 +3146,21 @@
 		"species": ["Human", "Lumaran"],
 		"abilities": ["Sprouter"],
 		"validFrom": 20606
+	},
+	{
+		"name": ["Axies"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["The Way of Kings", "Stormlight Archive"],
+		"species": ["Siah Aimian"],
+		"abilities": ["Curse of Kind"],
+		"validFrom": 20607
+	},
+	{
+		"name": ["Thude"],
+		"homeWorld": "Roshar",
+		"firstAppearance": ["Words of Radiance", "Stormlight Archive"],
+		"species": ["Singer", "Listener"],
+		"abilities": ["Knight Radiant", "Shardbearer", "Willshaper"],
+		"validFrom": 20607
 	}
 ]
