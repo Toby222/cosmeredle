@@ -99,7 +99,7 @@ test("Montane/Forescout family", () => {
 	const silenceSebruki = compareCharacters(silence, sebruki);
 	expect(silenceSebruki).toEqual([
 		Overlap.Partial, // Name
-		Overlap.Full, // Home world
+		Overlap.Full, // World of Origin
 		Overlap.Full, // First appearance
 		Overlap.Full, // Species
 		Overlap.Full, // Abilities
@@ -108,7 +108,7 @@ test("Montane/Forescout family", () => {
 	const sebrukiWilliamann = compareCharacters(sebruki, williamann);
 	expect(sebrukiWilliamann).toEqual([
 		Overlap.None, // Name
-		Overlap.Full, // Home world
+		Overlap.Full, // World of Origin
 		Overlap.Full, // First appearance
 		Overlap.Full, // Species
 		Overlap.Full, // Abilities
@@ -117,7 +117,7 @@ test("Montane/Forescout family", () => {
 	const williamannSilence = compareCharacters(williamann, silence);
 	expect(williamannSilence).toEqual([
 		Overlap.Partial, // Name
-		Overlap.Full, // Home world
+		Overlap.Full, // World of Origin
 		Overlap.Full, // First appearance
 		Overlap.Full, // Species
 		Overlap.Full, // Abilities
@@ -126,7 +126,7 @@ test("Montane/Forescout family", () => {
 	const grandmotherSebruki = compareCharacters(grandmother, sebruki);
 	expect(grandmotherSebruki).toEqual([
 		Overlap.Partial, // Name
-		Overlap.Full, // Home world
+		Overlap.Full, // World of Origin
 		Overlap.Full, // First appearance
 		Overlap.Full, // Species
 		Overlap.None, // Abilities
@@ -135,7 +135,7 @@ test("Montane/Forescout family", () => {
 	const grandmotherWilliamann = compareCharacters(grandmother, williamann);
 	expect(grandmotherWilliamann).toEqual([
 		Overlap.None, // Name
-		Overlap.Full, // Home world
+		Overlap.Full, // World of Origin
 		Overlap.Full, // First appearance
 		Overlap.Full, // Species
 		Overlap.None, // Abilities
@@ -144,7 +144,7 @@ test("Montane/Forescout family", () => {
 	const grandmotherSilence = compareCharacters(grandmother, silence);
 	expect(grandmotherSilence).toEqual([
 		Overlap.Partial, // Name
-		Overlap.Full, // Home world
+		Overlap.Full, // World of Origin
 		Overlap.Full, // First appearance
 		Overlap.Full, // Species
 		Overlap.None, // Abilities

@@ -109,7 +109,7 @@ A("main", () => {
 		A("thead", () => {
 			A("tr", () => {
 				columnHead("name", "Name");
-				columnHead("homeWorld", "Home World");
+				columnHead("homeWorld", "World of Origin");
 				columnHead("firstAppearance", "First Appearance");
 				columnHead("species", "Species");
 				A("th#Abilities/Investiture");

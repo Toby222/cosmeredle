@@ -7,7 +7,7 @@ export function GuessContainer(guesses: StoredGuess[]) {
 	return A("div", { id: "guesses" }, () => {
 		A("div", { id: "guessHeader" }, () => {
 			A("span.guessTitle#Name");
-			A("span.guessTitle#Home World");
+			A("span.guessTitle#World of Origin");
 			A("span.guessTitle#First Appearance");
 			A("span.guessTitle#Species");
 			A("span.guessTitle#Abilities/Investiture");

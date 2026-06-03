@@ -29,7 +29,7 @@ const newCharacters: Character[] = [];
 while (true) {
 	const newCharacter: Character = {
 		name: (await readLine("Name: ")).split(" "),
-		homeWorld: await readLine("Home world: "),
+		homeWorld: await readLine("World of Origin: "),
 		firstAppearance: await (async () => {
 			const readBook = (await readLine("First appearance: "))
 				.split(",")

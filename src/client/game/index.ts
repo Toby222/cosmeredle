@@ -11,7 +11,7 @@ import {
 import settings from "client/settings";
 import type { StoredGuess } from "client/util";
 import {
-	Character,
+	type Character,
 	charactersForToday,
 	dateDiff,
 	Overlap,
@@ -49,6 +49,10 @@ if (localStorage.getItem("currentGame") !== dates.today.toString()) {
 }
 
 const characters = charactersForToday();
+const $solutionIdx = A.proxy(Number.NaN);
+const $solution = A.derive(() => {
+	return characters[$solutionIdx.value] as Character | undefined;
+});
 // Scope to not pollute file scope
 {
 	$gaveUp.value = localStorage.getItem("gaveUp") === "true";
@@ -64,12 +68,12 @@ const characters = charactersForToday();
 		const previousGuessesParsed = JSON.parse(
 			previousGuessesStorage,
 		) as StoredGuess[];
-		for (const previousGuess of previousGuessesParsed) {
-			$previousGuesses.push(previousGuess);
-			if (
-				previousGuess.slice(0, 5).every((overlap) => overlap === Overlap.Full)
-			) {
+		for (let idx = 0; idx < previousGuessesParsed.length; idx++) {
+			const guess = previousGuessesParsed[idx];
+			$previousGuesses.push(guess);
+			if (guess.slice(0, 5).every((overlap) => overlap === Overlap.Full)) {
 				$gameInProgress.value = false;
+				$solutionIdx.value = guess[5];
 			}
 			$availableCharacters.value--;
 		}
@@ -136,11 +140,6 @@ A.derive(async () => {
 	if (!$gaveUp.value) return;
 
 	$gameInProgress.value = false;
-});
-
-const $solutionIdx = A.proxy(Number.NaN);
-const $solution = A.derive(() => {
-	return characters[$solutionIdx.value] as Character | undefined;
 });
 
 const $showGameOver = A.derive(() => {
