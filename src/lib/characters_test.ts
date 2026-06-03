@@ -1,5 +1,10 @@
 import { expect, test } from "bun:test";
-import { charactersForDay, charactersMatch, daysSinceEpoch } from "lib/util";
+import {
+	charactersForDay,
+	charactersMatch,
+	daysSinceEpoch,
+	SOFT_HYPHEN,
+} from "lib/util";
 
 const characters = charactersForDay(daysSinceEpoch() + 1);
 
@@ -20,19 +25,20 @@ const expectedSoloHomeworlds = [
 ];
 test("Proper homeworld occurence count", () => {
 	const homeWorlds = characters.map((character) => character.homeWorld);
-	for (const homeWorld of homeWorlds) {
+	for (const rawHomeWorld of homeWorlds) {
+		const normalizedHomeWorld = rawHomeWorld.replaceAll(SOFT_HYPHEN, "");
 		const occurenceCount = homeWorlds.filter(
-			(homeWorldB) => homeWorldB === homeWorld,
+			(homeWorldB) => homeWorldB === rawHomeWorld,
 		).length;
-		if (expectedSoloHomeworlds.includes(homeWorld)) {
+		if (expectedSoloHomeworlds.includes(normalizedHomeWorld)) {
 			expect(
 				occurenceCount,
-				`Homeworld "${homeWorld}" has new characters`,
+				`Homeworld "${rawHomeWorld}" has new characters`,
 			).toBe(1);
 		} else {
 			expect(
 				occurenceCount,
-				`Homeworld "${homeWorld}" is missing characters`,
+				`Homeworld "${rawHomeWorld}" is missing characters`,
 			).toBeGreaterThan(1);
 		}
 	}
@@ -44,14 +50,15 @@ const expectedSingleCharacterBooks = [
 ];
 test("Proper book occurence count", () => {
 	const books = characters.map((character) => character.firstAppearance[0]);
-	for (const book of books) {
-		const occurenceCount = books.filter((bookB) => bookB === book).length;
-		if (expectedSingleCharacterBooks.includes(book)) {
-			expect(occurenceCount, `Book "${book}" has new characters`).toBe(1);
+	for (const rawBook of books) {
+		const normalizedBook = rawBook.replaceAll(SOFT_HYPHEN, "");
+		const occurenceCount = books.filter((bookB) => bookB === rawBook).length;
+		if (expectedSingleCharacterBooks.includes(normalizedBook)) {
+			expect(occurenceCount, `Book "${rawBook}" has new characters`).toBe(1);
 		} else {
 			expect(
 				occurenceCount,
-				`Book "${book}" is missing characters`,
+				`Book "${rawBook}" is missing characters`,
 			).toBeGreaterThan(1);
 		}
 	}
@@ -83,16 +90,19 @@ const expectedUniqueSpecies = [
 ];
 test("Proper species occurence count", () => {
 	const allSpecies = characters.map((character) => character.species.join(" "));
-	for (const species of allSpecies) {
+	for (const rawSpecies of allSpecies) {
+		const normalizedSpecies = rawSpecies.replaceAll(SOFT_HYPHEN, "");
 		const occurenceCount = allSpecies.filter(
-			(speciesB) => speciesB === species,
+			(speciesB) => speciesB === rawSpecies,
 		).length;
-		if (expectedUniqueSpecies.includes(species)) {
-			expect(occurenceCount, `Species "${species}" has new characters`).toBe(1);
+		if (expectedUniqueSpecies.includes(normalizedSpecies)) {
+			expect(occurenceCount, `Species "${rawSpecies}" has new characters`).toBe(
+				1,
+			);
 		} else {
 			expect(
 				occurenceCount,
-				`Species "${species}" is missing characters`,
+				`Species "${rawSpecies}" is missing characters`,
 			).toBeGreaterThan(1);
 		}
 	}
@@ -123,16 +133,20 @@ const expectedUniqueAbilities: string[] = [
 ];
 test("Proper ability occurence count", () => {
 	const abilities = characters.flatMap((character) => character.abilities);
-	for (const ability of abilities) {
+	for (const rawAbility of abilities) {
+		const normalizedAbility = rawAbility.replaceAll(SOFT_HYPHEN, "");
 		const occurenceCount = abilities.filter(
-			(abilityB) => abilityB === ability,
+			(abilityB) => abilityB === rawAbility,
 		).length;
-		if (expectedUniqueAbilities.includes(ability)) {
-			expect(occurenceCount, `Ability "${ability}" has new characters`).toBe(1);
+		if (expectedUniqueAbilities.includes(normalizedAbility)) {
+			expect(
+				occurenceCount,
+				`Ability "${normalizedAbility}" has new characters`,
+			).toBe(1);
 		} else {
 			expect(
 				occurenceCount,
-				`Ability "${ability}" is missing characters`,
+				`Ability "${normalizedAbility}" is missing characters`,
 			).toBeGreaterThan(1);
 		}
 	}

@@ -1,5 +1,7 @@
 import CHARACTERS from "lib/characters.json";
 
+export const SOFT_HYPHEN = "\u00ad";
+
 export function formatTime(milliseconds: number, useLetters: boolean) {
 	const numSeconds = Math.floor(milliseconds / 1000);
 	const numMinutes = Math.floor(numSeconds / 60);

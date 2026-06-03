@@ -8,13 +8,14 @@ import {
 	getSeries,
 	MS_PER_DAY,
 	Overlap,
+	SOFT_HYPHEN,
 } from "lib/util";
 
 const characters = charactersForDay(daysSinceEpoch() + 1);
 
 function getCharacter(firstName: string): Character {
 	const character = characters.find(
-		(character) => character.name[0] === firstName,
+		(character) => character.name[0].replaceAll(SOFT_HYPHEN, "") === firstName,
 	);
 	expect(character, `Could not find ${firstName}`).toBeDefined();
 	return character as Character;

@@ -1,7 +1,8 @@
 #! /usr/bin/env bun
 import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
-import type { Character } from "lib/util";
+import { type Character, SOFT_HYPHEN } from "lib/util";
+import NAMES from "./fixedNames.json";
 
 const newCharacters: Character[] = [];
 
@@ -13,7 +14,6 @@ const unknownSpecies = new Set<string>();
 const unknownSubspecies = new Set<string>();
 const unknownAbilities = new Set<string>();
 
-const SOFT_HYPHEN = "\u00ad";
 function shy(...word: string[]): string {
 	return word.join(SOFT_HYPHEN);
 }
@@ -23,25 +23,17 @@ function shyArr(...words: (string | string[])[]): string {
 		.join(" ");
 }
 
-function _shyName(name: string[]): string[] {
-	if (name.some((part) => part.includes(SOFT_HYPHEN))) return name;
-	switch (name.join(" ")) {
-		default:
-			unknownNames.add(name);
-			return name;
-	}
-}
-function shyName(name: string[]): string[] {
-	const fixedName = _shyName(name);
+function shyName(name: string[], index: number): string[] {
+	if (name.join(" ").includes(SOFT_HYPHEN)) return name;
+	const fixedName = NAMES[index];
 	if (fixedName.join(" ").replaceAll(SOFT_HYPHEN, "") !== name.join(" "))
 		throw new Error(
-			`Invalid replacement "${fixedName.join(" ")}" for name "${name.join(" ")}"`,
+			`Invalid replacement "${fixedName.join(" ")}" (${fixedName.join(" ").replaceAll(SOFT_HYPHEN, "").length}) for name "${name.join(" ")}"`,
 		);
 	return fixedName;
 }
 
 function _shyHomeWorld(world: string): string {
-	if (world.includes(SOFT_HYPHEN)) return world;
 	switch (world) {
 		case "Unknown":
 			return shy("Un", "known");
@@ -83,6 +75,7 @@ function _shyHomeWorld(world: string): string {
 	}
 }
 function shyHomeWorld(world: string): string {
+	if (world.includes(SOFT_HYPHEN)) return world;
 	const fixedWorld = _shyHomeWorld(world);
 	if (fixedWorld.replaceAll(SOFT_HYPHEN, "") !== world) {
 		throw new Error(`Invalid replacement "${fixedWorld}" for world "${world}"`);
@@ -379,6 +372,7 @@ function shyBook(book: string): string {
 	}
 }
 function shySeries(series: string): string {
+	if (series.includes(SOFT_HYPHEN)) return series;
 	switch (series) {
 		case "Stormlight Archive":
 			return shyArr(["Storm", "light"], ["Ar", "chive"]);
@@ -404,12 +398,18 @@ function shyFirstAppearance(
 	const fixedBook = shyBook(appearance[0]);
 	const fixedSeries =
 		appearance[0] === appearance[1] ? fixedBook : shySeries(appearance[1]);
-	if (fixedBook.replaceAll(SOFT_HYPHEN, "") !== appearance[0])
+	if (
+		!appearance[0].includes(SOFT_HYPHEN) &&
+		fixedBook.replaceAll(SOFT_HYPHEN, "") !== appearance[0]
+	)
 		throw new Error(
 			`Invalid replacement "${fixedBook}" for book "${appearance[0]}"`,
 		);
 
-	if (fixedSeries.replaceAll(SOFT_HYPHEN, "") !== appearance[1])
+	if (
+		!appearance[1].includes(SOFT_HYPHEN) &&
+		fixedSeries.replaceAll(SOFT_HYPHEN, "") !== appearance[1]
+	)
 		throw new Error(
 			`Invalid replacement "${fixedSeries}" for series "${appearance[1]}"`,
 		);
@@ -630,7 +630,10 @@ function shyAbilities(abilities: string[]) {
 	const fixedAbilities = [];
 	for (const ability of abilities) {
 		const fixedAbility = shyAbility(ability);
-		if (fixedAbility.replaceAll(SOFT_HYPHEN, "") !== ability)
+		if (
+			!ability.includes(SOFT_HYPHEN) &&
+			fixedAbility.replaceAll(SOFT_HYPHEN, "") !== ability
+		)
 			throw new Error(
 				`Invalid replacement "${fixedAbility}" for ability ${ability}`,
 			);
@@ -639,10 +642,11 @@ function shyAbilities(abilities: string[]) {
 	return fixedAbilities;
 }
 
-for (const character of CHARACTERS) {
+for (let idx = 0; idx < CHARACTERS.length; idx++) {
+	const character = CHARACTERS[idx];
 	try {
 		newCharacters.push({
-			name: shyName(character.name),
+			name: shyName(character.name, idx),
 			homeWorld: shyHomeWorld(character.homeWorld),
 			firstAppearance: shyFirstAppearance(character.firstAppearance),
 			species: shyFullSpecies(character.species),

@@ -118,32 +118,33 @@ A("main", () => {
 		A("tbody", () => {
 			A.onEach(
 				$characters.value,
-				(char) => {
+				(character) => {
 					A("tr", () => {
-						A("td#", char.name.join(" "));
-						A("td", () => A(`span#${char.homeWorld}`));
+						A("td#", character.name.join(" "));
+						A("td", () => A(`span#${character.homeWorld}`));
 						A("td", () => {
-							A(`span#${char.firstAppearance[0]}`);
-							if (char.firstAppearance[1] !== char.firstAppearance[0]) {
+							A(`span#${character.firstAppearance[0]}`);
+							if (
+								character.firstAppearance[1] !== character.firstAppearance[0]
+							) {
 								A("br");
-								A(`span# (${char.firstAppearance[1]})`);
+								A(`span# (${character.firstAppearance[1]})`);
 							}
 						});
 						A("td", () => {
-							A(`span#${char.species[0]}`);
-							if (char.species.length > 1) {
+							A(`span#${character.species[0]}`);
+							if (character.species.length > 1) {
 								A("br");
 								A(
-									`span# ${char.species.length > 1 ? ` (${char.species[1]})` : ""}`,
+									`span# ${character.species.length > 1 ? ` (${character.species[1]})` : ""}`,
 								);
 							}
 						});
 						A("td", () => {
-							A.onEach(char.abilities, (ability, idx) => {
+							A.onEach(character.abilities, (ability, idx) => {
 								A(`span#${ability}`);
-								if (idx < char.abilities.length - 1) {
+								if (idx < character.abilities.length - 1) {
 									A("#, ");
-									A("wbr");
 								}
 							});
 						});
