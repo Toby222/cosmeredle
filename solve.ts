@@ -5,7 +5,12 @@ import {
 	type SolveGuess,
 	TARGET_RATIO,
 } from "lib/solve";
-import { charactersForToday, Overlap, type OverlapType } from "lib/util";
+import {
+	charactersForToday,
+	Overlap,
+	type OverlapType,
+	SOFT_HYPHEN,
+} from "lib/util";
 
 const characters = charactersForToday();
 
@@ -86,7 +91,9 @@ while (remainingCharacters.length > 0) {
 	const bestGuess = getBestGuessOutOfPossible(remainingCharacters);
 	guessesMade.push([
 		bestGuess.name.join(" "),
-		await readOverlap(`Results of guessing ${bestGuess.name.join(" ")}: `),
+		await readOverlap(
+			`Results of guessing ${bestGuess.name.join(" ").replaceAll(SOFT_HYPHEN, "")}: `,
+		),
 	]);
 	const previouslyRemaining = remainingCharacters.length;
 	remainingCharacters = remainingCharacters.filter(
@@ -110,7 +117,11 @@ while (remainingCharacters.length > 0) {
 		"Target:",
 		TARGET_RATIO,
 	);
-	console.log(remainingCharacters.map((c) => c.name.join(" ")).join(","));
+	console.log(
+		remainingCharacters
+			.map((c) => c.name.join(" ").replaceAll(SOFT_HYPHEN, ""))
+			.join(","),
+	);
 }
 
 const finalGuess = guessesMade[guessesMade.length - 1];
