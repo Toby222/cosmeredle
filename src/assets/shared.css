@@ -90,7 +90,9 @@ input[type="date"] {
 	color: contrast-color(var(--dark-background));
 }
 label:has(input[type="checkbox"]),
-input[type="checkbox"] {
+input[type="checkbox"],
+label:has(input[type="color"]),
+input[type="color"] {
 	user-select: none;
 	cursor: pointer;
 }
