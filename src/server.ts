@@ -56,42 +56,41 @@ Bun.serve({
 				return Response.json(compareCharacters(char, characterForDay(today)));
 			},
 		},
-		"/guess/:characterIdx/:day": {
-			async POST(request) {
-				const { characterIdx, day } = request.params;
-				if (!/\d+/.test(characterIdx)) return Response.error();
-				if (!/\d+/.test(day)) return Response.error();
-				const characters = charactersForDay(Number.parseInt(day, 10));
-				const char = characters[Number.parseInt(characterIdx, 10)];
+		// "/guess/:characterIdx/:day": {
+		// 	async POST(request) {
+		// 		const { characterIdx, day } = request.params;
+		// 		if (!/\d+/.test(characterIdx)) return Response.error();
+		// 		if (!/\d+/.test(day)) return Response.error();
+		// 		const characters = charactersForDay(Number.parseInt(day, 10));
+		// 		const char = characters[Number.parseInt(characterIdx, 10)];
 
-				return Response.json(
-					compareCharacters(char, characterForDay(Number.parseInt(day, 10))),
-				);
-			},
-		},
+		// 		return Response.json(
+		// 			compareCharacters(char, characterForDay(Number.parseInt(day, 10))),
+		// 		);
+		// 	},
+		// },
 		"/today": async () =>
 			Response.json({
 				today: today,
 				tomorrow: (today + 1) * MS_PER_DAY,
 			}),
-		"/par": async () =>
-			new Response(getPar(today).toString(), {
-				headers: { "Content-Type": "text/plain" },
-			}),
-		"/par/:day": async (request) =>
-			/\d+/.test(request.params.day)
-				? new Response(
-						getPar(Number.parseInt(request.params.day, 10)).toString(),
-						{
-							headers: { "Content-Type": "text/plain" },
-						},
-					)
-				: Response.error(),
+		"/par": async () => Response.json(getPar(today)),
+		// "/par/:day": async (request) =>
+		// 	/\d+/.test(request.params.day)
+		// 		? new Response(
+		// 				getPar(Number.parseInt(request.params.day, 10)).toString(),
+		// 				{
+		// 					headers: { "Content-Type": "text/plain" },
+		// 				},
+		// 			)
+		// 		: Response.error(),
 		"/characters": async () => Response.json(charactersForDay(today)),
-		"/characters/:day": async (request) => {
-			const { day } = request.params;
-			if (!/\d+/.test(day)) return Response.error();
-			return Response.json(charactersForDay(Number.parseInt(day, 10)));
-		},
+		// "/characters/:day": async (request) => {
+		// 	const { day } = request.params;
+		// 	if (!/\d+/.test(day)) return Response.error();
+		// 	return Response.json(charactersForDay(Number.parseInt(day, 10)));
+		//   },
+		"/giveUp": async () =>
+			Response.json(charactersForDay(today).indexOf(characterForDay(today))),
 	},
 });

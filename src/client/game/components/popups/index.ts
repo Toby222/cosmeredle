@@ -1,5 +1,11 @@
 import { GameOverPopup } from "./GameOverPopup";
+import { GiveUpConfirmationPopup } from "./GiveUpConfirmationPopup";
 import { SettingsPopup } from "./SettingsPopup";
 import { SpoilerWarningPopup } from "./SpoilerWarningPopup";
 
-export { GameOverPopup, SettingsPopup, SpoilerWarningPopup };
+export {
+	GameOverPopup,
+	GiveUpConfirmationPopup,
+	SettingsPopup,
+	SpoilerWarningPopup,
+};

@@ -1,19 +1,21 @@
 import A, { type ValueRef } from "aberdeen";
 import { emojiFromGuess, type StoredGuess } from "client/util";
+import type { Character } from "lib/util";
 
 export function GameOverPopup(
+	$visible: ValueRef<boolean>,
 	$dismissed: ValueRef<boolean>,
-	$hide: ValueRef<boolean>,
+	$gaveUp: ValueRef<boolean>,
 	$includeLink: ValueRef<boolean>,
+	$solution: ValueRef<Character | undefined>,
 	guesses: StoredGuess[],
 	par: number,
 ): Element | undefined {
-	if ($dismissed.value) return;
+	if (!$visible.value || $dismissed.value) return;
 	return A(
 		"div.popupWrapper",
 		{
 			id: "gameOver",
-			".hidden": $hide,
 			click(event: MouseEvent) {
 				if (event.target === this) {
 					$dismissed.value = true;
@@ -24,7 +26,15 @@ export function GameOverPopup(
 			A("div.popup", () => {
 				A("span#Game over! ");
 				A("hr");
-				A(`span#You took ${guesses.length} guesses`);
+				if ($solution.value) {
+					A("span#The correct character was: ", () => {
+						A(`#${$solution.value?.name.join(" ")}`);
+					});
+				}
+				A("hr");
+				A(
+					`span#You ${$gaveUp.value ? "gave up" : "won"} ${guesses.length} after guesses`,
+				);
 				A(`span#Par: ${par}`);
 
 				const shareable = A.derive(() =>
@@ -50,7 +60,7 @@ export function GameOverPopup(
 					A("button#Copy", {
 						click() {
 							navigator.clipboard.writeText(
-								`I got today's Cosmeredle in ${guesses.length}!\n${parText}\n${shareable.value}${
+								`I ${A.unproxy($gaveUp.value) ? "lost" : "won"} today's Cosmeredle in ${guesses.length}!\n${parText}\n${shareable.value}${
 									$includeLink.value ? `\n${location.href}` : ""
 								}`,
 							);

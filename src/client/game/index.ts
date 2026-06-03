@@ -4,24 +4,31 @@ import { GuessContainer } from "client/game/components/GuessContainer";
 import { MakeGuessContainer } from "client/game/components/MakeGuessContainer";
 import {
 	GameOverPopup,
+	GiveUpConfirmationPopup,
 	SettingsPopup,
 	SpoilerWarningPopup,
 } from "client/game/components/popups";
 import settings from "client/settings";
 import type { StoredGuess } from "client/util";
 import {
+	Character,
 	charactersForToday,
 	dateDiff,
 	Overlap,
 	type OverlapType,
 } from "lib/util";
 
+const GUESSES_TO_HINT = 5;
+const GUESSES_TO_GIVE_UP = 10;
+
 const $previousGuesses = A.proxy([] as StoredGuess[]);
+const $guessesMade = A.count($previousGuesses);
 const $availableCharacters = A.proxy(0);
 const $answerPending = A.proxy(true);
 const $gameInProgress = A.proxy(true);
 const $showSettings = A.proxy(false);
-
+const $showGiveup = A.proxy(false);
+const $gaveUp = A.proxy(false);
 const selectedCharacter = A.proxy<number | undefined>(undefined);
 const now = A.proxy(Date.now());
 setInterval(() => {
@@ -35,17 +42,23 @@ const dates = (await (await fetch("/today")).json()) as {
 const par = Number.parseInt(await (await fetch("/par")).text(), 10);
 
 const nextGame = dates.tomorrow;
-if (
-	localStorage.getItem("currentGame") === undefined ||
-	localStorage.getItem("currentGame") !== dates.today.toString()
-) {
-	localStorage.clear();
+if (localStorage.getItem("currentGame") !== dates.today.toString()) {
+	localStorage.removeItem("gaveUp");
+	localStorage.removeItem("previousGuesses");
 	localStorage.setItem("currentGame", dates.today.toString());
 }
 
 const characters = charactersForToday();
 // Scope to not pollute file scope
 {
+	$gaveUp.value = localStorage.getItem("gaveUp") === "true";
+	A.derive(() => {
+		localStorage.setItem("gaveUp", $gaveUp.value.toString());
+	});
+	if ($gaveUp.value) {
+		fetchSolution();
+	}
+
 	const previousGuessesStorage = localStorage.getItem("previousGuesses");
 	if (previousGuessesStorage !== null) {
 		const previousGuessesParsed = JSON.parse(
@@ -92,6 +105,7 @@ async function guess(characterId: number) {
 		] as StoredGuess);
 		if (answer.every((overlap) => overlap === Overlap.Full)) {
 			$gameInProgress.value = false;
+			$solutionIdx.value = characterId;
 		}
 	} else {
 		console.error("invalid answer", answer);
@@ -108,6 +122,30 @@ function makeGuess() {
 		selectedCharacter.value = undefined;
 	}
 }
+
+async function giveUp() {
+	$showGiveup.value = true;
+	await fetchSolution();
+}
+async function fetchSolution() {
+	const solution = (await (await fetch("/giveUp")).json()) as number;
+	$solutionIdx.value = solution;
+}
+
+A.derive(async () => {
+	if (!$gaveUp.value) return;
+
+	$gameInProgress.value = false;
+});
+
+const $solutionIdx = A.proxy(Number.NaN);
+const $solution = A.derive(() => {
+	return characters[$solutionIdx.value] as Character | undefined;
+});
+
+const $showGameOver = A.derive(() => {
+	return !$hideGameOver.value && (!$gameInProgress.value || $gaveUp.value);
+});
 
 A("header", () => {
 	MakeGuessContainer(
@@ -128,13 +166,43 @@ A("main", () => {
 	A("div", { id: "popupContainer" }, () => {
 		SettingsPopup($showSettings);
 		GameOverPopup(
+			$showGameOver,
 			$hideGameOver,
-			$gameInProgress,
+			$gaveUp,
 			settings.shareLink.ref,
+			$solution,
 			$previousGuesses,
 			par,
 		);
 		SpoilerWarningPopup(settings.spoilerWarningDismissed.ref);
+		GiveUpConfirmationPopup($showGiveup, $gaveUp);
 	});
+
+	if (
+		!$gaveUp.value &&
+		($guessesMade.value >= GUESSES_TO_HINT ||
+			$guessesMade.value >= GUESSES_TO_GIVE_UP)
+	) {
+		A(`span#You've made ${$guessesMade.value} guesses so far.`, {
+			id: "guessesMade",
+		});
+		if ($guessesMade.value >= GUESSES_TO_HINT) {
+			A("span#Do you need ", () => {
+				A("a#to be reminded of all characters", {
+					href: "/characters.html",
+					target: "_blank",
+				});
+				A("#?");
+			});
+		}
+		if ($guessesMade.value >= GUESSES_TO_GIVE_UP) {
+			A("span#Do you want to ", () => {
+				A("button#give up", {
+					click: giveUp,
+				});
+				A("#?");
+			});
+		}
+	}
 });
 Footer();
