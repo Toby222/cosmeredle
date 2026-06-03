@@ -25,7 +25,13 @@ function charactersShouldMatch(characterA: Character, characterB: Character) {
 	expect(match[0], "Name matching broken").toBe(Overlap.Full);
 	expect(match[1], "Homeworld matching broken").toBe(Overlap.Full);
 	expect(match[2], "First Appearance matching broken").toBe(Overlap.Full);
-	expect(match[3], "Species matching broken").toBe(Overlap.Full);
+	expect(
+		match[3],
+		"Species matching broken " +
+			characterA.species.join(";") +
+			" !== " +
+			characterB.species.join(";"),
+	).toBe(Overlap.Full);
 	expect(match[4], "Abilities matching broken").toBe(Overlap.Full);
 }
 

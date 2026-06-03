@@ -107,7 +107,7 @@ export type Character = {
 };
 
 export function charactersForDay(day: number): Character[] {
-	return CHARACTERS.filter(
+	return (CHARACTERS as Character[]).filter(
 		(character) =>
 			character.validFrom <= day &&
 			(character.validUntil === undefined || character.validUntil >= day),
@@ -132,17 +132,24 @@ export const charactersForToday: () => Character[] = (() => {
 })();
 
 function compareSpecies(speciesA: string[], speciesB: string[]): OverlapType {
-	if (speciesA[0] !== speciesB[0]) return Overlap.None;
-	if (speciesA[1] !== speciesB[1]) return Overlap.Partial;
-	return Overlap.Full;
+	const speciesMatches = speciesA[0] === speciesB[0];
+	const subspeciesMatches =
+		((speciesA[1] !== undefined && speciesA[1] !== "Unspecified") ||
+			speciesMatches) &&
+		speciesA[1] === speciesB[1];
+
+	if (speciesMatches && subspeciesMatches) return Overlap.Full;
+	if (speciesMatches || subspeciesMatches) return Overlap.Partial;
+
+	return Overlap.None;
 }
 
 export function compareName(nameA: string[], nameB: string[]): OverlapType {
 	const normalizedNameA = nameA.map((namePart) =>
-		namePart.replaceAll(/(^\(|\)$)/g, ""),
+		namePart.replaceAll(/(^\(|\)$|\u200d)/g, ""),
 	);
 	const normalizedNameB = nameB.map((namePart) =>
-		namePart.replaceAll(/(^\(|\)$)/g, ""),
+		namePart.replaceAll(/(^\(|\)$|\u200d)/g, ""),
 	);
 	return fuzzyCompareArray(normalizedNameA, normalizedNameB);
 }
