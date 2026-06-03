@@ -104,7 +104,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": ["Ati"],
+		"name": ["A­ti"],
 		"homeWorld": "Yo­len",
 		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
 		"species": ["Hu­man", "Un­spec­i­fied"],
@@ -364,7 +364,7 @@
 		"validUntil": 20603
 	},
 	{
-		"name": ["Ed­warn", "Lad­rian"],
+		"name": ["Ed­warn", "Lad­ri­an"],
 		"homeWorld": "Sca­dri­al",
 		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
 		"species": ["Hu­man", "El­end­el"],
@@ -552,7 +552,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": ["Hu­i­o"],
+		"name": ["Hu­io"],
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Her­da­zi­an"],
@@ -618,7 +618,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": ["Jez­ri­en"],
+		"name": ["Jez­rien"],
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
@@ -700,7 +700,7 @@
 		"validUntil": 20294
 	},
 	{
-		"name": ["Kor­av­ell­i­um", "Av­ast"],
+		"name": ["Kor­a­vell­i­um", "Av­ast"],
 		"homeWorld": "Yo­len",
 		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
 		"species": ["Drag­on", "Un­spec­i­fied"],
@@ -1080,7 +1080,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": ["Rayse"],
+		"name": ["Ray­se"],
 		"homeWorld": "Yo­len",
 		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Un­spec­i­fied"],
@@ -1089,7 +1089,7 @@
 		"validUntil": 20603
 	},
 	{
-		"name": ["Re­nar­in", "Kho­lin"],
+		"name": ["Ren­ar­in", "Kho­lin"],
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "A­le­thi"],
@@ -1389,7 +1389,7 @@
 		"validUntil": 20294
 	},
 	{
-		"name": ["Tal­e­nel"],
+		"name": ["Ta­le­nel"],
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
@@ -2042,7 +2042,7 @@
 		"validFrom": 20266
 	},
 	{
-		"name": ["Med­el­an­tor­i­us"],
+		"name": ["Me­de­lan­tor­i­us"],
 		"homeWorld": "Yo­len",
 		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
 		"species": ["Drag­on", "Un­spec­i­fied"],
@@ -2376,7 +2376,7 @@
 		"validFrom": 20295
 	},
 	{
-		"name": ["Gl­ys"],
+		"name": ["Glys"],
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
 		"species": ["Spren", "Mist­spren"],
@@ -2426,7 +2426,7 @@
 		"validFrom": 20295
 	},
 	{
-		"name": ["Te­nSoon"],
+		"name": ["Ten­Soon"],
 		"homeWorld": "Sca­dri­al",
 		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
 		"species": ["Kan­dra", "Third Gen­er­a­tion"],
@@ -2654,7 +2654,7 @@
 		"validFrom": 20295
 	},
 	{
-		"name": ["Nu­mu­hu­ku­ma­ki­aki'ai­a­lun­am­or (Rock)"],
+		"name": ["Nu­mu­hu­ku­ma­ki­ak­i'ai­a­lun­am­or (Rock)"],
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Un­ka­la­ki"],
@@ -2662,7 +2662,7 @@
 		"validFrom": 20295
 	},
 	{
-		"name": ["Ill­is­tan­dri­sta (Star­ling)"],
+		"name": ["Ill­is­tan­dri­sta", "(Star­ling)"],
 		"homeWorld": "Yo­len",
 		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
 		"species": ["Drag­on"],
@@ -2671,7 +2671,7 @@
 		"validUntil": 20603
 	},
 	{
-		"name": ["Me­del­an­tor­i­us"],
+		"name": ["Me­de­lan­tor­i­us"],
 		"homeWorld": "Yo­len",
 		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
 		"species": ["Drag­on"],
@@ -2680,7 +2680,7 @@
 		"validUntil": 20603
 	},
 	{
-		"name": ["Ko­ra­vell­i­um", "Av­ast"],
+		"name": ["Kor­a­vell­i­um", "Av­ast"],
 		"homeWorld": "Yo­len",
 		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
 		"species": ["Drag­on"],
@@ -2689,7 +2689,7 @@
 		"validUntil": 20603
 	},
 	{
-		"name": ["Naz­ril­of (Nazh)"],
+		"name": ["Naz­ril­of", "(Nazh)"],
 		"homeWorld": "Thre­no­dy",
 		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
 		"species": ["Shade"],
@@ -2785,7 +2785,7 @@
 		"validUntil": 20303
 	},
 	{
-		"name": ["Not­um"],
+		"name": ["No­tum"],
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
 		"species": ["Spren", "Hon­or­spren"],
@@ -3057,7 +3057,7 @@
 		"validFrom": 20604
 	},
 	{
-		"name": ["At­i"],
+		"name": ["A­ti"],
 		"homeWorld": "Yo­len",
 		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
 		"species": ["Hu­man", "Yol­ish"],

@@ -1,8 +1,8 @@
 #! /usr/bin/env bun
 import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
+import NAMES from "lib/fixedCharacterNames.json";
 import { type Character, SOFT_HYPHEN } from "lib/util";
-import NAMES from "./fixedNames.json";
 
 const newCharacters: Character[] = [];
 
@@ -23,10 +23,16 @@ function shyArr(...words: (string | string[])[]): string {
 		.join(" ");
 }
 
-function shyName(name: string[], index: number): string[] {
-	if (name.join(" ").includes(SOFT_HYPHEN)) return name;
-	const fixedName = NAMES[index];
-	if (fixedName.join(" ").replaceAll(SOFT_HYPHEN, "") !== name.join(" "))
+function shyName(name: string[]): string[] {
+	const fixedName = (NAMES as Record<string, string[]>)[
+		name.join(" ").replaceAll(SOFT_HYPHEN, "")
+	];
+	if (fixedName === undefined)
+		throw new Error(`Missing fixed name for ${name.join(" ")}`);
+	if (
+		fixedName.join(" ").replaceAll(SOFT_HYPHEN, "") !==
+		name.join(" ").replaceAll(SOFT_HYPHEN, "")
+	)
 		throw new Error(
 			`Invalid replacement "${fixedName.join(" ")}" (${fixedName.join(" ").replaceAll(SOFT_HYPHEN, "").length}) for name "${name.join(" ")}"`,
 		);
@@ -642,11 +648,10 @@ function shyAbilities(abilities: string[]) {
 	return fixedAbilities;
 }
 
-for (let idx = 0; idx < CHARACTERS.length; idx++) {
-	const character = CHARACTERS[idx];
+for (const character of CHARACTERS) {
 	try {
 		newCharacters.push({
-			name: shyName(character.name, idx),
+			name: shyName(character.name),
 			homeWorld: shyHomeWorld(character.homeWorld),
 			firstAppearance: shyFirstAppearance(character.firstAppearance),
 			species: shyFullSpecies(character.species),
@@ -709,9 +714,7 @@ if (unknownAbilities.size > 0) {
 	throw new Error(`Unhandled abilities: ${unknownAbilities.size}`);
 }
 
-Bun.file("./src/lib/characters.json").write(
-	JSON.stringify(newCharacters, null, 2),
-);
-for await (const line of $`nix fmt`.lines()) {
+Bun.file("./src/lib/characters.json").write(JSON.stringify(newCharacters));
+for await (const line of $`bun run fix`.lines()) {
 	console.log(line);
 }
