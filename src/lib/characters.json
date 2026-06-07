@@ -3351,5 +3351,13 @@
 		"species": ["Sing­er", "Lis­ten­er"],
 		"abilities": ["Knight Ra­di­ant", "Shard­bearer", "Will­shap­er"],
 		"validFrom": 20607
+	},
+	{
+		"name": ["Da­jer"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Hu­man", "Mal­wish"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20612
 	}
 ]

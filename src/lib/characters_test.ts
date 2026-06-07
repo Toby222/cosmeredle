@@ -66,7 +66,6 @@ test("Proper book occurence count", () => {
 
 const expectedUniqueSpecies = [
 	"Human Khlenni", // Alendi
-	"Human Malwish", // Allik Neverfar
 	"Siah Aimian", // Axies
 	"Greatshell Tai-na", // Relu-na
 	"Greatshell Larkin", // Chiri-Chiri
