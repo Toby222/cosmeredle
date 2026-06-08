@@ -1,6 +1,6 @@
 import A, { type ValueRef } from "aberdeen";
 import { emojiFromGuess, type StoredGuess } from "client/util";
-import type { Character } from "lib/util";
+import { type Character, getCharacterName } from "lib/util";
 
 export function GameOverPopup(
 	$visible: ValueRef<boolean>,
@@ -28,7 +28,8 @@ export function GameOverPopup(
 				A("hr");
 				if ($solution.value) {
 					A("span#The correct character was: ", () => {
-						A(`#${$solution.value?.name.join(" ")}`);
+						if (!$solution.value) return;
+						A(`#${getCharacterName($solution.value)}`);
 					});
 				}
 				A("hr");

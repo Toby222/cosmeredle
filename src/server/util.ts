@@ -1,5 +1,5 @@
 import { playGame } from "lib/solve";
-import { type Character, charactersForDay } from "lib/util";
+import { type Character, charactersForDay, getCharacterName } from "lib/util";
 import { seededRandom } from "./random";
 
 const pars = new Map<number, number>();
@@ -22,8 +22,9 @@ export function characterForDay(day: number) {
 		let index =
 			Math.floor(seededRandom(prevDay) * characters.length) % characters.length;
 		if (
-			characters[index].name.join(" ") ===
-			characterForDays[prevDay - 1]?.name.join(" ")
+			prevDay > 0 &&
+			getCharacterName(characters[index]) ===
+				getCharacterName(characterForDays[prevDay - 1])
 		)
 			index = (index + 1) % characters.length;
 

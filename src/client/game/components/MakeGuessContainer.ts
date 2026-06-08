@@ -1,6 +1,6 @@
 import A, { type ValueRef } from "aberdeen";
 import type { StoredGuess } from "client/util";
-import { type Character, SOFT_HYPHEN } from "lib/util";
+import { type Character, getCharacterName } from "lib/util";
 import { CustomSelectNumber } from "./CustomSelect";
 
 export function MakeGuessContainer(
@@ -17,7 +17,7 @@ export function MakeGuessContainer(
 		const guessedCharacters = guesses.map((guess) => guess[5]);
 		CustomSelectNumber(
 			characters.map((character, idx) => ({
-				label: character.name.join(" ").replaceAll(SOFT_HYPHEN, ""),
+				label: getCharacterName(character),
 				value: idx,
 				disabled: guessedCharacters.includes(idx),
 			})),

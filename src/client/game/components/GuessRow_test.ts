@@ -1,5 +1,10 @@
 import { expect, test } from "bun:test";
-import { charactersForToday, formatSpecies, Overlap } from "lib/util";
+import {
+	charactersForToday,
+	formatSpecies,
+	getCharacterName,
+	Overlap,
+} from "lib/util";
 import { GuessRow } from "./GuessRow";
 
 const characters = charactersForToday();
@@ -14,9 +19,9 @@ test("GuessRow looks sane", () => {
 				Overlap.Full,
 				idx,
 			])?.innerHTML,
-			`GuessRow broken for ${characters[idx].name.join(" ")}`,
+			`GuessRow broken for ${getCharacterName(characters[idx])}`,
 		).toBe(
-			`<div class="guessBubble overlapNone">${characters[idx].name.join(" ")}</div>` +
+			`<div class="guessBubble overlapNone">${getCharacterName(characters[idx])}</div>` +
 				`<div class="guessBubble overlapPartial">${characters[idx].homeWorld}</div>` +
 				`<div class="guessBubble overlapFull">${characters[idx].firstAppearance[0]}</div>` +
 				`<div class="guessBubble overlapFull">${formatSpecies(characters[idx].species)}</div>` +

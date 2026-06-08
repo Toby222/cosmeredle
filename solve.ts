@@ -7,9 +7,9 @@ import {
 } from "lib/solve";
 import {
 	charactersForToday,
+	getCharacterName,
 	Overlap,
 	type OverlapType,
-	SOFT_HYPHEN,
 } from "lib/util";
 
 const characters = charactersForToday();
@@ -51,11 +51,15 @@ function getOverlapFromInput(input: string): OverlapType | undefined {
 }
 
 const guessesMade = (
-	[] as [characterName: string, answer: string | OverlapType[]][]
+	[
+		["Wan ShaiLu", "rrryr"],
+		["Dalinar Kholin", "rrryr"],
+		["Spook (Lestibournes Jedal)", "rrryr"],
+	] as [characterName: string, overlap: string | OverlapType[]][]
 ).map((guess) => {
 	if (typeof guess[1] === "string") {
-		guess[1] = Array.from(guess[1]).map((char) => {
-			switch (char) {
+		guess[1] = Array.from(guess[1]).map((overlap) => {
+			switch (overlap) {
 				case "R":
 				case "r":
 					return Overlap.None;
@@ -78,7 +82,7 @@ let remainingCharacters = characters.slice();
 for (const guess of guessesMade) {
 	remainingCharacters = remainingCharacters.filter(
 		(remainingCharacter) =>
-			remainingCharacter.name.join(" ") !== guess[0] &&
+			getCharacterName(remainingCharacter) !== guess[0] &&
 			characterIsValid(
 				remainingCharacter,
 				guess as SolveGuess,
@@ -89,18 +93,17 @@ for (const guess of guessesMade) {
 
 while (remainingCharacters.length > 0) {
 	const bestGuess = getBestGuessOutOfPossible(remainingCharacters);
+	const bestGuessName = getCharacterName(bestGuess);
 	guessesMade.push([
-		bestGuess.name.join(" "),
-		await readOverlap(
-			`Results of guessing ${bestGuess.name.join(" ").replaceAll(SOFT_HYPHEN, "")}: `,
-		),
+		bestGuessName,
+		await readOverlap(`Results of guessing ${bestGuessName}: `),
 	]);
 	const previouslyRemaining = remainingCharacters.length;
 	remainingCharacters = remainingCharacters.filter(
 		(remainingCharacter) =>
 			!guessesMade
 				.map((x) => x[0])
-				.includes(remainingCharacter.name.join(" ")) &&
+				.includes(getCharacterName(remainingCharacter)) &&
 			characterIsValid(
 				remainingCharacter,
 				guessesMade.at(-1) as SolveGuess,
@@ -117,11 +120,7 @@ while (remainingCharacters.length > 0) {
 		"Target:",
 		TARGET_RATIO,
 	);
-	console.log(
-		remainingCharacters
-			.map((c) => c.name.join(" ").replaceAll(SOFT_HYPHEN, ""))
-			.join(","),
-	);
+	console.log(remainingCharacters.map(getCharacterName).join(","));
 }
 
 const finalGuess = guessesMade[guessesMade.length - 1];

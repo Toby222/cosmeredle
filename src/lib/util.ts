@@ -230,3 +230,10 @@ export function charactersMatch(
 		match[4] === Overlap.Full
 	);
 }
+
+export function normalizeCharacterName(name: string[]): string {
+	return name.join(" ").replaceAll(SOFT_HYPHEN, "");
+}
+export function getCharacterName(character: Character): string {
+	return normalizeCharacterName(character.name);
+}

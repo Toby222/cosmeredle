@@ -3,6 +3,7 @@ import {
 	charactersForDay,
 	charactersMatch,
 	daysSinceEpoch,
+	getCharacterName,
 	SOFT_HYPHEN,
 } from "lib/util";
 
@@ -15,7 +16,7 @@ test("No duplicates", () => {
 		);
 		expect(
 			lastMatchedCharacterIndex,
-			`Character ${idx} (${characters[idx].name.join(" ")}) is duplicate`,
+			`Character ${idx} (${getCharacterName(characters[idx])}) is duplicate`,
 		).toBe(idx);
 	}
 });

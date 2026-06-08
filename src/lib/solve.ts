@@ -1,6 +1,7 @@
 import {
 	type Character,
 	compareCharacters,
+	getCharacterName,
 	Overlap,
 	type OverlapType,
 } from "./util";
@@ -43,7 +44,7 @@ export function characterIsValid(
 	remainingCharacters: Character[],
 ) {
 	const guessedChar = remainingCharacters.find(
-		(char) => char.name.join(" ") === guess[0],
+		(char) => getCharacterName(char) === guess[0],
 	);
 	if (guessedChar === undefined)
 		throw new Error(`undefined character "${guess[0]}"`);
@@ -63,7 +64,7 @@ export function playGame(
 	while (remainingCharacters.length > 0) {
 		const bestGuess = getBestGuessOutOfPossible(remainingCharacters);
 		guessesMade.push([
-			bestGuess.name.join(" "),
+			getCharacterName(bestGuess),
 			compareCharacters(bestGuess, correctAnswer),
 		]);
 		if (
@@ -77,7 +78,7 @@ export function playGame(
 			(remainingCharacter) =>
 				!guessesMade
 					.map((x) => x[0])
-					.includes(remainingCharacter.name.join(" ")) &&
+					.includes(getCharacterName(remainingCharacter)) &&
 				characterIsValid(
 					remainingCharacter,
 					guessesMade.at(-1) as SolveGuess,

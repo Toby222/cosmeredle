@@ -6,6 +6,7 @@ import {
 	type Character,
 	charactersForDay,
 	daysSinceEpoch,
+	getCharacterName,
 	MS_PER_DAY,
 } from "lib/util";
 
@@ -40,15 +41,15 @@ const $characters = A.derive(() => {
 	return charactersForDay($day.value);
 });
 
-function charKey(char: Character) {
+function characterKey(character: Character) {
 	const keys = {
-		name: char.name.join(" "),
-		homeWorld: char.homeWorld,
-		firstAppearance: char.firstAppearance.join(" "),
-		species: char.species.join(" "),
-		abilities: char.abilities.join(" "),
-		validFrom: char.validFrom.toString(10),
-		validUntil: (char.validUntil ?? $day.value).toString(10),
+		name: getCharacterName(character),
+		homeWorld: character.homeWorld,
+		firstAppearance: character.firstAppearance.join(" "),
+		species: character.species.join(" "),
+		abilities: character.abilities.join(" "),
+		validFrom: character.validFrom.toString(10),
+		validUntil: (character.validUntil ?? $day.value).toString(10),
 	};
 
 	const value = keys[$sort.value];
@@ -120,7 +121,7 @@ A("main", () => {
 				$characters.value,
 				(character) => {
 					A("tr", () => {
-						A("td#", character.name.join(" "));
+						A("td#", getCharacterName(character));
 						A("td", () => A(`span#${character.homeWorld}`));
 						A("td", () => {
 							A(`span#${character.firstAppearance[0]}`);
@@ -150,7 +151,7 @@ A("main", () => {
 						});
 					});
 				},
-				charKey,
+				characterKey,
 			);
 		});
 	});
