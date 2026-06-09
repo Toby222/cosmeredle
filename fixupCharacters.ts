@@ -130,6 +130,10 @@ function shySpecies(species: string): string {
 			return shy("Grass");
 		case "Greatshell":
 			return shy("Great", "shell");
+		case "Plant":
+			return shy("Plant");
+		case "Aether":
+			return shy("Ae", "ther");
 		default:
 			unknownSpecies.add(species);
 			return species;
@@ -279,6 +283,10 @@ function shySubspecies(subspecies: string | undefined): string | undefined {
 			return shy("Lar", "kin");
 		case "Lumaran":
 			return shy("Lu", "ma", "ran");
+		case "Stick":
+			return shy("Stick");
+		case "Roseite":
+			return shy("Rose", "ite");
 		default:
 			unknownSubspecies.add(subspecies);
 			return subspecies;
@@ -625,8 +633,12 @@ function shyAbility(ability: string) {
 			);
 		case "Shade":
 			return "Shade";
-		// throw new Error("Unhandled ability");
-
+		case "Aether":
+			return shy("Ae", "ther");
+		case "Control of Roseite":
+			return shyArr(["Con", "trol"], "of", ["Rose", "ite"]);
+		case "Luhel Bond":
+			return shyArr(["Lu", "hel"], "Bond");
 		default:
 			unknownAbilities.add(ability);
 			return ability;

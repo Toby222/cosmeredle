@@ -86,7 +86,9 @@ const expectedUniqueSpecies = [
 	"Human Lawnark", // ZeetZi
 	"Koloss Human", // Human (Vershad)
 	"Human Rosharan", // Talenel'Elin, Stonesinew, Bearer of Agonies, Herald of War, Patron of the Stonewards
-	"Grass Shin", // Tyvnk, Rysn's pet grass
+	"Plant Shin", // Tyvnk, Rysn's pet grass
+	"Plant Stick", // Stick, stick
+	"Aether Roseite", // Silajana
 ];
 test("Proper species occurence count", () => {
 	const allSpecies = characters.map((character) => character.species.join(" "));
@@ -130,6 +132,8 @@ const expectedUniqueAbilities: string[] = [
 	"Duralumin Gnat", // Dumad
 	"Unnamed electricity power", // ZeetZi
 	"Koloss", // Human (Vershad)
+	"Unknown", // Adonalsium
+	"Aether", // Silajana
 ];
 test("Proper ability occurence count", () => {
 	const abilities = characters.flatMap((character) => character.abilities);

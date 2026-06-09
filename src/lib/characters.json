@@ -2711,7 +2711,8 @@
 		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
 		"species": ["Hu­man", "Un­spec­i­fied"],
 		"abilities": ["Ae­ther­bound", "World­hop­per"],
-		"validFrom": 20295
+		"validFrom": 20295,
+		"validUntil": 20613
 	},
 	{
 		"name": ["Edd­lin"],
@@ -3219,7 +3220,8 @@
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Grass", "Shin"],
 		"abilities": ["Un­in­vest­ed"],
-		"validFrom": 20605
+		"validFrom": 20605,
+		"validUntil": 20613
 	},
 	{
 		"name": ["Re­lu-na"],
@@ -3290,7 +3292,8 @@
 		],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Spore Eat­er"],
-		"validFrom": 20606
+		"validFrom": 20606,
+		"validUntil": 20613
 	},
 	{
 		"name": ["Fort"],
@@ -3359,5 +3362,61 @@
 		"species": ["Hu­man", "Mal­wish"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20612
+	},
+	{
+		"name": ["A­do­nal­si­um"],
+		"homeWorld": "Un­spec­i­fied",
+		"firstAppearance": ["The He­ro of Ages", "Mist­born Era 1"],
+		"species": ["Un­known"],
+		"abilities": ["Un­known"],
+		"validFrom": 20614
+	},
+	{
+		"name": ["Stick"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Plant", "Stick"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20614
+	},
+	{
+		"name": ["Ty­vnk"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Plant", "Shin"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20614
+	},
+	{
+		"name": ["Sil­aja­na"],
+		"homeWorld": "Dha­tri",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Ae­ther", "Rose­ite"],
+		"abilities": ["Ae­ther", "Con­trol of Rose­ite", "Lu­hel Bond"],
+		"validFrom": 20614
+	},
+	{
+		"name": ["San­vith", "Pra­san­va", "Maa­hik", "va", "Si­la", "(Twin­Soul)"],
+		"homeWorld": "Dha­tri",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": [
+			"Ae­ther­bound",
+			"Con­trol of Rose­ite",
+			"Lu­hel Bond",
+			"World­hop­per"
+		],
+		"validFrom": 20614
+	},
+	{
+		"name": ["Crow"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": [
+			"Tress of the Em­er­ald Sea",
+			"Tress of the Em­er­ald Sea"
+		],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Lu­hel Bond", "Spore Eat­er"],
+		"validFrom": 20614
 	}
 ]

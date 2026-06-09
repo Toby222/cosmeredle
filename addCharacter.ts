@@ -3,10 +3,9 @@ import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
 import {
 	type Character,
-	compareName,
 	daysSinceEpoch,
+	getCharacterName,
 	getSeries,
-	Overlap,
 } from "lib/util";
 
 function makeWarning(text: string) {
@@ -55,10 +54,10 @@ while (true) {
 
 	const existingCharacter = CHARACTERS.find(
 		(char) =>
-			compareName(char.name, newCharacter.name) === Overlap.Full &&
+			getCharacterName(char) === getCharacterName(newCharacter) &&
 			(char.validUntil === undefined || char.validUntil > daysSinceEpoch()),
 	);
-	console.debug(existingCharacter, "existingCharacter");
+	console.debug(existingCharacter);
 
 	if (existingCharacter !== undefined) {
 		console.debug("Character exists");
