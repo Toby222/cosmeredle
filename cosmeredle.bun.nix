@@ -13,9 +13,9 @@
   ...
 }:
 {
-  "@happy-dom/global-registrator@20.9.0" = fetchurl {
-    url = "https://registry.npmjs.org/@happy-dom/global-registrator/-/global-registrator-20.9.0.tgz";
-    hash = "sha512-lBW6/m5BIFl3pMuWPNN0lIOYw9LMCmPfix53ExS3FBi4E+NELEljQ3xH6aAV9IYiQRfn9YIIgzzMrD0vIcD7tw==";
+  "@happy-dom/global-registrator@20.10.2" = fetchurl {
+    url = "https://registry.npmjs.org/@happy-dom/global-registrator/-/global-registrator-20.10.2.tgz";
+    hash = "sha512-/DC0hluanNJDVPUu69cidD46sGwzt8MJATiGx7WgCScn+ZH48fJQ0fvTfMPXY82/ASXWxnNo8P4BdHyU/dI/EA==";
   };
   "@types/bun@1.3.13" = fetchurl {
     url = "https://registry.npmjs.org/@types/bun/-/bun-1.3.13.tgz";
@@ -33,9 +33,13 @@
     url = "https://registry.npmjs.org/@types/ws/-/ws-8.18.1.tgz";
     hash = "sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==";
   };
-  "aberdeen@1.13.0" = fetchurl {
-    url = "https://registry.npmjs.org/aberdeen/-/aberdeen-1.13.0.tgz";
-    hash = "sha512-EcTu/FBBgBruXPJdkG+CswsI8tQpQgah2CUPk6ESetJS3zRceXshuGB1/EqhQuWHK6UOuEEiWvhIIeCLL4n+SQ==";
+  "aberdeen@1.17.1" = fetchurl {
+    url = "https://registry.npmjs.org/aberdeen/-/aberdeen-1.17.1.tgz";
+    hash = "sha512-i42L5+6ya+thlgT0VFefCIHSLaK4O0Pb/KWKGodLbcLxsjEn1pHr521OJxPt5gmoANCKRBupCRRXN2/eSOAKzA==";
+  };
+  "buffer-image-size@0.6.4" = fetchurl {
+    url = "https://registry.npmjs.org/buffer-image-size/-/buffer-image-size-0.6.4.tgz";
+    hash = "sha512-nEh+kZOPY1w+gcCMobZ6ETUp9WfibndnosbpwB1iJk/8Gt5ZF2bhS6+B6bPYz424KtwsR6Rflc3tCz1/ghX2dQ==";
   };
   "bun-types@1.3.13" = fetchurl {
     url = "https://registry.npmjs.org/bun-types/-/bun-types-1.3.13.tgz";
@@ -45,9 +49,9 @@
     url = "https://registry.npmjs.org/entities/-/entities-7.0.1.tgz";
     hash = "sha512-TWrgLOFUQTH994YUyl1yT4uyavY5nNB5muff+RtWaqNVCAK408b5ZnnbNAUEWLTCpum9w6arT70i1XdQ4UeOPA==";
   };
-  "happy-dom@20.9.0" = fetchurl {
-    url = "https://registry.npmjs.org/happy-dom/-/happy-dom-20.9.0.tgz";
-    hash = "sha512-GZZ9mKe8r646NUAf/zemnGbjYh4Bt8/MqASJY+pSm5ZDtc3YQox+4gsLI7yi1hba6o+eCsGxpHn5+iEVn31/FQ==";
+  "happy-dom@20.10.2" = fetchurl {
+    url = "https://registry.npmjs.org/happy-dom/-/happy-dom-20.10.2.tgz";
+    hash = "sha512-5p9Sxis3eowDJKqx90QCsgbNA02XXqJ59NOHvD4V6cxp+rP4d/xOyVx7uY3hS8hiUbY1VeiFH8lbJ81AyuDVLQ==";
   };
   "husky@9.1.7" = fetchurl {
     url = "https://registry.npmjs.org/husky/-/husky-9.1.7.tgz";

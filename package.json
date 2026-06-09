@@ -1,6 +1,6 @@
 {
 	"name": "cosmeredle",
-	"version": "2.1.0",
+	"version": "3.0.0",
 	"author": "Toby",
 	"repository": {
 		"type": "git",
@@ -8,12 +8,12 @@
 	},
 	"main": "server.ts",
 	"dependencies": {
-		"aberdeen": "^1.13.0"
+		"aberdeen": "^1.17.1"
 	},
 	"devDependencies": {
 		"@types/bun": "1.3.13",
 		"typescript": "^6.0.3",
-		"@happy-dom/global-registrator": "^20.9.0",
+		"@happy-dom/global-registrator": "^20.10.2",
 		"husky": "^9.1.7"
 	},
 	"bugs": {
