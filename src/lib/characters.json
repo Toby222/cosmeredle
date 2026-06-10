@@ -3418,5 +3418,21 @@
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Lu­hel Bond", "Spore Eat­er"],
 		"validFrom": 20614
+	},
+	{
+		"name": ["Aona"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Yol­ish"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20615
+	},
+	{
+		"name": ["Skai"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Yol­ish"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20615
 	}
 ]

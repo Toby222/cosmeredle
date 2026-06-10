@@ -92,3 +92,11 @@ Bun.file("./src/lib/characters.json").write(
 for await (const line of $`nix fmt`.lines()) {
 	console.log(line);
 }
+try {
+	for await (const line of $`bun ./fixupCharacters.ts`.lines()) {
+		console.log(line);
+	}
+} catch (error) {
+	if (error instanceof $.ShellError) console.log(error.stderr.toString("utf8"));
+	else console.error(error);
+}
