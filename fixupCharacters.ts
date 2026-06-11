@@ -287,6 +287,8 @@ function shySubspecies(subspecies: string | undefined): string | undefined {
 			return shy("Stick");
 		case "Roseite":
 			return shy("Rose", "ite");
+		case "Selay":
+			return shy("Se", "lay");
 		default:
 			unknownSubspecies.add(subspecies);
 			return subspecies;

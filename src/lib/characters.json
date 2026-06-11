@@ -3473,5 +3473,13 @@
 		"species": ["Hu­man", "Ve­den"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20616
+	},
+	{
+		"name": ["Ish­ikk"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Se­lay"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20616
 	}
 ]

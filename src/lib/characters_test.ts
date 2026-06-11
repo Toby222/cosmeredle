@@ -89,6 +89,7 @@ const expectedUniqueSpecies = [
 	"Plant Shin", // Tyvnk, Rysn's pet grass
 	"Plant Stick", // Stick, stick
 	"Aether Roseite", // Silajana
+	"Human Selay", // Ishikk
 ];
 test("Proper species occurence count", () => {
 	const allSpecies = characters.map((character) => character.species.join(" "));
