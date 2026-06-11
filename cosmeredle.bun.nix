@@ -33,9 +33,9 @@
     url = "https://registry.npmjs.org/@types/ws/-/ws-8.18.1.tgz";
     hash = "sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==";
   };
-  "aberdeen@1.17.1" = fetchurl {
-    url = "https://registry.npmjs.org/aberdeen/-/aberdeen-1.17.1.tgz";
-    hash = "sha512-i42L5+6ya+thlgT0VFefCIHSLaK4O0Pb/KWKGodLbcLxsjEn1pHr521OJxPt5gmoANCKRBupCRRXN2/eSOAKzA==";
+  "aberdeen@1.18.0" = fetchurl {
+    url = "https://registry.npmjs.org/aberdeen/-/aberdeen-1.18.0.tgz";
+    hash = "sha512-LBbaPNe631bQi1JKQiUbnDAN45iwL9eWI2Dt5eHZjeQQh0Bh/69FavrVv0hkvCpKi9QzUR5Xz9UK4DtRbgSYKw==";
   };
   "buffer-image-size@0.6.4" = fetchurl {
     url = "https://registry.npmjs.org/buffer-image-size/-/buffer-image-size-0.6.4.tgz";

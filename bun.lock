@@ -5,7 +5,7 @@
     "": {
       "name": "cosmeredle",
       "dependencies": {
-        "aberdeen": "^1.17.1",
+        "aberdeen": "^1.18.0",
       },
       "devDependencies": {
         "@happy-dom/global-registrator": "^20.10.2",
@@ -26,7 +26,7 @@
 
     "@types/ws": ["@types/ws@8.18.1", "", { "dependencies": { "@types/node": "*" } }, "sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg=="],
 
-    "aberdeen": ["aberdeen@1.17.1", "", { "bin": { "html-to-aberdeen": "html-to-aberdeen" } }, "sha512-i42L5+6ya+thlgT0VFefCIHSLaK4O0Pb/KWKGodLbcLxsjEn1pHr521OJxPt5gmoANCKRBupCRRXN2/eSOAKzA=="],
+    "aberdeen": ["aberdeen@1.18.0", "", { "bin": { "html-to-aberdeen": "html-to-aberdeen" } }, "sha512-LBbaPNe631bQi1JKQiUbnDAN45iwL9eWI2Dt5eHZjeQQh0Bh/69FavrVv0hkvCpKi9QzUR5Xz9UK4DtRbgSYKw=="],
 
     "buffer-image-size": ["buffer-image-size@0.6.4", "", { "dependencies": { "@types/node": "*" } }, "sha512-nEh+kZOPY1w+gcCMobZ6ETUp9WfibndnosbpwB1iJk/8Gt5ZF2bhS6+B6bPYz424KtwsR6Rflc3tCz1/ghX2dQ=="],
 

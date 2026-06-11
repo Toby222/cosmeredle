@@ -3457,5 +3457,21 @@
 			"Surge­bind­er"
 		],
 		"validFrom": 20616
+	},
+	{
+		"name": ["Ba­lat", "Da­var"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20616
+	},
+	{
+		"name": ["Ey­li­ta", "Ta­vi­nar"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20616
 	}
 ]
