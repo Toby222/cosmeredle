@@ -2659,7 +2659,8 @@
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Un­ka­la­ki"],
 		"abilities": ["Sight­ed", "Wind­run­ner Squire"],
-		"validFrom": 20295
+		"validFrom": 20295,
+		"validUntil": 20615
 	},
 	{
 		"name": ["Ill­is­tan­dri­sta", "(Star­ling)"],
@@ -3434,5 +3435,13 @@
 		"species": ["Hu­man", "Yol­ish"],
 		"abilities": ["Shard Ves­sel"],
 		"validFrom": 20615
+	},
+	{
+		"name": ["Nu­mu­hu­ku­ma­ki­ak­i'ai­a­lun­am­or (Rock)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­ka­la­ki"],
+		"abilities": ["Sight­ed", "Surge­bind­er", "Wind­run­ner Squire"],
+		"validFrom": 20616
 	}
 ]
