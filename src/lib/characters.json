@@ -2618,7 +2618,8 @@
 			"Sky­break­er",
 			"Surge­bind­er"
 		],
-		"validFrom": 20295
+		"validFrom": 20295,
+		"validUntil": 20615
 	},
 	{
 		"name": ["Ad­ro­tag­ia"],
@@ -3442,6 +3443,19 @@
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Un­ka­la­ki"],
 		"abilities": ["Sight­ed", "Surge­bind­er", "Wind­run­ner Squire"],
+		"validFrom": 20616
+	},
+	{
+		"name": ["Szeth-son-Ne­tu­ro", "(Szeth-son-son-Vall­ano)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Sky­break­er",
+			"Surge­bind­er"
+		],
 		"validFrom": 20616
 	}
 ]
