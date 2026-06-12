@@ -1,5 +1,7 @@
 For developing server:
-bun run dev:server
+bun run dev
 
-For developing client, first run server dev, then this:
-bun run dev:client
+The client will automatically be bundled
+
+For building:
+bun run build
