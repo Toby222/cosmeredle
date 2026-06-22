@@ -632,7 +632,7 @@
 		"validUntil": 20603
 	},
 	{
-		"name": ["Kal­ad­in"],
+		"name": ["Ka­la­din"],
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "A­le­thi"],
@@ -646,7 +646,7 @@
 		"validFrom": 0
 	},
 	{
-		"name": ["Kal­ak"],
+		"name": ["Ka­lak"],
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
@@ -2954,7 +2954,7 @@
 		"validFrom": 20604
 	},
 	{
-		"name": ["Kal­ak"],
+		"name": ["Ka­lak"],
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn­ite"],
@@ -2992,7 +2992,8 @@
 			"Shard­bearer",
 			"Surge­bind­er"
 		],
-		"validFrom": 20604
+		"validFrom": 20604,
+		"validUntil": 20626
 	},
 	{
 		"name": ["Shal­ash"],
@@ -3481,5 +3482,50 @@
 		"species": ["Hu­man", "Se­lay"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20616
+	},
+	{
+		"name": ["Pral­la", "(Pai­li­ah)"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20627
+	},
+	{
+		"name": ["Dre­hy"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 20627
+	},
+	{
+		"name": ["Ro­shone"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20627
+	},
+	{
+		"name": ["La­ral", "Ro­shone"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20627
+	},
+	{
+		"name": ["Ia­lai", "Sad­e­as"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20627
 	}
 ]

@@ -71,8 +71,8 @@
 	"Jasnah Kholin": ["Jas­nah", "Kho­lin"],
 	"Jewels": ["Jew­els"],
 	"Jezrien": ["Jez­rien"],
-	"Kaladin": ["Kal­ad­in"],
-	"Kalak": ["Kal­ak"],
+	"Kaladin": ["Ka­la­din"],
+	"Kalak": ["Ka­lak"],
 	"Kelsier": ["Kel­si­er"],
 	"Khriss": ["Khriss"],
 	"Kiin": ["Ki­in"],
@@ -108,6 +108,7 @@
 	"Nikliasorm": ["Ni­kli­as­orm"],
 	"Noura": ["Nou­ra"],
 	"Paalm": ["Paalm"],
+	"Pralla (Pailiah)": ["Pral­la", "(Pai­li­ah)"],
 	"Pailiah": ["Pai­li­ah"],
 	"Pattern": ["Pat­tern"],
 	"Phendorana": ["Phen­dor­an­a"],
@@ -315,5 +316,9 @@
 	],
 	"Balat Davar": ["Ba­lat", "Da­var"],
 	"Eylita Tavinar": ["Ey­li­ta", "Ta­vi­nar"],
-	"Ishikk": ["Ish­ikk"]
+	"Ishikk": ["Ish­ikk"],
+	"Drehy": ["Dre­hy"],
+	"Roshone": ["Ro­shone"],
+	"Laral Roshone": ["La­ral", "Ro­shone"],
+	"Ialai Sadeas": ["Ia­lai", "Sad­e­as"]
 }
