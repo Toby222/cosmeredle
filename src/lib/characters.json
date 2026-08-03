@@ -975,7 +975,8 @@
 		],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Cog­ni­tive Shad­ow", "Night­mare Paint­er"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20668
 	},
 	{
 		"name": ["Ni­kli­as­orm"],
@@ -3527,5 +3528,16 @@
 		"species": ["Hu­man", "A­le­thi"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20627
+	},
+	{
+		"name": ["Ni­ka­ro", "(Pain­ter)"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Yu­mi and the Night­mare Pain­ter"
+		],
+		"species": ["Hu­man", "Na­ga­dan"],
+		"abilities": ["Cog­ni­tive Shad­ow", "Night­mare Paint­er"],
+		"validFrom": 20669
 	}
 ]
