@@ -5,6 +5,7 @@
 	--overlap-none: red;
 	--overlap-placeholder: #444;
 }
+
 #nextGame {
 	user-select: none;
 }
@@ -19,10 +20,12 @@
 	position: relative;
 	margin: 0;
 	user-select: none;
+
 	.input {
 		width: 100%;
 		height: 100%;
 		display: inline-flex;
+
 		input {
 			flex-grow: 1;
 			outline: none;
@@ -31,10 +34,12 @@
 			border: solid 0.2vmin var(--accent-color);
 		}
 	}
+
 	&:not(.enabled) input {
 		cursor: default;
 		user-select: none;
 	}
+
 	ul {
 		width: 100vmin;
 		max-height: 80vh;
@@ -48,29 +53,35 @@
 		visibility: hidden;
 		overflow: scroll;
 		border: solid 0.2vmin var(--accent-color);
+
 		li {
 			transition:
 				color 0.1s ease,
 				background 0.1s ease;
 			color: white;
 			padding: var(--extra-padding);
+
 			&:nth-of-type(even) {
 				background-color: hsl(218, 12%, 12%);
 			}
+
 			&.selected:not(.disabled) {
 				background-color: hsl(220, 15%, 30%);
 			}
+
 			&.disabled {
 				cursor: initial;
 				color: #444;
 			}
 		}
+
 		li.hidden {
 			height: 0;
 			visibility: collapse;
 			display: none;
 		}
 	}
+
 	&.opened {
 		ul {
 			visibility: visible;
@@ -88,10 +99,12 @@
 		width: 90%;
 		border-right: none;
 	}
+
 	> button {
 		border-radius: 0;
 		width: fit-content;
 	}
+
 	.customSelect,
 	> button {
 		height: calc(2vmin + var(--font-size) + var(--extra-padding));
@@ -124,25 +137,26 @@
 	color: contrast-color(var(--bubble-color));
 	--shadow-color: contrast-color(contrast-color(var(--bubble-color)));
 
-	text-shadow:
-		-0.05em 0 0em var(--shadow-color),
-		0 0.05em 0em var(--shadow-color),
-		0.05em 0 0em var(--shadow-color),
-		0 -0.05em 0em var(--shadow-color);
+	-webkit-text-stroke: 0.1em var(--shadow-color);
+	paint-order: stroke fill;
 
 	&.overlapFull {
 		--bubble-color: var(--overlap-full);
 	}
+
 	&.overlapPartial {
 		--bubble-color: var(--overlap-partial);
 	}
+
 	&.overlapNone {
 		--bubble-color: var(--overlap-none);
 	}
+
 	&.overlapPlaceholder {
 		--bubble-color: var(--overlap-placeholder);
 	}
 }
+
 body main {
 	display: flex;
 	flex-direction: column;
