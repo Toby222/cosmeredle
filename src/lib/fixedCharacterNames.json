@@ -217,6 +217,7 @@
 	"Ua'pam": ["Ua'pam"],
 	"Zu": ["Zu"],
 	"Dami": ["Da­mi"],
+	"Dami (Stormwall)": ["Da­mi", "(Storm­wall)"],
 	"Nohadon": ["No­ha­don"],
 	"Kabsal": ["Kab­sal"],
 	"Medelantorius": ["Me­de­lan­tor­i­us"],
@@ -321,5 +322,6 @@
 	"Drehy": ["Dre­hy"],
 	"Roshone": ["Ro­shone"],
 	"Laral Roshone": ["La­ral", "Ro­shone"],
-	"Ialai Sadeas": ["Ia­lai", "Sad­e­as"]
+	"Ialai Sadeas": ["Ia­lai", "Sad­e­as"],
+	"Yalb": ["Yalb"]
 }

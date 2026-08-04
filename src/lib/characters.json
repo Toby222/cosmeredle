@@ -2024,7 +2024,8 @@
 			"Stone­ward",
 			"Surge­bind­er"
 		],
-		"validFrom": 20266
+		"validFrom": 20266,
+		"validUntil": 20669
 	},
 	{
 		"name": ["No­ha­don"],
@@ -3539,5 +3540,26 @@
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Cog­ni­tive Shad­ow", "Night­mare Paint­er"],
 		"validFrom": 20669
+	},
+	{
+		"name": ["Yalb"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Thay­len"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20670
+	},
+	{
+		"name": ["Da­mi", "(Storm­wall)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ri­ran"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Stone­ward",
+			"Surge­bind­er"
+		],
+		"validFrom": 20670
 	}
 ]
