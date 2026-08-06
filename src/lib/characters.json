@@ -3561,5 +3561,13 @@
 			"Surge­bind­er"
 		],
 		"validFrom": 20670
+	},
+	{
+		"name": ["Ge­a­ril-daugh­ter-Ge­a­ril"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": ["Hon­or­bear­er", "Shard­bearer", "Surge­bind­er"],
+		"validFrom": 20672
 	}
 ]
