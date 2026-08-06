@@ -34,7 +34,7 @@ export function GameOverPopup(
 				}
 				A("hr");
 				A(
-					`span#You ${$gaveUp.value ? "gave up" : "won"} ${guesses.length} after guesses`,
+					`span#You ${$gaveUp.value ? "gave up" : "won"} after ${guesses.length} guesses`,
 				);
 				A(`span#Par: ${par}`);
 
