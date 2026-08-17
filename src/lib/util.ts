@@ -62,6 +62,7 @@ export function getSeries(book: string): [string, string] {
 		case "Isles of the Emberdark":
 			return [book, book];
 
+		case "The Hope of Elantris":
 		case "The Emperor's Soul":
 		case "Elantris":
 			return [book, "Elantris"];

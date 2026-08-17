@@ -57,7 +57,8 @@
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "A­le­thi"],
 		"abilities": ["Shard­bearer"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20682
 	},
 	{
 		"name": ["Ann"],
@@ -1063,7 +1064,8 @@
 		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
 		"species": ["Hu­man", "Aon­ic"],
 		"abilities": ["El­ant­ri­an"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20682
 	},
 	{
 		"name": ["Rash­ek"],
@@ -1172,7 +1174,8 @@
 		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
 		"species": ["Hu­man", "Teo"],
 		"abilities": ["Un­in­vest­ed"],
-		"validFrom": 0
+		"validFrom": 0,
+		"validUntil": 20682
 	},
 	{
 		"name": ["Saz­ed"],
@@ -2515,7 +2518,8 @@
 		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
 		"species": ["Hu­man", "Aon­ic"],
 		"abilities": ["Un­in­vest­ed"],
-		"validFrom": 20295
+		"validFrom": 20295,
+		"validUntil": 20682
 	},
 	{
 		"name": ["Wan", "Shai­Lu"],
@@ -3569,5 +3573,301 @@
 		"species": ["Hu­man", "Shin"],
 		"abilities": ["Hon­or­bear­er", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20672
+	},
+	{
+		"name": ["Jas­tes", "Le­kal"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Tyn"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Tu Bay­lan"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Lyn"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Ae­su­dan", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Words of Ra­di­ance"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Ye­lig-Nar"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Me­ri­das", "Ama­ram"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer", "Ye­lig-Nar"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Ba­va­din"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Un­known", "Yol­ish"],
+		"abilities": ["Shape­shift­er", "Shard Ves­sel"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Go­de­ke"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Edge­danc­er", "Knight Ra­di­ant", "Surge­bind­er"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Da­ora"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Are­le­ne"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Even­teo"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Teo"],
+		"abilities": ["Se­on Bond"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Ia­don"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Are­le­ne"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Ra­o­den"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an", "Se­on Bond"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Sar­en­e"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Teo"],
+		"abilities": ["Se­on Bond"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Se­on", "Dio"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Se­on", "Ien"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Se­on", "A­she"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Hob­ber"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Le­mex"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Id­ri­an"],
+		"abilities": ["Awaken­er"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Ley­ten"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Eth­enia"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Wind­run­ner"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Ka­za"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Lia­for­an"],
+		"abilities": ["Sav­ant"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Lu­kel"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Are­le­ne"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Adi­en"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Ka­ise", "(Code­names Are Stu­pid)"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Teo"],
+		"abilities": ["Se­on Bond", "World­hop­per"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Da­orn"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Teo"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Teo­fil"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Ven­Dell"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Bands of Mourn­ing", "Mist­born Era 2"],
+		"species": ["Kan­dra", "Sixth Gen­er­a­tion"],
+		"abilities": ["Shape­shift­er"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Se­on", "Olo"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er", "World­hop­per"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Se­on", "Aeo"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Hope of El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Se­on", "Ala"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er", "World­hop­per"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Se­on", "Ati"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Se­on", "Dao"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er", "World­hop­per"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Se­on", "Mai"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Se­on", "Opa"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Matis­se"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Hope of El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Da­she"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Mar­esh­e"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 20683
+	},
+	{
+		"name": ["Ka­ra­ta"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 20683
 	}
 ]

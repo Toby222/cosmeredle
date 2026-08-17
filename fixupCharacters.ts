@@ -134,6 +134,8 @@ function shySpecies(species: string): string {
 			return shy("Plant");
 		case "Aether":
 			return shy("Ae", "ther");
+		case "Seon":
+			return shy("Se", "on");
 		default:
 			unknownSpecies.add(species);
 			return species;
@@ -229,6 +231,8 @@ function shySubspecies(subspecies: string | undefined): string | undefined {
 			return shy("Bond", "smith");
 		case "Azish":
 			return shy("Az", "ish");
+		case "Sixth Generation":
+			return shyArr("Sixth", ["Gen", "er", "a", "tion"]);
 		case "Third Generation":
 			return shyArr("Third", ["Gen", "er", "a", "tion"]);
 		case "Honorspren":
@@ -289,6 +293,12 @@ function shySubspecies(subspecies: string | undefined): string | undefined {
 			return shy("Rose", "ite");
 		case "Selay":
 			return shy("Se", "lay");
+		case "Tu Baylan":
+			return shyArr("Tu", ["Bay", "lan"]);
+		case "Arelene":
+			return shy("Are", "le", "ne");
+		case "Liaforan":
+			return shy("Lia", "for", "an");
 		default:
 			unknownSubspecies.add(subspecies);
 			return subspecies;
@@ -352,6 +362,8 @@ function shyBook(book: string): string {
 				"of",
 				"Hell",
 			);
+		case "The Hope of Elantris":
+			return shyArr("The", "Hope", "of", ["El", "ant", "ris"]);
 		case "Elantris":
 			return shy("El", "ant", "ris");
 		case "Sixth of the Dusk":
@@ -641,6 +653,10 @@ function shyAbility(ability: string) {
 			return shyArr(["Con", "trol"], "of", ["Rose", "ite"]);
 		case "Luhel Bond":
 			return shyArr(["Lu", "hel"], "Bond");
+		case "Yelig-Nar":
+			return shy("Ye", "lig-Nar");
+		case "Seon Bond":
+			return shyArr(["Se", "on"], "Bond");
 		default:
 			unknownAbilities.add(ability);
 			return ability;

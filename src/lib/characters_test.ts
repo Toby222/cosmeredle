@@ -79,6 +79,7 @@ const expectedUniqueSpecies = [
 	"Sleepless", // Chrysalis
 	"Sword nimi", // Nightblood
 	"Kandra Seventh Generation", // MeLaan
+	"Kandra Sixth Generation", // VenDell
 	"Kandra Unspecified", // Ulaam
 	"Human MaiPon", // Wan ShaiLu
 	"Sho Del Yolish", // Uli Da
@@ -90,6 +91,9 @@ const expectedUniqueSpecies = [
 	"Plant Stick", // Stick, stick
 	"Aether Roseite", // Silajana
 	"Human Selay", // Ishikk
+	"Human Tu Baylan", // Tyn
+	"Unknown Yolish", // Bavadin
+	"Human Liaforan", // Kaza
 ];
 test("Proper species occurence count", () => {
 	const allSpecies = characters.map((character) => character.species.join(" "));
