@@ -299,6 +299,8 @@ function shySubspecies(subspecies: string | undefined): string | undefined {
 			return shy("Are", "le", "ne");
 		case "Liaforan":
 			return shy("Lia", "for", "an");
+		case "Emuli":
+			return shy("Emu", "li");
 		default:
 			unknownSubspecies.add(subspecies);
 			return subspecies;

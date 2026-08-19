@@ -3869,5 +3869,21 @@
 		"species": ["Hu­man", "Aon­ic"],
 		"abilities": ["El­ant­ri­an"],
 		"validFrom": 20683
+	},
+	{
+		"name": ["Bax­il"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Emu­li"],
+		"abilities": ["Old Magic"],
+		"validFrom": 20685
+	},
+	{
+		"name": ["Av"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Emu­li"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20685
 	}
 ]
