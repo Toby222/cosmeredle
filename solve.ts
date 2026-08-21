@@ -51,11 +51,7 @@ function getOverlapFromInput(input: string): OverlapType | undefined {
 }
 
 const guessesMade = (
-	[
-		["Wan ShaiLu", "rrryr"],
-		["Dalinar Kholin", "rrryr"],
-		["Spook (Lestibournes Jedal)", "rrryr"],
-	] as [characterName: string, overlap: string | OverlapType[]][]
+	[] as [characterName: string, overlap: string | OverlapType[]][]
 ).map((guess) => {
 	if (typeof guess[1] === "string") {
 		guess[1] = Array.from(guess[1]).map((overlap) => {

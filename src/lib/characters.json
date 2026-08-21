@@ -3885,5 +3885,13 @@
 		"species": ["Hu­man", "Emu­li"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20685
+	},
+	{
+		"name": ["V­stim"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Thay­len"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20687
 	}
 ]
