@@ -42,7 +42,7 @@ const $characters = A.derive(() => {
 });
 
 function characterKey(character: Character) {
-	const keys = {
+	const keys: Record<keyof Character, string> = {
 		name: getCharacterName(character),
 		homeWorld: character.homeWorld,
 		firstAppearance: character.firstAppearance.join(" "),
@@ -50,6 +50,7 @@ function characterKey(character: Character) {
 		abilities: character.abilities.join(" "),
 		validFrom: character.validFrom.toString(10),
 		validUntil: (character.validUntil ?? $day.value).toString(10),
+		shippable: character.shippable.toString() + getCharacterName(character),
 	};
 
 	const value = keys[$sort.value];
@@ -114,6 +115,7 @@ A("main", () => {
 				columnHead("firstAppearance", "First Appearance");
 				columnHead("species", "Species");
 				A("th#Abilities/Investiture");
+				columnHead("shippable", "Shippable");
 			});
 		});
 		A("tbody", () => {
@@ -149,6 +151,7 @@ A("main", () => {
 								}
 							});
 						});
+						A("td#", character.shippable === true ? "Yes" : "No");
 					});
 				},
 				characterKey,

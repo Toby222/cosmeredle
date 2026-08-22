@@ -107,6 +107,7 @@ export type Character = {
 	abilities: string[];
 	validFrom: number;
 	validUntil?: number;
+	shippable: boolean;
 };
 
 export function charactersForDay(day: number): Character[] {

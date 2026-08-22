@@ -160,3 +160,14 @@ test("Proper ability occurence count", () => {
 		}
 	}
 });
+
+test("All characters set shippable", () => {
+	for (const character of characters) {
+		expect(
+			character.shippable,
+			"Character " +
+				getCharacterName(character) +
+				" is not set as shippable or not",
+		).toBeDefined();
+	}
+});

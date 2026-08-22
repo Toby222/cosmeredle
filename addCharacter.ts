@@ -17,7 +17,7 @@ function makeWarning(text: string) {
 }
 
 async function readLine(prompt?: string): Promise<string> {
-	if (prompt) process.stdout.write(prompt);
+	if (prompt) await Bun.stdout.write(prompt);
 	for await (const line of console) {
 		return line.trim();
 	}
@@ -49,6 +49,9 @@ while (true) {
 			.split(",")
 			.map((x) => x.trim())
 			.sort(),
+		shippable: (await readLine("Shippable? [y/N]"))
+			.toLowerCase()
+			.startsWith("y"),
 		validFrom: daysSinceEpoch() + 1,
 	};
 

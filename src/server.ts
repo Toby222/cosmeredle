@@ -6,6 +6,7 @@ import {
 	daysSinceEpoch,
 	MS_PER_DAY,
 } from "lib/util";
+import { seededRandom } from "server/random";
 import { characterForDay, getPar } from "server/util";
 
 let today = 0;
@@ -92,5 +93,24 @@ Bun.serve({
 		//   },
 		"/giveUp": async () =>
 			Response.json(charactersForDay(today).indexOf(characterForDay(today))),
+		"/ship": async () => {
+			const shippableCharacters = charactersForDay(today).filter(
+				(char) => char.shippable,
+			);
+
+			const valA = seededRandom(today);
+			let next = today;
+			let valB: number;
+			do {
+				valB = seededRandom(++next);
+			} while (valA === valB);
+
+			const idxA = Math.floor(valA * shippableCharacters.length);
+			const charA = shippableCharacters[idxA];
+
+			const idxB = Math.floor(valB * shippableCharacters.length);
+			const charB = shippableCharacters[idxB];
+			return Response.json([idxA, charA, idxB, charB]);
+		},
 	},
 });

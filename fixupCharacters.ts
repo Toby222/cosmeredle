@@ -696,6 +696,7 @@ for (const character of CHARACTERS) {
 			),
 			validFrom: character.validFrom,
 			validUntil: character.validUntil,
+			shippable: character.shippable === true,
 		});
 	} catch (err) {
 		console.error("Failed to add character", character);
