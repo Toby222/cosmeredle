@@ -4316,7 +4316,7 @@
 		"species": ["Hu­man", "Un­spec­i­fied"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20688,
-		"shippable": false
+		"shippable": true
 	},
 	{
 		"name": ["Storm­fath­er"],
