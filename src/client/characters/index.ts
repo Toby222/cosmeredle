@@ -50,7 +50,7 @@ function characterKey(character: Character) {
 		abilities: character.abilities.join(" "),
 		validFrom: character.validFrom.toString(10),
 		validUntil: (character.validUntil ?? $day.value).toString(10),
-		shippable: character.shippable.toString() + getCharacterName(character),
+		shippable: (!character.shippable).toString() + getCharacterName(character),
 	};
 
 	const value = keys[$sort.value];

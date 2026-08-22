@@ -1492,6 +1492,7 @@
 			"Splint­er"
 		],
 		"validFrom": 0,
+		"validUntil": 20687,
 		"shippable": true
 	},
 	{
@@ -4316,5 +4317,21 @@
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20689,
 		"shippable": false
+	},
+	{
+		"name": ["Storm­fath­er"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Spren", "Bond­smith"],
+		"abilities": [
+			"Av­a­tar",
+			"Bond­smith",
+			"Cog­ni­tive Shad­ow",
+			"Na­hel Bond",
+			"Sliv­er",
+			"Splint­er"
+		],
+		"validFrom": 20688,
+		"shippable": true
 	}
 ]

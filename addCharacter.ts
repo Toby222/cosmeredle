@@ -49,7 +49,7 @@ while (true) {
 			.split(",")
 			.map((x) => x.trim())
 			.sort(),
-		shippable: (await readLine("Shippable? [y/N]"))
+		shippable: (await readLine("Shippable? [y/N] "))
 			.toLowerCase()
 			.startsWith("y"),
 		validFrom: daysSinceEpoch() + 1,
