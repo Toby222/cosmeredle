@@ -3925,6 +3925,7 @@
 		"species": ["Hu­man", "A­le­thi"],
 		"abilities": ["Ye­lig-Nar"],
 		"validFrom": 20683,
+		"validUntil": 20693,
 		"shippable": true
 	},
 	{
@@ -3934,6 +3935,7 @@
 		"species": ["Hu­man", "A­le­thi"],
 		"abilities": ["Shard­bearer", "Ye­lig-Nar"],
 		"validFrom": 20683,
+		"validUntil": 20693,
 		"shippable": true
 	},
 	{
@@ -4318,6 +4320,24 @@
 		"firstAppearance": ["Se­cret His­to­ry", "Mist­born Era 1"],
 		"species": ["Hu­man", "Aon­ic"],
 		"abilities": ["El­ant­ri­an", "World­hop­per"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Ae­su­dan", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Surge­bind­er", "Ye­lig-Nar"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Me­ri­das", "Ama­ram"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer", "Surge­bind­er", "Ye­lig-Nar"],
 		"validFrom": 20694,
 		"shippable": true
 	}
