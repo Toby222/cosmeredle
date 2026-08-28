@@ -4333,5 +4333,14 @@
 		],
 		"validFrom": 20688,
 		"shippable": true
+	},
+	{
+		"name": ["Zee­nid-daugh­ter-Beth"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20694,
+		"shippable": true
 	}
 ]
