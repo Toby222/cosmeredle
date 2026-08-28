@@ -65,7 +65,7 @@ const newRequestDialog = A('dialog popover="" id=newRequestDialog', () => {
 	A("h2.both#Make a new request");
 	A("hr.both");
 	A(
-		`form autocomplete=off name=characterRequest action="/changes/requested" method=post`,
+		`form autocomplete=off name=characterRequest action="/api/changes" method=post`,
 		() => {
 			A(`input type=number value=${daysSinceEpoch() + 1} name=day`, {
 				$display: "none",

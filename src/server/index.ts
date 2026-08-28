@@ -121,7 +121,7 @@ Bun.serve({
 
 				const newId = inserted[0].rowid;
 
-				return Response.redirect(`/changes/requested/${newId}`);
+				return Response.redirect(`/changes/${newId}`);
 			},
 		},
 		"/api/guess/:characterIdx": {
