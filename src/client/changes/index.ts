@@ -9,6 +9,7 @@ import {
 	getCharacterName,
 	MS_PER_DAY,
 } from "lib/util";
+import type { ChangeRequest } from "server/database";
 
 function characterToDiffLine(character: Character) {
 	return `${character.name.join(" ")} ; ${character.homeWorld} ; ${character.firstAppearance} ; ${formatSpecies(character.species)} ; ${character.abilities.join(", ")}`;
@@ -98,12 +99,44 @@ const newRequestDialog = A('dialog popover="" id=newRequestDialog', () => {
 	);
 }) as HTMLDialogElement;
 
+const changeResponse = A.proxy(
+	fetch("/api/changes").then(
+		(response) =>
+			response.json() as Promise<
+				(ChangeRequest & { rowid: number })[] | { error: string }
+			>,
+	),
+);
+
 A("header#Cosmeredle Changes");
 A("main", () => {
 	changelogForDay(daysSinceEpoch(), "Changes for today");
 	changelogForDay(daysSinceEpoch() + 1, "Changes for tomorrow", () => {});
 	const togglePopover = A("button text=New", {}) as HTMLButtonElement;
 	togglePopover.popoverTargetElement = newRequestDialog;
-	A("span#");
+
+	A("section", () => {
+		if (changeResponse.busy) {
+			A("span#Loading");
+		} else if (Array.isArray(changeResponse.value)) {
+			const changeRequests = changeResponse.value;
+			A("ol", () => {
+				A.onEach(
+					changeRequests,
+					(change) => {
+						A(
+							`li a href=/changes/${change.rowid} ##${change.rowid} - ${change.characterName}`,
+							{
+								".accepted": change.accepted,
+							},
+						);
+					},
+					(change) => change.rowid,
+				);
+			});
+		} else {
+			A("span#", JSON.stringify(changeResponse.value));
+		}
+	});
 });
 Footer();

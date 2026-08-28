@@ -5,6 +5,11 @@ ol {
 
 li {
 	width: 100%;
+	&.accepted {
+		&::after {
+			content: "✓ ";
+		}
+	}
 }
 
 ins,

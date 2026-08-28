@@ -28,7 +28,7 @@ await sql`CREATE TABLE IF NOT EXISTS [change_requests] (
 ) STRICT`;
 
 export async function getChangeRequests() {
-	return await sql<ChangeRequest[]>`SELECT * FROM [change_requests]`;
+	return await sql<ChangeRequest[]>`SELECT rowid, * FROM [change_requests]`;
 }
 
 export async function getChangeRequest(
