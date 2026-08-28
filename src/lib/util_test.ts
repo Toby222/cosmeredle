@@ -171,14 +171,14 @@ test("Series comparison works", () => {
 
 	expect(
 		compareFirstAppearance(
-			getSeries("Yumi and the Nightmare Painter"),
-			getSeries("Tress of the Emerald Sea"),
+			getSeries("The Sunlit Man"),
+			getSeries("Warbreaker"),
 		),
 		"Standalone books should each be their own series",
 	).toBe(Overlap.None);
 
-	const tress = "Tress of the Emerald Sea";
-	const tressSeries = getSeries(tress);
-	expect(tressSeries[0], "Solo books are their own book").toBe(tress);
-	expect(tressSeries[1], "Solo books are their own series").toBe(tress);
+	const dusk = "Sixth of the Dusk";
+	const duskSeries = getSeries(dusk);
+	expect(duskSeries[0], "Solo books are their own book").toBe(dusk);
+	expect(duskSeries[1], "Solo books are their own series").toBe(dusk);
 });

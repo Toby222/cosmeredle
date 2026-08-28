@@ -51,10 +51,8 @@ export function formatSpecies(species: string[]) {
 }
 
 export function getSeries(book: string): [string, string] {
-	switch (book) {
+	switch (book.replaceAll(SOFT_HYPHEN, "")) {
 		case "The Sunlit Man":
-		case "Yumi and the Nightmare Painter":
-		case "Tress of the Emerald Sea":
 		case "Warbreaker":
 		case "Shadows for Silence in the Forests of Hell":
 		case "White Sand":
@@ -89,6 +87,11 @@ export function getSeries(book: string): [string, string] {
 		case "The Lost Metal":
 		case "Allomancer Jak and the Pits of Eltania":
 			return [book, "Mistborn Era 2"];
+
+		case "Yumi and the Nightmare Painter":
+		case "Tress of the Emerald Sea":
+		case "The Fires of December":
+			return [book, "Hoid's Travails"];
 	}
 	console.warn(`Unknown book ${book} adding as its own series`);
 	return [book, book];

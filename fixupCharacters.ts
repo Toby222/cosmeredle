@@ -2,7 +2,7 @@
 import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
 import NAMES from "lib/fixedCharacterNames.json";
-import { type Character, SOFT_HYPHEN } from "lib/util";
+import { type Character, getSeries, SOFT_HYPHEN } from "lib/util";
 
 const newCharacters: Character[] = [];
 
@@ -412,36 +412,29 @@ function shySeries(series: string): string {
 			return shyArr(["Mist", "born"], "Era", "2");
 		case "Elantris":
 			return shy("El", "ant", "ris");
+		case "Hoid's Travails":
+			return shyArr("Hoid's", ["Tra", "vails"]);
 		default:
 			unknownSeries.add(series);
 			return series;
 	}
 }
-function shyFirstAppearance(
-	appearance: string[],
-): [book: string, series: string] {
-	if (appearance.length !== 2)
-		throw new Error(
-			`Invalid appearance, length ${appearance.length} (${appearance.join("; ")})`,
-		);
-
-	const fixedBook = shyBook(appearance[0]);
-	const fixedSeries =
-		appearance[0] === appearance[1] ? fixedBook : shySeries(appearance[1]);
+function shyFirstAppearance(book: string): [book: string, series: string] {
+	const series = getSeries(book)[1];
+	const fixedBook = shyBook(book);
+	const fixedSeries = series === book ? fixedBook : shySeries(series);
 	if (
-		!appearance[0].includes(SOFT_HYPHEN) &&
-		fixedBook.replaceAll(SOFT_HYPHEN, "") !== appearance[0]
+		!book.includes(SOFT_HYPHEN) &&
+		fixedBook.replaceAll(SOFT_HYPHEN, "") !== book
 	)
-		throw new Error(
-			`Invalid replacement "${fixedBook}" for book "${appearance[0]}"`,
-		);
+		throw new Error(`Invalid replacement "${fixedBook}" for book "${book}"`);
 
 	if (
-		!appearance[1].includes(SOFT_HYPHEN) &&
-		fixedSeries.replaceAll(SOFT_HYPHEN, "") !== appearance[1]
+		!series.includes(SOFT_HYPHEN) &&
+		fixedSeries.replaceAll(SOFT_HYPHEN, "") !== series
 	)
 		throw new Error(
-			`Invalid replacement "${fixedSeries}" for series "${appearance[1]}"`,
+			`Invalid replacement "${fixedSeries}" for series "${series}"`,
 		);
 	return [fixedBook, fixedSeries];
 }
@@ -685,7 +678,7 @@ for (const character of CHARACTERS) {
 		newCharacters.push({
 			name: shyName(character.name),
 			homeWorld: shyHomeWorld(character.homeWorld),
-			firstAppearance: shyFirstAppearance(character.firstAppearance),
+			firstAppearance: shyFirstAppearance(character.firstAppearance[0]),
 			species: shyFullSpecies(character.species),
 			abilities: shyAbilities(
 				character.abilities

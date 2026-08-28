@@ -22,7 +22,7 @@
 		"homeWorld": "Ko­ma­shi",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Night­mare Paint­er"],
@@ -70,10 +70,7 @@
 	{
 		"name": ["Ann"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Un­spec­i­fied"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 0,
@@ -224,10 +221,7 @@
 	{
 		"name": ["Char­lie"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Dig­gen's Point"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 0,
@@ -296,10 +290,7 @@
 	{
 		"name": ["Crow"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Un­spec­i­fied"],
 		"abilities": ["Spore Eat­er"],
 		"validFrom": 0,
@@ -481,10 +472,7 @@
 	{
 		"name": ["Fort"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Is­lands of Lo­bu"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 0,
@@ -660,7 +648,7 @@
 		"homeWorld": "Ko­ma­shi",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Night­mare Paint­er"],
@@ -805,10 +793,7 @@
 	{
 		"name": ["Lag­gart"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Un­spec­i­fied"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 0,
@@ -872,7 +857,7 @@
 		"homeWorld": "Ko­ma­shi",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Hu­man", "To­rish"],
 		"abilities": ["Night­mare"],
@@ -920,7 +905,7 @@
 		"homeWorld": "Un­spec­i­fied",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Sleep­less", "Na­ga­dan"],
 		"abilities": ["Horde­lings", "Night­mare Paint­er", "World­hop­per"],
@@ -1073,7 +1058,7 @@
 		"homeWorld": "Ko­ma­shi",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Cog­ni­tive Shad­ow", "Night­mare Paint­er"],
@@ -1280,10 +1265,7 @@
 	{
 		"name": ["Sal­ay"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Is­lands of Lo­bu"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 0,
@@ -1645,7 +1627,7 @@
 		"homeWorld": "Ko­ma­shi",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Night­mare Paint­er"],
@@ -1673,10 +1655,7 @@
 	{
 		"name": ["Tress"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Dig­gen's Point"],
 		"abilities": ["Sprout­er"],
 		"validFrom": 0,
@@ -1866,10 +1845,7 @@
 	{
 		"name": ["Xis­is­re­fli­el"],
 		"homeWorld": "Yo­len",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Drag­on", "Un­spec­i­fied"],
 		"abilities": ["Awaken­er", "World­hop­per"],
 		"validFrom": 0,
@@ -1899,7 +1875,7 @@
 		"homeWorld": "Ko­ma­shi",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Hu­man", "To­rish"],
 		"abilities": ["Cog­ni­tive Shad­ow", "Yo­ki-Hi­jo"],
@@ -2472,7 +2448,7 @@
 		"homeWorld": "Un­known",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Sleep­less", "Na­ga­dan"],
 		"abilities": ["Horde­lings", "Night­mare Paint­er", "World­hop­per"],
@@ -2503,7 +2479,7 @@
 		"homeWorld": "Ko­ma­shi",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Hu­man", "To­rish"],
 		"abilities": ["Night­mare"],
@@ -2660,10 +2636,7 @@
 	{
 		"name": ["Xis­is­re­fli­el"],
 		"homeWorld": "Yo­len",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Drag­on", "Un­spec­i­fied"],
 		"abilities": ["Awaken­er", "Im­mor­tal", "Shape­shift­er", "World­hop­per"],
 		"validFrom": 20295,
@@ -3454,10 +3427,7 @@
 	{
 		"name": ["Xis­is­re­fli­el"],
 		"homeWorld": "Yo­len",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Drag­on", "Yol­ish"],
 		"abilities": ["Awaken­er", "Im­mor­tal", "Shape­shift­er", "World­hop­per"],
 		"validFrom": 20604,
@@ -3526,7 +3496,7 @@
 		"homeWorld": "Un­spec­i­fied",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Sleep­less", "Na­ga­dan"],
 		"abilities": ["Horde­lings", "Night­mare Paint­er", "World­hop­per"],
@@ -3594,10 +3564,7 @@
 	{
 		"name": ["Weev"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Sprout­er"],
 		"validFrom": 20606,
@@ -3606,10 +3573,7 @@
 	{
 		"name": ["Tress"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Sprout­er"],
 		"validFrom": 20606,
@@ -3618,10 +3582,7 @@
 	{
 		"name": ["Char­lie (Chuck)"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20606,
@@ -3630,10 +3591,7 @@
 	{
 		"name": ["Ann"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20606,
@@ -3642,10 +3600,7 @@
 	{
 		"name": ["Crow"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Spore Eat­er"],
 		"validFrom": 20606,
@@ -3655,10 +3610,7 @@
 	{
 		"name": ["Fort"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20606,
@@ -3667,10 +3619,7 @@
 	{
 		"name": ["Lag­gart"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20606,
@@ -3679,10 +3628,7 @@
 	{
 		"name": ["Sal­ay"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20606,
@@ -3691,10 +3637,7 @@
 	{
 		"name": ["Dorp"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Sprout­er"],
 		"validFrom": 20606,
@@ -3780,10 +3723,7 @@
 	{
 		"name": ["Crow"],
 		"homeWorld": "Lu­mar",
-		"firstAppearance": [
-			"Tress of the Em­er­ald Sea",
-			"Tress of the Em­er­ald Sea"
-		],
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Lu­ma­ran"],
 		"abilities": ["Lu­hel Bond", "Spore Eat­er"],
 		"validFrom": 20614,
@@ -3912,7 +3852,7 @@
 		"homeWorld": "Ko­ma­shi",
 		"firstAppearance": [
 			"Yu­mi and the Night­mare Pain­ter",
-			"Yu­mi and the Night­mare Pain­ter"
+			"Hoid's Tra­vails"
 		],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Cog­ni­tive Shad­ow", "Night­mare Paint­er"],
@@ -3981,7 +3921,7 @@
 	{
 		"name": ["Ae­su­dan", "Kho­lin"],
 		"homeWorld": "Ro­shar",
-		"firstAppearance": ["Words of Ra­di­ance", "Words of Ra­di­ance"],
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "A­le­thi"],
 		"abilities": ["Ye­lig-Nar"],
 		"validFrom": 20683,
