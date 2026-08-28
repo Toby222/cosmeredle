@@ -124,12 +124,11 @@ A("main", () => {
 				A.onEach(
 					changeRequests,
 					(change) => {
-						A(
-							`li a href=/changes/${change.rowid} ##${change.rowid} - ${change.characterName}`,
-							{
-								".accepted": change.accepted,
-							},
-						);
+						A("li.accepted=", !!change.accepted, () => {
+							A(
+								` a href=/changes/${change.rowid} ##${change.rowid} - ${change.characterName}`,
+							);
+						});
 					},
 					(change) => change.rowid,
 				);
