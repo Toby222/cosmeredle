@@ -1221,7 +1221,7 @@
 		"shippable": true
 	},
 	{
-		"name": ["Ri­i­na"],
+		"name": ["Ri­ina"],
 		"homeWorld": "Sel",
 		"firstAppearance": ["Se­cret His­to­ry", "Mist­born Era 1"],
 		"species": ["Hu­man", "Un­spec­i­fied"],
@@ -3124,6 +3124,7 @@
 		"species": ["Hu­man", "A­le­thi"],
 		"abilities": ["Light­weav­er", "Surge­bind­er"],
 		"validFrom": 20316,
+		"validUntil": 20693,
 		"shippable": false
 	},
 	{
@@ -3490,12 +3491,13 @@
 		"shippable": true
 	},
 	{
-		"name": ["Ri­i­na"],
+		"name": ["Ri­ina"],
 		"homeWorld": "Un­spec­i­fied",
 		"firstAppearance": ["Se­cret His­to­ry", "Mist­born Era 1"],
 		"species": ["Hu­man", "Un­spec­i­fied"],
 		"abilities": ["Awaken­er", "El­ant­ri­an", "World­hop­per"],
 		"validFrom": 20604,
+		"validUntil": 20693,
 		"shippable": true
 	},
 	{
@@ -4340,6 +4342,42 @@
 		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Shin"],
 		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Ti­en"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20694,
+		"shippable": false
+	},
+	{
+		"name": ["Ri­ina"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["Se­cret His­to­ry", "Mist­born Era 1"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an", "World­hop­per"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Ri­ino"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an", "World­hop­per"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Alo­noe"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["Se­cret His­to­ry", "Mist­born Era 1"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an", "World­hop­per"],
 		"validFrom": 20694,
 		"shippable": true
 	}

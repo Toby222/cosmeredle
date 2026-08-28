@@ -46,7 +46,6 @@ test("Proper homeworld occurence count", () => {
 });
 
 const expectedSingleCharacterBooks = [
-	"Secret History", // Most characters known from Era 1; only Riina new
 	"The Eleventh Metal", // Only has two Characters
 ];
 test("Proper book occurence count", () => {
