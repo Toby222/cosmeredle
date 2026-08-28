@@ -188,7 +188,7 @@ A("main", () => {
 		if ($guessesMade.value >= GUESSES_TO_HINT) {
 			A("span#Do you need ", () => {
 				A("a#to be reminded of all characters", {
-					href: "/characters.html",
+					href: "/characters",
 					target: "_blank",
 				});
 				A("#?");
