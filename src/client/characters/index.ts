@@ -10,7 +10,7 @@ import {
 	MS_PER_DAY,
 } from "lib/util";
 
-const dates = (await (await fetch("/today")).json()) as { today: number };
+const dates = (await (await fetch("/api/today")).json()) as { today: number };
 
 function ISODate(date: Date): string {
 	const year = date.getUTCFullYear();

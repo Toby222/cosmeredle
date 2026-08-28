@@ -1,0 +1,71 @@
+ol {
+	list-style-type: none;
+	padding-inline-start: 0;
+}
+
+li {
+	width: 100%;
+}
+
+ins,
+del {
+	display: inline-block;
+	font-family: monospace;
+	color: black;
+	width: 100%;
+	text-decoration: none;
+}
+ins {
+	&::before {
+		content: "+ ";
+	}
+	background-color: hsl(101, 100%, 59%);
+}
+
+del {
+	&::before {
+		content: "- ";
+	}
+	background-color: hsl(0, 100%, 65%);
+}
+
+dialog {
+	background: var(--bg-imge), black;
+	color: white;
+	border-color: var(--accent-color);
+	user-select: none;
+	padding: 0;
+
+	> h2 {
+		text-align: center;
+	}
+
+	form {
+		display: grid;
+		grid-template-columns: auto 1fr;
+
+		hr {
+			grid-column: span 2;
+		}
+	}
+
+	input {
+		background-color: var(--light-background);
+		border-color: var(--accent-color);
+		border-width: calc(0.4 * var(--base-unit));
+		color: contrast-color(var(--light-background));
+		padding: calc(0.2 * var(--base-unit));
+		outline: none;
+
+		&:is([type="string"], :not([type])) {
+			cursor: text;
+		}
+		&[type="submit"] {
+			cursor: pointer;
+		}
+	}
+}
+
+.guessBubble {
+	word-break: break-all;
+}

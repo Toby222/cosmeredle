@@ -6,6 +6,7 @@
 /public/js/
 /cosmeredle
 /cosmeredle.csv
+/cosmeredle.sqlite
 /differences.json
 /changelog.diff
 /changelog.*.diff

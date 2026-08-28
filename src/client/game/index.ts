@@ -35,11 +35,11 @@ setInterval(() => {
 	now.value = Date.now();
 }, 100);
 
-const dates = (await (await fetch("/today")).json()) as {
+const dates = (await (await fetch("/api/today")).json()) as {
 	today: number;
 	tomorrow: number;
 };
-const par = Number.parseInt(await (await fetch("/par")).text(), 10);
+const par = Number.parseInt(await (await fetch("/api/par")).text(), 10);
 
 const nextGame = dates.tomorrow;
 if (localStorage.getItem("currentGame") !== dates.today.toString()) {
@@ -92,7 +92,7 @@ async function guess(characterId: number) {
 	if ($answerPending.value) return;
 	$answerPending.value = true;
 	const answer = await (
-		await fetch(`/guess/${characterId}`, { method: "POST" })
+		await fetch(`/api/guess/${characterId}`, { method: "POST" })
 	).json();
 	if (
 		Array.isArray(answer) &&
@@ -132,7 +132,7 @@ async function giveUp() {
 	await fetchSolution();
 }
 async function fetchSolution() {
-	const solution = (await (await fetch("/giveUp")).json()) as number;
+	const solution = (await (await fetch("/api/giveUp")).json()) as number;
 	$solutionIdx.value = solution;
 }
 

@@ -1,13 +1,9 @@
-:root {
-	background: url("bg.gif"), black;
-	--overlap-full: green;
-	--overlap-partial: yellow;
-	--overlap-none: red;
-	--overlap-placeholder: #444;
-}
-
 #nextGame {
 	user-select: none;
+}
+
+input[type="checkbox"] {
+	aspect-ratio: 1 / 1;
 }
 
 #guesses {
@@ -108,52 +104,6 @@
 	.customSelect,
 	> button {
 		height: calc(2vmin + var(--font-size) + var(--extra-padding));
-	}
-}
-
-.guessRow,
-#guessHeader {
-	user-select: none;
-	display: flex;
-	justify-content: center;
-}
-
-.guessTitle,
-.guessBubble {
-	width: 15vw;
-	text-align: center;
-	align-content: center;
-}
-
-.guessTitle {
-	margin: 0 1vmin;
-}
-
-.guessBubble {
-	min-height: 18vmin;
-	margin: 1vmin;
-	border: solid 0.2vmin var(--accent-color);
-	background-color: var(--bubble-color);
-	color: contrast-color(var(--bubble-color));
-	--shadow-color: contrast-color(contrast-color(var(--bubble-color)));
-
-	-webkit-text-stroke: 0.1em var(--shadow-color);
-	paint-order: stroke fill;
-
-	&.overlapFull {
-		--bubble-color: var(--overlap-full);
-	}
-
-	&.overlapPartial {
-		--bubble-color: var(--overlap-partial);
-	}
-
-	&.overlapNone {
-		--bubble-color: var(--overlap-none);
-	}
-
-	&.overlapPlaceholder {
-		--bubble-color: var(--overlap-placeholder);
 	}
 }
 

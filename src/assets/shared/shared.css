@@ -11,8 +11,12 @@
 :where(input, button, :root) {
 	font-size: var(--font-size);
 }
-
 :root {
+	--overlap-full: green;
+	--overlap-partial: yellow;
+	--overlap-none: red;
+	--overlap-placeholder: #444;
+
 	--base-unit: 1vmin;
 	--font-size-base: calc(2.5 * var(--base-unit));
 	--font-size: var(--font-size-base);
@@ -21,8 +25,9 @@
 	--light-background: hsl(218, 12%, 15%);
 	--dark-background: hsl(218, 12%, 3%);
 	--extra-padding: 0;
+	--bg-imge: url("bg.gif");
 	font-family: sans-serif;
-	background: url("bg.gif"), black;
+	background: var(--bg-imge), black;
 	color: white;
 	height: 100%;
 }
@@ -95,9 +100,6 @@ label:has(input[type="color"]),
 input[type="color"] {
 	user-select: none;
 	cursor: pointer;
-}
-input[type="checkbox"] {
-	aspect-ratio: 1 / 1;
 }
 
 pre {
@@ -198,4 +200,50 @@ pre {
 #settingsButton {
 	aspect-ratio: 1 / 1;
 	height: 100%;
+}
+
+.guessRow,
+#guessHeader {
+	user-select: none;
+	display: flex;
+	justify-content: center;
+}
+
+.guessTitle,
+.guessBubble {
+	width: 15vw;
+	text-align: center;
+	align-content: center;
+}
+
+.guessTitle {
+	margin: 0 1vmin;
+}
+
+.guessBubble {
+	min-height: 18vmin;
+	margin: 1vmin;
+	border: solid 0.2vmin var(--accent-color);
+	background-color: var(--bubble-color);
+	color: contrast-color(var(--bubble-color));
+	--shadow-color: contrast-color(contrast-color(var(--bubble-color)));
+
+	-webkit-text-stroke: 0.1em var(--shadow-color);
+	paint-order: stroke fill;
+
+	&.overlapFull {
+		--bubble-color: var(--overlap-full);
+	}
+
+	&.overlapPartial {
+		--bubble-color: var(--overlap-partial);
+	}
+
+	&.overlapNone {
+		--bubble-color: var(--overlap-none);
+	}
+
+	&.overlapPlaceholder {
+		--bubble-color: var(--overlap-placeholder);
+	}
 }

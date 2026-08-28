@@ -58,7 +58,6 @@
             env = {
               LOG_TO_FILE = "true";
               LOG_LEVEL = "trace";
-              POSTGRES_URL = "/var/run/postgresql";
             };
           };
         }
@@ -78,6 +77,11 @@
               description = "An arbitrary value to make sure the daily character is unpredictable";
               type = pkgs.lib.types.str;
             };
+            databasePath = pkgs.lib.mkOption {
+              example = "/var/lib/cosmeredle/cosmeredle.sqlite";
+              description = "Where the sqlite database with persisted data is stored";
+              type = pkgs.lib.types.path;
+            };
             package = pkgs.lib.mkPackageOption pkgs "cosmeredle" {
               default = [ "cosmeredle" ];
               example = "pkgs.cosmeredle";
@@ -94,6 +98,7 @@
               path = [ ];
               environment = {
                 RANDOM_SEED = cfg.seed;
+                DATABASE_PATH = cfg.databasePath;
               };
 
               serviceConfig = {
