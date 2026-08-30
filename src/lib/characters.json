@@ -4350,5 +4350,14 @@
 		"abilities": ["Im­mor­tal", "Shape­shift­er", "World­hop­per"],
 		"validFrom": 20695,
 		"shippable": true
+	},
+	{
+		"name": ["Di­eno", "en­ne", "Ca­lah", "(The Mink)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Her­da­zi­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20696,
+		"shippable": true
 	}
 ]
