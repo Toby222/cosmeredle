@@ -321,6 +321,7 @@
 			"Surge­bind­er"
 		],
 		"validFrom": 0,
+		"validUntil": 20696,
 		"shippable": true
 	},
 	{
@@ -3858,6 +3859,7 @@
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Cog­ni­tive Shad­ow", "Night­mare Paint­er"],
 		"validFrom": 20669,
+		"validUntil": 20696,
 		"shippable": true
 	},
 	{
@@ -4358,6 +4360,35 @@
 		"species": ["Hu­man", "Her­da­zi­an"],
 		"abilities": ["Un­in­vest­ed"],
 		"validFrom": 20696,
+		"shippable": true
+	},
+	{
+		"name": ["Ni­ka­ro", "(Pain­ter)"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Hu­man", "Na­ga­dan"],
+		"abilities": ["Night­mare Paint­er"],
+		"validFrom": 20697,
+		"shippable": true
+	},
+	{
+		"name": ["Da­li­nar", "Kho­lin", "(Black­thorn)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": [
+			"Bond­smith",
+			"Knight Ra­di­ant",
+			"Old Magic",
+			"Shard Ves­sel",
+			"Shard­bearer",
+			"Sliv­er",
+			"Surge­bind­er"
+		],
+		"validFrom": 20697,
 		"shippable": true
 	}
 ]
