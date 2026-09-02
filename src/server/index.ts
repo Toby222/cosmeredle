@@ -28,6 +28,8 @@ function nextDay() {
 		today,
 		"; today's character is",
 		characterForDay(today).name.join(" "),
+		"par",
+		getPar(today),
 	);
 }
 

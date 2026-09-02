@@ -13,9 +13,9 @@
   ...
 }:
 {
-  "@happy-dom/global-registrator@20.11.12" = fetchurl {
-    url = "https://registry.npmjs.org/@happy-dom/global-registrator/-/global-registrator-20.11.12.tgz";
-    hash = "sha512-Oj9ubX+6/k8D+QSs+SKga0ECVAk8XB2dvbQ1pj54fQSC78EPjEoOQ3aMFFPaI5z4EcvwixVOMaaHf8rxcpAX4Q==";
+  "@happy-dom/global-registrator@20.12.2" = fetchurl {
+    url = "https://registry.npmjs.org/@happy-dom/global-registrator/-/global-registrator-20.12.2.tgz";
+    hash = "sha512-0aafW5l/+At7oo/lYjsokATwHKmv9F6iqOTjPDBVlmD4a6pmGINMdnt0faZuEcnvBVwBji0BoW4tdHQZ0qt9Kg==";
   };
   "@types/bun@1.3.13" = fetchurl {
     url = "https://registry.npmjs.org/@types/bun/-/bun-1.3.13.tgz";
@@ -113,9 +113,9 @@
     url = "https://registry.npmjs.org/@typescript/typescript-win32-x64/-/typescript-win32-x64-7.0.2.tgz";
     hash = "sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g==";
   };
-  "aberdeen@1.22.1" = fetchurl {
-    url = "https://registry.npmjs.org/aberdeen/-/aberdeen-1.22.1.tgz";
-    hash = "sha512-u5tPZCS1xC/3ZgBlDXp7D7yDeqRHrgf2+cZulCReeAIyWL2e6sQMqZbRMFskGZNEFnsWCC9gVzwmJoy5Fj1dxA==";
+  "aberdeen@1.23.0" = fetchurl {
+    url = "https://registry.npmjs.org/aberdeen/-/aberdeen-1.23.0.tgz";
+    hash = "sha512-SNtC4J+YTpa8cHYZ3oniO1bCHlBMtXkF7Cp3SPzwC7QcdIXGVuPOceM1eguWOmirpRKZ/dwd5GogW0dDOeDZ9w==";
   };
   "buffer-image-size@0.6.4" = fetchurl {
     url = "https://registry.npmjs.org/buffer-image-size/-/buffer-image-size-0.6.4.tgz";
@@ -129,9 +129,9 @@
     url = "https://registry.npmjs.org/entities/-/entities-7.0.1.tgz";
     hash = "sha512-TWrgLOFUQTH994YUyl1yT4uyavY5nNB5muff+RtWaqNVCAK408b5ZnnbNAUEWLTCpum9w6arT70i1XdQ4UeOPA==";
   };
-  "happy-dom@20.11.12" = fetchurl {
-    url = "https://registry.npmjs.org/happy-dom/-/happy-dom-20.11.12.tgz";
-    hash = "sha512-7+mrTTD+6fOG3dx0URrDLrCX8QDTE+YujSOQD4VPZcYze/yJ0vVhRKaIBTjqlk+R4NetxVz21odnevHYIjIJ+g==";
+  "happy-dom@20.12.2" = fetchurl {
+    url = "https://registry.npmjs.org/happy-dom/-/happy-dom-20.12.2.tgz";
+    hash = "sha512-vCIoyoKQ7vxLb9zRiTc7uKryHDG3YY6tXK96D6MuugFnV9xTbmiPGM/GYFn1q+fWoIBv53q4rBEgydDkQwnDZw==";
   };
   "husky@9.1.7" = fetchurl {
     url = "https://registry.npmjs.org/husky/-/husky-9.1.7.tgz";
