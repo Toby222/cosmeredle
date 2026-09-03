@@ -1,6 +1,9 @@
+import { characterForDay } from "server/util";
 import {
 	type Character,
+	charactersForDay,
 	compareCharacters,
+	daysSinceEpoch,
 	getCharacterName,
 	Overlap,
 	type OverlapType,
@@ -54,26 +57,36 @@ export function characterIsValid(
 	);
 }
 
+export function playGame(day?: number): SolveGuess[];
 export function playGame(
 	characters: Character[],
 	correctAnswer: Character,
-	debugLog: boolean,
-) {
+): SolveGuess[];
+export function playGame(
+	dayOrCharacters?: number | Character[],
+	solution?: Character,
+): SolveGuess[] {
+	dayOrCharacters ??= daysSinceEpoch();
+
+	const characters =
+		typeof dayOrCharacters === "number"
+			? charactersForDay(dayOrCharacters)
+			: dayOrCharacters;
+	const correctAnswer =
+		typeof dayOrCharacters === "number"
+			? characterForDay(dayOrCharacters)
+			: solution;
+	if (correctAnswer === undefined) throw new Error("Missing solution");
+
 	let remainingCharacters = characters.slice();
 	const guessesMade = [] as SolveGuess[];
 	while (remainingCharacters.length > 0) {
 		const bestGuess = getBestGuessOutOfPossible(remainingCharacters);
-		guessesMade.push([
-			getCharacterName(bestGuess),
-			compareCharacters(bestGuess, correctAnswer),
-		]);
-		if (
-			guessesMade[guessesMade.length - 1][1].every(
-				(overlap) => overlap === Overlap.Full,
-			)
-		)
-			break;
-		const previouslyRemaining = remainingCharacters.length;
+		const comparison = compareCharacters(bestGuess, correctAnswer);
+		guessesMade.push([getCharacterName(bestGuess), comparison]);
+
+		if (comparison.every((overlap) => overlap === Overlap.Full)) break;
+
 		remainingCharacters = remainingCharacters.filter(
 			(remainingCharacter) =>
 				!guessesMade
@@ -85,20 +98,6 @@ export function playGame(
 					remainingCharacters,
 				),
 		);
-		if (debugLog) {
-			console.debug(
-				"Guessing:",
-				guessesMade[guessesMade.length - 1][0],
-				"Characters shed:",
-				previouslyRemaining - remainingCharacters.length,
-				"Characters remaining:",
-				remainingCharacters.length,
-				"Ratio after/before:",
-				remainingCharacters.length / previouslyRemaining,
-				"Target:",
-				TARGET_RATIO,
-			);
-		}
 	}
 	return guessesMade;
 }

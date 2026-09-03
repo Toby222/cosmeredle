@@ -2,6 +2,7 @@ import CHANGE_REQUEST from "assets/changes/changeRequest.html";
 import CHANGES from "assets/changes/changes.html";
 import CHARACTERS from "assets/characters/characters.html";
 import GAME from "assets/game/game.html";
+import { playGame } from "lib/solve";
 import {
 	charactersForDay,
 	compareCharacters,
@@ -52,12 +53,12 @@ console.info("listening on port", PORT);
 Bun.serve({
 	port: PORT,
 	fetch: async (request) => {
+		console.debug(request.url);
 		if (new URL(request.url).pathname.startsWith("/api"))
 			return Response.json(
 				{ error: "api not found" },
 				{ status: 404, statusText: "Not Found" },
 			);
-		console.debug(request.url);
 		return Response.redirect("/", 301);
 	},
 	routes: {
@@ -140,6 +141,11 @@ Bun.serve({
 			Response.json({
 				today: today,
 				tomorrow: (today + 1) * MS_PER_DAY,
+			}),
+		"/api/yesterday": async () =>
+			Response.json({
+				day: today - 1,
+				game: playGame(today - 1).map((guess) => guess[0]),
 			}),
 		"/api/par": async () => Response.json(getPar(today)),
 		"/api/characters": async () => Response.json(charactersForDay(today)),

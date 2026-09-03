@@ -5,6 +5,7 @@ import { MakeGuessContainer } from "client/game/components/MakeGuessContainer";
 import {
 	GameOverPopup,
 	GiveUpConfirmationPopup,
+	LastGamePopup,
 	SettingsPopup,
 	SpoilerWarningPopup,
 } from "client/game/components/popups";
@@ -27,13 +28,14 @@ const $availableCharacters = A.proxy(0);
 const $answerPending = A.proxy(true);
 const $gameInProgress = A.proxy(true);
 const $showSettings = A.proxy(false);
+const $showLastGame = A.proxy(false);
 const $showGiveup = A.proxy(false);
 const $gaveUp = A.proxy(false);
-const selectedCharacter = A.proxy<number | undefined>(undefined);
-const now = A.proxy(Date.now());
+const $selectedCharacter = A.proxy<number | undefined>(undefined);
+const $now = A.proxy(Date.now());
 setInterval(() => {
-	now.value = Date.now();
-}, 100);
+	$now.value = Date.now();
+}, 1000);
 
 const dates = (await (await fetch("/api/today")).json()) as {
 	today: number;
@@ -84,7 +86,7 @@ const $solution = A.derive(() => {
 	).length;
 }
 A.derive(() => {
-	if ($availableCharacters.value === 0) selectedCharacter.value = undefined;
+	if ($availableCharacters.value === 0) $selectedCharacter.value = undefined;
 });
 $answerPending.value = false;
 
@@ -121,9 +123,9 @@ async function guess(characterId: number) {
 const $hideGameOver = A.proxy(false);
 
 function makeGuess() {
-	if (selectedCharacter.value !== undefined) {
-		guess(selectedCharacter.value);
-		selectedCharacter.value = undefined;
+	if ($selectedCharacter.value !== undefined) {
+		guess($selectedCharacter.value);
+		$selectedCharacter.value = undefined;
 	}
 }
 
@@ -150,14 +152,22 @@ A("header", () => {
 	MakeGuessContainer(
 		characters,
 		$previousGuesses,
-		selectedCharacter,
+		$selectedCharacter,
 		$gameInProgress,
 		$answerPending,
 		$showSettings,
 		makeGuess,
 	);
 	A("div", { id: "nextGame" }, () => {
-		A(`span#Next game: ${dateDiff(now.value, nextGame, true)}`);
+		A("button#Last game", {
+			click() {
+				$showLastGame.value = !$showLastGame.value;
+			},
+		});
+		A("# ");
+		A(`span text="Next game:"`, () => {
+			A("#", dateDiff($now.value, nextGame, true));
+		});
 	});
 });
 A("main", () => {
@@ -173,6 +183,7 @@ A("main", () => {
 			$previousGuesses,
 			par,
 		);
+		LastGamePopup($showLastGame);
 		SpoilerWarningPopup(settings.spoilerWarningDismissed.ref);
 		GiveUpConfirmationPopup($showGiveup, $gaveUp);
 	});

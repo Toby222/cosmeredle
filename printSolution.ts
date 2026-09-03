@@ -1,10 +1,9 @@
 #! /usr/bin/env bun
 import { playGame } from "lib/solve";
-import { charactersForToday } from "lib/util";
-import { characterForToday } from "server/util";
+import { daysSinceEpoch } from "lib/util";
 
 console.log(
-	playGame(charactersForToday(), characterForToday(), false)
+	playGame(daysSinceEpoch())
 		.map((guess) => guess[0])
 		.join(" -> "),
 );
