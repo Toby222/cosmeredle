@@ -1,5 +1,10 @@
 import { playGame } from "lib/solve";
-import { type Character, charactersForDay, getCharacterName } from "lib/util";
+import {
+	type Character,
+	charactersForDay,
+	daysSinceEpoch,
+	getCharacterName,
+} from "lib/util";
 import { seededRandom } from "./random";
 
 const pars = new Map<number, number>();
@@ -33,4 +38,8 @@ export function characterForDay(day: number) {
 	if (characterForDays.length < day || !characterForDays[day])
 		throw new Error("Something went wrong in character generation");
 	return characterForDays[day - 1];
+}
+
+export function characterForToday() {
+	return characterForDay(daysSinceEpoch());
 }
