@@ -114,13 +114,11 @@ export type Character = {
 };
 
 export function charactersForDay(day: number): Character[] {
-	return (CHARACTERS as Character[])
-		.filter(
-			(character) =>
-				character.validFrom <= day &&
-				(character.validUntil === undefined || character.validUntil >= day),
-		)
-		.toSorted((a, b) => getCharacterName(a).localeCompare(getCharacterName(b)));
+	return (CHARACTERS as Character[]).filter(
+		(character) =>
+			character.validFrom <= day &&
+			(character.validUntil === undefined || character.validUntil >= day),
+	);
 }
 
 // Memoized because I CAN
