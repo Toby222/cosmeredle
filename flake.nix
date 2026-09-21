@@ -127,7 +127,7 @@
             };
 
             preBuild = ''
-              bun run packrepo
+              tar -cvz --exclude-vcs-ignores -f src.tgz $src
             '';
 
             # Get the flags from package.json for parity
