@@ -20,10 +20,7 @@
 	{
 		"name": ["Ak­an­e"],
 		"homeWorld": "Ko­ma­shi",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Night­mare Paint­er"],
 		"validFrom": 0,
@@ -157,12 +154,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 0,
 		"validUntil": 20603,
 		"shippable": true
@@ -208,12 +200,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 0,
 		"validUntil": 20603,
 		"shippable": true
@@ -616,12 +603,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 0,
 		"validUntil": 20603,
 		"shippable": true
@@ -647,10 +629,7 @@
 	{
 		"name": ["Iz­zy"],
 		"homeWorld": "Ko­ma­shi",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Night­mare Paint­er"],
 		"validFrom": 0,
@@ -679,12 +658,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 0,
 		"validUntil": 20603,
 		"shippable": true
@@ -709,12 +683,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 0,
 		"validUntil": 20603,
 		"shippable": true
@@ -835,12 +804,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Re­shi"],
-		"abilities": [
-			"Edge­danc­er",
-			"Knight Ra­di­ant",
-			"Old Magic",
-			"Surge­bind­er"
-		],
+		"abilities": ["Edge­danc­er", "Knight Ra­di­ant", "Old Magic", "Surge­bind­er"],
 		"validFrom": 0,
 		"shippable": false
 	},
@@ -856,10 +820,7 @@
 	{
 		"name": ["Li­yun"],
 		"homeWorld": "Ko­ma­shi",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "To­rish"],
 		"abilities": ["Night­mare"],
 		"validFrom": 0,
@@ -904,10 +865,7 @@
 	{
 		"name": ["Ma­sa­ka"],
 		"homeWorld": "Un­spec­i­fied",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Sleep­less", "Na­ga­dan"],
 		"abilities": ["Horde­lings", "Night­mare Paint­er", "World­hop­per"],
 		"validFrom": 0,
@@ -1036,11 +994,7 @@
 		"homeWorld": "Nal­this",
 		"firstAppearance": ["War­break­er", "War­break­er"],
 		"species": ["Sword", "nimi"],
-		"abilities": [
-			"Con­sumes In­vest­iture",
-			"Co­me­dic ti­ming",
-			"World­hop­per"
-		],
+		"abilities": ["Con­sumes In­vest­iture", "Co­me­dic ti­ming", "World­hop­per"],
 		"validFrom": 0,
 		"validUntil": 20294,
 		"shippable": true
@@ -1057,10 +1011,7 @@
 	{
 		"name": ["Ni­ka­ro"],
 		"homeWorld": "Ko­ma­shi",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Cog­ni­tive Shad­ow", "Night­mare Paint­er"],
 		"validFrom": 0,
@@ -1100,12 +1051,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 0,
 		"validUntil": 20603,
 		"shippable": true
@@ -1320,12 +1266,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 0,
 		"validUntil": 20603,
 		"shippable": true
@@ -1510,12 +1451,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Shin"],
-		"abilities": [
-			"Knight Ra­di­ant",
-			"Shard­bearer",
-			"Sky­break­er",
-			"Surge­bind­er"
-		],
+		"abilities": ["Knight Ra­di­ant", "Shard­bearer", "Sky­break­er", "Surge­bind­er"],
 		"validFrom": 0,
 		"validUntil": 20294,
 		"shippable": true
@@ -1525,12 +1461,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 0,
 		"validUntil": 20603,
 		"shippable": true
@@ -1626,10 +1557,7 @@
 	{
 		"name": ["To­jin"],
 		"homeWorld": "Ko­ma­shi",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Night­mare Paint­er"],
 		"validFrom": 0,
@@ -1723,12 +1651,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 0,
 		"validUntil": 20603,
 		"shippable": true
@@ -1874,10 +1797,7 @@
 	{
 		"name": ["Yu­mi"],
 		"homeWorld": "Ko­ma­shi",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "To­rish"],
 		"abilities": ["Cog­ni­tive Shad­ow", "Yo­ki-Hi­jo"],
 		"validFrom": 0,
@@ -2147,12 +2067,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
 		"species": ["Spren", "Mist­spren"],
-		"abilities": [
-			"En­light­ened",
-			"Na­hel Bond",
-			"Splint­er",
-			"Truth­watch­er"
-		],
+		"abilities": ["En­light­ened", "Na­hel Bond", "Splint­er", "Truth­watch­er"],
 		"validFrom": 20266,
 		"shippable": true
 	},
@@ -2197,12 +2112,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "I­ri­a­li"],
-		"abilities": [
-			"Knight Ra­di­ant",
-			"Shard­bearer",
-			"Stone­ward",
-			"Surge­bind­er"
-		],
+		"abilities": ["Knight Ra­di­ant", "Shard­bearer", "Stone­ward", "Surge­bind­er"],
 		"validFrom": 20266,
 		"shippable": true
 	},
@@ -2211,12 +2121,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ri­ran"],
-		"abilities": [
-			"Knight Ra­di­ant",
-			"Shard­bearer",
-			"Stone­ward",
-			"Surge­bind­er"
-		],
+		"abilities": ["Knight Ra­di­ant", "Shard­bearer", "Stone­ward", "Surge­bind­er"],
 		"validFrom": 20266,
 		"validUntil": 20669,
 		"shippable": true
@@ -2447,10 +2352,7 @@
 	{
 		"name": ["Ma­sa­ka", "(Chi­nik­dak­or­dich)"],
 		"homeWorld": "Un­known",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Sleep­less", "Na­ga­dan"],
 		"abilities": ["Horde­lings", "Night­mare Paint­er", "World­hop­per"],
 		"validFrom": 20295,
@@ -2478,10 +2380,7 @@
 	{
 		"name": ["Gyun­dok"],
 		"homeWorld": "Ko­ma­shi",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "To­rish"],
 		"abilities": ["Night­mare"],
 		"validFrom": 20295,
@@ -2615,12 +2514,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
 		"species": ["Spren", "Mist­spren"],
-		"abilities": [
-			"En­light­ened",
-			"Na­hel Bond",
-			"Splint­er",
-			"Truth­watch­er"
-		],
+		"abilities": ["En­light­ened", "Na­hel Bond", "Splint­er", "Truth­watch­er"],
 		"validFrom": 20295,
 		"shippable": true
 	},
@@ -2867,12 +2761,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Shin"],
-		"abilities": [
-			"Knight Ra­di­ant",
-			"Shard­bearer",
-			"Sky­break­er",
-			"Surge­bind­er"
-		],
+		"abilities": ["Knight Ra­di­ant", "Shard­bearer", "Sky­break­er", "Surge­bind­er"],
 		"validFrom": 20295,
 		"validUntil": 20615,
 		"shippable": true
@@ -3224,12 +3113,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ro­shar­an"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20604,
 		"shippable": true
 	},
@@ -3238,12 +3122,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn­ite"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20604,
 		"shippable": true
 	},
@@ -3252,12 +3131,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn­ite"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20604,
 		"shippable": true
 	},
@@ -3282,12 +3156,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn­ite"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20604,
 		"validUntil": 20626,
 		"shippable": true
@@ -3297,12 +3166,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn­ite"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20604,
 		"shippable": true
 	},
@@ -3311,12 +3175,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn­ite"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20604,
 		"shippable": true
 	},
@@ -3325,12 +3184,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn­ite"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20604,
 		"shippable": true
 	},
@@ -3339,12 +3193,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn­ite"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20604,
 		"shippable": true
 	},
@@ -3353,12 +3202,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn­ite"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20604,
 		"shippable": true
 	},
@@ -3473,10 +3317,7 @@
 		"shippable": true
 	},
 	{
-		"name": [
-			"Hoid",
-			"(Wit, Ceph­an­dri­us Max­to­ri, Mid­i­us, Top­az, Lu­nu'an­ak­i)"
-		],
+		"name": ["Hoid", "(Wit, Ceph­an­dri­us Max­to­ri, Mid­i­us, Top­az, Lu­nu'an­ak­i)"],
 		"homeWorld": "Yo­len",
 		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
 		"species": ["Hu­man", "Yol­ish"],
@@ -3496,10 +3337,7 @@
 	{
 		"name": ["Ma­sa­ka", "(Chi­nik­dak­or­dich)"],
 		"homeWorld": "Un­spec­i­fied",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Sleep­less", "Na­ga­dan"],
 		"abilities": ["Horde­lings", "Night­mare Paint­er", "World­hop­per"],
 		"validFrom": 20604,
@@ -3763,12 +3601,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Shin"],
-		"abilities": [
-			"Knight Ra­di­ant",
-			"Shard­bearer",
-			"Sky­break­er",
-			"Surge­bind­er"
-		],
+		"abilities": ["Knight Ra­di­ant", "Shard­bearer", "Sky­break­er", "Surge­bind­er"],
 		"validFrom": 20616,
 		"shippable": true
 	},
@@ -3804,12 +3637,7 @@
 		"homeWorld": "Ash­yn",
 		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ash­yn­ite"],
-		"abilities": [
-			"Cog­ni­tive Shad­ow",
-			"Her­ald",
-			"Shard­bearer",
-			"Surge­bind­er"
-		],
+		"abilities": ["Cog­ni­tive Shad­ow", "Her­ald", "Shard­bearer", "Surge­bind­er"],
 		"validFrom": 20627,
 		"shippable": true
 	},
@@ -3852,10 +3680,7 @@
 	{
 		"name": ["Ni­ka­ro", "(Pain­ter)"],
 		"homeWorld": "Ko­ma­shi",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Cog­ni­tive Shad­ow", "Night­mare Paint­er"],
 		"validFrom": 20669,
@@ -3876,12 +3701,7 @@
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "Ri­ran"],
-		"abilities": [
-			"Knight Ra­di­ant",
-			"Shard­bearer",
-			"Stone­ward",
-			"Surge­bind­er"
-		],
+		"abilities": ["Knight Ra­di­ant", "Shard­bearer", "Stone­ward", "Surge­bind­er"],
 		"validFrom": 20670,
 		"shippable": true
 	},
@@ -4365,10 +4185,7 @@
 	{
 		"name": ["Ni­ka­ro", "(Pain­ter)"],
 		"homeWorld": "Ko­ma­shi",
-		"firstAppearance": [
-			"Yu­mi and the Night­mare Pain­ter",
-			"Hoid's Tra­vails"
-		],
+		"firstAppearance": ["Yu­mi and the Night­mare Pain­ter", "Hoid's Tra­vails"],
 		"species": ["Hu­man", "Na­ga­dan"],
 		"abilities": ["Night­mare Paint­er"],
 		"validFrom": 20697,
