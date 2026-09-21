@@ -5,6 +5,9 @@ export function Footer() {
 		A("span.footerItem", () => {
 			A("#Contact: ");
 			A("a#cosmeredle@tobot.dev", { href: "mailto:cosmeredle@tobot.dev" });
+			A("br");
+			A("#Source: ");
+			A("a#/git.tgz", { href: "/git.tgz" });
 		});
 		A("span.footerItem", () => {
 			A("#All Cosmere characters belong to ");

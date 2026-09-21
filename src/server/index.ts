@@ -11,6 +11,8 @@ import {
 } from "lib/util";
 import { seededRandom } from "server/random";
 import { characterForDay, getPar } from "server/util";
+import GIT from "../../git.tgz" with { type: "file" };
+
 import {
 	type ChangeRequest,
 	ChangeRequestColumns,
@@ -67,6 +69,7 @@ Bun.serve({
 		"/characters.html": Response.redirect("/characters"),
 		"/changes": CHANGES,
 		"/changes/:id": CHANGE_REQUEST,
+		"/git.tgz": new Response(Bun.file(GIT)),
 
 		"/api/changes/:id": async (req) => {
 			const id = Number.parseInt(req.params.id, 10);

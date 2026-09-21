@@ -25,7 +25,8 @@
 	"scripts": {
 		"fix": "biome lint --write && biome format --write && biome check --write",
 		"lint": "biome ci",
-		"build": "bun build --compile --minify --production --chunk-naming='[name].[ext]' --asset-naming='[name].[ext]' --no-compile-autoload-dotenv --no-compile-autoload-bunfig --no-compile-autoload-tsconfig --no-compile-autoload-package-json --format esm ./src/server/index.ts --outfile cosmeredle --bytecode",
+		"packrepo": "tar czf git.tgz ./.git",
+		"build": "bun run packrepo && bun build --compile --minify --production --chunk-naming='[name].[ext]' --asset-naming='[name].[ext]' --no-compile-autoload-dotenv --no-compile-autoload-bunfig --no-compile-autoload-tsconfig --no-compile-autoload-package-json --format esm ./src/server/index.ts --outfile cosmeredle --bytecode",
 		"start": "bun run ./src/server/index.ts --production",
 		"dev": "bun run --watch ./src/server/index.ts",
 		"prepare": "husky",
