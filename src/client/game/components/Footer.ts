@@ -7,7 +7,7 @@ export function Footer() {
 			A("a#cosmeredle@tobot.dev", { href: "mailto:cosmeredle@tobot.dev" });
 			A("br");
 			A("#Source: ");
-			A("a#/git.tgz", { href: "/git.tgz" });
+			A("a#/src.tgz", { href: "/src.tgz" });
 		});
 		A("span.footerItem", () => {
 			A("#All Cosmere characters belong to ");

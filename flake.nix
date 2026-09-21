@@ -120,15 +120,19 @@
           default = pkgs.bun2nix.mkDerivation {
             packageJson = ./package.json;
 
-            src = pkgs.lib.cleanSource ./.;
+            src = ./.;
 
             bunDeps = pkgs.bun2nix.fetchBunDeps {
               bunNix = ./cosmeredle.bun.nix;
             };
 
+            preBuild = ''
+              bun run packrepo
+            '';
+
             # Get the flags from package.json for parity
             bunBuildFlags =
-              builtins.replaceStrings [ "bun build " ] [ "" ]
+              builtins.replaceStrings [ "bun run packrepo && bun build " ] [ "" ]
                 (builtins.fromJSON (builtins.readFile ./package.json)).scripts.build;
 
             # All the executable scripts are just for dev utility, not relevant to the package
