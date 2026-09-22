@@ -93,6 +93,7 @@ const expectedUniqueSpecies = [
 	"Human Tu Baylan", // Tyn
 	"Unknown Yolish", // Bavadin
 	"Human Liaforan", // Kaza
+	"negative-Investiture Entity", // Dakwara
 ];
 test("Proper species occurence count", () => {
 	const allSpecies = characters.map((character) => character.species.join(" "));

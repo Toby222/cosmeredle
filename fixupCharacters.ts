@@ -75,6 +75,12 @@ function _shyHomeWorld(world: string): string {
 			return shy("Dha", "tri");
 		case "The Grand Apparatus":
 			return shyArr("The", "Grand", ["Ap", "pa", "rat", "us"]);
+		case "Miral":
+			return shy("Mi", "ral");
+		case "Vax":
+			return "Vax";
+		case "Jasper":
+			return shy("Jas", "per");
 		default:
 			unknownWorlds.add(world);
 			return world;
@@ -136,6 +142,13 @@ function shySpecies(species: string): string {
 			return shy("Ae", "ther");
 		case "Seon":
 			return shy("Se", "on");
+		case "negative-Investiture Entity":
+			return shyArr(
+				["ne", "ga", "tive-In", "ves", "ti", "ture"],
+				["En", "ti", "ty"],
+			);
+		case "Demon":
+			return shy("De", "mon");
 		default:
 			unknownSpecies.add(species);
 			return species;
@@ -301,6 +314,10 @@ function shySubspecies(subspecies: string | undefined): string | undefined {
 			return shy("Lia", "for", "an");
 		case "Emuli":
 			return shy("Emu", "li");
+		case "Miralian":
+			return shy("Mi", "ra", "li", "an");
+		case "Demon":
+			return shy("De", "mon");
 		default:
 			unknownSubspecies.add(subspecies);
 			return subspecies;
@@ -396,6 +413,8 @@ function shyBook(book: string): string {
 			return shyArr("White", "Sand");
 		case "Isles of the Emberdark":
 			return shyArr("Isles", "of", "the", ["Em", "ber", "dark"]);
+		case "The Fires of December":
+			return shyArr("The", ["Fi", "res"], "of", ["De", "cem", "ber"]);
 		default:
 			unknownBooks.add(book);
 			return book;
@@ -652,6 +671,12 @@ function shyAbility(ability: string) {
 			return shy("Ye", "lig-Nar");
 		case "Seon Bond":
 			return shyArr(["Se", "on"], "Bond");
+		case "Hexer":
+			return shy("Hex", "er");
+		case "Inspirer":
+			return shy("In", "spi", "rer");
+		case "Zuhel Bond":
+			return shyArr(["Zu", "hel"], "Bond");
 		default:
 			unknownAbilities.add(ability);
 			return ability;

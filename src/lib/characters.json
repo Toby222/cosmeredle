@@ -3088,6 +3088,7 @@
 		"species": ["Hu­man", "A­le­thi"],
 		"abilities": ["Hema­lurgy", "Shard­bearer"],
 		"validFrom": 20603,
+		"validUntil": 20718,
 		"shippable": true
 	},
 	{
@@ -4206,6 +4207,339 @@
 			"Surge­bind­er"
 		],
 		"validFrom": 20697,
+		"shippable": true
+	},
+	{
+		"name": ["Mo­ash"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Hema­lurgy", "Hon­or­bear­er", "Shard­bearer"],
+		"validFrom": 20719,
+		"shippable": true
+	},
+	{
+		"name": ["Dak­wa­ra"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["ne­ga­tive-In­ves­ti­ture En­ti­ty"],
+		"abilities": ["Con­sumes In­vest­iture", "Splint­er"],
+		"validFrom": 20719,
+		"shippable": true
+	},
+	{
+		"name": ["Ho­doł­ni­ka", "(De­cem­ber)"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Hex­er", "In­spi­rer"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Rema"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Bark"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Tap"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["A­maal"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Tel­li"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Ren­ta"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Kam­don"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Ta­man­tha"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Ma­tin"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Gor­nil"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Ja­mek"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Me­ga­lith"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["ne­ga­tive-In­ves­ti­ture En­ti­ty", "De­mon"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Beau­di­log the Nine­teenth"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Drakes"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Geoff­rim", "Sa­tin"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Pet­va"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Hex­er"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Kird"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Ab­ram", "Flint"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Miss Green­wares"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Dmi­tro­vik"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Will", "Kar­tov"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Re­tri­vo­lok"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Sil­mi­al"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Mar­chik­sik"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Dłi­mi"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Dłi­mi"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Te­lich"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Moz­bi­ki"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Iri­nek"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Mel­si"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Weo­nim"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Hex­er"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Aq­swa"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Grund"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Mi­ra­li­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Beau­ti­ful"],
+		"homeWorld": "Mi­ral",
+		"firstAppearance": ["The Fi­res of De­cem­ber", "Hoid's Tra­vails"],
+		"species": ["De­mon", "Mi­ra­li­an"],
+		"abilities": ["Splint­er", "Zu­hel Bond"],
+		"validFrom": 20893,
 		"shippable": true
 	}
 ]
