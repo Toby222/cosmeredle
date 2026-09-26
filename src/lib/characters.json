@@ -3042,6 +3042,7 @@
 		"species": ["Hu­man", "Ko­loss"],
 		"abilities": ["Pew­ter­arm", "Sav­ant"],
 		"validFrom": 20465,
+		"validUntil": 20722,
 		"shippable": true
 	},
 	{
@@ -4540,6 +4541,15 @@
 		"species": ["De­mon", "Mi­ra­li­an"],
 		"abilities": ["Splint­er", "Zu­hel Bond"],
 		"validFrom": 20893,
+		"shippable": true
+	},
+	{
+		"name": ["Tar­son"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "Ko­loss"],
+		"abilities": ["Mist­ing", "Pew­ter­arm", "Sav­ant"],
+		"validFrom": 20723,
 		"shippable": true
 	}
 ]
