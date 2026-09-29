@@ -2,7 +2,7 @@
 import { $ } from "bun";
 import CHARACTERS from "lib/characters.json";
 import NAMES from "lib/fixedCharacterNames.json";
-import { type Character, getSeries, SOFT_HYPHEN } from "lib/util";
+import { type Character, getSeries, SOFT_HYPHEN, unshy } from "lib/util";
 
 const newCharacters: Character[] = [];
 
@@ -24,15 +24,10 @@ function shyArr(...words: (string | string[])[]): string {
 }
 
 function shyName(name: string[]): string[] {
-	const fixedName = (NAMES as Record<string, string[]>)[
-		name.join(" ").replaceAll(SOFT_HYPHEN, "")
-	];
+	const fixedName = (NAMES as Record<string, string[]>)[unshy(name.join(" "))];
 	if (fixedName === undefined)
 		throw new Error(`Missing fixed name for ${name.join(" ")}`);
-	if (
-		fixedName.join(" ").replaceAll(SOFT_HYPHEN, "") !==
-		name.join(" ").replaceAll(SOFT_HYPHEN, "")
-	)
+	if (unshy(fixedName.join(" ")) !== unshy(name.join(" ")))
 		throw new Error(
 			`Invalid replacement "${fixedName.join(" ")}" (${fixedName.join(" ").replaceAll(SOFT_HYPHEN, "").length}) for name "${name.join(" ")}"`,
 		);
@@ -89,15 +84,14 @@ function _shyHomeWorld(world: string): string {
 function shyHomeWorld(world: string): string {
 	if (world.includes(SOFT_HYPHEN)) return world;
 	const fixedWorld = _shyHomeWorld(world);
-	if (fixedWorld.replaceAll(SOFT_HYPHEN, "") !== world) {
+	if (unshy(fixedWorld) !== world) {
 		throw new Error(`Invalid replacement "${fixedWorld}" for world "${world}"`);
 	}
 	return fixedWorld;
 }
 
 function shySpecies(species: string): string {
-	if (species.includes(SOFT_HYPHEN)) return species;
-	switch (species) {
+	switch (unshy(species)) {
 		case "Human":
 			return shy("Hu", "man");
 		case "Sleepless":
@@ -142,9 +136,9 @@ function shySpecies(species: string): string {
 			return shy("Ae", "ther");
 		case "Seon":
 			return shy("Se", "on");
-		case "negative-Investiture Entity":
+		case "Negative-Investiture Entity":
 			return shyArr(
-				["ne", "ga", "tive-In", "ves", "ti", "ture"],
+				["Ne", "ga", "tive-In", "ves", "ti", "ture"],
 				["En", "ti", "ty"],
 			);
 		case "Demon":
@@ -442,16 +436,10 @@ function shyFirstAppearance(book: string): [book: string, series: string] {
 	const series = getSeries(book)[1];
 	const fixedBook = shyBook(book);
 	const fixedSeries = series === book ? fixedBook : shySeries(series);
-	if (
-		!book.includes(SOFT_HYPHEN) &&
-		fixedBook.replaceAll(SOFT_HYPHEN, "") !== book
-	)
+	if (!book.includes(SOFT_HYPHEN) && unshy(fixedBook) !== book)
 		throw new Error(`Invalid replacement "${fixedBook}" for book "${book}"`);
 
-	if (
-		!series.includes(SOFT_HYPHEN) &&
-		fixedSeries.replaceAll(SOFT_HYPHEN, "") !== series
-	)
+	if (!series.includes(SOFT_HYPHEN) && unshy(fixedSeries) !== series)
 		throw new Error(
 			`Invalid replacement "${fixedSeries}" for series "${series}"`,
 		);
@@ -686,10 +674,7 @@ function shyAbilities(abilities: string[]) {
 	const fixedAbilities = [];
 	for (const ability of abilities) {
 		const fixedAbility = shyAbility(ability);
-		if (
-			!ability.includes(SOFT_HYPHEN) &&
-			fixedAbility.replaceAll(SOFT_HYPHEN, "") !== ability
-		)
+		if (!ability.includes(SOFT_HYPHEN) && unshy(fixedAbility) !== ability)
 			throw new Error(
 				`Invalid replacement "${fixedAbility}" for ability ${ability}`,
 			);

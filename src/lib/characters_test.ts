@@ -4,7 +4,7 @@ import {
 	charactersMatch,
 	daysSinceEpoch,
 	getCharacterName,
-	SOFT_HYPHEN,
+	unshy,
 } from "lib/util";
 
 const characters = charactersForDay(daysSinceEpoch() + 1);
@@ -27,7 +27,7 @@ const expectedSoloHomeworlds = [
 test("Proper homeworld occurence count", () => {
 	const homeWorlds = characters.map((character) => character.homeWorld);
 	for (const rawHomeWorld of homeWorlds) {
-		const normalizedHomeWorld = rawHomeWorld.replaceAll(SOFT_HYPHEN, "");
+		const normalizedHomeWorld = unshy(rawHomeWorld);
 		const occurenceCount = homeWorlds.filter(
 			(homeWorldB) => homeWorldB === rawHomeWorld,
 		).length;
@@ -51,7 +51,7 @@ const expectedSingleCharacterBooks = [
 test("Proper book occurence count", () => {
 	const books = characters.map((character) => character.firstAppearance[0]);
 	for (const rawBook of books) {
-		const normalizedBook = rawBook.replaceAll(SOFT_HYPHEN, "");
+		const normalizedBook = unshy(rawBook);
 		const occurenceCount = books.filter((bookB) => bookB === rawBook).length;
 		if (expectedSingleCharacterBooks.includes(normalizedBook)) {
 			expect(occurenceCount, `Book "${rawBook}" has new characters`).toBe(1);
@@ -93,12 +93,12 @@ const expectedUniqueSpecies = [
 	"Human Tu Baylan", // Tyn
 	"Unknown Yolish", // Bavadin
 	"Human Liaforan", // Kaza
-	"negative-Investiture Entity", // Dakwara
+	"Negative-Investiture Entity", // Dakwara
 ];
 test("Proper species occurence count", () => {
 	const allSpecies = characters.map((character) => character.species.join(" "));
 	for (const rawSpecies of allSpecies) {
-		const normalizedSpecies = rawSpecies.replaceAll(SOFT_HYPHEN, "");
+		const normalizedSpecies = unshy(rawSpecies);
 		const occurenceCount = allSpecies.filter(
 			(speciesB) => speciesB === rawSpecies,
 		).length;
@@ -143,7 +143,7 @@ const expectedUniqueAbilities: string[] = [
 test("Proper ability occurence count", () => {
 	const abilities = characters.flatMap((character) => character.abilities);
 	for (const rawAbility of abilities) {
-		const normalizedAbility = rawAbility.replaceAll(SOFT_HYPHEN, "");
+		const normalizedAbility = unshy(rawAbility);
 		const occurenceCount = abilities.filter(
 			(abilityB) => abilityB === rawAbility,
 		).length;

@@ -1,6 +1,9 @@
 import CHARACTERS from "lib/characters.json";
 
 export const SOFT_HYPHEN = "\u00ad";
+export function unshy(text: string): string {
+	return text.replaceAll(SOFT_HYPHEN, "");
+}
 
 export function formatTime(milliseconds: number, useLetters: boolean) {
 	const numSeconds = Math.floor(milliseconds / 1000);
@@ -51,7 +54,7 @@ export function formatSpecies(species: string[]) {
 }
 
 export function getSeries(book: string): [string, string] {
-	switch (book.replaceAll(SOFT_HYPHEN, "")) {
+	switch (unshy(book)) {
 		case "The Sunlit Man":
 		case "Warbreaker":
 		case "Shadows for Silence in the Forests of Hell":
