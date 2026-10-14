@@ -727,7 +727,7 @@
 		"homeWorld": "First of the Sun",
 		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
 		"species": ["Avi­ar", "Stream­er"],
-		"abilities": ["Men­tal shield­ing"],
+		"abilities": ["Men­tal shield­ing", "Na­hel Bond"],
 		"validFrom": 0,
 		"validUntil": 20294,
 		"shippable": false
@@ -920,7 +920,7 @@
 		"homeWorld": "First of the Sun",
 		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
 		"species": ["Avi­ar", "Stream­er"],
-		"abilities": ["Men­tal shield­ing"],
+		"abilities": ["Men­tal shield­ing", "Na­hel Bond"],
 		"validFrom": 0,
 		"validUntil": 20294,
 		"shippable": false
@@ -1204,7 +1204,7 @@
 		"homeWorld": "First of the Sun",
 		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
 		"species": ["Avi­ar", "Un­spec­i­fied"],
-		"abilities": ["Pre­cog­ni­tion"],
+		"abilities": ["Na­hel Bond", "Pre­cog­ni­tion"],
 		"validFrom": 0,
 		"validUntil": 20294,
 		"shippable": false
@@ -2417,7 +2417,7 @@
 		"homeWorld": "First of the Sun",
 		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
 		"species": ["Avi­ar", "Un­spec­i­fied"],
-		"abilities": ["Pre­cog­ni­tion", "World­hop­per"],
+		"abilities": ["Na­hel Bond", "Pre­cog­ni­tion", "World­hop­per"],
 		"validFrom": 20295,
 		"shippable": false
 	},
@@ -2444,7 +2444,7 @@
 		"homeWorld": "First of the Sun",
 		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
 		"species": ["Avi­ar", "Stream­er"],
-		"abilities": ["Men­tal shield­ing"],
+		"abilities": ["Men­tal shield­ing", "Na­hel Bond"],
 		"validFrom": 20295,
 		"shippable": false
 	},
@@ -2453,7 +2453,7 @@
 		"homeWorld": "First of the Sun",
 		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
 		"species": ["Avi­ar", "Stream­er"],
-		"abilities": ["Men­tal shield­ing"],
+		"abilities": ["Men­tal shield­ing", "Na­hel Bond"],
 		"validFrom": 20295,
 		"shippable": false
 	},
@@ -2462,7 +2462,7 @@
 		"homeWorld": "First of the Sun",
 		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
 		"species": ["Avi­ar", "Un­spec­i­fied"],
-		"abilities": ["Men­tal shield­ing", "World­hop­per"],
+		"abilities": ["Men­tal shield­ing", "Na­hel Bond", "World­hop­per"],
 		"validFrom": 20295,
 		"shippable": false
 	},
