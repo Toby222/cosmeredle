@@ -26,5 +26,7 @@ test("There is a character you play in one", () => {
 	const characters = charactersForToday();
 	const bestGuess = getBestGuessOutOfPossible(characters);
 
-	expect(playGame(characters, bestGuess)).toHaveLength(1);
+	const parGame = playGame(characters, bestGuess);
+	expect(parGame[0]).toHaveLength(1);
+	expect(parGame[1]).toBe(1);
 });

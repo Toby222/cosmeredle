@@ -12,7 +12,7 @@ const characterForDays: Character[] = [];
 
 function computePar(day: number) {
 	const characters = charactersForDay(day);
-	const par = 3 + playGame(characters, characterForDay(day)).length;
+	const par = playGame(characters, characterForDay(day))[1] + 3;
 	// console.debug("par for day", day, "is", par);
 	return par;
 }

@@ -2,7 +2,8 @@ import { A, onEach, proxy, type ValueRef } from "aberdeen";
 
 const $yesterday = proxy(
 	fetch("/api/yesterday").then(
-		(response) => response.json() as Promise<{ day: number; game: string[] }>,
+		(response) =>
+			response.json() as Promise<{ day: number; game: string[]; par: number }>,
 	),
 );
 
@@ -24,11 +25,12 @@ export function LastGamePopup(
 			if ($yesterday.error || !$yesterday.value)
 				return A("span#Failed to load: ", $yesterday.error);
 
-			const { day, game } = $yesterday.value;
+			const { day, game, par } = $yesterday.value;
 			A(`h3#Solution for day ${day}`);
+			A(`span text="Par: "#`, par);
 			A(`span text="Solution: "#`, game[game.length - 1]);
 			A("hr");
-			A(`span text="Solver game: (+3 for par)"`);
+			A(`span text="Solver game:"`);
 
 			A("ol", () => {
 				onEach(game, (guess, idx) => {

@@ -57,15 +57,19 @@ export function characterIsValid(
 	);
 }
 
-export function playGame(day?: number): SolveGuess[];
+type ParGame = [guesses: SolveGuess[], par: number];
+export function playGame(day?: number): ParGame;
 export function playGame(
 	characters: Character[],
 	correctAnswer: Character,
-): SolveGuess[];
+): ParGame;
+/**
+ * Returns the game and the par value.
+ */
 export function playGame(
 	dayOrCharacters?: number | Character[],
 	solution?: Character,
-): SolveGuess[] {
+): ParGame {
 	dayOrCharacters ??= daysSinceEpoch();
 
 	const characters =
@@ -80,12 +84,24 @@ export function playGame(
 
 	let remainingCharacters = characters.slice();
 	const guessesMade = [] as SolveGuess[];
-	while (remainingCharacters.length > 0) {
-		const bestGuess = getBestGuessOutOfPossible(remainingCharacters);
-		const comparison = compareCharacters(bestGuess, correctAnswer);
-		guessesMade.push([getCharacterName(bestGuess), comparison]);
+	let par = 0;
 
-		if (comparison.every((overlap) => overlap === Overlap.Full)) break;
+	/// Handle endgame specially
+	/// Endgame -> You got an XGGGG and now you're just guessing the valid characters
+	let endGame = false;
+
+	let lastGuess: Character;
+
+	while (remainingCharacters.length > 0) {
+		par++;
+		lastGuess = getBestGuessOutOfPossible(remainingCharacters);
+		const comparison = compareCharacters(lastGuess, correctAnswer);
+		guessesMade.push([getCharacterName(lastGuess), comparison]);
+
+		if (comparison.slice(1).every((overlap) => overlap === Overlap.Full)) {
+			endGame = comparison[0] !== Overlap.Full;
+			break;
+		}
 
 		remainingCharacters = remainingCharacters.filter(
 			(remainingCharacter) =>
@@ -99,5 +115,26 @@ export function playGame(
 				),
 		);
 	}
-	return guessesMade;
+
+	if (endGame) {
+		// The last guess is random
+		par -= 1;
+		const similarCharacters = remainingCharacters.filter(
+			(remainingCharacters) =>
+				compareCharacters(lastGuess, remainingCharacters)
+					.slice(1)
+					.every((overlap) => overlap === Overlap.Full),
+		);
+		const count = similarCharacters.length;
+		let expectedSum = 0;
+		for (let i = 1; i <= count - 1; i++) {
+			expectedSum += (count - i) / (count - i + 1);
+		}
+		// Approximation of how many guesses it would take to randomly guess the character
+		par += expectedSum;
+		// Rounded to look nice
+		par = Math.round(par);
+	}
+
+	return [guessesMade, par];
 }
