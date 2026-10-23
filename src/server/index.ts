@@ -146,9 +146,9 @@ Bun.serve({
 				tomorrow: (today + 1) * MS_PER_DAY,
 			}),
 		"/api/yesterday": async () => {
-			const parGame = playGame(today);
+			const parGame = playGame(today - 1);
 			return Response.json({
-				day: today, // FOR TESTING ONLY
+				day: today - 1,
 				game: parGame[0].map((guess) => guess[0]),
 				par: parGame[1] + 3,
 			});
