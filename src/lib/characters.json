@@ -4551,5 +4551,14 @@
 		"abilities": ["Mist­ing", "Pew­ter­arm", "Sav­ant"],
 		"validFrom": 20723,
 		"shippable": true
+	},
+	{
+		"name": ["Aux­il­i­ar­y", "(12124)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "High­spren"],
+		"abilities": ["Na­hel Bond", "Sky­break­er", "Splint­er", "World­hop­per"],
+		"validFrom": 20783,
+		"shippable": true
 	}
 ]
